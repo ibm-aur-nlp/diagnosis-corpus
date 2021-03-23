@@ -1,0 +1,120 @@
+T61	Characteristic 1563 1566	NPI
+T63	Characteristic 1733 1736	NPA
+T62	Characteristic 1513 1516	NPA
+T21	Disease 1241 1245	NPDR
+T65	Characteristic 1813 1816	NPA
+T20	Disease 1255 1268	moderate NPDR
+T64	Characteristic 1741 1744	NPI
+T23	Disease 1277 1288	severe NPDR
+T67	Disease 1850 1886	clinically significant macular edema
+T22	Disease 1297 1313	proliferative DR
+T66	Characteristic 1779 1782	NPA
+T25	Symptom 1358 1361	PPL
+T69	Diagnostic_tool 541 554	UWF FA images
+T24	Disease 1315 1318	PDR
+T68	Characteristic 1821 1824	NPI
+T27	Symptom 1478 1482	PPLs
+T26	Disease 1332 1345	high-risk PDR
+T29	Disease 1657 1659	DR
+T28	Anatomy 409 413	eyes
+T70	Diagnostic_tool 521 536	200° UWF images
+T72	Characteristic 1979 1982	NPI
+T71	Disease 2370 2378	ischemia
+T30	Disease 1708 1711	PDR
+T73	Characteristic 1461 1464	NPA
+T32	Disease 0 20	Diabetic Retinopathy
+T31	Anatomy 1695 1699	eyes
+T34	Symptom 73 85	Nonperfusion
+T33	Symptom 34 52	Peripheral Lesions
+T36	Symptom 153 176	peripheral nonperfusion
+T35	Diagnostic_tool 89 116	Ultrawide Field Angiography
+T38	Diagnostic_tool 227 229	FA
+T37	Diagnostic_tool 180 225	ultrawide field (UWF) fluorescein angiography
+T39	Disease 250 270	diabetic retinopathy
+T41	Disease 1775 1777	DR
+T85	Classification_system 866 871	ETDRS
+T40	Disease 272 274	DR
+T43	Disease 454 456	DR
+T42	Symptom 319 337	peripheral lesions
+T45	Characteristic 1939 1952	visual acuity
+T44	Symptom 339 343	PPLs
+T47	Classification_system 632 637	ETDRS
+T46	Characteristic 1888 1891	NPA
+T49	Characteristic 1954 1957	NPA
+T48	Classification_system 588 630	Early Treatment Diabetic Retinopathy Study
+T1	Diagnostic_tool 2058 2064	UWF FA
+T2	Symptom 2157 2161	PPLs
+T3	Symptom 794 798	PPLs
+T4	Symptom 2217 2221	PPLs
+T5	Disease 2166 2168	DR
+T6	Symptom 2314 2318	PPLs
+T7	Disease 2267 2269	DR
+T8	Characteristic 1019 1022	NPA
+T9	Characteristic 992 1017	retinal nonperfusion area
+T50	Anatomy 691 697	macula
+T52	Diagnostic_tool 712 750	stereographically projected UWF images
+T51	Anatomy 682 686	disc
+T10	Characteristic 1048 1051	NPI
+T54	Characteristic 2077 2080	NPI
+T53	Characteristic 2069 2072	NPA
+T12	Characteristic 1110 1113	NPI
+T56	Diagnostic_tool 916 929	UWF-FA images
+T11	Characteristic 1028 1046	nonperfusion index
+T55	Characteristic 1673 1690	diabetes duration
+T14	Disease 420 428	diabetic
+T13	Characteristic 1102 1105	NPA
+T16	Disease 1169 1171	DR
+T15	Disease 1119 1121	DR
+T59	Symptom 2353 2365	nonperfusion
+T18	Disease 1215 1239	mild nonproliferative DR
+T17	Symptom 1147 1151	PPLs
+T19	Disease 1200 1202	DR
+R61	Is_a Arg1:T22 Arg2:T19
+R60	Is_a Arg1:T24 Arg2:T19
+R21	Has_symptom Arg1:T39 Arg2:T42
+R20	Has_symptom Arg1:T16 Arg2:T25
+R23	Has_risk_factor Arg1:T29 Arg2:T55
+R22	Has_risk_factor Arg1:T41 Arg2:T63
+R25	Has_symptom Arg1:T7 Arg2:T4
+R24	Has_symptom Arg1:T40 Arg2:T42
+R27	Has_risk_factor Arg1:T41 Arg2:T64
+R26	Has_symptom Arg1:T39 Arg2:T44
+R29	No_Has_risk_factor Arg1:T67 Arg2:T68
+R28	Alias Arg1:T47 Arg2:T48
+R1	Has_risk_factor Arg1:T27 Arg2:T61
+R2	Has_risk_factor Arg1:T27 Arg2:T62
+R3	Is_a Arg1:T20 Arg2:T21
+R4	Is_a Arg1:T18 Arg2:T21
+R5	Alias Arg1:T24 Arg2:T22
+R6	Is_a Arg1:T23 Arg2:T21
+R7	Is_a Arg1:T24 Arg2:T21
+R8	Is_a Arg1:T22 Arg2:T21
+R9	Is_a Arg1:T21 Arg2:T16
+R30	Has_symptom Arg1:T40 Arg2:T44
+R32	Is_a Arg1:T9 Arg2:T8
+R31	No_Has_risk_factor Arg1:T67 Arg2:T65
+R34	Has_symptom Arg1:T5 Arg2:T2
+R33	Alias Arg1:T10 Arg2:T11
+R36	Has_risk_factor Arg1:T15 Arg2:T12
+R35	Has_risk_factor Arg1:T15 Arg2:T13
+R37	Has_symptom Arg1:T15 Arg2:T17
+R43	Diagnosed_with Arg1:T32 Arg2:T35
+R45	Alias Arg1:T38 Arg2:T37
+R47	Diagnosed_with Arg1:T39 Arg2:T37
+R46	Has_symptom Arg1:T32 Arg2:T33
+R50	Diagnosed_with Arg1:T3 Arg2:T85
+R52	Is_a Arg1:T18 Arg2:T19
+R51	Is_a Arg1:T26 Arg2:T19
+R10	Is_a Arg1:T26 Arg2:T21
+R12	Diagnosed_with Arg1:T34 Arg2:T35
+R56	Is_a Arg1:T21 Arg2:T19
+R11	Diagnosed_with Arg1:T33 Arg2:T35
+R14	Alias Arg1:T40 Arg2:T39
+R58	Is_a Arg1:T23 Arg2:T19
+R57	Has_symptom Arg1:T71 Arg2:T6
+R16	Is_a Arg1:T37 Arg2:T38
+R15	Diagnosed_with Arg1:T36 Arg2:T37
+R59	Is_a Arg1:T20 Arg2:T19
+R18	Has_symptom Arg1:T40 Arg2:T36
+R17	Has_symptom Arg1:T39 Arg2:T36
+R19	Alias Arg1:T44 Arg2:T42

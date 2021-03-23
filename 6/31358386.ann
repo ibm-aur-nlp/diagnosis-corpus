@@ -1,0 +1,101 @@
+T21	Diagnostic_tool 1729 1733	OCTA
+T20	Disease 1635 1638	DME
+T23	Disease 47 67	Diabetic Retinopathy
+T67	Anatomy 843 846	DCP
+T22	Disease 1784 1786	DR
+T25	Diagnostic_tool 0 15	OCT Angiography
+T24	Disease 87 109	Diabetic Macular Edema
+T68	Anatomy 835 838	SCP
+T27	Diagnostic_tool 197 201	OCTA
+T26	Diagnostic_tool 180 195	OCT angiography
+T29	Disease 236 238	DR
+T28	Disease 214 234	diabetic retinopathy
+T71	Anatomy 1342 1345	DCP
+T30	Disease 271 293	diabetic macular edema
+T32	Disease 1970 1973	DME
+T31	Disease 295 298	DME
+T34	Characteristic 2044 2052	FAZ area
+T33	Anatomy 350 354	eyes
+T36	Disease 378 395	diabetes mellitus
+T35	Diagnostic_tool 457 461	OCTA
+T38	Diagnostic_tool 469 492	swept-source OCT device
+T37	Characteristic 2054 2056	VD
+T39	Disease 2123 2126	DME
+T41	Disease 2080 2082	DR
+T40	Diagnostic_tool 494 508	DRI-OCT Triton
+T87	Anatomy 603 624	deep capillary plexus
+T42	Diagnostic_tool 549 560	OCTA images
+T86	Anatomy 564 592	superficial capillary plexus
+T89	Anatomy 626 629	DCP
+T88	Anatomy 594 597	SCP
+T46	Characteristic 1113 1128	Larger FAZ area
+T49	Characteristic 1442 1453	DR severity
+T48	Characteristic 1280 1288	lower FD
+T1	Disease 2233 2235	DR
+T2	Diagnostic_tool 2186 2190	OCTA
+T3	Disease 2252 2255	DME
+T4	Characteristic 762 777	FAZ circularity
+T5	Characteristic 728 760	foveal avascular zone (FAZ) area
+T6	Characteristic 795 797	VD
+T7	Characteristic 779 793	vessel density
+T8	Characteristic 823 825	FD
+T9	Characteristic 804 821	fractal dimension
+T50	Characteristic 1476 1496	duration of diabetes
+T52	Characteristic 1550 1565	Lower VD of SCP
+T51	Characteristic 1507 1535	mean arterial blood pressure
+T10	Disease 904 907	DME
+T54	Characteristic 1860 1869	VD of DCP
+T53	Characteristic 1800 1815	FAZ area of DCP
+T12	Anatomy 1006 1010	eyes
+T56	Characteristic 1987 1996	VD of SCP
+T11	Disease 882 884	DR
+T55	Characteristic 1912 1921	FD of DCP
+T14	Disease 1030 1032	DR
+T13	Anatomy 1057 1061	eyes
+T57	Characteristic 2062 2071	FD of DCP
+T16	Disease 1070 1073	DME
+T15	Disease 1108 1111	DME
+T59	Characteristic 2104 2113	VD of SCP
+T18	Characteristic 1455 1474	glycated hemoglobin
+T17	Disease 1381 1383	DR
+T19	Characteristic 1498 1501	age
+R41	Alias Arg1:T88 Arg2:T86
+R40	Has_risk_factor Arg1:T17 Arg2:T49
+R21	Diagnosed_with Arg1:T32 Arg2:T21
+R20	Diagnosed_with Arg1:T29 Arg2:T27
+R42	Alias Arg1:T89 Arg2:T87
+R23	Has_risk_factor Arg1:T22 Arg2:T54
+R22	Diagnosed_with Arg1:T30 Arg2:T27
+R25	Diagnosed_with Arg1:T31 Arg2:T26
+R24	Has_risk_factor Arg1:T22 Arg2:T53
+R27	Diagnosed_with Arg1:T30 Arg2:T26
+R26	Has_risk_factor Arg1:T32 Arg2:T56
+R29	Is_a Arg1:T40 Arg2:T38
+R28	Has_risk_factor Arg1:T22 Arg2:T55
+R1	Diagnosed_with Arg1:T1 Arg2:T2
+R2	Has_risk_factor Arg1:T17 Arg2:T51
+R3	Has_risk_factor Arg1:T17 Arg2:T18
+R4	Has_risk_factor Arg1:T17 Arg2:T50
+R5	Has_risk_factor Arg1:T17 Arg2:T19
+R7	Has_risk_factor Arg1:T17 Arg2:T46
+R9	Has_risk_factor Arg1:T17 Arg2:T48
+R30	Has_risk_factor Arg1:T41 Arg2:T57
+R10	Diagnosed_with Arg1:T22 Arg2:T21
+R32	Has_risk_factor Arg1:T39 Arg2:T59
+R31	Diagnosed_with Arg1:T31 Arg2:T27
+R12	Diagnosed_with Arg1:T24 Arg2:T25
+R34	Has_risk_factor Arg1:T41 Arg2:T34
+R14	Alias Arg1:T27 Arg2:T26
+R36	Has_risk_factor Arg1:T41 Arg2:T37
+R13	Diagnosed_with Arg1:T23 Arg2:T25
+R16	Alias Arg1:T31 Arg2:T30
+R38	Alias Arg1:T6 Arg2:T7
+R15	Alias Arg1:T29 Arg2:T28
+R37	Alias Arg1:T8 Arg2:T9
+R18	Diagnosed_with Arg1:T28 Arg2:T27
+R17	Diagnosed_with Arg1:T28 Arg2:T26
+R39	Diagnosed_with Arg1:T3 Arg2:T2
+R19	Diagnosed_with Arg1:T29 Arg2:T26
+T43	Characteristic 1217 1225	lower VD
+R33	Has_risk_factor Arg1:T17 Arg2:T43	
+R6	Has_risk_factor Arg1:T20 Arg2:T52	

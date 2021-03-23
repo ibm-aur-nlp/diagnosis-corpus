@@ -1,0 +1,43 @@
+T21	Classification_system 18 58	clinical age-related maculopathy staging
+T20	Classification_system 1403 1408	CARMS
+T24	Disease 376 379	ARM
+T27	Diagnostic_tool 1458 1478	clinical examination
+T26	Diagnostic_tool 1483 1494	photography
+T29	Diagnostic_tool 615 635	slit-lamp assessment
+T28	Anatomy 1602 1606	eyes
+T1	Classification_system 2081 2086	CARMS
+T2	Disease 1445 1448	ARM
+T3	Disease 2276 2279	ARM
+T4	Disease 1705 1746	advanced age-related macular degeneration
+T5	Diagnostic_tool 806 819	clinical data
+T6	Classification_system 118 158	Clinical Age-Related Maculopathy Staging
+T7	Classification_system 160 165	CARMS
+T8	Disease 179 202	age-related maculopathy
+T9	Disease 204 207	ARM
+T10	Classification_system 487 492	CARMS
+T32	Diagnostic_tool 991 1002	photographs
+T31	Diagnostic_tool 1149 1160	photographs
+T12	Symptom 647 688	retinal pigment epithelial irregularities
+T11	Classification_system 539 544	CARMS
+T33	Characteristic 1251 1270	photographic grades
+T14	Symptom 710 747	retinal pigment epithelial detachment
+T13	Symptom 639 645	drusen
+T16	Diagnostic_tool 783 801	Fundus photographs
+T15	Symptom 690 708	geographic atrophy
+T18	Disease 947 950	ARM
+T17	Symptom 753 781	choroidal neovascularization
+T19	Anatomy 903 907	eyes
+R7	Diagnosed_with Arg1:T2 Arg2:T20
+R8	Diagnosed_with Arg1:T3 Arg2:T1
+R9	Alias Arg1:T7 Arg2:T6
+R10	Diagnosed_with Arg1:T8 Arg2:T6
+R12	Diagnosed_with Arg1:T9 Arg2:T6
+R11	Diagnosed_with Arg1:T8 Arg2:T7
+R14	Is_a Arg1:T32 Arg2:T16
+R13	Diagnosed_with Arg1:T9 Arg2:T7
+R16	Diagnosed_with Arg1:T15 Arg2:T29
+R15	Diagnosed_with Arg1:T13 Arg2:T29
+R18	Diagnosed_with Arg1:T17 Arg2:T29
+R17	Diagnosed_with Arg1:T12 Arg2:T29
+R19	Diagnosed_with Arg1:T14 Arg2:T29
+R1	Alias Arg1:T9 Arg2:T8

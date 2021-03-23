@@ -1,0 +1,49 @@
+T21	Diagnostic_tool 637 660	infrared fundus imaging
+T20	Diagnostic_tool 662 686	color fundus photography
+T23	Symptom 111 143	intraretinal morphologic changes
+T22	Anatomy 1884 1912	neurosensoric retinal layers
+T25	Anatomy 1002 1022	outer retinal layers
+T24	Diagnostic_tool 692 705	biomicroscopy
+T27	Anatomy 1065 1068	RPE
+T26	Diagnostic_tool 820 843	fluorescein angiography
+T29	Anatomy 1075 1094	photoreceptor layer
+T28	Anatomy 1037 1063	retinal pigment epithelium
+T1	Anatomy 1110 1129	outer nuclear layer
+T2	Anatomy 1096 1099	PRL
+T3	Anatomy 1337 1340	ONL
+T4	Anatomy 1131 1134	ONL
+T5	Anatomy 1446 1449	PRL
+T6	Anatomy 1381 1407	external limiting membrane
+T7	Anatomy 1454 1457	RPE
+T8	Anatomy 1634 1637	PRL
+T9	Disease 57 79	diabetic macular edema
+T30	Symptom 1498 1515	biometric changes
+T10	Diagnostic_tool 616 635	eye-tracking system
+T32	Symptom 1914 1931	Biometric changes
+T31	Symptom 1724 1743	morphologic changes
+T12	Diagnostic_tool 244 250	SD OCT
+T34	Anatomy 8 26	retinal morphology
+T11	Diagnostic_tool 198 242	spectral domain optical coherence tomography
+T33	Symptom 1465 1484	morphologic changes
+T14	Disease 379 382	DME
+T13	Disease 355 377	diabetic macular edema
+T16	Diagnostic_tool 530 544	Spectralis OCT
+T15	Diagnostic_tool 737 750	visual acuity
+T18	Diagnostic_tool 1639 1683	Spectral domain optical coherence tomography
+T17	Symptom 1539 1564	central retinal thickness
+T19	Symptom 1579 1614	local thickening at the lesion site
+R2	Diagnosed_with Arg1:T23 Arg2:T11
+R3	Alias Arg1:T27 Arg2:T28
+R4	Alias Arg1:T2 Arg2:T29
+R5	Diagnosed_with Arg1:T23 Arg2:T12
+R6	Alias Arg1:T1 Arg2:T4
+R7	Is_a Arg1:T28 Arg2:T25
+R8	Is_a Arg1:T29 Arg2:T25
+R9	Is_a Arg1:T4 Arg2:T25
+R10	Alias Arg1:T12 Arg2:T11
+R12	Diagnosed_with Arg1:T31 Arg2:T18
+R14	Is_a Arg1:T17 Arg2:T30
+R13	Alias Arg1:T4 Arg2:T1
+R15	Causes Arg1:T33 Arg2:T30
+R1	Alias Arg1:T14 Arg2:T13
+T35	Symptom 872 891	Morphologic changes

@@ -1,0 +1,17 @@
+T4	Diagnostic_tool 405 440	High quality fluorescein angiograms
+T5	Symptom 768 800	subretinal neovascular membranes
+T6	Symptom 99 110	visual loss
+T7	Disease 128 153	aged macular degeneration
+T8	Symptom 282 311	subretinal neovascularization
+T9	Symptom 533 551	neovascularization
+T11	Characteristic 596 731	clinical and fluorescein angiographic changes of drusen, retinal pigment epithelial atrophy, and retinal pigment epithelial detachments
+T14	Diagnostic_tool 456 481	contact lens examinations
+T15	Anatomy 489 495	macula
+T18	Disease 0 26	Aging macular degeneration
+T1	Symptom 158 202	extrafoveal subretinal neovascular membranes
+T2	Symptom 204 209	SRNVM
+T3	Diagnostic_tool 329 340	Amsler grid
+R4	Has_symptom Arg1:T7 Arg2:T6
+R1	Alias Arg1:T2 Arg2:T1
+R2	Diagnosed_with Arg1:T9 Arg2:T4	
+R3	Diagnosed_with Arg1:T9 Arg2:T14	

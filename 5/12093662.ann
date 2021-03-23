@@ -1,0 +1,88 @@
+T61	Characteristic 56 85	normal standard visual fields
+T60	Characteristic 1867 1896	normal standard visual fields
+T21	Characteristic 1459 1465	FDT-MD
+T20	Characteristic 1511 1517	SAP-MD
+T23	Characteristic 1609 1628	PERG P1N2-amplitude
+T22	Characteristic 1656 1663	SWAP-MD
+T25	Characteristic 1975 1981	SAP-MD
+T24	Anatomy 1699 1703	eyes
+T27	Diagnostic_tool 1727 1730	SAP
+T26	Characteristic 1774 1781	SWAP-MD
+T29	Characteristic 1786 1805	PERG P1N2-amplitude
+T28	Disease 1819 1848	glaucomatous optic neuropathy
+T30	Disease 13 29	optic neuropathy
+T32	Diagnostic_tool 110 146	short-wavelength automated perimetry
+T31	Anatomy 46 50	eyes
+T34	Diagnostic_tool 231 267	short-wavelength automated perimetry
+T33	Diagnostic_tool 151 178	pattern electroretinography
+T36	Diagnostic_tool 276 321	frequency-doubling technology (FDT) perimetry
+T35	Diagnostic_tool 269 273	SWAP
+T38	Diagnostic_tool 327 354	pattern-electroretinography
+T37	Characteristic 614 643	normal standard visual fields
+T39	Characteristic 1917 1924	SWAP-MD
+T41	Characteristic 1906 1912	FDT-MD
+T40	Anatomy 854 858	eyes
+T43	Disease 1852 1856	POAG
+T42	Diagnostic_tool 356 360	PERG
+T45	Disease 417 421	POAG
+T44	Disease 1101 1105	POAG
+T47	Disease 388 415	primary open-angle glaucoma
+T46	Disease 2042 2071	glaucomatous optic neuropathy
+T49	Diagnostic_tool 475 478	SAP
+T48	Anatomy 2017 2020	eye
+T1	Diagnostic_tool 719 722	FDT
+T2	Diagnostic_tool 713 717	PERG
+T3	Anatomy 754 758	eyes
+T4	Diagnostic_tool 728 731	SAP
+T5	Symptom 864 894	asymmetric glaucomatous damage
+T6	Disease 849 853	POAG
+T7	Characteristic 999 1006	SWAP-MD
+T8	Characteristic 959 977	SAP mean deviation
+T9	Characteristic 1046 1061	PERG amplitudes
+T50	Disease 33 45	glaucomatous
+T52	Disease 2089 2104	asymmetric POAG
+T51	Diagnostic_tool 445 473	standard automated perimetry
+T10	Characteristic 1021 1027	FDT-MD
+T54	Disease 559 563	POAG
+T53	Symptom 578 598	visual field defects
+T12	Diagnostic_tool 1134 1137	SAP
+T56	Anatomy 606 609	eye
+T11	Anatomy 1106 1110	eyes
+T55	Anatomy 665 668	eye
+T14	Characteristic 1235 1241	FDT-MD
+T58	Disease 1685 1695	early POAG
+T13	Anatomy 1857 1861	eyes
+T57	Diagnostic_tool 707 711	SWAP
+T16	Characteristic 1256 1275	PERG N1P1-amplitude
+T15	Characteristic 1211 1218	SWAP-MD
+T18	Characteristic 1293 1307	P1N2-amplitude
+T17	Characteristic 1399 1406	SWAP-MD
+T19	Characteristic 1432 1439	SWAP-MD
+R21	Diagnosed_with Arg1:T45 Arg2:T36
+R20	Diagnosed_with Arg1:T47 Arg2:T42
+R23	Diagnosed_with Arg1:T45 Arg2:T42
+R22	Diagnosed_with Arg1:T45 Arg2:T35
+R25	Has_risk_factor Arg1:T5 Arg2:T8
+R24	Diagnosed_with Arg1:T45 Arg2:T38
+R27	Is_a Arg1:T52 Arg2:T43
+R26	Is_a Arg1:T47 Arg2:T50
+R29	Has_risk_factor Arg1:T28 Arg2:T29
+R1	Has_risk_factor Arg1:T5 Arg2:T10
+R2	Has_risk_factor Arg1:T5 Arg2:T7
+R3	Has_risk_factor Arg1:T58 Arg2:T22
+R4	Has_risk_factor Arg1:T5 Arg2:T9
+R7	Diagnosed_with Arg1:T30 Arg2:T32
+R8	Diagnosed_with Arg1:T30 Arg2:T33
+R9	Alias Arg1:T35 Arg2:T34
+R10	Alias Arg1:T42 Arg2:T38
+R31	Has_risk_factor Arg1:T28 Arg2:T26
+R12	Alias Arg1:T49 Arg2:T51
+R11	Alias Arg1:T45 Arg2:T47
+R14	Located_in Arg1:T58 Arg2:T24
+R13	Has_symptom Arg1:T54 Arg2:T53
+R16	Diagnosed_with Arg1:T47 Arg2:T35
+R15	Diagnosed_with Arg1:T47 Arg2:T34
+R18	Diagnosed_with Arg1:T47 Arg2:T36
+R17	Diagnosed_with Arg1:T47 Arg2:T38
+R19	Diagnosed_with Arg1:T45 Arg2:T34
+R28	Has_risk_factor Arg1:T58 Arg2:T23	

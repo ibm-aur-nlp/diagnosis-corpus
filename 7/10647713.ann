@@ -1,0 +1,73 @@
+T21	Disease 750 784	proliferative diabetic retinopathy
+T20	Disease 571 579	diabetes
+T23	Symptom 660 679	retinopathy lesions
+T22	Disease 1353 1356	PDR
+T25	Disease 794 830	clinically significant macular edema
+T24	Anatomy 1343 1347	eyes
+T27	Disease 786 789	PDR
+T26	Disease 1385 1417	moderately severe to severe NPDR
+T29	Disease 2138 2142	CSME
+T28	Anatomy 1375 1379	eyes
+T30	Anatomy 1009 1012	eye
+T32	Disease 1457 1460	PDR
+T31	Disease 832 836	CSME
+T34	Characteristic 1565 1596	older onset diabetic population
+T33	Disease 1043 1099	moderate to severe nonproliferative diabetic retinopathy
+T36	Diagnostic_tool 1131 1149	fundus photographs
+T35	Disease 1700 1713	moderate NPDR
+T38	Symptom 1151 1211	Hemorrhages and microaneurysms (h/ma) temporal to the macula
+T37	Symptom 1791 1795	h/ma
+T39	Classification_system 1269 1274	ETDRS
+T41	Diagnostic_tool 514 533	fundus photographic
+T40	Symptom 2045 2118	Hard exudate of moderate or worse severity anywhere in the macular region
+T42	Symptom 1298 1302	h/ma
+T45	Dimension 1303 1315	3  >  or = 3
+T44	Dimension 1796 1808	3  >  or = 3
+T46	Classification_system 596 601	ETDRS
+T1	Symptom 2221 2239	retinopathy lesion
+T2	Disease 1494 1505	retinopathy
+T3	Disease 1108 1111	PDR
+T4	Disease 1101 1105	NPDR
+T5	Disease 1639 1642	PDR
+T6	Anatomy 2256 2272	posterior fundus
+T7	Disease 1116 1120	CSME
+T8	Symptom 1933 1992	hard exudate within one disc diameter of the macular center
+T9	Characteristic 1836 1858	older onset population
+T52	Disease 2309 2317	diabetic
+T10	Disease 58 66	diabetes
+T12	Disease 2332 2362	vision-threatening retinopathy
+T11	Disease 87 117	vision-threatening retinopathy
+T14	Disease 319 327	diabetes
+T13	Anatomy 281 297	posterior fundus
+T16	Anatomy 383 386	eye
+T15	Disease 337 348	retinopathy
+T18	Classification_system 479 484	ETDRS
+T17	Classification_system 435 477	Early Treatment Diabetic Retinopathy Study
+T19	Disease 2001 2005	CSME
+R23	Has_symptom Arg1:T21 Arg2:T23
+R22	Causes Arg1:T26 Arg2:T32
+R25	Has_symptom Arg1:T25 Arg2:T23
+R26	Has_symptom Arg1:T27 Arg2:T23
+R29	Causes Arg1:T52 Arg2:T12
+R28	Has_symptom Arg1:T31 Arg2:T23
+R2	Has_risk_factor Arg1:T2 Arg2:T34
+R3	Has_risk_factor Arg1:T5 Arg2:T34
+R4	Has_risk_factor Arg1:T35 Arg2:T34
+R5	Has_dimension Arg1:T42 Arg2:T45
+R6	Is_a Arg1:T33 Arg2:T4
+R7	Has_dimension Arg1:T37 Arg2:T44
+R8	Alias Arg1:T18 Arg2:T17
+R9	Has_symptom Arg1:T19 Arg2:T8
+R10	Has_symptom Arg1:T29 Arg2:T40
+R12	Alias Arg1:T27 Arg2:T21
+R11	Alias Arg1:T31 Arg2:T25
+R14	Causes Arg1:T10 Arg2:T11
+R13	Diagnosed_with Arg1:T20 Arg2:T41
+R15	Causes Arg1:T14 Arg2:T15
+R1	Diagnosed_with Arg1:T7 Arg2:T36	
+R16	Diagnosed_with Arg1:T3 Arg2:T36	
+R18	Diagnosed_with Arg1:T33 Arg2:T36	
+R17	Has_symptom Arg1:T22 Arg2:T38	
+R19	Has_symptom Arg1:T26 Arg2:T38	
+R20	Has_symptom Arg1:T22 Arg2:T42	
+R27	Has_symptom Arg1:T26 Arg2:T42	

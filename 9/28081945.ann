@@ -1,0 +1,55 @@
+T61	Disease 1310 1313	PDR
+T60	Disease 880 891	Retinopathy
+T62	Characteristic 763 780	retinal perfusion
+T21	Classification_system 338 378	diabetic retinopathy (DR) severity scale
+T20	Disease 246 249	PDR
+T23	Disease 598 620	diabetic macular edema
+T22	Disease 429 451	Diabetic Macular Edema
+T25	Diagnostic_tool 841 864	fluorescein angiography
+T24	Disease 622 625	DME
+T26	Diagnostic_tool 803 836	7-field stereo fundus photography
+T1	Anatomy 1177 1180	eye
+T2	Disease 1262 1299	nonproliferative diabetic retinopathy
+T3	Disease 1196 1199	PDR
+T4	Diagnostic_tool 1330 1348	fundus photographs
+T5	Disease 1301 1305	NPDR
+T6	Diagnostic_tool 1383 1386	PRP
+T7	Disease 1428 1431	PDR
+T8	Anatomy 1443 1446	eye
+T9	Disease 1707 1718	chronic DME
+T50	Diagnostic_tool 1354 1381	panretinal photocoagulation
+T52	Diagnostic_tool 1396 1417	pars plana vitrectomy
+T51	Diagnostic_tool 1419 1422	PPV
+T10	Disease 1700 1702	DR
+T54	Classification_system 1462 1466	DRSS
+T53	Disease 1560 1563	PDR
+T12	Disease 1936 1938	DR
+T56	Classification_system 748 752	DRSS
+T11	Symptom 1759 1779	retinal nonperfusion
+T55	Classification_system 380 384	DRSS
+T14	Disease 2254 2256	DR
+T58	Disease 303 323	Diabetic Retinopathy
+T13	Disease 2102 2104	DR
+T57	Disease 1835 1838	PDR
+T16	Disease 2489 2509	diabetic retinopathy
+T15	Disease 2396 2399	DME
+T59	Classification_system 929 933	DRSS
+T18	Disease 106 126	Diabetic Retinopathy
+T17	Disease 2460 2463	PDR
+T19	Disease 210 244	proliferative diabetic retinopathy
+R5	Alias Arg1:T20 Arg2:T19
+R8	Alias Arg1:T24 Arg2:T23
+R9	Alias Arg1:T5 Arg2:T2
+R10	Alias Arg1:T6 Arg2:T50
+R21	Diagnosed_with Arg1:T60 Arg2:T59
+R20	Diagnosed_with Arg1:T3 Arg2:T50
+R12	Diagnosed_with Arg1:T2 Arg2:T4
+R11	Alias Arg1:T51 Arg2:T52
+R22	Alias Arg1:T55 Arg2:T21
+R14	Diagnosed_with Arg1:T61 Arg2:T4
+R13	Diagnosed_with Arg1:T5 Arg2:T4
+R16	Diagnosed_with Arg1:T7 Arg2:T51
+R15	Diagnosed_with Arg1:T7 Arg2:T52
+R18	Is_a Arg1:T19 Arg2:T18
+R17	Is_a Arg1:T20 Arg2:T18
+R19	Diagnosed_with Arg1:T3 Arg2:T6

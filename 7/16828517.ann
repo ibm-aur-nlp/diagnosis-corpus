@@ -1,0 +1,72 @@
+T21	Characteristic 292 319	at or after 30 years of age
+T20	Disease 283 291	diabetes
+T23	Characteristic 1505 1525	retinopathy severity
+T22	Characteristic 1452 1462	pulse rate
+T25	Characteristic 627 631	CRAE
+T24	Characteristic 1622 1627	CRVEs
+T27	Anatomy 1698 1702	eyes
+T26	Disease 480 491	retinopathy
+T29	Anatomy 1642 1646	eyes
+T28	Diagnostic_tool 387 406	Retinal photographs
+T30	Characteristic 1092 1112	intraocular pressure
+T32	Characteristic 588 625	central retinal arteriolar equivalent
+T31	Characteristic 633 651	arteriolar caliber
+T34	Characteristic 657 691	central retinal venular equivalent
+T33	Disease 1743 1758	type 2 diabetes
+T36	Characteristic 717 735	Retinal arteriolar
+T35	Characteristic 1114 1117	IOP
+T38	Characteristic 693 697	CRVE
+T37	Characteristic 699 714	venular caliber
+T39	Characteristic 1156 1160	CRVE
+T42	Diagnostic_tool 440 457	light box grading
+T45	Symptom 1919 1949	early retinal vascular changes
+T44	Symptom 800 827	panretinal photocoagulation
+T46	Characteristic 62 71	Wisconsin
+T49	Characteristic 1604 1617	Smaller CRAEs
+T1	Disease 1953 1961	diabetes
+T2	Characteristic 1195 1198	age
+T3	Characteristic 1026 1040	smoking status
+T4	Characteristic 878 882	CRAE
+T5	Characteristic 987 989	BP
+T6	Characteristic 1287 1301	smoking status
+T7	Characteristic 1235 1251	mean arterial BP
+T8	Characteristic 1350 1367	pack-years smoked
+T9	Characteristic 1565 1568	IOP
+T50	Diagnostic_tool 544 559	digitized image
+T51	Characteristic 957 985	mean arterial blood pressure
+T10	Characteristic 1774 1798	retinal vascular caliber
+T12	Characteristic 1408 1423	body mass index
+T11	Characteristic 917 920	age
+T14	Characteristic 0 24	Retinal vascular caliber
+T13	Characteristic 740 756	venular calibers
+T16	Disease 97 117	Diabetic Retinopathy
+T15	Disease 41 56	type 2 diabetes
+T18	Characteristic 344 367	south central Wisconsin
+T17	Characteristic 136 160	retinal vascular caliber
+T19	Disease 191 206	type 2 diabetes
+R21	Has_risk_factor Arg1:T15 Arg2:T14
+R23	Associated_with Arg1:T39 Arg2:T9
+R22	Associated_with Arg1:T39 Arg2:T22
+R25	Has_symptom Arg1:T1 Arg2:T45
+R24	Associated_with Arg1:T39 Arg2:T23
+R27	Has_risk_factor Arg1:T20 Arg2:T21
+R26	Has_risk_factor Arg1:T16 Arg2:T14
+R28	Alias Arg1:T5 Arg2:T51
+R1	Has_risk_factor Arg1:T19 Arg2:T17
+R2	Diagnosed_with Arg1:T26 Arg2:T42
+R3	Diagnosed_with Arg1:T26 Arg2:T28
+R4	Alias Arg1:T25 Arg2:T32
+R5	Alias Arg1:T31 Arg2:T32
+R6	Alias Arg1:T38 Arg2:T34
+R7	Alias Arg1:T37 Arg2:T34
+R32	Associated_with Arg1:T4 Arg2:T11
+R31	Associated_with Arg1:T4 Arg2:T51
+R34	Associated_with Arg1:T4 Arg2:T3
+R33	Associated_with Arg1:T4 Arg2:T30
+R36	Associated_with Arg1:T39 Arg2:T7
+R13	Alias Arg1:T35 Arg2:T30
+R35	Associated_with Arg1:T4 Arg2:T35
+R16	Associated_with Arg1:T39 Arg2:T8
+R15	Associated_with Arg1:T39 Arg2:T2
+R17	Associated_with Arg1:T39 Arg2:T6
+R19	Associated_with Arg1:T39 Arg2:T12

@@ -1,0 +1,119 @@
+T61	Disease 490 493	PAC
+T60	Anatomy 1848 1852	eyes
+T63	Disease 470 474	PACG
+T62	Characteristic 1285 1288	ACD
+T21	Characteristic 2150 2153	ACD
+T65	Anatomy 499 503	eyes
+T20	Characteristic 2155 2177	anterior chamber width
+T64	Characteristic 1253 1283	central anterior chamber depth
+T23	Characteristic 2186 2188	LV
+T67	Characteristic 1291 1305	pupil diameter
+T22	Anatomy 1515 1519	eyes
+T66	Disease 494 498	PACG
+T25	Disease 2216 2234	malignant glaucoma
+T69	Anatomy 640 644	eyes
+T24	Anatomy 1472 1476	eyes
+T68	Disease 652 670	malignant glaucoma
+T27	Anatomy 2208 2212	eyes
+T26	Anatomy 1537 1541	eyes
+T29	Disease 1482 1500	malignant glaucoma
+T28	Anatomy 1878 1882	eyes
+T70	Diagnostic_tool 760 784	ultrasound biomicroscopy
+T30	Anatomy 2247 2251	eyes
+T74	Characteristic 1384 1390	CBTmax
+T73	Characteristic 2179 2181	PD
+T32	Disease 2431 2449	malignant glaucoma
+T76	Characteristic 1565 1569	APCB
+T31	Anatomy 2384 2388	eyes
+T75	Characteristic 1643 1646	TCA
+T34	Disease 2338 2356	malignant glaucoma
+T78	Characteristic 1206 1228	Biometric measurements
+T33	Anatomy 2328 2332	eyes
+T36	Disease 2052 2070	malignant glaucoma
+T35	Symptom 2269 2324	ciliary bodies were thinner and more anteriorly rotated
+T79	Disease 887 905	malignant glaucoma
+T38	Characteristic 1773 1777	APCB
+T37	Characteristic 1747 1750	TCA
+T39	Characteristic 1728 1732	CBT0
+T81	Characteristic 929 952	Ciliary body parameters
+T41	Characteristic 1967 1970	ACD
+T85	Characteristic 1911 1917	CBTmax
+T40	Characteristic 1734 1741	CBT1000
+T84	Characteristic 1894 1898	APCB
+T43	Disease 59 77	malignant glaucoma
+T87	Anatomy 1944 1948	eyes
+T42	Characteristic 1720 1726	CBTmax
+T86	Characteristic 1922 1926	CBT0
+T45	Anatomy 33 45	ciliary body
+T44	Diagnostic_tool 105 129	ultrasound biomicroscopy
+T88	Characteristic 1972 1994	anterior chamber width
+T47	Anatomy 190 202	ciliary body
+T46	Anatomy 49 53	eyes
+T49	Disease 228 246	malignant glaucoma
+T48	Anatomy 206 210	eyes
+T1	Characteristic 1312 1334	anterior chamber width
+T2	Characteristic 1307 1309	PD
+T3	Characteristic 1352 1354	LV
+T4	Characteristic 1340 1350	lens vault
+T5	Anatomy 820 824	eyes
+T6	Diagnostic_tool 733 755	A-scan ultrasonography
+T7	Disease 707 715	glaucoma
+T8	Characteristic 994 1000	CBTmax
+T9	Anatomy 861 865	eyes
+T50	Disease 320 338	malignant glaucoma
+T52	Characteristic 2025 2027	LV
+T51	Anatomy 344 347	eye
+T10	Characteristic 962 992	maximum ciliary body thickness
+T54	Disease 425 446	primary angle closure
+T53	Characteristic 2000 2002	PD
+T12	Characteristic 1111 1149	anterior placement of the ciliary body
+T56	Anatomy 2042 2046	eyes
+T11	Disease 830 848	malignant glaucoma
+T55	Anatomy 2098 2102	eyes
+T14	Characteristic 1003 1109	ciliary body thickness at the point of the scleral spur (CBT0) and 1000 μm from the scleral spur (CBT1000)
+T58	Characteristic 1239 1251	axial length
+T13	Anatomy 923 927	eyes
+T57	Disease 456 468	PAC glaucoma
+T16	Characteristic 1151 1155	APCB
+T15	Characteristic 1166 1198	trabecular-ciliary process angle
+T59	Disease 448 451	PAC
+T18	Characteristic 1200 1203	TCA
+T17	Disease 1802 1820	malignant glaucoma
+T19	Anatomy 1792 1796	eyes
+R21	Is_a Arg1:T58 Arg2:T78
+R20	Alias Arg1:T59 Arg2:T54
+R23	Is_a Arg1:T64 Arg2:T78
+R22	Is_a Arg1:T62 Arg2:T78
+R25	Is_a Arg1:T67 Arg2:T78
+R24	Is_a Arg1:T2 Arg2:T78
+R27	Is_a Arg1:T1 Arg2:T78
+R26	Is_a Arg1:T4 Arg2:T78
+R29	Is_a Arg1:T3 Arg2:T78
+R28	Has_risk_factor Arg1:T34 Arg2:T35
+R1	Alias Arg1:T63 Arg2:T57
+R2	Diagnosed_with Arg1:T43 Arg2:T44
+R3	Located_in Arg1:T43 Arg2:T45
+R4	Alias Arg1:T8 Arg2:T10
+R5	Alias Arg1:T16 Arg2:T12
+R6	Alias Arg1:T18 Arg2:T15
+R7	Has_symptom Arg1:T34 Arg2:T35
+R8	Has_risk_factor Arg1:T17 Arg2:T42
+R9	Has_risk_factor Arg1:T17 Arg2:T39
+R30	Is_a Arg1:T81 Arg2:T14
+R10	Alias Arg1:T3 Arg2:T4
+R32	Is_a Arg1:T8 Arg2:T81
+R31	Is_a Arg1:T10 Arg2:T81
+R12	Has_risk_factor Arg1:T17 Arg2:T40
+R34	Has_risk_factor Arg1:T36 Arg2:T88
+R11	Has_risk_factor Arg1:T17 Arg2:T37
+R33	Has_risk_factor Arg1:T32 Arg2:T35
+R14	Has_risk_factor Arg1:T17 Arg2:T38
+R36	Is_a Arg1:T15 Arg2:T81
+R13	Has_risk_factor Arg1:T36 Arg2:T52
+R35	Is_a Arg1:T12 Arg2:T81
+R16	Has_risk_factor Arg1:T36 Arg2:T53
+R38	Is_a Arg1:T18 Arg2:T81
+R37	Is_a Arg1:T16 Arg2:T81
+R18	Has_risk_factor Arg1:T36 Arg2:T41
+R17	Alias Arg1:T62 Arg2:T64
+R19	Alias Arg1:T2 Arg2:T67

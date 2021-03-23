@@ -1,0 +1,117 @@
+T61	Anatomy 1770 1774	eyes
+T60	Diagnostic_tool 250 256	SD-OCT
+T62	Symptom 0 21	Foveal cystoid spaces
+T21	Symptom 1436 1454	retinal detachment
+T20	Anatomy 1848 1852	eyes
+T64	Disease 1629 1632	CME
+T23	Diagnostic_tool 299 322	fluorescein angiography
+T22	Anatomy 814 817	PCN
+T66	Disease 1780 1783	CME
+T25	Diagnostic_tool 324 326	FA
+T24	Symptom 1575 1578	MAs
+T27	Anatomy 1586 1589	PCN
+T26	Anatomy 1619 1623	eyes
+T29	Symptom 1000 1033	pathologic perifoveal capillaries
+T28	Anatomy 1655 1659	eyes
+T72	Symptom 1392 1432	foveal thickening without cystoid spaces
+T30	Diagnostic_tool 943 953	OCT images
+T74	Dimension 1785 1804	0.553 ± 0.323 mm(2)
+T32	Diagnostic_tool 1037 1039	FA
+T76	Dimension 1917 1936	0.268 ± 0.142 mm(2)
+T31	Diagnostic_tool 1073 1076	OCT
+T75	Dimension 1863 1882	0.302 ± 0.245 mm(2)
+T34	Symptom 1698 1714	retinal swelling
+T78	Symptom 1103 1147	pathologic changes in perifoveal capillaries
+T33	Diagnostic_tool 1227 1237	OCT images
+T77	Symptom 889 925	pathomorphology at the foveal center
+T36	Diagnostic_tool 2143 2152	FA images
+T35	Symptom 2047 2082	cystoid spaces at the foveal center
+T79	Symptom 1158 1180	foveal pathomorphology
+T38	Anatomy 2037 2041	eyes
+T37	Diagnostic_tool 544 546	FA
+T39	Anatomy 1242 1246	eyes
+T81	Disease 1280 1301	cystoid macular edema
+T80	Characteristic 1206 1223	foveal morphology
+T82	Disease 1303 1306	CME
+T41	Anatomy 1313 1317	eyes
+T40	Symptom 1257 1278	foveal cystoid spaces
+T84	Symptom 153 189	pathomorphology at the foveal center
+T43	Anatomy 1361 1374	foveal center
+T87	Anatomy 453 457	eyes
+T42	Symptom 1322 1347	serous retinal detachment
+T45	Diagnostic_tool 684 698	Spectralis OCT
+T89	Diagnostic_tool 579 602	Fluorescein angiography
+T44	Symptom 1349 1352	SRD
+T47	Anatomy 1383 1387	eyes
+T46	Diagnostic_tool 664 677	SD-OCT images
+T49	Symptom 1456 1472	retinal swelling
+T48	Diagnostic_tool 1151 1153	FA
+T1	Symptom 1665 1668	SRD
+T2	Diagnostic_tool 858 867	FA images
+T3	Anatomy 1759 1762	FAZ
+T4	Disease 345 367	diabetic macular edema
+T5	Symptom 1899 1915	retinal swelling
+T6	Symptom 262 295	vascular changes around the fovea
+T7	Symptom 1858 1861	SRD
+T8	Symptom 1994 2031	thickened posterior hyaloid membranes
+T9	Disease 369 372	DME
+T90	Diagnostic_tool 609 613	HRA2
+T50	Diagnostic_tool 1184 1187	OCT
+T52	Anatomy 823 844	foveal avascular zone
+T51	Disease 1493 1513	ischemic maculopathy
+T10	Anatomy 1984 1988	eyes
+T54	Characteristic 1048 1069	neuroglial morphology
+T53	Anatomy 1483 1487	eyes
+T12	Symptom 2110 2124	MAs in the PCN
+T56	Anatomy 846 849	FAZ
+T11	Symptom 77 91	microaneurysms
+T55	Disease 518 522	CSME
+T14	Diagnostic_tool 2097 2100	OCT
+T58	Diagnostic_tool 204 248	spectral domain optical coherence tomography
+T13	Symptom 42 72	enlarged foveal avascular zone
+T57	Disease 480 516	clinically significant macular edema
+T16	Disease 95 117	diabetic macular edema
+T15	Symptom 756 770	Microaneurysms
+T59	Diagnostic_tool 533 539	SD-OCT
+T18	Symptom 772 775	MAs
+T17	Anatomy 784 812	perifoveal capillary network
+T19	Symptom 2129 2139	larger FAZ
+R41	Diagnosed_with Arg1:T79 Arg2:T50
+R40	Diagnosed_with Arg1:T78 Arg2:T48
+R21	Diagnosed_with Arg1:T55 Arg2:T59
+R20	Has_symptom Arg1:T64 Arg2:T24
+R42	Alias Arg1:T81 Arg2:T82
+R23	Diagnosed_with Arg1:T57 Arg2:T37
+R22	Diagnosed_with Arg1:T57 Arg2:T59
+R25	Diagnosed_with Arg1:T40 Arg2:T33
+R24	Diagnosed_with Arg1:T29 Arg2:T32
+R27	Diagnosed_with Arg1:T81 Arg2:T33
+R26	Diagnosed_with Arg1:T82 Arg2:T33
+R29	Diagnosed_with Arg1:T42 Arg2:T33
+R28	Diagnosed_with Arg1:T44 Arg2:T33
+R1	Diagnosed_with Arg1:T6 Arg2:T25
+R2	Diagnosed_with Arg1:T6 Arg2:T23
+R3	Diagnosed_with Arg1:T15 Arg2:T2
+R4	Diagnosed_with Arg1:T18 Arg2:T2
+R6	Is_a Arg1:T21 Arg2:T49
+R9	Alias Arg1:T44 Arg2:T42
+R30	Diagnosed_with Arg1:T12 Arg2:T36
+R10	Alias Arg1:T55 Arg2:T57
+R32	Diagnosed_with Arg1:T84 Arg2:T58
+R12	Alias Arg1:T9 Arg2:T4
+R34	Has_symptom Arg1:T16 Arg2:T13
+R11	Alias Arg1:T60 Arg2:T58
+R33	Has_symptom Arg1:T16 Arg2:T11
+R14	Alias Arg1:T18 Arg2:T15
+R36	Is_a Arg1:T45 Arg2:T46
+R13	Has_symptom Arg1:T16 Arg2:T62
+R35	Is_a Arg1:T90 Arg2:T89
+R16	Alias Arg1:T25 Arg2:T23
+R38	Diagnosed_with Arg1:T19 Arg2:T36
+R15	Alias Arg1:T22 Arg2:T17
+R37	Diagnosed_with Arg1:T77 Arg2:T30
+R18	Located_in Arg1:T64 Arg2:T27
+R39	Alias Arg1:T56 Arg2:T52
+R19	Diagnosed_with Arg1:T35 Arg2:T14
+R8	Has_symptom Arg1:T81 Arg2:T40	
+R7	Diagnosed_with Arg1:T72 Arg2:T33	

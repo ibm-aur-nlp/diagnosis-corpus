@@ -1,0 +1,52 @@
+T41	Anatomy 1756 1760	eyes
+T40	Characteristic 1028 1041	drusen volume
+T21	Anatomy 544 548	Eyes
+T43	Symptom 19 25	drusen
+T20	Symptom 458 464	drusen
+T23	Diagnostic_tool 518 531	Cirrus SD-OCT
+T22	Characteristic 1386 1397	drusen area
+T25	Characteristic 957 970	drusen volume
+T24	Characteristic 1368 1381	drusen volume
+T27	Anatomy 845 850	fovea
+T26	Characteristic 1623 1636	drusen volume
+T29	Anatomy 1078 1082	eyes
+T28	Characteristic 1547 1560	drusen volume
+T1	Characteristic 1722 1735	drusen volume
+T2	Anatomy 1523 1527	eyes
+T3	Anatomy 1207 1211	eyes
+T4	Diagnostic_tool 1808 1827	Imaging with SD-OCT
+T5	Diagnostic_tool 2031 2045	SD-OCT imaging
+T6	Disease 2226 2242	nonexudative AMD
+T7	Symptom 1878 1884	drusen
+T8	Symptom 696 702	drusen
+T9	Characteristic 779 790	drusen area
+T30	Symptom 1905 1911	drusen
+T10	Characteristic 761 774	Drusen volume
+T32	Anatomy 1107 1111	eyes
+T31	Anatomy 1139 1143	eyes
+T12	Diagnostic_tool 79 123	spectral domain optical coherence tomography
+T34	Anatomy 1171 1175	eyes
+T11	Disease 40 72	age-related macular degeneration
+T33	Anatomy 386 390	eyes
+T14	Disease 314 317	AMD
+T13	Disease 267 312	nonexudative age-related macular degeneration
+T16	Symptom 165 171	drusen
+T38	Dimension 1287 1309	0.0009 to 0.7479 mm(3)
+T15	Diagnostic_tool 178 239	spectral-domain optical coherence tomography (SD-OCT) imaging
+T37	Dimension 1313 1328	0.10 to 0.91 mm
+T18	Disease 478 494	nonexudative AMD
+T17	Anatomy 243 247	eyes
+T39	Characteristic 2001 2014	drusen volume
+T19	Characteristic 1261 1274	drusen volume
+R2	Diagnosed_with Arg1:T16 Arg2:T15
+R3	Has_symptom Arg1:T13 Arg2:T16
+R5	Diagnosed_with Arg1:T20 Arg2:T23
+R6	Has_symptom Arg1:T18 Arg2:T20
+R10	Is_a Arg1:T18 Arg2:T14
+R20	Has_symptom Arg1:T11 Arg2:T43
+R12	Is_a Arg1:T13 Arg2:T14
+R16	Alias Arg1:T14 Arg2:T11
+R15	Diagnosed_with Arg1:T43 Arg2:T12
+R18	Diagnosed_with Arg1:T7 Arg2:T4
+R17	Alias Arg1:T13 Arg2:T18
+R19	Diagnosed_with Arg1:T30 Arg2:T4

@@ -1,0 +1,113 @@
+T61	Symptom 849 853	H/Ma
+T60	Symptom 816 847	hemorrhage and/or microaneurysm
+T63	Symptom 1991 1995	H/Ma
+T62	Diagnostic_tool 615 654	ETDRS 7-standard field film photographs
+T21	Disease 1199 1219	Diabetic retinopathy
+T65	Diagnostic_tool 2433 2448	DiSLO200 images
+T20	Anatomy 1291 1295	eyes
+T64	Symptom 856 870	venous beading
+T23	Symptom 2118 2122	IRMA
+T22	Diagnostic_tool 1250 1272	ETDRS film photographs
+T25	Diagnostic_tool 473 499	dilated fundus examination
+T69	Anatomy 1877 1954	temporal, superotemporal, inferotemporal, superonasal, and inferonasal fields
+T24	Symptom 2056 2058	VB
+T68	Diagnostic_tool 2311 2326	DiSLO200 images
+T27	Diagnostic_tool 501 504	DFE
+T26	Symptom 2182 2185	NVE
+T29	Diagnostic_tool 1366 1374	DiSLO200
+T28	Diagnostic_tool 1379 1382	DFE
+T30	Diagnostic_tool 1547 1569	ETDRS film photographs
+T32	Anatomy 1473 1477	eyes
+T76	Characteristic 1087 1092	no DR
+T31	Disease 1500 1502	DR
+T34	Symptom 1628 1632	IRMA
+T33	Diagnostic_tool 1534 1542	DiSLO200
+T77	Disease 1132 1140	moderate
+T36	Symptom 1651 1653	VB
+T35	Anatomy 1403 1407	eyes
+T79	Disease 1150 1168	severe/very severe
+T38	Diagnostic_tool 33 66	mydriatic ultrawide field imaging
+T37	Symptom 1638 1641	NVE
+T39	Symptom 0 18	Peripheral lesions
+T83	Characteristic 2769 2783	DR progression
+T82	Characteristic 2802 2816	ETDRS severity
+T41	Disease 169 171	DR
+T85	Anatomy 1851 1855	eyes
+T40	Disease 147 167	diabetic retinopathy
+T84	Anatomy 1485 1489	eyes
+T43	Diagnostic_tool 299 383	Early Treatment Diabetic Retinopathy Study (ETDRS) 7-standard field film photography
+T87	Symptom 1691 1695	IRMA
+T42	Diagnostic_tool 215 248	mydriatic ultrawide field imaging
+T45	Diagnostic_tool 418 426	DiSLO200
+T44	Diagnostic_tool 250 258	DiSLO200
+T88	Symptom 1685 1689	H/Ma
+T47	Anatomy 2654 2658	eyes
+T46	Anatomy 522 526	eyes
+T49	Anatomy 2523 2529	retina
+T48	Disease 2404 2406	DR
+T1	Symptom 1575 1590	retinal lesions
+T2	Symptom 717 727	DR lesions
+T3	Symptom 1618 1622	H/Ma
+T4	Symptom 877 915	intraretinal microvascular abnormality
+T5	Symptom 2546 2564	peripheral lesions
+T6	Symptom 872 874	VB
+T7	Symptom 2489 2499	DR lesions
+T8	Symptom 928 949	new vessels elsewhere
+T9	Disease 2641 2643	DR
+T90	Symptom 1701 1704	NVE
+T92	Diagnostic_tool 1768 1776	DiSLO200
+T91	Diagnostic_tool 1785 1807	ETDRS film photographs
+T50	Disease 534 542	diabetic
+T93	Disease 1832 1834	DR
+T52	Diagnostic_tool 2385 2388	DFE
+T51	Diagnostic_tool 2358 2380	ETDRS film photographs
+T10	Symptom 917 921	IRMA
+T54	Anatomy 2250 2265	temporal fields
+T53	Diagnostic_tool 605 613	DiSLO200
+T12	Disease 1028 1030	DR
+T56	Disease 105 125	diabetic retinopathy
+T11	Diagnostic_tool 2579 2587	DiSLO200
+T55	Disease 588 590	DR
+T14	Symptom 2747 2765	peripheral lesions
+T58	Diagnostic_tool 428 467	ETDRS 7-standard field film photographs
+T13	Symptom 951 954	NVE
+T57	Diagnostic_tool 660 663	DFE
+T16	Disease 1100 1119	nonproliferative DR
+T15	Diagnostic_tool 1043 1082	ETDRS 7-standard field film photographs
+T59	Anatomy 2284 2296	nasal fields
+T18	Anatomy 1360 1364	eyes
+T17	Disease 1177 1193	proliferative DR
+T19	Diagnostic_tool 1237 1245	DiSLO200
+R41	Is_a Arg1:T45 Arg2:T42
+R21	Diagnosed_with Arg1:T7 Arg2:T65
+R43	Is_a Arg1:T16 Arg2:T12
+R20	Is_a Arg1:T34 Arg2:T1
+R42	Is_a Arg1:T77 Arg2:T12
+R23	Diagnosed_with Arg1:T48 Arg2:T52
+R22	Is_a Arg1:T36 Arg2:T1
+R44	Is_a Arg1:T79 Arg2:T12
+R25	Diagnosed_with Arg1:T31 Arg2:T33
+R24	Diagnosed_with Arg1:T39 Arg2:T38
+R27	Diagnosed_with Arg1:T31 Arg2:T30
+R26	Is_a Arg1:T17 Arg2:T12
+R1	Alias Arg1:T41 Arg2:T40
+R2	Is_a Arg1:T44 Arg2:T42
+R3	Alias Arg1:T6 Arg2:T64
+R4	Alias Arg1:T10 Arg2:T4
+R5	Alias Arg1:T13 Arg2:T8
+R6	Diagnosed_with Arg1:T12 Arg2:T15
+R9	Diagnosed_with Arg1:T21 Arg2:T19
+R10	Diagnosed_with Arg1:T48 Arg2:T68
+R12	Alias Arg1:T27 Arg2:T25
+R34	Diagnosed_with Arg1:T40 Arg2:T42
+R11	Diagnosed_with Arg1:T48 Arg2:T51
+R33	Diagnosed_with Arg1:T41 Arg2:T42
+R14	Diagnosed_with Arg1:T21 Arg2:T22
+R13	Diagnosed_with Arg1:T5 Arg2:T11
+R35	Diagnosed_with Arg1:T40 Arg2:T43
+R16	Is_a Arg1:T3 Arg2:T1
+R37	Diagnosed_with Arg1:T41 Arg2:T43
+R18	Has_symptom Arg1:T9 Arg2:T5
+R17	Alias Arg1:T61 Arg2:T60
+R39	Is_a Arg1:T58 Arg2:T43
+R19	Is_a Arg1:T37 Arg2:T1

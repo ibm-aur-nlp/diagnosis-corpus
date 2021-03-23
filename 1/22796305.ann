@@ -1,0 +1,56 @@
+T40	Characteristic 1251 1278	higher intraocular pressure
+T21	Disease 458 461	OAG
+T43	Characteristic 497 515	Los Angeles Latino
+T20	Characteristic 1404 1426	thinner central cornea
+T42	Characteristic 95 113	Los Angeles Latino
+T23	Disease 675 678	OAG
+T22	Characteristic 1487 1512	higher waist-to-hip ratio
+T44	Characteristic 1699 1702	IOP
+T25	Symptom 701 711	open angle
+T24	Anatomy 114 117	Eye
+T27	Anatomy 1957 1960	eye
+T26	Disease 1994 1997	OAG
+T29	Symptom 718 755	glaucomatous visual field abnormality
+T28	Characteristic 1574 1598	lack of vision insurance
+T1	Characteristic 416 439	Los Angeles, California
+T2	Characteristic 292 297	adult
+T3	Characteristic 1335 1354	longer axial length
+T4	Anatomy 516 519	Eye
+T5	Characteristic 1280 1283	IOP
+T6	Characteristic 396 410	aged ≥40 years
+T9	Diagnostic_tool 636 662	ophthalmologic examination
+T30	Disease 2061 2064	OAG
+T10	Characteristic 1683 1690	Latinos
+T32	Characteristic 154 170	sociodemographic
+T31	Characteristic 172 181	lifestyle
+T12	Disease 1746 1749	OAG
+T34	Characteristic 199 207	clinical
+T11	Characteristic 1816 1835	longer axial length
+T33	Disease 1077 1080	OAG
+T14	Characteristic 1840 1870	thin central corneal thickness
+T36	Characteristic 183 197	anthropometric
+T13	Characteristic 1914 1938	Lack of health insurance
+T35	Disease 981 984	OAG
+T16	Disease 260 279	open-angle glaucoma
+T38	Disease 1140 1143	OAG
+T15	Disease 54 73	open-angle glaucoma
+T37	Characteristic 1152 1161	older age
+T18	Characteristic 388 395	Latinos
+T17	Disease 281 284	OAG
+T39	Characteristic 213 232	ocular risk factors
+T19	Symptom 775 816	glaucomatous optic nerve damage in ≥1 eye
+R2	Has_symptom Arg1:T23 Arg2:T25
+R3	Has_symptom Arg1:T23 Arg2:T29
+R4	Has_symptom Arg1:T23 Arg2:T19
+R5	Has_risk_factor Arg1:T38 Arg2:T37
+R8	Has_risk_factor Arg1:T38 Arg2:T3
+R9	Has_risk_factor Arg1:T38 Arg2:T20
+R10	Has_risk_factor Arg1:T38 Arg2:T28
+R12	Has_risk_factor Arg1:T12 Arg2:T10
+R11	Has_risk_factor Arg1:T38 Arg2:T22
+R13	Has_risk_factor Arg1:T26 Arg2:T13
+R16	Has_risk_factor Arg1:T38 Arg2:T40
+R18	Has_risk_factor Arg1:T15 Arg2:T42
+R17	Has_risk_factor Arg1:T12 Arg2:T44
+R1	Alias Arg1:T17 Arg2:T16
+T41	Symptom 1651 1679	mean baseline IOP of 14 mmHg

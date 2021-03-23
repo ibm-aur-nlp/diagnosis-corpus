@@ -1,0 +1,20 @@
+T4	Diagnostic_tool 69 96	Guided Progression Analysis
+T5	Diagnostic_tool 134 161	Guided Progression Analysis
+T6	Diagnostic_tool 163 166	GPA
+T7	Diagnostic_tool 845 848	GPA
+T8	Diagnostic_tool 627 630	GPA
+T9	Diagnostic_tool 1957 1960	GPA
+T10	Diagnostic_tool 1649 1652	GPA
+T12	Characteristic 0 24	Visual field progression
+T11	Diagnostic_tool 885 888	GPA
+T14	Disease 229 237	glaucoma
+T13	Disease 28 36	glaucoma
+T15	Diagnostic_tool 479 502	Humphrey Field Analyzer
+T17	Characteristic 1382 1406	visual field variability
+T1	Disease 288 307	open-angle glaucoma
+T2	Disease 329 348	open-angle glaucoma
+T3	Anatomy 352 355	eye
+R2	Is_a Arg1:T1 Arg2:T14
+R3	Alias Arg1:T6 Arg2:T4
+R4	Alias Arg1:T6 Arg2:T5
+R1	Alias Arg1:T5 Arg2:T6

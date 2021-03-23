@@ -1,0 +1,18 @@
+
+
+
+Prevalence and significance of subretinal drusenoid deposits (reticular pseudodrusen) in age-related macular degeneration
+
+Purpose: To determine the prevalence and significance of subretinal drusenoid deposits (reticular pseudodrusen) among patients with age-related macular degeneration (AMD).
+
+Design: A prospective study with a nested case-control study of consecutive patients with AMD seen in a referral retinal practice.
+
+Participants: There were 153 patients with AMD, 131 of whom had > or =1 eye with late AMD, which was defined as either central geographic atrophy or choroidal neovascularization. The control group consisted of 101 patients who did not have AMD as their primary diagnosis, central serous chorioretinopathy, high myopia, retinal detachment, or laser treatment in the macular area.
+
+Methods: The presence of subretinal drusenoid deposits was determined by 2 methods, using the blue channel of color fundus photograph and the spectral domain optical coherence tomography (SD-OCT) sections. Soft drusen were determined from color fundus photographs and confirmed by SD-OCT.
+
+Main outcome measures: Prevalence of ocular risk factors and subretinal drusenoid deposits in eyes with AMD and their association with late AMD.
+
+Results: There were 153 patients who had any form of AMD, with a mean age of 80.3 years. Subretinal drusenoid deposits were diagnosed in the case group in 13 (8.7%) of right and 18 (12.0%) of left eyes using the blue channel of the color photograph and in 58 (38.4%) of right and 54 (35.8%) of left eyes using SD-OCT. Soft drusen and subretinal drusenoid deposits detected by SD-OCT were found to be independently correlated with late AMD (soft drusen odds ratio = 16.66 [P<0.001]; subretinal drusenoid deposits as detected by OCT odds ratio = 2.64 [P = 0.034]). In the control group, subretinal drusenoid deposits were diagnosed in 6 (6.5%) of right and 6 (6.3%) of left eyes using SD-OCT.
+
+Conclusions: Both soft drusen and subretinal drusenoid deposits occur in patients with AMD and both are significantly associated with late AMD. These findings suggest that detection and classification of drusen and consequently assignment of risk should be based on a methodology that includes SD-OCT.

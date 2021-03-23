@@ -1,0 +1,52 @@
+T21	Anatomy 407 412	GCIPL
+T20	Diagnostic_tool 1424 1434	Cirrus OCT
+T23	Characteristic 1882 1900	macular parameters
+T22	Anatomy 370 405	ganglion cell inner plexiform layer
+T25	Characteristic 436 451	RNFL parameters
+T24	Disease 475 483	glaucoma
+T27	Disease 1956 1964	glaucoma
+T26	Diagnostic_tool 605 611	SD OCT
+T29	Diagnostic_tool 2308 2311	OCT
+T28	Diagnostic_tool 559 603	spectral domain optical coherence tomography
+T1	Characteristic 2353 2371	macular parameters
+T2	Diagnostic_tool 797 830	optic nerve head (ONH) assessment
+T3	Characteristic 627 645	macular parameters
+T4	Characteristic 2527 2541	OCT parameters
+T5	Diagnostic_tool 1838 1841	OCT
+T6	Disease 2396 2404	glaucoma
+T7	Diagnostic_tool 2512 2515	OCT
+T8	Characteristic 1332 1350	macular parameters
+T9	Disease 76 84	Glaucoma
+T30	Disease 732 740	glaucoma
+T10	Characteristic 0 51	Macular versus Retinal Nerve Fiber Layer Parameters
+T32	Characteristic 991 1021	macular versus RNFL parameters
+T31	Characteristic 2313 2328	RNFL parameters
+T12	Characteristic 139 157	Macular parameters
+T34	Characteristic 1108 1133	macular or RNFL parameter
+T11	Diagnostic_tool 760 779	automated perimetry
+T33	Characteristic 1631 1658	macular and RNFL parameters
+T14	Disease 254 262	glaucoma
+T13	Characteristic 198 241	retinal nerve fiber layer (RNFL) parameters
+T35	Characteristic 1865 1880	RNFL parameters
+T16	Anatomy 338 359	ganglion cell complex
+T15	Characteristic 301 319	macular parameters
+T18	Anatomy 361 364	GCC
+T17	Diagnostic_tool 1357 1366	RTVue OCT
+T19	Diagnostic_tool 1505 1518	3D Topcon OCT
+R2	Has_risk_factor Arg1:T14 Arg2:T13
+R3	Alias Arg1:T18 Arg2:T16
+R4	Alias Arg1:T21 Arg2:T22
+R5	Alias Arg1:T26 Arg2:T28
+R6	Diagnosed_with Arg1:T30 Arg2:T11
+R7	Is_a Arg1:T19 Arg2:T5
+R8	Diagnosed_with Arg1:T27 Arg2:T5
+R9	Diagnosed_with Arg1:T6 Arg2:T29
+R10	Has_risk_factor Arg1:T30 Arg2:T3
+R12	Has_risk_factor Arg1:T6 Arg2:T31
+R11	Has_risk_factor Arg1:T14 Arg2:T12
+R14	Has_risk_factor Arg1:T6 Arg2:T1
+R13	Diagnosed_with Arg1:T30 Arg2:T2
+R16	Diagnosed_with Arg1:T30 Arg2:T28
+R15	Is_a Arg1:T17 Arg2:T5
+R17	Diagnosed_with Arg1:T30 Arg2:T26
+R1	Is_a Arg1:T20 Arg2:T5

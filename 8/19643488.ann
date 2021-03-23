@@ -1,0 +1,65 @@
+T21	Symptom 1308 1310	GA
+T20	Symptom 1482 1484	GA
+T23	Symptom 1580 1582	GA
+T22	Symptom 1646 1648	GA
+T25	Dimension 1853 1869	311+/-273 microm
+T24	Dimension 1766 1775	61 microm
+T27	Dimension 1918 1934	372+/-179 microm
+T26	Symptom 1822 1824	GA
+T29	Diagnostic_tool 109 153	spectral domain optical coherence tomography
+T28	Symptom 1881 1883	GA
+T30	Diagnostic_tool 155 161	SD-OCT
+T32	Diagnostic_tool 0 52	Spectral domain optical coherence tomography imaging
+T31	Symptom 56 74	geographic atrophy
+T34	Symptom 287 289	GA
+T33	Symptom 267 285	geographic atrophy
+T36	Anatomy 338 346	PR layer
+T35	Anatomy 224 248	photoreceptor (PR) layer
+T38	Symptom 1948 1950	GA
+T37	Anatomy 351 377	retinal pigment epithelium
+T39	Symptom 396 398	GA
+T41	Symptom 451 453	GA
+T40	Disease 467 514	nonneovascular age-related macular degeneration
+T43	Disease 516 519	AMD
+T42	Diagnostic_tool 675 681	SD-OCT
+T45	Anatomy 691 695	eyes
+T44	Diagnostic_tool 706 713	B-scans
+T47	Anatomy 724 727	eye
+T46	Disease 1962 1981	non-neovascular AMD
+T49	Anatomy 898 906	PR layer
+T48	Symptom 1987 1989	GA
+T1	Symptom 2043 2050	PR loss
+T2	Diagnostic_tool 1991 1997	SD-OCT
+T3	Symptom 1458 1465	PR loss
+T4	Symptom 1426 1433	PR loss
+T5	Symptom 1733 1743	Loss of PR
+T6	Symptom 1527 1534	PR loss
+T7	Anatomy 565 568	Eye
+T8	Characteristic 833 845	PR thickness
+T9	Symptom 940 942	GA
+T50	Symptom 1711 1713	GA
+T10	Symptom 1007 1016	PR losses
+T12	Symptom 1029 1031	GA
+T11	Symptom 1084 1086	GA
+T14	Symptom 1116 1118	GA
+T13	Symptom 1152 1154	GA
+T16	Symptom 1176 1183	PR loss
+T15	Symptom 1201 1203	GA
+T18	Symptom 1229 1231	GA
+T17	Symptom 1261 1263	GA
+T19	Symptom 1360 1367	PR loss
+R2	Has_dimension Arg1:T5 Arg2:T24
+R3	Alias Arg1:T32 Arg2:T29
+R4	Alias Arg1:T34 Arg2:T33
+R5	Has_dimension Arg1:T5 Arg2:T27
+R6	Diagnosed_with Arg1:T1 Arg2:T2
+R7	Has_dimension Arg1:T5 Arg2:T25
+R8	Has_symptom Arg1:T46 Arg2:T48
+R9	Alias Arg1:T5 Arg2:T6
+R10	Is_a Arg1:T40 Arg2:T43
+R12	Alias Arg1:T30 Arg2:T29
+R11	Alias Arg1:T36 Arg2:T35
+R14	Diagnosed_with Arg1:T9 Arg2:T44
+R13	Diagnosed_with Arg1:T8 Arg2:T44
+R15	Has_symptom Arg1:T40 Arg2:T41
+R1	Diagnosed_with Arg1:T31 Arg2:T32

@@ -1,0 +1,60 @@
+T41	Diagnostic_tool 748 774	Ophthalmologic examination
+T21	Diagnostic_tool 1154 1157	OCT
+T43	Symptom 25 48	optic nerve head drusen
+T20	Characteristic 1025 1038	visual fields
+T23	Symptom 1209 1235	nerve fiber layer thinning
+T22	Symptom 350 373	optic nerve head drusen
+T25	Diagnostic_tool 408 436	optical coherence tomography
+T24	Diagnostic_tool 1162 1182	red-free photography
+T27	Disease 378 386	glaucoma
+T26	Symptom 1271 1288	optic disk drusen
+T29	Anatomy 461 478	nerve fiber layer
+T28	Disease 1258 1266	glaucoma
+T1	Characteristic 1524 1551	nerve fiber layer thickness
+T2	Diagnostic_tool 1463 1466	OCT
+T3	Anatomy 743 746	eye
+T4	Symptom 724 730	drusen
+T5	Symptom 1612 1638	nerve fiber layer thinning
+T6	Diagnostic_tool 776 806	color and red-free photography
+T7	Symptom 872 894	Nerve fiber layer loss
+T8	Diagnostic_tool 852 855	OCT
+T9	Anatomy 977 993	optic nerve head
+T30	Characteristic 1086 1099	visual fields
+T10	Diagnostic_tool 910 913	OCT
+T32	Anatomy 1320 1336	optic nerve head
+T31	Diagnostic_tool 438 441	OCT
+T12	Diagnostic_tool 998 1018	red-free photography
+T34	Symptom 518 541	optic nerve head drusen
+T11	Symptom 1119 1145	nerve fiber layer thinning
+T33	Disease 546 554	glaucoma
+T14	Diagnostic_tool 67 95	optical coherence tomography
+T36	Disease 565 592	primary open angle glaucoma
+T13	Disease 53 61	glaucoma
+T35	Disease 609 635	pseudoexfoliation glaucoma
+T16	Anatomy 151 161	nerve head
+T38	Symptom 670 698	asymmetric optic disk drusen
+T15	Symptom 98 121	Optic nerve head drusen
+T37	Symptom 1394 1400	drusen
+T18	Symptom 256 273	optic disk drusen
+T17	Symptom 199 219	visual field defects
+T39	Diagnostic_tool 808 847	automated Humphrey visual field testing
+T19	Symptom 286 305	glaucomatous damage
+R2	Diagnosed_with Arg1:T11 Arg2:T24
+R4	Is_a Arg1:T36 Arg2:T33
+R5	Is_a Arg1:T35 Arg2:T33
+R6	Alias Arg1:T31 Arg2:T25
+R7	Has_symptom Arg1:T27 Arg2:T22
+R8	Diagnosed_with Arg1:T22 Arg2:T25
+R9	Diagnosed_with Arg1:T22 Arg2:T31
+R10	Has_symptom Arg1:T35 Arg2:T34
+R21	Diagnosed_with Arg1:T13 Arg2:T14
+R20	Has_symptom Arg1:T28 Arg2:T26
+R12	Diagnosed_with Arg1:T7 Arg2:T10
+R11	Has_symptom Arg1:T36 Arg2:T34
+R14	Causes Arg1:T23 Arg2:T26
+R13	Has_symptom Arg1:T33 Arg2:T34
+R16	Diagnosed_with Arg1:T5 Arg2:T2
+R15	Has_symptom Arg1:T28 Arg2:T23
+R18	Diagnosed_with Arg1:T43 Arg2:T14
+R19	Diagnosed_with Arg1:T27 Arg2:T25
+R1	Diagnosed_with Arg1:T11 Arg2:T21

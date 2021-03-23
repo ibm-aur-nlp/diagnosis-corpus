@@ -1,0 +1,51 @@
+T41	Characteristic 1369 1386	hyperfluorescence
+T40	Characteristic 1185 1202	hyperfluorescence
+T21	Diagnostic_tool 1664 1669	ICG-V
+T43	Anatomy 1527 1531	eyes
+T20	Disease 562 596	circumscribed choroidal hemangioma
+T42	Characteristic 1454 1471	intrinsic vessels
+T23	Diagnostic_tool 1642 1646	IVFA
+T45	Characteristic 656 673	hyperfluorescence
+T22	Diagnostic_tool 540 544	IVFA
+T44	Characteristic 1493 1502	hot spots
+T25	Diagnostic_tool 621 626	ICG-V
+T24	Diagnostic_tool 631 635	IVFA
+T27	Disease 677 711	circumscribed choroidal hemangioma
+T26	Anatomy 280 284	eyes
+T29	Disease 1732 1752	choroidal hemangioma
+T28	Diagnostic_tool 640 645	ICG-V
+T1	Diagnostic_tool 1023 1028	ICG-V
+T2	Anatomy 950 954	eyes
+T3	Anatomy 1062 1066	eyes
+T4	Anatomy 1108 1112	eyes
+T5	Anatomy 1151 1155	eyes
+T6	Diagnostic_tool 1166 1170	IVFA
+T7	Disease 0 34	Circumscribed choroidal hemangioma
+T8	Diagnostic_tool 65 99	indocyanine green videoangiography
+T9	Diagnostic_tool 146 180	indocyanine green videoangiography
+T30	Anatomy 882 886	eyes
+T10	Diagnostic_tool 182 187	ICG-V
+T12	Disease 317 351	circumscribed choroidal hemangioma
+T11	Disease 192 226	circumscribed choroidal hemangioma
+T14	Diagnostic_tool 392 427	intravenous fluorescein angiography
+T36	Characteristic 1038 1055	intrinsic vessels
+T13	Diagnostic_tool 353 387	Indocyanine green videoangiography
+T16	Anatomy 1478 1482	eyes
+T38	Characteristic 1124 1144	late frame hot spots
+T15	Diagnostic_tool 429 433	IVFA
+T37	Characteristic 1076 1101	late hyperfluorescent rim
+T18	Diagnostic_tool 1607 1612	ICG-V
+T17	Diagnostic_tool 503 508	ICG-V
+T39	Characteristic 1280 1297	hyperfluorescence
+T19	Disease 1539 1573	Circumscribed choroidal hemangioma
+R3	Alias Arg1:T10 Arg2:T9
+R4	Diagnosed_with Arg1:T11 Arg2:T9
+R5	Diagnosed_with Arg1:T19 Arg2:T18
+R6	Alias Arg1:T15 Arg2:T14
+R8	Diagnosed_with Arg1:T20 Arg2:T25
+R9	Diagnosed_with Arg1:T20 Arg2:T24
+R10	Diagnosed_with Arg1:T27 Arg2:T28
+R12	Diagnosed_with Arg1:T29 Arg2:T21
+R14	Alias Arg1:T10 Arg2:T8
+R13	Diagnosed_with Arg1:T11 Arg2:T10
+R1	Diagnosed_with Arg1:T7 Arg2:T8

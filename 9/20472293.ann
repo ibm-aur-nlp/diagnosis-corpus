@@ -1,0 +1,90 @@
+T1	Symptom 65 87	reticular pseudodrusen
+T2	Symptom 34 63	subretinal drusenoid deposits
+R1	Alias Arg1:T1 Arg2:T2	
+T3	Disease 92 124	age-related macular degeneration
+R2	Has_symptom Arg1:T3 Arg2:T1	
+R3	Has_symptom Arg1:T3 Arg2:T2	
+T4	Disease 258 290	age-related macular degeneration
+T5	Disease 292 295	AMD
+R4	Alias Arg1:T5 Arg2:T4	
+T6	Symptom 183 212	subretinal drusenoid deposits
+T7	Symptom 214 236	reticular pseudodrusen
+R5	Alias Arg1:T7 Arg2:T6	
+R6	Has_symptom Arg1:T4 Arg2:T7	
+R7	Has_symptom Arg1:T4 Arg2:T6	
+R8	Has_symptom Arg1:T5 Arg2:T7	
+R9	Has_symptom Arg1:T5 Arg2:T6	
+T8	Disease 389 392	AMD
+T9	Disease 512 520	late AMD
+T10	Symptom 550 576	central geographic atrophy
+T11	Symptom 580 608	choroidal neovascularization
+R10	Has_symptom Arg1:T9 Arg2:T10	
+R11	Has_symptom Arg1:T9 Arg2:T11	
+T12	Anatomy 503 506	eye
+T13	Disease 671 674	AMD
+T14	Symptom 836 865	subretinal drusenoid deposits
+T16	Diagnostic_tool 953 997	spectral domain optical coherence tomography
+T17	Diagnostic_tool 999 1005	SD-OCT
+R12	Alias Arg1:T17 Arg2:T16	
+T18	Symptom 1017 1028	Soft drusen
+T15	Diagnostic_tool 905 944	blue channel of color fundus photograph
+T19	Diagnostic_tool 1092 1098	SD-OCT
+T20	Diagnostic_tool 1050 1074	color fundus photographs
+T21	Disease 1236 1244	late AMD
+T22	Disease 1205 1208	AMD
+R13	Is_a Arg1:T21 Arg2:T22	
+T23	Symptom 1162 1199	subretinal drusenoid deposits in eyes
+T24	Symptom 1138 1157	ocular risk factors
+T25	Disease 1300 1303	AMD
+T26	Characteristic 1312 1334	mean age of 80.3 years
+T27	Disease 474 477	AMD
+T28	Diagnostic_tool 1459 1495	blue channel of the color photograph
+T29	Anatomy 796 809	macular area.
+T30	Symptom 750 768	retinal detachment
+T31	Disease 737 748	high myopia
+T32	Disease 703 735	central serous chorioretinopathy
+T33	Symptom 1336 1365	Subretinal drusenoid deposits
+T34	Anatomy 1439 1448	left eyes
+T36	Diagnostic_tool 1557 1563	SD-OCT
+T37	Symptom 1565 1576	Soft drusen
+T38	Symptom 1581 1610	subretinal drusenoid deposits
+T39	Diagnostic_tool 1623 1629	SD-OCT
+T40	Disease 1677 1685	late AMD
+T41	Symptom 1687 1698	soft drusen
+T42	Symptom 1729 1758	subretinal drusenoid deposits
+T43	Diagnostic_tool 1774 1777	OCT
+T44	Symptom 1832 1861	subretinal drusenoid deposits
+T45	Anatomy 1914 1923	left eyes
+T46	Diagnostic_tool 1930 1937	SD-OCT.
+T47	Symptom 1957 1968	soft drusen
+T48	Symptom 1973 2002	subretinal drusenoid deposits
+T49	Disease 2026 2029	AMD
+T50	Disease 2073 2081	late AMD
+T51	Diagnostic_tool 2233 2240	SD-OCT.
+T52	Symptom 2143 2149	drusen
+R14	Has_symptom Arg1:T49 Arg2:T48	
+R15	Has_symptom Arg1:T49 Arg2:T47	
+R16	Has_symptom Arg1:T50 Arg2:T48	
+R17	Has_symptom Arg1:T50 Arg2:T47	
+R18	Has_symptom Arg1:T40 Arg2:T41	
+R19	Has_symptom Arg1:T40 Arg2:T42	
+R20	Has_symptom Arg1:T40 Arg2:T38	
+R21	Has_symptom Arg1:T40 Arg2:T37	
+R22	Has_symptom Arg1:T22 Arg2:T23	
+R23	Has_symptom Arg1:T22 Arg2:T24	
+R24	Has_symptom Arg1:T21 Arg2:T23	
+R25	Has_symptom Arg1:T21 Arg2:T24	
+R27	Is_a Arg1:T50 Arg2:T49	
+R28	Diagnosed_with Arg1:T14 Arg2:T15	
+R29	Diagnosed_with Arg1:T14 Arg2:T16	
+R30	Diagnosed_with Arg1:T18 Arg2:T20	
+R31	Diagnosed_with Arg1:T18 Arg2:T19	
+R32	Diagnosed_with Arg1:T33 Arg2:T28	
+R26	Diagnosed_with Arg1:T38 Arg2:T39	
+R33	Diagnosed_with Arg1:T37 Arg2:T39	
+R34	Diagnosed_with Arg1:T42 Arg2:T43	
+R35	Diagnosed_with Arg1:T52 Arg2:T51	
+R36	Diagnosed_with Arg1:T44 Arg2:T46	
+R37	Diagnosed_with Arg1:T14 Arg2:T17	
+R38	Diagnosed_with Arg1:T33 Arg2:T36	
+T35	Anatomy 1541 1550	left eyes

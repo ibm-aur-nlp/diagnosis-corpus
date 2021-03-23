@@ -1,0 +1,22 @@
+T21	Characteristic 1955 1979	aged older than 80 years
+T25	Diagnostic_tool 621 650	Markov decision process model
+T27	Characteristic 822 827	QALYs
+T28	Characteristic 1437 1446	nonwhites
+T1	Disease 176 196	diabetic retinopathy
+T2	Disease 198 200	DR
+T3	Disease 388 414	type 1 and type 2 diabetic
+T4	Disease 495 497	DR
+T5	Disease 529 531	DR
+T6	Characteristic 1147 1172	patients aged  < 80 years
+T7	Disease 767 769	DR
+T8	Disease 1331 1333	DR
+T9	Disease 911 931	Diabetic retinopathy
+T10	Characteristic 974 979	QALYs
+T12	Disease 1052 1054	DR
+T11	Disease 933 946	macular edema
+T14	Disease 44 64	diabetic retinopathy
+T13	Disease 948 957	blindness
+T19	Diagnostic_tool 1642 1671	teleretinal screening program
+R1	Alias Arg1:T2 Arg2:T1
+T15	Characteristic 785 820	average quality-adjusted life years
+R2	Alias Arg1:T27 Arg2:T15	

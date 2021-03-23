@@ -1,0 +1,42 @@
+T21	Diagnostic_tool 153 179	scanning laser polarimeter
+T20	Disease 754 766	glaucomatous
+T23	Anatomy 456 463	macular
+T22	Diagnostic_tool 181 184	SLP
+T25	Characteristic 281 294	birefringence
+T24	Anatomy 271 275	eyes
+T27	Characteristic 241 262	corneal birefringence
+T26	Anatomy 1307 1311	eyes
+T29	Characteristic 414 435	corneal birefringence
+T28	Diagnostic_tool 552 555	SLP
+T1	Characteristic 2078 2099	corneal birefringence
+T2	Anatomy 849 853	eyes
+T3	Anatomy 2206 2210	eyes
+T4	Anatomy 824 828	eyes
+T5	Diagnostic_tool 2155 2158	SLP
+T6	Anatomy 86 90	eyes
+T7	Diagnostic_tool 911 914	SLP
+T8	Disease 2250 2264	early glaucoma
+T9	Characteristic 987 990	age
+T30	Anatomy 742 746	eyes
+T10	Disease 836 848	glaucomatous
+T32	Anatomy 767 771	eyes
+T31	Anatomy 634 638	eyes
+T12	Characteristic 1000 1013	ethnic origin
+T11	Disease 621 633	glaucomatous
+T33	Symptom 1951 1968	visual field loss
+T14	Characteristic 992 998	gender
+T13	Disease 2193 2205	glaucomatous
+T16	Disease 1126 1134	glaucoma
+T15	Disease 1294 1306	glaucomatous
+T18	Disease 73 85	glaucomatous
+T17	Characteristic 1019 1027	eye side
+T19	Diagnostic_tool 100 126	scanning laser polarimeter
+R2	Diagnosed_with Arg1:T18 Arg2:T19
+R3	Alias Arg1:T22 Arg2:T21
+R4	Is_a Arg1:T8 Arg2:T13
+R5	Diagnosed_with Arg1:T11 Arg2:T28
+R6	Diagnosed_with Arg1:T13 Arg2:T5
+R1	Diagnosed_with Arg1:T8 Arg2:T5
+T34	Anatomy 9 16	corneal
+T35	Anatomy 198 205	corneal
+T36	Anatomy 350 357	corneal

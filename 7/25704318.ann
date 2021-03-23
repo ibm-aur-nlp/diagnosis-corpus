@@ -1,0 +1,78 @@
+T61	Symptom 1564 1568	PPLs
+T60	Symptom 152 196	peripheral diabetic retinopathy (DR) lesions
+T62	Symptom 1704 1708	PPLs
+T21	Characteristic 1432 1438	gender
+T20	Anatomy 333 337	eyes
+T23	Disease 271 273	DR
+T22	Diagnostic_tool 211 240	ultrawide field (UWF) imaging
+T25	Diagnostic_tool 826 843	ETDRS photographs
+T24	Diagnostic_tool 712 729	ETDRS photographs
+T27	Disease 1801 1803	DR
+T26	Disease 1748 1750	DR
+T29	Disease 1893 1895	DR
+T28	Diagnostic_tool 460 522	Early Treatment Diabetic Retinopathy Study (ETDRS) photographs
+T30	Diagnostic_tool 556 566	UWF images
+T32	Disease 1927 1930	PDR
+T31	Diagnostic_tool 527 537	UWF images
+T34	Symptom 568 578	DR lesions
+T33	Characteristic 1440 1453	diabetes type
+T36	Disease 797 799	DR
+T35	Disease 2129 2131	DR
+T37	Characteristic 1455 1472	diabetes duration
+T39	Symptom 936 940	PPLs
+T41	Symptom 1090 1094	PPLs
+T40	Symptom 968 972	PPLs
+T42	Symptom 1155 1159	PPLs
+T47	Symptom 695 699	PPLs
+T48	Symptom 661 693	predominantly peripheral lesions
+T1	Disease 900 916	proliferative DR
+T2	Anatomy 926 930	eyes
+T3	Disease 918 921	PDR
+T4	Anatomy 955 959	eyes
+T5	Diagnostic_tool 987 998	UWF imaging
+T6	Disease 1028 1031	PDR
+T7	Anatomy 1015 1019	eyes
+T8	Anatomy 1142 1146	eyes
+T9	Disease 1112 1114	DR
+T50	Symptom 1852 1856	PPLs
+T51	Characteristic 1817 1829	HbA1c levels
+T10	Anatomy 1161 1165	eyes
+T54	Diagnostic_tool 2017 2046	peripheral retinal evaluation
+T53	Disease 1960 1962	DR
+T12	Disease 1323 1326	PDR
+T11	Characteristic 1474 1503	hemoglobin A1c (HbA1c) levels
+T14	Characteristic 1509 1529	baseline DR severity
+T13	Disease 1224 1226	DR
+T16	Disease 1653 1656	PDR
+T15	Disease 1607 1609	DR
+T59	Symptom 1171 1175	PPLs
+T18	Diagnostic_tool 33 56	Ultrawide Field Imaging
+T17	Symptom 0 18	Peripheral Lesions
+T19	Disease 83 103	Diabetic Retinopathy
+R21	Has_symptom Arg1:T27 Arg2:T62
+R20	Has_symptom Arg1:T26 Arg2:T62
+R23	Has_symptom Arg1:T32 Arg2:T50
+R22	Has_symptom Arg1:T29 Arg2:T50
+R25	Has_symptom Arg1:T23 Arg2:T60
+R24	Has_symptom Arg1:T53 Arg2:T50
+R29	Has_symptom Arg1:T15 Arg2:T61
+R28	Has_symptom Arg1:T12 Arg2:T59
+R2	Diagnosed_with Arg1:T17 Arg2:T18
+R3	Diagnosed_with Arg1:T34 Arg2:T30
+R5	Diagnosed_with Arg1:T48 Arg2:T30
+R6	Is_a Arg1:T48 Arg2:T34
+R7	Diagnosed_with Arg1:T36 Arg2:T25
+R8	Alias Arg1:T3 Arg2:T1
+R9	Is_a Arg1:T1 Arg2:T36
+R30	Has_symptom Arg1:T13 Arg2:T59
+R32	Diagnosed_with Arg1:T60 Arg2:T22
+R31	Has_symptom Arg1:T16 Arg2:T61
+R12	Diagnosed_with Arg1:T39 Arg2:T5
+R11	Alias Arg1:T31 Arg2:T22
+R13	Diagnosed_with Arg1:T40 Arg2:T5
+R16	Has_symptom Arg1:T19 Arg2:T17
+R15	Alias Arg1:T22 Arg2:T18
+R17	Alias Arg1:T23 Arg2:T19
+R19	Diagnosed_with Arg1:T19 Arg2:T18
+R4	Alias Arg1:T47 Arg2:T48	
+R1	Diagnosed_with Arg1:T35 Arg2:T54	

@@ -1,0 +1,50 @@
+T21	Diagnostic_tool 364 405	ophthalmoscopy through an undilated pupil
+T20	Diagnostic_tool 502 564	nonstereoscopic 45 degrees photography through a dilated pupil
+T23	Diagnostic_tool 575 632	45 degrees photograph centered between the disc and fovea
+T22	Diagnostic_tool 407 497	nonstereoscopic 45 degrees retinal photography through a pharmacologically undilated pupil
+T28	Anatomy 738 743	pupil
+T30	Characteristic 156 188	severity of diabetic retinopathy
+T32	Diagnostic_tool 831 897	30 degrees stereoscopic color photographs of DRS fields 1, 2 and 4
+T31	Characteristic 254 277	severity of retinopathy
+T34	Characteristic 991 1014	severity of retinopathy
+T36	Classification_system 1076 1112	Modified Airlie House Classification
+T35	Characteristic 1141 1163	severity of retinopath
+T38	Disease 1172 1188	nonproliferative
+T37	Disease 1192 1205	proliferative
+T39	Disease 1268 1279	retinopathy
+T43	Disease 1453 1481	nonproliferative retinopathy
+T42	Disease 1486 1511	proliferative retinopathy
+T1	Diagnostic_tool 1334 1351	30 degrees camera
+T2	Diagnostic_tool 1285 1309	stereoscopic photographs
+T3	Disease 1550 1561	retinopathy
+T4	Diagnostic_tool 1833 1878	45 degrees nonstereoscopic fundus photographs
+T5	Disease 0 20	Diabetic retinopathy
+T6	Diagnostic_tool 39 53	ophthalmoscopy
+T7	Diagnostic_tool 57 76	nonmydriatic camera
+T8	Diagnostic_tool 92 105	fundus camera
+T9	Diagnostic_tool 297 332	30 degrees stereoscopic photographs
+T51	Diagnostic_tool 1627 1678	30 degrees photographs taken through dilated pupils
+T10	Diagnostic_tool 654 668	ophthalmoscopy
+T54	Diagnostic_tool 1707 1785	45 degrees photographs and 30 degrees photographs taken through dilated pupils
+T12	Symptom 1049 1065	diabetic lesions
+T11	Diagnostic_tool 769 790	45 degrees photograph
+T14	Diagnostic_tool 1569 1622	45 degrees photographs taken through undilated pupils
+T13	Diagnostic_tool 1238 1252	ophthalmoscopy
+T18	Characteristic 1391 1414	severity of retinopathy
+T17	Characteristic 2002 2024	severity of retinopath
+R20	Diagnosed_with Arg1:T3 Arg2:T54
+R24	Diagnosed_with Arg1:T38 Arg2:T13
+R26	Diagnosed_with Arg1:T3 Arg2:T51
+R1	Diagnosed_with Arg1:T5 Arg2:T7
+R3	Diagnosed_with Arg1:T5 Arg2:T8
+R4	Alias Arg1:T11 Arg2:T23
+R6	Diagnosed_with Arg1:T12 Arg2:T36
+R12	Diagnosed_with Arg1:T5 Arg2:T6
+R14	Diagnosed_with Arg1:T39 Arg2:T2
+R8	Diagnosed_with Arg1:T37 Arg2:T13	
+R5	Alias Arg1:T37 Arg2:T42	
+R7	Alias Arg1:T38 Arg2:T43	
+R9	Is_a Arg1:T42 Arg2:T3	
+R10	Is_a Arg1:T43 Arg2:T3	
+R11	Diagnosed_with Arg1:T3 Arg2:T14	
+T15	Symptom 1422 1436	microaneurysms

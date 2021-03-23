@@ -1,0 +1,23 @@
+T21	Characteristic 2062 2096	practical knowledge about diabetes
+T20	Characteristic 1924 1941	diabetes duration
+T22	Disease 185 193	Diabetes
+T25	Anatomy 1522 1525	eye
+T1	Disease 271 279	diabetes
+T2	Disease 287 307	Diabetic Retinopathy
+T3	Disease 602 610	diabetes
+T4	Characteristic 612 636	18 years of age or older
+T5	Characteristic 647 684	residents of Suffolk County, New York
+T6	Disease 871 879	diabetes
+T7	Disease 1107 1115	diabetes
+T8	Disease 958 978	diabetic retinopathy
+T9	Disease 2398 2418	diabetic retinopathy
+T30	Classification_system 210 266	American Academy of Ophthalmology vision care guidelines
+T10	Characteristic 1798 1809	younger age
+T12	Disease 85 105	Diabetic Retinopathy
+T11	Disease 1836 1851	type 2 diabetes
+T14	Disease 936 944	diabetes
+T13	Disease 25 33	diabetes
+T16	Characteristic 2117 2148	prior formal diabetes education
+T15	Characteristic 1960 2003	eye examination performed by an optometrist
+R1	Has_risk_factor Arg1:T3 Arg2:T4
+T17	Anatomy 1332 1335	eye

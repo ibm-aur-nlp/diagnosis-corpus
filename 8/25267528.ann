@@ -1,0 +1,100 @@
+T60	Diagnostic_tool 421 441	color vision testing
+T63	Characteristic 619 631	Age at onset
+T62	Disease 1928 1957	progressive retinal dystrophy
+T21	Characteristic 1261 1263	VA
+T20	Diagnostic_tool 1151 1153	FA
+T23	Disease 1268 1280	stage 1 DCMD
+T22	Characteristic 1325 1346	younger than 20 years
+T25	Disease 1441 1453	stage 2 DCMD
+T69	Diagnostic_tool 1189 1216	electrophysiologic analysis
+T24	Symptom 1355 1411	CFCs with fine folding of the internal limiting membrane
+T27	Symptom 1515 1553	moderate macular chorioretinal atrophy
+T26	Symptom 1416 1436	mild pigment changes
+T29	Disease 0 34	Dominant cystoid macular dystrophy
+T28	Symptom 1478 1482	CFCs
+T70	Symptom 1657 1687	profound chorioretinal atrophy
+T30	Disease 119 163	autosomal dominant cystoid macular dystrophy
+T32	Disease 226 230	DCMD
+T31	Disease 165 169	DCMD
+T34	Characteristic 291 293	VA
+T78	Diagnostic_tool 599 617	haplotype analysis
+T33	Characteristic 276 289	visual acuity
+T36	Diagnostic_tool 316 339	fluorescein angiography
+T35	Diagnostic_tool 296 314	fundus photography
+T38	Disease 1579 1591	stage 3 DCMD
+T37	Diagnostic_tool 341 343	FA
+T39	Diagnostic_tool 346 383	fundus autofluorescence (FAF) imaging
+T41	Diagnostic_tool 415 418	OCT
+T40	Disease 2199 2216	retinal dystrophy
+T43	Diagnostic_tool 385 413	optical coherence tomography
+T42	Disease 1816 1820	DCMD
+T45	Disease 1888 1922	Dominant cystoid macular dystrophy
+T44	Symptom 1782 1791	hyperopic
+T47	Diagnostic_tool 468 498	full-field electroretinography
+T46	Diagnostic_tool 500 503	ERG
+T49	Diagnostic_tool 510 529	electro-oculography
+T48	Diagnostic_tool 531 534	EOG
+T1	Disease 2134 2138	DCMD
+T2	Disease 2089 2108	retinal dystrophies
+T3	Characteristic 637 654	fundus appearance
+T4	Characteristic 815 824	childhood
+T5	Characteristic 633 635	VA
+T6	Diagnostic_tool 683 686	FAF
+T7	Diagnostic_tool 679 681	FA
+T8	Diagnostic_tool 693 696	ERG
+T9	Diagnostic_tool 688 691	OCT
+T50	Symptom 1986 2042	early-onset cystoid fluid collections in the neuroretina
+T52	Symptom 985 1030	hyperpigmented deposits in the posterior pole
+T51	Symptom 947 980	progressive chorioretinal atrophy
+T10	Symptom 707 732	Cystoid fluid collections
+T54	Characteristic 1253 1256	age
+T12	Symptom 755 776	retinal abnormalities
+T56	Characteristic 1849 1886	haplotype at the DCMD locus at 7p15.3
+T11	Diagnostic_tool 702 705	EOG
+T14	Disease 791 795	DCMD
+T58	Symptom 1700 1752	coarse hyperpigmented deposits in the posterior pole
+T13	Symptom 734 738	CFCs
+T57	Characteristic 1626 1645	older than 50 years
+T16	Disease 1032 1066	Dominant cystoid macular dystrophy
+T15	Symptom 854 858	CFCs
+T59	Diagnostic_tool 443 466	dark adaptation testing
+T18	Diagnostic_tool 1130 1144	ophthalmoscopy
+T17	Diagnostic_tool 1146 1149	FAF
+T19	Diagnostic_tool 1159 1162	OCT
+R40	Alias Arg1:T46 Arg2:T47
+R21	Alias Arg1:T37 Arg2:T36
+R20	Is_a Arg1:T38 Arg2:T42
+R23	Is_a Arg1:T25 Arg2:T42
+R45	Has_symptom Arg1:T38 Arg2:T70
+R22	Is_a Arg1:T23 Arg2:T42
+R25	Is_a Arg1:T45 Arg2:T62
+R24	Has_risk_factor Arg1:T14 Arg2:T4
+R46	Has_symptom Arg1:T38 Arg2:T44
+R27	Has_risk_factor Arg1:T42 Arg2:T56
+R26	Alias Arg1:T41 Arg2:T43
+R29	Alias Arg1:T13 Arg2:T10
+R28	Has_symptom Arg1:T14 Arg2:T10
+R2	Diagnosed_with Arg1:T16 Arg2:T19
+R3	Has_symptom Arg1:T23 Arg2:T24
+R4	Has_risk_factor Arg1:T23 Arg2:T22
+R5	Has_risk_factor Arg1:T38 Arg2:T57
+R6	Has_symptom Arg1:T23 Arg2:T26
+R7	Has_symptom Arg1:T38 Arg2:T58
+R9	Has_symptom Arg1:T25 Arg2:T27
+R30	Has_symptom Arg1:T14 Arg2:T12
+R10	Has_symptom Arg1:T25 Arg2:T28
+R32	Diagnosed_with Arg1:T16 Arg2:T17
+R31	Has_symptom Arg1:T14 Arg2:T13
+R12	Has_symptom Arg1:T62 Arg2:T50
+R34	Diagnosed_with Arg1:T16 Arg2:T20
+R11	Has_symptom Arg1:T45 Arg2:T50
+R33	Diagnosed_with Arg1:T16 Arg2:T18
+R14	No_Has_symptom Arg1:T2 Arg2:T50
+R35	Diagnosed_with Arg1:T16 Arg2:T69
+R16	Is_a Arg1:T30 Arg2:T31
+R38	Is_a Arg1:T30 Arg2:T29
+R15	Alias Arg1:T31 Arg2:T29
+R18	Is_a Arg1:T47 Arg2:T46
+R17	Alias Arg1:T34 Arg2:T33
+R39	Alias Arg1:T6 Arg2:T39
+R19	Alias Arg1:T48 Arg2:T49

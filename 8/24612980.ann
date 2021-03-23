@@ -1,0 +1,51 @@
+T21	Diagnostic_tool 2038 2088	Cirrus HD OCT-derived RNFL thickness deviation map
+T20	Characteristic 654 671	RNFL defect depth
+T23	Characteristic 1891 1909	cpRNFL thicknesses
+T22	Symptom 1726 1763	moderate from the severe RNFL defects
+T25	Characteristic 2207 2223	cpRNFL thickness
+T24	Characteristic 728 762	RNFL defect depth percentage index
+T27	Characteristic 1783 1788	RDPIs
+T26	Characteristic 2151 2168	RNFL defect depth
+T29	Characteristic 1040 1143	average and segmental (4 quadrants and 12 clock-hour sectors) circumpapillary RNFL (cpRNFL) thicknesses
+T28	Symptom 1161 1172	RNFL defect
+T30	Symptom 1340 1351	RNFL defect
+T31	Symptom 397 409	RNFL defects
+T34	Characteristic 912 931	age-matched healthy
+T33	Symptom 1644 1679	mild from the moderate RNFL defects
+T35	Symptom 520 531	RNFL defect
+T38	Characteristic 1769 1775	AUROCs
+T37	Characteristic 792 819	thicknesses of RNFL defects
+T39	Characteristic 1474 1480	AUROCs
+T43	Anatomy 1364 1396	superior and inferior hemifields
+T42	Characteristic 1288 1293	RDPIs
+T46	Characteristic 1488 1493	RDPIs
+T49	Characteristic 1603 1621	cpRNFL thicknesses
+T1	Symptom 2250 2280	mild and moderate RNFL defects
+T2	Symptom 967 979	RNFL defects
+T3	Symptom 2312 2339	moderate and severe defects
+T4	Diagnostic_tool 679 707	RNFL thickness deviation map
+T5	Diagnostic_tool 1268 1271	OCT
+T6	Characteristic 1191 1246	area under the receiver operating characteristic curves
+T7	Characteristic 27 65	retinal nerve fiber layer defect depth
+T8	Diagnostic_tool 72 116	spectral-domain optical coherence tomography
+T9	Symptom 157 197	retinal nerve fiber layer (RNFL) defects
+T10	Diagnostic_tool 206 305	Cirrus high-definition (HD) optical coherence tomography (OCT)-derived RNFL thickness deviation map
+T54	Anatomy 1934 1951	inferior quadrant
+T12	Anatomy 365 369	eyes
+T11	Anatomy 443 447	eyes
+T55	Characteristic 764 768	RDPI
+T14	Disease 417 425	glaucoma
+T13	Characteristic 983 1038	Retinal nerve fiber layer defect depth percentage index
+T16	Characteristic 1248 1254	AUROCs
+T15	Disease 481 489	glaucoma
+T18	Characteristic 861 877	RNFL thicknesses
+T17	Diagnostic_tool 546 573	red-free fundus photographs
+T19	Characteristic 2008 2012	RDPI
+R2	Diagnosed_with Arg1:T9 Arg2:T10
+R3	Alias Arg1:T31 Arg2:T9
+R4	Diagnosed_with Arg1:T35 Arg2:T17
+R5	Alias Arg1:T6 Arg2:T16
+R6	Is_a Arg1:T33 Arg2:T30
+R7	Alias Arg1:T55 Arg2:T24
+R8	Alias Arg1:T16 Arg2:T6
+R1	Is_a Arg1:T22 Arg2:T30	

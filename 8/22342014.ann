@@ -1,0 +1,95 @@
+T61	Diagnostic_tool 722 725	FAF
+T63	Characteristic 1046 1055	Better VA
+T21	Diagnostic_tool 216 260	spectral-domain optical coherence tomography
+T65	Disease 1700 1710	severe DME
+T20	Diagnostic_tool 192 195	FAF
+T64	Diagnostic_tool 2194 2200	SD-OCT
+T23	Disease 317 339	diabetic macular edema
+T22	Diagnostic_tool 262 268	SD-OCT
+T25	Diagnostic_tool 801 807	SD-OCT
+T24	Disease 341 344	DME
+T68	Diagnostic_tool 790 792	VA
+T27	Anatomy 1585 1589	eyes
+T26	Disease 1567 1577	severe DME
+T29	Anatomy 1665 1669	eyes
+T28	Diagnostic_tool 781 784	FAF
+T30	Diagnostic_tool 581 587	SD-OCT
+T74	Symptom 1214 1227	increased FAF
+T32	Symptom 1781 1797	decreased vision
+T31	Diagnostic_tool 573 576	FAF
+T75	Symptom 1246 1265	higher level of FAF
+T34	Characteristic 854 857	CMT
+T78	Symptom 1627 1639	IS/OS defect
+T33	Characteristic 827 852	central macular thickness
+T77	Symptom 1529 1537	high FAF
+T36	Characteristic 1860 1871	good vision
+T35	Characteristic 2004 2027	photoreceptor integrity
+T79	Symptom 1597 1613	low level of FAF
+T38	Characteristic 895 938	integrity of the external limiting membrane
+T37	Characteristic 2108 2131	photoreceptor integrity
+T39	Characteristic 954 1036	integrity of the junction between the inner and outer segment of the photoreceptor
+T81	Symptom 1644 1659	large logMAR VA
+T80	Diagnostic_tool 281 294	visual acuity
+T83	Diagnostic_tool 296 298	VA
+T82	Symptom 1677 1694	high level of FAF
+T85	Diagnostic_tool 566 568	VA
+T40	Anatomy 940 943	ELM
+T84	Characteristic 1724 1744	average grade of FAF
+T86	Diagnostic_tool 1930 1932	VA
+T45	Characteristic 1057 1091	preservation of the ELM, and IS/OS
+T44	Diagnostic_tool 651 661	Foveal FAF
+T49	Symptom 1315 1330	defect in IS/OS
+T48	Dimension 1375 1380	10-μm
+T1	Disease 2088 2098	severe DME
+T2	Characteristic 860 889	outer nuclear layer thickness
+T3	Anatomy 1038 1043	IS/OS
+T4	Diagnostic_tool 1899 1902	FAF
+T5	Diagnostic_tool 1908 1914	SD-OCT
+T6	Disease 1950 1953	DME
+T7	Disease 1157 1160	DME
+T8	Disease 1304 1307	DME
+T9	Disease 1162 1183	cystoid macular edema
+T10	Diagnostic_tool 44 88	spectral-domain optical coherence tomography
+T12	Disease 103 125	diabetic macular edema
+T11	Diagnostic_tool 15 38	fundus autofluorescence
+T13	Disease 461 464	DME
+T57	Anatomy 733 740	foveola
+T16	Characteristic 1438 1482	logarithm of the minimum angle of resolution
+T15	Anatomy 1235 1242	foveola
+T18	Characteristic 1484 1490	logMAR
+T17	Characteristic 1393 1396	CMT
+T19	Diagnostic_tool 167 190	fundus autofluorescence
+R40	Diagnosed_with Arg1:T23 Arg2:T20
+R21	Diagnosed_with Arg1:T23 Arg2:T83
+R20	Diagnosed_with Arg1:T24 Arg2:T80
+R23	Alias Arg1:T83 Arg2:T80
+R22	Alias Arg1:T20 Arg2:T11
+R27	Diagnosed_with Arg1:T24 Arg2:T83
+R29	Alias Arg1:T22 Arg2:T10
+R1	Alias Arg1:T22 Arg2:T21
+R2	Alias Arg1:T45 Arg2:T38
+R4	Alias Arg1:T24 Arg2:T23
+R5	Alias Arg1:T34 Arg2:T33
+R6	Alias Arg1:T18 Arg2:T16
+R8	Is_a Arg1:T9 Arg2:T7
+R30	Has_symptom Arg1:T9 Arg2:T74
+R10	Is_a Arg1:T44 Arg2:T31
+R32	Is_a Arg1:T1 Arg2:T6
+R31	Diagnosed_with Arg1:T6 Arg2:T5
+R12	Diagnosed_with Arg1:T23 Arg2:T22
+R34	Has_symptom Arg1:T8 Arg2:T75
+R11	Alias Arg1:T20 Arg2:T19
+R33	Diagnosed_with Arg1:T6 Arg2:T4
+R14	Diagnosed_with Arg1:T24 Arg2:T20
+R36	Diagnosed_with Arg1:T12 Arg2:T11
+R13	Diagnosed_with Arg1:T23 Arg2:T21
+R35	Diagnosed_with Arg1:T6 Arg2:T86
+R16	Diagnosed_with Arg1:T24 Arg2:T22
+R38	Diagnosed_with Arg1:T23 Arg2:T19
+R15	Diagnosed_with Arg1:T24 Arg2:T19
+R37	Has_risk_factor Arg1:T77 Arg2:T18
+R18	Diagnosed_with Arg1:T23 Arg2:T80
+R17	Diagnosed_with Arg1:T24 Arg2:T21
+R39	Diagnosed_with Arg1:T12 Arg2:T10
+R19	Located_in Arg1:T9 Arg2:T15
+T14	Characteristic 1121 1130	better VA

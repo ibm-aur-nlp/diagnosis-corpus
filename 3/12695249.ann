@@ -1,0 +1,62 @@
+T1	Disease 34 57	age-related maculopathy
+T3	Disease 154 177	age-related maculopathy
+T4	Disease 179 182	ARM
+R1	Alias Arg1:T4 Arg2:T3	
+T5	Disease 250 282	age-related macular degeneration
+T6	Disease 284 287	AMD
+R2	Alias Arg1:T6 Arg2:T5	
+T7	Characteristic 363 381	55 years and older
+T8	Disease 430 433	ARM
+T9	Diagnostic_tool 488 519	stereoscopic fundus photography
+T10	Classification_system 625 672	International Classification and Grading System
+T11	Disease 677 680	ARM
+T12	Disease 685 688	AMD
+T13	Disease 573 596	Age-related maculopathy
+R3	Diagnosed_with Arg1:T13 Arg2:T10	
+T14	Disease 830 833	AMD
+T15	Disease 867 891	neovascular-atrophic AMD
+T16	Disease 921 924	AMD
+T17	Symptom 1027 1052	pigmentary irregularities
+T18	Characteristic 981 999	55 years and older
+T19	Symptom 1005 1022	indistinct drusen
+T20	Disease 1156 1167	stage 3 ARM
+T21	Characteristic 1177 1195	80 years and older
+T22	Disease 1391 1403	atrophic AMD
+T23	Disease 1528 1543	neovascular AMD
+T24	Characteristic 1064 1067	Age
+T25	Characteristic 1077 1080	sex
+T28	Disease 1264 1267	AMD
+T29	Disease 1208 1211	ARM
+T31	Disease 1592 1595	AMD
+T32	Characteristic 1613 1616	age
+T35	Disease 1725 1728	ARM
+T36	Symptom 1773 1790	first soft drusen
+R4	No_Has_risk_factor Arg1:T20 Arg2:T25	
+R5	Has_risk_factor Arg1:T20 Arg2:T24	
+R9	Diagnosed_with Arg1:T11 Arg2:T10	
+R10	Diagnosed_with Arg1:T12 Arg2:T10	
+T2	Disease 1054 1061	stage 3
+R11	Is_a Arg1:T2 Arg2:T16	
+R6	Has_symptom Arg1:T2 Arg2:T17	
+R7	Has_symptom Arg1:T2 Arg2:T19	
+R8	Has_risk_factor Arg1:T2 Arg2:T18	
+R12	Has_risk_factor Arg1:T20 Arg2:T21	
+T30	Symptom 1320 1366	10% or more of the grid area covered by drusen
+T27	Symptom 1212 1224	fundus signs
+R13	Has_symptom Arg1:T29 Arg2:T27	
+T26	Symptom 1273 1296	10 or more large drusen
+T38	Dimension 1298 1314	> or =125 microm
+R14	Has_dimension Arg1:T26 Arg2:T38	
+R15	Has_symptom Arg1:T28 Arg2:T26	
+R16	Has_symptom Arg1:T28 Arg2:T30	
+T39	Symptom 1459 1471	fundus signs
+R17	Has_risk_factor Arg1:T31 Arg2:T32	
+T33	Symptom 1621 1643	early ARM fundus signs
+R18	Has_symptom Arg1:T31 Arg2:T33	
+T34	Characteristic 1861 1864	age
+R19	Has_symptom Arg1:T35 Arg2:T36	
+R20	Has_risk_factor Arg1:T35 Arg2:T34	
+R21	Is_a Arg1:T15 Arg2:T14	
+R22	Is_a Arg1:T22 Arg2:T28	
+R23	Is_a Arg1:T23 Arg2:T28	
+R24	Has_symptom Arg1:T28 Arg2:T27	

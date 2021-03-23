@@ -1,0 +1,34 @@
+T21	Diagnostic_tool 1119 1133	Fieldmaster 50
+T20	Diagnostic_tool 1191 1214	Humphrey Field Analyzer
+T23	Diagnostic_tool 1223 1228	Squid
+T22	Diagnostic_tool 20 29	perimetry
+T25	Diagnostic_tool 248 285	light-emitting diode (LED) perimeters
+T24	Diagnostic_tool 166 187	projection perimeters
+T1	Symptom 438 461	glaucomatous field loss
+T2	Anatomy 583 587	eyes
+T3	Anatomy 470 474	eyes
+T4	Symptom 516 574	neuro-ophthalmologic or retinal visual field abnormalities
+T5	Diagnostic_tool 189 212	Humphrey Field Analyzer
+T6	Diagnostic_tool 214 219	Squid
+T7	Diagnostic_tool 225 236	Octopus 500
+T8	Diagnostic_tool 287 297	Dicon 2000
+T9	Diagnostic_tool 299 313	Fieldmaster 50
+T10	Diagnostic_tool 319 330	Digilab 350
+T12	Diagnostic_tool 1257 1280	Humphrey Field Analyzer
+T11	Diagnostic_tool 1234 1255	projection perimeters
+T14	Diagnostic_tool 1293 1304	Octopus 500
+T15	Diagnostic_tool 1282 1287	Squid
+T18	Diagnostic_tool 1104 1109	Squid
+T17	Diagnostic_tool 1554 1564	perimeters
+T19	Diagnostic_tool 1091 1102	Octopus 500
+R2	Is_a Arg1:T11 Arg2:T17
+R10	Is_a Arg1:T14 Arg2:T11
+R3	Is_a Arg1:T7 Arg2:T24
+R4	Is_a Arg1:T8 Arg2:T25
+R5	Is_a Arg1:T9 Arg2:T25
+R11	Is_a Arg1:T5 Arg2:T24
+R6	Is_a Arg1:T25 Arg2:T17
+R7	Is_a Arg1:T10 Arg2:T25
+R8	Is_a Arg1:T12 Arg2:T11
+R9	Is_a Arg1:T15 Arg2:T11
+R1	Is_a Arg1:T6 Arg2:T24

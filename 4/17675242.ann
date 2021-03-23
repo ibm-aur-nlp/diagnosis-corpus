@@ -1,0 +1,72 @@
+T21	Disease 54 76	retinal vein occlusion
+T20	Disease 29 50	cystoid macular edema
+T23	Disease 144 147	CME
+T22	Disease 121 142	cystoid macular edema
+T25	Diagnostic_tool 191 242	three-dimensional (3D) optical coherence tomography
+T24	Disease 165 187	retinal vein occlusion
+T27	Anatomy 1925 1938	retinal layer
+T26	Diagnostic_tool 244 247	OCT
+T29	Diagnostic_tool 1998 2004	3D OCT
+T28	Anatomy 1337 1358	outer plexiform layer
+T30	Anatomy 1982 1985	ELM
+T32	Diagnostic_tool 1420 1426	3D OCT
+T31	Disease 381 403	retinal vein occlusion
+T34	Disease 2040 2043	CME
+T33	Anatomy 1400 1414	retinal layers
+T36	Diagnostic_tool 440 458	Fourier-domain OCT
+T35	Anatomy 1491 1517	external limiting membrane
+T38	Anatomy 1519 1522	ELM
+T37	Diagnostic_tool 417 423	3D OCT
+T39	Diagnostic_tool 818 843	Three-dimensional imaging
+T41	Anatomy 1530 1534	eyes
+T40	Symptom 1546 1560	cystoid spaces
+T43	Disease 965 968	CME
+T42	Anatomy 1595 1598	ELM
+T44	Symptom 1228 1273	small cystoid spaces in the parafoveal region
+T46	Characteristic 305 320	visual function
+T49	Anatomy 1678 1681	ELM
+T1	Anatomy 1648 1651	ELM
+T2	Anatomy 1604 1608	eyes
+T3	Diagnostic_tool 1015 1026	Stratus OCT
+T4	Anatomy 1668 1672	eyes
+T5	Diagnostic_tool 1001 1007	3D OCT
+T6	Anatomy 1657 1661	eyes
+T7	Disease 1113 1116	CME
+T8	Anatomy 1771 1774	ELM
+T9	Diagnostic_tool 1057 1071	3D OCT imaging
+T50	Symptom 1165 1192	large foveal cystoid spaces
+T10	Symptom 1725 1752	large foveal cystoid spaces
+T12	Characteristic 1826 1839	visual acuity
+T11	Diagnostic_tool 1151 1157	3D OCT
+T14	Anatomy 1782 1795	foveal region
+T13	Anatomy 1145 1149	eyes
+T16	Disease 1856 1859	CME
+T15	Diagnostic_tool 1866 1872	3D OCT
+T18	Symptom 1275 1289	Cystoid spaces
+T17	Anatomy 1313 1332	inner nuclear layer
+T19	Diagnostic_tool 0 25	Three-dimensional imaging
+R21	Is_a Arg1:T5 Arg2:T26
+R20	Is_a Arg1:T24 Arg2:T26
+R23	Diagnosed_with Arg1:T50 Arg2:T11
+R22	Is_a Arg1:T3 Arg2:T26
+R25	Diagnosed_with Arg1:T21 Arg2:T19
+R24	Diagnosed_with Arg1:T40 Arg2:T32
+R26	Is_a Arg1:T36 Arg2:T26
+R2	Diagnosed_with Arg1:T44 Arg2:T11
+R3	Alias Arg1:T23 Arg2:T22
+R4	Diagnosed_with Arg1:T20 Arg2:T19
+R5	Causes Arg1:T21 Arg2:T20
+R6	Causes Arg1:T24 Arg2:T23
+R7	Causes Arg1:T24 Arg2:T22
+R8	Diagnosed_with Arg1:T23 Arg2:T25
+R9	Diagnosed_with Arg1:T22 Arg2:T25
+R10	Diagnosed_with Arg1:T43 Arg2:T3
+R12	Diagnosed_with Arg1:T34 Arg2:T29
+R11	Diagnosed_with Arg1:T43 Arg2:T5
+R14	Located_in Arg1:T16 Arg2:T27
+R13	Diagnosed_with Arg1:T7 Arg2:T9
+R16	Alias Arg1:T38 Arg2:T35
+R15	Diagnosed_with Arg1:T16 Arg2:T15
+R18	Alias Arg1:T26 Arg2:T25
+R17	Alias Arg1:T37 Arg2:T25
+R19	Diagnosed_with Arg1:T24 Arg2:T25

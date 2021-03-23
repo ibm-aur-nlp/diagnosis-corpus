@@ -1,0 +1,84 @@
+T21	Diagnostic_tool 270 312	nonmydriatic multifield fundus photography
+T20	Diagnostic_tool 223 265	nonmydriatic ultrawide field (UWF) imaging
+T23	Disease 359 361	DR
+T22	Diagnostic_tool 314 318	NMFP
+T25	Diagnostic_tool 706 710	NMFP
+T24	Diagnostic_tool 658 693	Joslin Vision Network (JVN) imaging
+T27	Diagnostic_tool 571 575	NMFP
+T26	Symptom 1586 1604	peripheral lesions
+T29	Disease 1638 1640	DR
+T28	Disease 1708 1710	DR
+T30	Disease 1044 1046	DR
+T32	Diagnostic_tool 714 725	UWF imaging
+T31	Diagnostic_tool 1761 1785	nonmydriatic UWF imaging
+T34	Disease 1075 1078	DME
+T33	Diagnostic_tool 1755 1759	NMFP
+T36	Disease 1051 1073	diabetic macular edema
+T35	Symptom 1897 1915	peripheral lesions
+T38	Disease 1124 1127	DME
+T37	Disease 1864 1866	DR
+T39	Disease 1117 1119	DR
+T41	Diagnostic_tool 1183 1187	NMFP
+T40	Disease 1939 1941	DR
+T43	Disease 2042 2044	DR
+T42	Diagnostic_tool 1157 1168	UWF imaging
+T45	Anatomy 1532 1536	eyes
+T44	Disease 1189 1191	DR
+T47	Diagnostic_tool 2017 2031	imaging method
+T49	Anatomy 587 591	eyes
+T48	Anatomy 535 539	eyes
+T1	Disease 1302 1314	referable DR
+T2	Diagnostic_tool 1382 1393	UWF imaging
+T3	Anatomy 1279 1283	eyes
+T4	Disease 1348 1351	DME
+T5	Disease 1224 1227	DME
+T6	Disease 1316 1344	moderate nonproliferative DR
+T7	Diagnostic_tool 621 632	UWF imaging
+T8	Disease 1296 1298	DR
+T9	Anatomy 1819 1823	eyes
+T50	Diagnostic_tool 924 938	retinal images
+T10	Characteristic 848 861	Alaska Native
+T12	Anatomy 1652 1656	eyes
+T11	Diagnostic_tool 70 93	Ultrawide Field Imaging
+T14	Characteristic 828 843	American Indian
+T13	Anatomy 1485 1489	eyes
+T16	Disease 1495 1497	DR
+T15	Diagnostic_tool 1510 1521	UWF imaging
+T18	Disease 147 167	diabetic retinopathy
+T17	Disease 18 38	Diabetic Retinopathy
+T19	Disease 169 171	DR
+R21	Diagnosed_with Arg1:T6 Arg2:T2
+R20	Is_a Arg1:T4 Arg2:T1
+R23	Has_symptom Arg1:T29 Arg2:T26
+R25	Is_a Arg1:T31 Arg2:T15
+R24	Diagnosed_with Arg1:T16 Arg2:T15
+R27	Diagnosed_with Arg1:T17 Arg2:T11
+R26	Diagnosed_with Arg1:T40 Arg2:T31
+R29	Diagnosed_with Arg1:T18 Arg2:T20
+R28	Alias Arg1:T18 Arg2:T19
+R1	Alias Arg1:T22 Arg2:T21
+R2	Alias Arg1:T32 Arg2:T20
+R3	Alias Arg1:T34 Arg2:T36
+R4	Alias Arg1:T47 Arg2:T31
+R5	Diagnosed_with Arg1:T43 Arg2:T47
+R6	Diagnosed_with Arg1:T37 Arg2:T31
+R7	Diagnosed_with Arg1:T28 Arg2:T33
+R8	Has_symptom Arg1:T40 Arg2:T35
+R9	Diagnosed_with Arg1:T40 Arg2:T47
+R30	Diagnosed_with Arg1:T19 Arg2:T20
+R10	Diagnosed_with Arg1:T8 Arg2:T2
+R32	Is_a Arg1:T25 Arg2:T24
+R31	Diagnosed_with Arg1:T18 Arg2:T22
+R12	Diagnosed_with Arg1:T39 Arg2:T42
+R34	Is_a Arg1:T32 Arg2:T24
+R11	Diagnosed_with Arg1:T1 Arg2:T2
+R33	Diagnosed_with Arg1:T19 Arg2:T22
+R14	Alias Arg1:T7 Arg2:T11
+R36	Diagnosed_with Arg1:T19 Arg2:T21
+R13	Diagnosed_with Arg1:T38 Arg2:T42
+R35	Diagnosed_with Arg1:T18 Arg2:T21
+R16	Diagnosed_with Arg1:T38 Arg2:T41
+R15	Diagnosed_with Arg1:T39 Arg2:T41
+R18	Is_a Arg1:T1 Arg2:T8
+R17	Is_a Arg1:T6 Arg2:T1
+R19	Diagnosed_with Arg1:T4 Arg2:T2

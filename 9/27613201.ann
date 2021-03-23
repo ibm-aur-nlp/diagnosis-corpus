@@ -1,0 +1,74 @@
+T61	Characteristic 1214 1252	number of microaneurysms in each layer
+T60	Diagnostic_tool 1258 1264	SD OCT
+T21	Symptom 2147 2155	DCP loss
+T20	Anatomy 1812 1815	OPL
+T23	Diagnostic_tool 1291 1295	OCTA
+T22	Symptom 2178 2192	OPL disruption
+T66	Characteristic 1074 1099	central retinal thickness
+T25	Anatomy 1338 1342	eyes
+T24	Anatomy 1328 1332	eyes
+T68	Symptom 1692 1707	larger FAZ area
+T27	Diagnostic_tool 0 40	Optical Coherence Tomography Angiography
+T26	Disease 1334 1337	DME
+T29	Anatomy 151 181	superficial capillary plexuses
+T28	Disease 44 47	DME
+T71	Anatomy 552 556	eyes
+T30	Anatomy 183 187	SCPs
+T32	Anatomy 218 222	DCPs
+T31	Anatomy 193 216	deep capillary plexuses
+T34	Diagnostic_tool 278 282	OCTA
+T33	Diagnostic_tool 230 276	optical coherence tomography (OCT) angiography
+T36	Anatomy 1537 1540	SCP
+T35	Disease 325 328	DME
+T38	Characteristic 1144 1160	vascular density
+T37	Disease 301 323	diabetic macular edema
+T39	Disease 479 482	DME
+T41	Characteristic 536 539	age
+T40	Characteristic 1165 1197	foveal avascular zone (FAZ) area
+T43	Disease 548 551	DME
+T42	Characteristic 925 950	central retinal thickness
+T45	Diagnostic_tool 1882 1886	OCTA
+T49	Symptom 1435 1454	more microaneurysms
+T48	Characteristic 1349 1371	lower vascular density
+T1	Anatomy 623 627	eyes
+T2	Diagnostic_tool 1820 1826	SD OCT
+T3	Anatomy 483 487	eyes
+T4	Diagnostic_tool 700 704	OCTA
+T5	Disease 636 639	DME
+T6	Anatomy 1875 1878	DCP
+T7	Diagnostic_tool 730 736	SD OCT
+T8	Anatomy 1906 1910	eyes
+T9	Diagnostic_tool 709 728	spectral-domain OCT
+T50	Anatomy 2127 2131	eyes
+T10	Disease 1902 1905	DME
+T12	Anatomy 848 851	eye
+T11	Anatomy 813 816	SCP
+T55	Disease 1320 1327	non-DME
+T14	Anatomy 2031 2034	SCP
+T58	Symptom 1641 1671	more microaneurysms in the DCP
+T13	Anatomy 821 824	DCP
+T57	Characteristic 1390 1430	larger FAZ area (P  <  0.001) in the DCP
+T16	Diagnostic_tool 2068 2074	SD OCT
+T15	Anatomy 2014 2017	DCP
+T59	Diagnostic_tool 794 798	OCTA
+T18	Disease 2123 2126	DME
+T17	Symptom 2050 2064	OPL disruption
+T19	Symptom 2111 2119	DCP loss
+R2	Alias Arg1:T7 Arg2:T9
+R3	Diagnosed_with Arg1:T37 Arg2:T34
+R4	Diagnosed_with Arg1:T37 Arg2:T33
+R6	Diagnosed_with Arg1:T17 Arg2:T16
+R7	Diagnosed_with Arg1:T35 Arg2:T34
+R8	Diagnosed_with Arg1:T35 Arg2:T33
+R10	Has_risk_factor Arg1:T26 Arg2:T48
+R12	Alias Arg1:T30 Arg2:T29
+R23	Has_risk_factor Arg1:T43 Arg2:T41
+R11	Has_symptom Arg1:T26 Arg2:T49
+R22	Has_symptom Arg1:T18 Arg2:T19
+R13	Has_risk_factor Arg1:T26 Arg2:T57
+R16	Alias Arg1:T32 Arg2:T31
+R15	Alias Arg1:T35 Arg2:T37
+R17	Alias Arg1:T34 Arg2:T27
+R1	Alias Arg1:T34 Arg2:T33
+T44	Symptom 1755 1810	disrupted synaptic portion of the outer plexiform layer
+R5	Diagnosed_with Arg1:T44 Arg2:T2	

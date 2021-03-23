@@ -1,0 +1,74 @@
+T61	Symptom 1741 1785	progression of glaucomatous optic neuropathy
+T60	Symptom 1517 1527	VF defects
+T21	Characteristic 1267 1270	IOP
+T20	Characteristic 1275 1278	CDR
+T23	Anatomy 1316 1320	eyes
+T22	Anatomy 1337 1341	eyes
+T25	Symptom 1350 1360	hemorrhage
+T24	Symptom 1380 1406	unilateral disc hemorrhage
+T27	Symptom 19 34	disc hemorrhage
+T26	Characteristic 1435 1438	CDR
+T29	Symptom 105 120	disc hemorrhage
+T28	Disease 38 68	primary angle-closure glaucoma
+T30	Disease 156 160	PACG
+T32	Disease 222 230	glaucoma
+T31	Disease 124 154	primary angle-closure glaucoma
+T34	Symptom 266 281	disc hemorrhage
+T33	Disease 244 248	PACG
+T36	Anatomy 1483 1487	eyes
+T35	Diagnostic_tool 283 301	Goldmann tonometry
+T38	Diagnostic_tool 303 313	gonioscopy
+T37	Symptom 1496 1511	disc hemorrhage
+T39	Symptom 1555 1570	disc hemorrhage
+T41	Diagnostic_tool 315 329	ophthalmoscopy
+T40	Diagnostic_tool 335 354	automated perimetry
+T43	Characteristic 455 458	IOP
+T42	Characteristic 433 453	intraocular pressure
+T45	Characteristic 483 486	CDR
+T44	Characteristic 464 481	cup-to-disc ratio
+T47	Anatomy 491 495	eyes
+T46	Disease 684 688	PACG
+T48	Symptom 704 719	disc hemorrhage
+T1	Anatomy 869 873	eyes
+T2	Symptom 801 822	bilateral hemorrhages
+T3	Disease 1622 1626	PACG
+T4	Symptom 1589 1604	disc hemorrhage
+T5	Disease 1716 1720	PACG
+T6	Symptom 1697 1712	disc hemorrhage
+T7	Symptom 1790 1800	VF defects
+T8	Anatomy 512 516	eyes
+T9	Symptom 525 535	hemorrhage
+T50	Characteristic 356 417	Location, number of episodes, and duration of disc hemorrhage
+T52	Anatomy 1462 1466	eyes
+T51	Anatomy 1032 1100	inferotemporal and 19 (17%) in the superotemporal sector of the disc
+T10	Characteristic 575 578	VFs
+T54	Anatomy 1545 1549	eyes
+T12	Symptom 901 912	hemorrhages
+T11	Characteristic 560 573	visual fields
+T55	Anatomy 1199 1203	disc
+T14	Symptom 954 975	recurrent hemorrhages
+T13	Characteristic 552 555	CDR
+T57	Anatomy 919 923	eyes
+T16	Symptom 994 1005	hemorrhages
+T15	Anatomy 938 942	eyes
+T18	Symptom 1229 1240	hemorrhages
+T17	Anatomy 1111 1115	eyes
+T19	Symptom 1121 1147	recurrent disc hemorrhages
+R2	Has_symptom Arg1:T31 Arg2:T29
+R3	Is_a Arg1:T33 Arg2:T32
+R4	Has_symptom Arg1:T33 Arg2:T34
+R5	Alias Arg1:T43 Arg2:T42
+R6	Alias Arg1:T45 Arg2:T44
+R7	Has_symptom Arg1:T46 Arg2:T48
+R8	Has_symptom Arg1:T46 Arg2:T2
+R10	Has_symptom Arg1:T5 Arg2:T6
+R12	Alias Arg1:T10 Arg2:T11
+R11	Causes Arg1:T6 Arg2:T7
+R14	Has_symptom Arg1:T28 Arg2:T27
+R13	Has_symptom Arg1:T3 Arg2:T4
+R16	Causes Arg1:T6 Arg2:T61
+R15	Causes Arg1:T39 Arg2:T60
+R18	Has_symptom Arg1:T5 Arg2:T7
+R17	Has_symptom Arg1:T30 Arg2:T29
+R19	Has_symptom Arg1:T5 Arg2:T61
+R1	Alias Arg1:T30 Arg2:T31

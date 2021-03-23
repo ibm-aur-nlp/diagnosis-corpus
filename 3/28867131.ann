@@ -1,0 +1,53 @@
+T61	Characteristic 1169 1191	extracellular proteins
+T60	Characteristic 1115 1152	collagen IV basement membrane markers
+T21	Anatomy 1649 1675	posterior hyaloid membrane
+T20	Diagnostic_tool 1677 1702	Phase-contrast microscopy
+T23	Diagnostic_tool 2063 2088	phase-contrast microscopy
+T22	Disease 770 803	vitreoretinal interface disorders
+T25	Diagnostic_tool 1889 1912	slit-lamp biomicroscopy
+T24	Anatomy 2433 2458	posterior hyaloid surface
+T27	Diagnostic_tool 1961 1999	Immunofluorescent confocal micrographs
+T26	Anatomy 940 955	Vitreous bodies
+T29	Anatomy 2218 2233	retinal surface
+T28	Anatomy 1846 1872	posterior hyaloid membrane
+T30	Symptom 1930 1959	posterior vitreous detachment
+T32	Anatomy 1355 1381	internal limiting membrane
+T31	Anatomy 2017 2048	enveloping membranous structure
+T34	Anatomy 648 688	internal limiting membrane of the retina
+T33	Symptom 0 29	Posterior Vitreous Detachment
+T36	Symptom 459 488	posterior vitreous detachment
+T35	Symptom 75 104	posterior vitreous detachment
+T37	Symptom 1515 1544	posterior vitreous detachment
+T39	Symptom 2517 2546	posterior vitreous detachment
+T41	Symptom 975 1004	posterior vitreous detachment
+T40	Symptom 732 765	rhegmatogenous retinal detachment
+T43	Anatomy 2184 2210	internal limiting membrane
+T42	Anatomy 2609 2635	internal limiting membrane
+T45	Diagnostic_tool 2142 2160	Immunofluorescence
+T46	Anatomy 2400 2417	basement membrane
+T1	Anatomy 2645 2653	vitreous
+T2	Diagnostic_tool 1024 1049	phase-contrast microscopy
+T3	Anatomy 1214 1236	vitreoretinal junction
+T4	Diagnostic_tool 1054 1073	confocal microscopy
+T5	Anatomy 1251 1258	laminin
+T6	Anatomy 1238 1249	fibronectin
+T7	Anatomy 1278 1285	opticin
+T8	Anatomy 1264 1276	vitreous gel
+T9	Anatomy 1300 1316	posterior retina
+T10	Anatomy 38 64	Posterior Hyaloid Membrane
+T12	Anatomy 329 355	posterior hyaloid membrane
+T11	Characteristic 166 182	aging population
+T14	Anatomy 499 516	basement membrane
+T13	Anatomy 426 452	posterior vitreous surface
+T16	Anatomy 589 597	vitreous
+T15	Anatomy 1442 1468	posterior hyaloid membrane
+T18	Diagnostic_tool 1485 1508	slit-lamp biomicroscopy
+T17	Anatomy 2363 2389	posterior hyaloid membrane
+T19	Symptom 1729 1815	creased and distinct glassy membranous sheet enveloping the posterior vitreous surface
+R2	Diagnosed_with Arg1:T19 Arg2:T20
+R3	Has_risk_factor Arg1:T35 Arg2:T11
+R4	Diagnosed_with Arg1:T41 Arg2:T2
+R8	Is_a Arg1:T6 Arg2:T3
+R9	Is_a Arg1:T7 Arg2:T8
+R11	Is_a Arg1:T5 Arg2:T3
+R1	Diagnosed_with Arg1:T41 Arg2:T4

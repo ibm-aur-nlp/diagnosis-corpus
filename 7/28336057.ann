@@ -1,0 +1,106 @@
+T61	Characteristic 740 759	ETDRS fields 2 to 7
+T63	Characteristic 936 948	ETDRS fields
+T62	Characteristic 810 831	UWF peripheral fields
+T21	Symptom 1250 1254	H/Ma
+T65	Anatomy 2166 2170	eyes
+T20	Symptom 1165 1170	H/Mas
+T64	Characteristic 1674 1684	fields 2-7
+T23	Disease 1069 1078	mild NPDR
+T67	Characteristic 2054 2072	ETDRS photo fields
+T22	Disease 1008 1010	DR
+T66	Characteristic 2074 2095	UWF peripheral fields
+T25	Diagnostic_tool 1578 1590	ETDRS photos
+T24	Disease 1054 1056	DR
+T68	Characteristic 2213 2230	peripheral fields
+T27	Diagnostic_tool 1660 1672	ETDRS photos
+T26	Disease 1095 1108	moderate NPDR
+T29	Diagnostic_tool 1730 1742	ETDRS photos
+T28	Symptom 1527 1531	H/Ma
+T30	Symptom 1702 1707	H/Mas
+T32	Diagnostic_tool 1962 1974	ETDRS photos
+T31	Diagnostic_tool 1191 1201	UWF images
+T34	Symptom 2035 2039	H/Ma
+T33	Symptom 1805 1810	H/Mas
+T36	Diagnostic_tool 1645 1655	UWF images
+T35	Diagnostic_tool 1541 1551	UWF images
+T38	Characteristic 0 50	Hemorrhage and/or Microaneurysm Severity and Count
+T37	Diagnostic_tool 1592 1595	UWF
+T39	Diagnostic_tool 54 76	Ultrawide Field Images
+T41	Symptom 196 200	H/Ma
+T40	Symptom 163 194	hemorrhage and/or microaneurysm
+T43	Diagnostic_tool 81 135	Early Treatment Diabetic Retinopathy Study Photography
+T42	Diagnostic_tool 208 245	ultrawide field (UWF) retinal imaging
+T45	Diagnostic_tool 1755 1765	UWF images
+T44	Diagnostic_tool 1890 1900	UWF images
+T47	Diagnostic_tool 1947 1957	UWF images
+T46	Diagnostic_tool 272 342	Early Treatment Diabetic Retinopathy Study (ETDRS) 7-field photographs
+T49	Diagnostic_tool 392 402	UWF images
+T48	Diagnostic_tool 407 419	ETDRS photos
+T1	Symptom 2149 2153	H/Ma
+T2	Symptom 2118 2122	H/Ma
+T3	Symptom 2267 2271	H/Ma
+T4	Symptom 2314 2318	H/Ma
+T5	Symptom 797 802	H/Mas
+T6	Symptom 2276 2294	peripheral lesions
+T7	Diagnostic_tool 768 780	ETDRS photos
+T8	Disease 2382 2384	DR
+T9	Diagnostic_tool 978 990	ETDRS photos
+T50	Symptom 1990 1994	H/Ma
+T52	Disease 472 492	diabetic retinopathy
+T51	Disease 494 496	DR
+T10	Diagnostic_tool 785 795	UWF images
+T54	Disease 501 537	mild or moderate nonproliferative DR
+T53	Disease 539 543	NPDR
+T12	Diagnostic_tool 1023 1035	ETDRS photos
+T56	Diagnostic_tool 546 574	Stereoscopic 200° UWF images
+T11	Diagnostic_tool 2325 2335	UWF images
+T55	Diagnostic_tool 579 626	stereoscopic 35mm 30° 7-field color photographs
+T14	Symptom 912 916	H/Ma
+T13	Disease 2447 2449	DR
+T57	Symptom 718 723	H/Mas
+T16	Diagnostic_tool 963 973	UWF images
+T15	Anatomy 444 448	eyes
+T18	Diagnostic_tool 344 356	ETDRS photos
+T17	Diagnostic_tool 1174 1186	ETDRS photos
+T19	Symptom 712 716	H/Ma
+R41	Is_a Arg1:T23 Arg2:T24
+R40	Has_symptom Arg1:T13 Arg2:T4
+R21	Diagnosed_with Arg1:T30 Arg2:T29
+R43	Diagnosed_with Arg1:T34 Arg2:T47
+R20	Diagnosed_with Arg1:T30 Arg2:T45
+R42	Diagnosed_with Arg1:T28 Arg2:T37
+R23	Is_a Arg1:T54 Arg2:T51
+R22	Diagnosed_with Arg1:T33 Arg2:T44
+R44	Diagnosed_with Arg1:T34 Arg2:T32
+R25	Diagnosed_with Arg1:T4 Arg2:T11
+R27	Diagnosed_with Arg1:T40 Arg2:T46
+R29	Diagnosed_with Arg1:T41 Arg2:T46
+R28	Diagnosed_with Arg1:T40 Arg2:T42
+R1	Diagnosed_with Arg1:T41 Arg2:T18
+R2	Diagnosed_with Arg1:T57 Arg2:T10
+R3	Diagnosed_with Arg1:T57 Arg2:T7
+R4	Diagnosed_with Arg1:T14 Arg2:T9
+R5	Diagnosed_with Arg1:T14 Arg2:T16
+R6	Diagnosed_with Arg1:T20 Arg2:T17
+R7	Diagnosed_with Arg1:T22 Arg2:T12
+R8	Diagnosed_with Arg1:T28 Arg2:T35
+R9	Diagnosed_with Arg1:T20 Arg2:T31
+R30	Diagnosed_with Arg1:T40 Arg2:T18
+R10	Diagnosed_with Arg1:T8 Arg2:T11
+R32	Alias Arg1:T18 Arg2:T43
+R31	Alias Arg1:T18 Arg2:T46
+R12	Alias Arg1:T41 Arg2:T40
+R34	Is_a Arg1:T26 Arg2:T24
+R11	Diagnosed_with Arg1:T13 Arg2:T11
+R33	Alias Arg1:T53 Arg2:T54
+R14	Diagnosed_with Arg1:T50 Arg2:T47
+R36	Diagnosed_with Arg1:T24 Arg2:T12
+R13	Diagnosed_with Arg1:T41 Arg2:T42
+R35	Is_a Arg1:T37 Arg2:T35
+R38	Has_symptom Arg1:T8 Arg2:T4
+R15	Diagnosed_with Arg1:T50 Arg2:T32
+R37	Has_symptom Arg1:T8 Arg2:T3
+R18	Diagnosed_with Arg1:T28 Arg2:T25
+R17	Is_a Arg1:T42 Arg2:T39
+R39	Has_symptom Arg1:T13 Arg2:T3
+R19	Alias Arg1:T51 Arg2:T52

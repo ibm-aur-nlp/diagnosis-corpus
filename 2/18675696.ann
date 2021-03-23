@@ -1,0 +1,64 @@
+T61	Characteristic 651 664	OCT variables
+T63	Characteristic 737 760	OCT measurement changes
+T21	Characteristic 1673 1691	macular thickening
+T20	Anatomy 1718 1722	eyes
+T23	Disease 547 550	DME
+T22	Characteristic 1841 1872	Central subfield mean thickness
+T25	Characteristic 1109 1131	Center point thickness
+T24	Anatomy 1914 1928	central macula
+T27	Anatomy 2014 2028	central macula
+T26	Characteristic 2030 2050	Total macular volume
+T29	Characteristic 1155 1186	central subfield mean thickness
+T28	Characteristic 1188 1192	CSMT
+T30	Anatomy 2077 2091	central macula
+T32	Anatomy 507 514	macular
+T31	Characteristic 915 951	absolute change in retinal thickness
+T34	Disease 455 475	Diabetic Retinopathy
+T33	Characteristic 872 899	change in macular thickness
+T36	Characteristic 1300 1336	absolute change in retinal thickness
+T39	Characteristic 1580 1608	relative change in thickness
+T41	Characteristic 1613 1642	relative change in thickening
+T43	Characteristic 1791 1839	absolute or relative change in retinal thickness
+T42	Disease 604 607	DME
+T48	Characteristic 1073 1086	OCT variables
+T1	Characteristic 2212 2235	mild macular thickening
+T2	Characteristic 2111 2147	Absolute change in retinal thickness
+T3	Characteristic 995 1032	relative change in retinal thickening
+T4	Characteristic 2290 2308	retinal thickening
+T5	Characteristic 953 989	relative change in retinal thickness
+T6	Anatomy 2202 2206	eyes
+T7	Characteristic 1251 1255	CSMT
+T8	Characteristic 1341 1377	relative change in retinal thickness
+T9	Characteristic 2237 2266	Relative change in thickening
+T50	Symptom 1430 1446	Macular thinning
+T51	Characteristic 1391 1428	relative change in retinal thickening
+T10	Characteristic 1520 1556	absolute change in retinal thickness
+T53	Characteristic 296 309	OCT variables
+T12	Disease 106 128	diabetic macular edema
+T56	Characteristic 1890 1905	OCT measurement
+T11	Diagnostic_tool 0 28	Optical coherence tomography
+T14	Diagnostic_tool 143 171	optical coherence tomography
+T58	Characteristic 785 808	OCT measurement changes
+T13	Diagnostic_tool 66 94	optical coherence tomography
+T16	Diagnostic_tool 218 221	OCT
+T15	Diagnostic_tool 173 176	OCT
+T18	Disease 265 268	DME
+T17	Disease 241 263	diabetic macular edema
+T19	Disease 373 376	DME
+R2	Alias Arg1:T39 Arg2:T8
+R3	Alias Arg1:T18 Arg2:T17
+R4	Diagnosed_with Arg1:T17 Arg2:T16
+R6	Diagnosed_with Arg1:T18 Arg2:T16
+R7	Alias Arg1:T9 Arg2:T8
+R8	Alias Arg1:T28 Arg2:T29
+R9	Is_a Arg1:T31 Arg2:T33
+R10	Is_a Arg1:T5 Arg2:T33
+R12	Diagnosed_with Arg1:T12 Arg2:T13
+R11	Is_a Arg1:T3 Arg2:T33
+R13	Diagnosed_with Arg1:T18 Arg2:T14
+R16	Associated_with Arg1:T25 Arg2:T29
+R15	Is_a Arg1:T22 Arg2:T56
+R18	Diagnosed_with Arg1:T17 Arg2:T15
+R17	Diagnosed_with Arg1:T17 Arg2:T14
+R19	Diagnosed_with Arg1:T18 Arg2:T15
+R1	Alias Arg1:T15 Arg2:T14

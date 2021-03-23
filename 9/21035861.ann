@@ -1,0 +1,40 @@
+T21	Diagnostic_tool 270 336	spectral domain optical coherence tomography (SD-OCT) fundus image
+T20	Symptom 2308 2331	loss of visual function
+T23	Disease 478 481	AMD
+T22	Symptom 200 202	GA
+T25	Diagnostic_tool 550 563	Cirrus SD-OCT
+T24	Symptom 462 464	GA
+T26	Diagnostic_tool 82 126	spectral domain optical coherence tomography
+T28	Anatomy 927 931	eyes
+T1	Symptom 611 613	GA
+T2	Diagnostic_tool 511 524	Macular scans
+T3	Symptom 761 763	GA
+T4	Diagnostic_tool 632 652	SD-OCT fundus images
+T5	Symptom 1387 1389	GA
+T6	Symptom 903 905	GA
+T7	Symptom 1986 1988	GA
+T8	Symptom 1496 1498	GA
+T9	Symptom 15 33	geographic atrophy
+T10	Disease 37 69	age-related macular degeneration
+T12	Disease 255 258	AMD
+T11	Disease 221 253	age-related macular degeneration
+T14	Symptom 953 955	GA
+T13	Anatomy 399 403	eyes
+T16	Symptom 2052 2054	GA
+T15	Diagnostic_tool 1994 2013	SD-OCT fundus image
+T18	Symptom 2219 2276	loss of photoreceptors and the retinal pigment epithelium
+T17	Symptom 2201 2203	GA
+T19	Symptom 180 198	geographic atrophy
+R2	Causes Arg1:T18 Arg2:T20
+R3	Alias Arg1:T22 Arg2:T19
+R4	Has_symptom Arg1:T10 Arg2:T9
+R5	Diagnosed_with Arg1:T9 Arg2:T26
+R6	Has_symptom Arg1:T11 Arg2:T19
+R7	Has_symptom Arg1:T11 Arg2:T22
+R8	Has_symptom Arg1:T12 Arg2:T22
+R9	Diagnosed_with Arg1:T19 Arg2:T21
+R10	Has_symptom Arg1:T12 Arg2:T19
+R12	Has_symptom Arg1:T23 Arg2:T24
+R11	Diagnosed_with Arg1:T1 Arg2:T4
+R13	Alias Arg1:T12 Arg2:T11
+R1	Diagnosed_with Arg1:T16 Arg2:T15

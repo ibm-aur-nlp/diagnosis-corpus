@@ -1,0 +1,18 @@
+
+
+
+Ten-year incidence and progression of age-related maculopathy: the blue Mountains Eye Study
+
+Purpose: To assess the 10-year incidence of age-related maculopathy (ARM) in an older Australian cohort.
+
+Design: Population-based cohort study.
+
+Participants: Three thousand six hundred fifty-four Blue Mountains Eye Study participants > or =49 years old were examined during 1992 through 1994; 2335 (75% of survivors) were reexamined after 5 years (1997-1999) and 1952 (76% of survivors) after 10 years (2002-2004).
+
+Methods: The same graders performed retinal photographic grading in all examinations, using the Wisconsin Age-Related Maculopathy Grading System. Photographs of participants with ARM lesions at any of the examinations were subsequently regraded using a side-by-side comparison method.
+
+Main outcome measures: The diagnosis of incident late ARM was given if neovascular ARM or geographic atrophy was detected at either follow-up examination in persons free of these lesions at baseline. Incident early ARM was diagnosed if early ARM (soft indistinct or reticular drusen or combined soft distinct drusen and retinal pigment abnormality) was present in persons free of early and late ARM at baseline. Age-related maculopathy incidence was calculated using Kaplan-Meier methods to incorporate information from both 5- and 10-year examinations. Discrete logistic models were used to assess the risk of incident late ARM according to various baseline factors, including early ARM lesion characteristics.
+
+Results: After excluding 72 late ARM cases present at baseline, 2395 of 3582 subjects at risk of late ARM (67%) were reexamined at either follow-up time point or both follow-up time points. Over the 10-year period, 72 of 2395 subjects (3.7%) developed late ARM and 266 of 2255 subjects (14.1%) developed early ARM. After age standardization to the Beaver Dam Eye Study population, our 10-year incidences of late and early ARM were 2.8% and 10.8%, respectively. Baseline age and early ARM lesion characteristics and severity were strong predictors of late ARM incidence.
+
+Conclusions: Long-term follow-up of this older population confirms that the risk of ARM progression is related strongly to the severity of early-stage lesions. The study provides evidence-based criteria for identifying persons at high risk of developing late ARM.

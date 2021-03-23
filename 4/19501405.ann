@@ -1,0 +1,47 @@
+T21	Characteristic 568 585	Retinal thickness
+T23	Disease 624 626	ME
+T45	Characteristic 942 964	center point thickness
+T22	Characteristic 605 609	BCVA
+T44	Characteristic 485 489	BCVA
+T25	Symptom 1665 1677	inflammation
+T47	Characteristic 966 969	CPT
+T46	Characteristic 972 988	central subfield
+T26	Symptom 521 547	central subfield thickness
+T48	Characteristic 990 993	CSF
+T1	Anatomy 292 296	Eyes
+T2	Symptom 587 599	inflammation
+T3	Disease 13 41	postvitrectomy macular edema
+T4	Diagnostic_tool 48 76	optical coherence tomography
+T5	Disease 166 194	postvitrectomy macular edema
+T6	Disease 196 198	ME
+T7	Anatomy 244 248	eyes
+T8	Diagnostic_tool 382 410	optical coherence tomography
+T9	Disease 492 505	Macular edema
+T30	Characteristic 721 734	visual acuity
+T10	Dimension 549 566	>  or =272 microm
+T32	Characteristic 1186 1216	Intraoperative epinephrine use
+T31	Characteristic 1000 1020	total macular volume
+T12	Symptom 1145 1162	retinal thickness
+T11	Disease 1430 1447	Postvitrectomy ME
+T33	Characteristic 1261 1273	inflammation
+T14	Disease 1555 1557	ME
+T36	Symptom 336 348	inflammation
+T13	Diagnostic_tool 630 658	optical coherence tomography
+T16	Symptom 1108 1134	postoperative inflammation
+T15	Anatomy 1286 1290	Eyes
+T37	Characteristic 358 375	retinal thickness
+T18	Characteristic 1325 1328	CPT
+T17	Symptom 1496 1522	postoperative inflammation
+T39	Characteristic 455 483	best-corrected visual acuity
+T19	Characteristic 1317 1320	CSF
+R2	Is_a Arg1:T5 Arg2:T6
+R5	Diagnosed_with Arg1:T3 Arg2:T4
+R7	Diagnosed_with Arg1:T36 Arg2:T8
+R9	Alias Arg1:T47 Arg2:T45
+R10	Alias Arg1:T48 Arg2:T46
+R12	Causes Arg1:T17 Arg2:T14
+R11	Alias Arg1:T44 Arg2:T39
+R14	Has_risk_factor Arg1:T33 Arg2:T32
+R16	Alias Arg1:T6 Arg2:T9
+R15	Is_a Arg1:T11 Arg2:T14
+R1	Has_dimension Arg1:T26 Arg2:T10

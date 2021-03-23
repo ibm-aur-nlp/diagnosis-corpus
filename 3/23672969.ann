@@ -1,0 +1,49 @@
+T41	Characteristic 1548 1565	maximal ROP stage
+T21	Symptom 996 1041	Persistence of 1 or more inner retinal layers
+T20	Characteristic 1859 1876	premature infants
+T42	Characteristic 1664 1673	ROP stage
+T23	Characteristic 32 39	infants
+T22	Anatomy 947 952	fovea
+T25	Characteristic 408 415	infants
+T24	Characteristic 370 395	prematurely born neonates
+T27	Characteristic 176 194	premature patients
+T26	Anatomy 979 993	retinal layers
+T29	Disease 1231 1252	Cystoid macular edema
+T28	Diagnostic_tool 1775 1789	SD-OCT imaging
+T1	Disease 1328 1349	Cystoid macular edema
+T2	Symptom 1131 1147	persistent layer
+T3	Anatomy 12 19	macular
+T4	Characteristic 1516 1533	premature infants
+T5	Symptom 1827 1855	subclinical macular findings
+T6	Characteristic 1594 1611	premature infants
+T7	Disease 1579 1582	CME
+T8	Disease 53 79	retinopathy of prematurity
+T9	Diagnostic_tool 85 129	spectral-domain optical coherence tomography
+T10	Disease 206 232	retinopathy of prematurity
+T12	Diagnostic_tool 264 308	spectral-domain optical coherence tomography
+T11	Disease 234 237	ROP
+T14	Diagnostic_tool 445 451	SD-OCT
+T13	Diagnostic_tool 310 316	SD-OCT
+T35	Symptom 1477 1512	persistence of inner retinal layers
+T16	Disease 675 696	cystoid macular edema
+T38	Characteristic 1184 1193	ROP stage
+T15	Characteristic 477 495	nonsedated infants
+T37	Symptom 722 742	inner retinal layers
+T18	Disease 698 701	CME
+T17	Disease 1622 1625	CME
+T39	Characteristic 1404 1413	ROP stage
+T19	Disease 1728 1731	CME
+R2	Diagnosed_with Arg1:T5 Arg2:T28
+R3	Diagnosed_with Arg1:T8 Arg2:T9
+R4	Alias Arg1:T11 Arg2:T10
+R5	Alias Arg1:T13 Arg2:T12
+R6	Diagnosed_with Arg1:T10 Arg2:T12
+R7	Alias Arg1:T18 Arg2:T16
+R8	Has_risk_factor Arg1:T35 Arg2:T4
+R9	Alias Arg1:T7 Arg2:T1
+R10	Alias Arg1:T11 Arg2:T8
+R12	Has_risk_factor Arg1:T17 Arg2:T6
+R11	Diagnosed_with Arg1:T11 Arg2:T12
+R13	No_Has_risk_factor Arg1:T17 Arg2:T42
+R1	Has_risk_factor Arg1:T7 Arg2:T6
+T33	Anatomy 769 783	foveal retinal

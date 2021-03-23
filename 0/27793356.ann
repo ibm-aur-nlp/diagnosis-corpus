@@ -1,0 +1,108 @@
+T63	Characteristic 996 1009	drusen volume
+T62	Diagnostic_tool 2285 2313	Optical coherence tomography
+T21	Anatomy 1263 1266	eye
+T65	Characteristic 1040 1060	preatrophic features
+T20	Symptom 1031 1033	GA
+T64	Anatomy 1092 1099	macular
+T23	Anatomy 2257 2261	eyes
+T67	Symptom 1202 1205	ODS
+T22	Symptom 2234 2236	GA
+T66	Symptom 1247 1250	ODS
+T25	Symptom 1318 1346	choroidal neovascularization
+T24	Symptom 2249 2252	CNV
+T68	Symptom 1268 1293	Preatrophy SD OCT changes
+T27	Symptom 1302 1312	central GA
+T26	Disease 2267 2283	intermediate AMD
+T29	Symptom 1348 1351	CNV
+T28	Symptom 2437 2439	GA
+T30	Disease 2393 2396	AMD
+T32	Diagnostic_tool 1358 1375	color photographs
+T31	Anatomy 802 805	eye
+T34	Disease 470 502	age-related macular degeneration
+T78	Symptom 29 60	Reflective Drusen Substructures
+T33	Diagnostic_tool 784 790	SD OCT
+T77	Diagnostic_tool 0 28	Optical Coherence Tomography
+T35	Disease 504 507	AMD
+T37	Anatomy 675 678	Eye
+T81	Symptom 396 427	reflective drusen substructures
+T80	Diagnostic_tool 367 395	optical coherence tomography
+T82	Symptom 429 432	ODS
+T85	Diagnostic_tool 2105 2133	Optical coherence tomography
+T87	Symptom 852 855	ODS
+T42	Symptom 1405 1408	ODS
+T45	Symptom 1488 1500	split drusen
+T44	Symptom 1468 1482	conical debris
+T88	Symptom 906 909	ODS
+T47	Symptom 1445 1466	high reflective cores
+T46	Symptom 1423 1443	low reflective cores
+T49	Symptom 1596 1599	ODS
+T48	Symptom 1587 1590	ODS
+T1	Anatomy 1554 1558	eyes
+T2	Diagnostic_tool 714 758	spectral-domain optical coherence tomography
+T3	Disease 924 927	AMD
+T4	Diagnostic_tool 967 984	color photographs
+T5	Diagnostic_tool 956 962	SD OCT
+T6	Symptom 1298 1300	GA
+T7	Disease 530 533	AMD
+T8	Symptom 1713 1732	preatrophic changes
+T9	Symptom 1811 1830	preatrophic changes
+T50	Symptom 1645 1659	macular drusen
+T52	Symptom 2134 2165	reflective drusen substructures
+T51	Symptom 1892 1895	ODS
+T10	Symptom 1784 1794	macular GA
+T12	Symptom 1883 1886	CNV
+T56	Symptom 191 197	drusen
+T11	Symptom 1963 1981	preatrophy changes
+T55	Symptom 2314 2345	reflective drusen substructures
+T14	Diagnostic_tool 2170 2198	optical coherence tomography
+T13	Symptom 2033 2051	preatrophy changes
+T57	Symptom 331 337	drusen
+T16	Disease 106 138	Age-related Macular Degeneration
+T15	Symptom 84 102	Geographic Atrophy
+T18	Diagnostic_tool 760 766	SD OCT
+T17	Disease 608 624	intermediate AMD
+T19	Symptom 1011 1029	geographic atrophy
+R61	Diagnosed_with Arg1:T28 Arg2:T62
+R60	Diagnosed_with Arg1:T30 Arg2:T62
+R20	Causes Arg1:T49 Arg2:T8
+R23	Causes Arg1:T49 Arg2:T10
+R22	Causes Arg1:T49 Arg2:T9
+R25	Causes Arg1:T51 Arg2:T13
+R24	Alias Arg1:T20 Arg2:T19
+R27	Causes Arg1:T51 Arg2:T11
+R26	Diagnosed_with Arg1:T19 Arg2:T4
+R29	Causes Arg1:T52 Arg2:T22
+R28	Diagnosed_with Arg1:T19 Arg2:T5
+R1	Is_a Arg1:T47 Arg2:T42
+R2	Is_a Arg1:T46 Arg2:T42
+R3	Is_a Arg1:T45 Arg2:T42
+R4	Is_a Arg1:T44 Arg2:T42
+R9	Causes Arg1:T49 Arg2:T50
+R30	Diagnosed_with Arg1:T20 Arg2:T4
+R32	Diagnosed_with Arg1:T29 Arg2:T32
+R31	Diagnosed_with Arg1:T52 Arg2:T14
+R34	Diagnosed_with Arg1:T20 Arg2:T5
+R33	No_Causes Arg1:T52 Arg2:T24
+R36	Diagnosed_with Arg1:T27 Arg2:T32
+R35	Has_symptom Arg1:T26 Arg2:T52
+R37	Diagnosed_with Arg1:T25 Arg2:T32
+R39	Diagnosed_with Arg1:T6 Arg2:T32
+R40	Diagnosed_with Arg1:T68 Arg2:T32
+R47	Diagnosed_with Arg1:T22 Arg2:T14
+R49	Diagnosed_with Arg1:T15 Arg2:T77
+R48	Is_a Arg1:T17 Arg2:T7
+R50	Is_a Arg1:T15 Arg2:T16
+R52	Is_a Arg1:T81 Arg2:T82
+R10	No_Causes Arg1:T49 Arg2:T12
+R54	Diagnosed_with Arg1:T34 Arg2:T80
+R56	Is_a Arg1:T2 Arg2:T80
+R11	Alias Arg1:T29 Arg2:T25
+R55	Diagnosed_with Arg1:T35 Arg2:T80
+R14	Alias Arg1:T35 Arg2:T34
+R13	Has_symptom Arg1:T16 Arg2:T15
+R18	Diagnosed_with Arg1:T17 Arg2:T2
+R17	Alias Arg1:T18 Arg2:T2
+R19	Alias Arg1:T17 Arg2:T18
+R5	Has_symptom Arg1:T34 Arg2:T81	
+R6	Has_symptom Arg1:T34 Arg2:T82	
+R7	Has_symptom Arg1:T3 Arg2:T88	

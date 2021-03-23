@@ -1,0 +1,65 @@
+T21	Classification_system 516 521	ETDRS
+T20	Classification_system 472 514	Early Treatment Diabetic Retinopathy Study
+T23	Disease 693 727	type 1 or type 2 diabetes mellitus
+T22	Diagnostic_tool 529 587	standard field 35-mm stereoscopic color fundus photographs
+T25	Classification_system 70 112	Early Treatment Diabetic Retinopathy Study
+T24	Diagnostic_tool 1946 1956	JVN images
+T27	Diagnostic_tool 831 904	Nonsimultaneous 45 degrees -field stereoscopic digital-video color images
+T26	Anatomy 1883 1886	eye
+T29	Disease 809 829	diabetic retinopathy
+T28	Classification_system 2039 2044	ETDRS
+T30	Diagnostic_tool 1965 1977	ETDRS photos
+T32	Diagnostic_tool 982 985	JVN
+T31	Anatomy 1001 1006	pupil
+T34	Diagnostic_tool 959 980	Joslin Vision Network
+T33	Diagnostic_tool 906 916	JVN images
+T36	Classification_system 1043 1048	ETDRS
+T35	Disease 2157 2177	diabetic retinopathy
+T38	Diagnostic_tool 1055 1124	standard field 35-mm stereoscopic color 30 degrees fundus photographs
+T37	Anatomy 1027 1032	pupil
+T39	Diagnostic_tool 1126 1138	ETDRS photos
+T41	Diagnostic_tool 1155 1183	Joslin Vision Network images
+T40	Diagnostic_tool 2228 2251	nonmydriatic JVN images
+T43	Diagnostic_tool 1766 1786	dilated ETDRS photos
+T45	Diagnostic_tool 1737 1757	undilated JVN images
+T44	Diagnostic_tool 2550 2553	JVN
+T49	Diagnostic_tool 2093 2096	JVN
+T1	Anatomy 682 686	eyes
+T2	Diagnostic_tool 2256 2281	dilated ETDRS photographs
+T3	Classification_system 1286 1291	ETDRS
+T4	Diagnostic_tool 1188 1200	ETDRS photos
+T5	Disease 2398 2418	diabetic retinopathy
+T6	Classification_system 1455 1460	ETDRS
+T7	Anatomy 2767 2770	eye
+T8	Disease 1310 1330	diabetic retinopathy
+T9	Anatomy 2662 2665	eye
+T10	Disease 1541 1561	diabetic retinopathy
+T12	Disease 1698 1718	diabetic retinopathy
+T11	Disease 1479 1499	diabetic retinopathy
+T14	Diagnostic_tool 2052 2082	Undilated digital-video images
+T13	Disease 2627 2635	diabetic
+T16	Diagnostic_tool 119 159	standard field 35-mm stereo color photos
+T15	Diagnostic_tool 0 55	Stereo nonmydriatic digital-video color retinal imaging
+T18	Disease 264 284	diabetic retinopathy
+T17	Disease 185 205	diabetic retinopathy
+T19	Diagnostic_tool 394 454	stereoscopic nonmydriatic digital-video color retinal images
+R2	Diagnosed_with Arg1:T17 Arg2:T15
+R3	Diagnosed_with Arg1:T17 Arg2:T25
+R4	Diagnosed_with Arg1:T18 Arg2:T20
+R5	Diagnosed_with Arg1:T18 Arg2:T21
+R6	Diagnosed_with Arg1:T8 Arg2:T3
+R7	Diagnosed_with Arg1:T11 Arg2:T6
+R8	Diagnosed_with Arg1:T12 Arg2:T45
+R9	Diagnosed_with Arg1:T35 Arg2:T14
+R10	Diagnosed_with Arg1:T12 Arg2:T43
+R21	Diagnosed_with Arg1:T35 Arg2:T49
+R12	Diagnosed_with Arg1:T5 Arg2:T2
+R11	Is_a Arg1:T5 Arg2:T40
+R22	Diagnosed_with Arg1:T5 Arg2:T40
+R14	Diagnosed_with Arg1:T8 Arg2:T4
+R13	Diagnosed_with Arg1:T8 Arg2:T41
+R16	Alias Arg1:T21 Arg2:T20
+R15	Alias Arg1:T32 Arg2:T34
+R18	Diagnosed_with Arg1:T18 Arg2:T22
+R17	Diagnosed_with Arg1:T17 Arg2:T16
+R1	Diagnosed_with Arg1:T18 Arg2:T19

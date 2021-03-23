@@ -1,0 +1,12 @@
+
+
+
+The risk and natural course of age-related maculopathy: follow-up at 6 1/2 years in the Rotterdam study
+
+Objectives: To evaluate the natural course of age-related maculopathy (ARM) and to assess the incidence and absolute risk of its final stage, age-related macular degeneration (AMD).
+
+Methods: In a population-based prospective cohort study of 6418 persons 55 years and older, we studied the incidence and natural course of ARM. Subjects underwent identical examinations, including stereoscopic fundus photography, at baseline and at 2.0 and 6(1/2) years' follow-up. Age-related maculopathy was graded according to the International Classification and Grading System for ARM and AMD, and stratified into 5 exclusive stages. Incidence was expressed in rates and 5-year absolute risks.
+
+Results: At follow-up, 47 new cases of AMD were identified, with a ratio of neovascular-atrophic AMD of 1.4:1. The 5-year risk of AMD increased with more severe stages to 28.0% for subjects 55 years and older with indistinct drusen and pigmentary irregularities (stage 3). Age, but not sex, independently increased this risk to a maximum of 42.0% for subjects with stage 3 ARM who were 80 years and older. Individual ARM fundus signs that predicted best the development of AMD were 10 or more large drusen (> or =125 microm) and 10% or more of the grid area covered by drusen. Subjects who developed atrophic AMD showed no significant (P =.25) differences in baseline fundus signs and natural course compared with subjects who developed neovascular AMD.
+
+Conclusions: We provided the absolute risk of AMD as a function of age and early ARM fundus signs, and showed that both are prominent independent risk factors. The progression of ARM stages follows, after the appearance of the first soft drusen, a distinct course at a gradual pace that accelerates with increasing age.

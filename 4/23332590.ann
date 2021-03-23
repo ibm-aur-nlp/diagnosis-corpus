@@ -1,0 +1,55 @@
+T21	Anatomy 2293 2296	eye
+T20	Symptom 1246 1270	pigmentary abnormalities
+T23	Disease 2211 2219	late AMD
+T22	Symptom 1236 1242	drusen
+T25	Disease 1312 1315	AMD
+T24	Symptom 1330 1342	small drusen
+T27	Dimension 1345 1352	< 63 μm
+T26	Symptom 1367 1376	drupelets
+T29	Disease 1407 1419	normal aging
+T28	Disease 1474 1482	late AMD
+T1	Dimension 1523 1537	≥ 63- < 125 μm
+T2	Symptom 1660 1672	large drusen
+T3	Disease 1636 1645	early AMD
+T4	Symptom 1681 1744	pigmentary abnormalities associated with at least medium drusen
+T5	Symptom 1805 1844	lesions associated with neovascular AMD
+T6	Disease 1774 1790	intermediate AMD
+T7	Disease 1896 1904	late AMD
+T8	Symptom 1848 1866	geographic atrophy
+T9	Disease 27 59	age-related macular degeneration
+T30	Symptom 1508 1521	medium drusen
+T10	Disease 110 142	age-related macular degeneration
+T12	Disease 224 227	AMD
+T34	Anatomy 1036 1072	within 2 disc diameters of the fovea
+T11	Disease 144 147	AMD
+T33	Disease 2035 2047	normal aging
+T14	Symptom 840 851	AMD lesions
+T13	Disease 392 395	AMD
+T35	Disease 1602 1605	AMD
+T16	Characteristic 1084 1103	older than 55 years
+T15	Symptom 1012 1026	fundus lesions
+T37	Symptom 1552 1576	pigmentary abnormalities
+T18	Disease 1146 1178	age-related macular degeneration
+T17	Disease 1940 1948	late AMD
+T19	Disease 2086 2102	intermediate AMD
+R2	Causes Arg1:T25 Arg2:T22
+R3	Has_symptom Arg1:T6 Arg2:T4
+R4	Has_symptom Arg1:T3 Arg2:T30
+R5	Causes Arg1:T19 Arg2:T17
+R6	Has_symptom Arg1:T7 Arg2:T5
+R7	Has_dimension Arg1:T24 Arg2:T27
+R8	Has_symptom Arg1:T7 Arg2:T8
+R9	Has_dimension Arg1:T30 Arg2:T1
+R10	Alias Arg1:T11 Arg2:T10
+R21	Is_a Arg1:T3 Arg2:T35
+R20	Has_symptom Arg1:T29 Arg2:T26
+R11	Has_symptom Arg1:T25 Arg2:T20
+R22	Has_dimension Arg1:T26 Arg2:T27
+R14	Has_symptom Arg1:T25 Arg2:T22
+R13	Alias Arg1:T11 Arg2:T9
+R16	No_Has_symptom Arg1:T28 Arg2:T24
+R15	Is_a Arg1:T26 Arg2:T24
+R18	No_Has_symptom Arg1:T3 Arg2:T37
+R17	No_Has_symptom Arg1:T28 Arg2:T26
+R19	Has_symptom Arg1:T29 Arg2:T24
+R1	Has_symptom Arg1:T6 Arg2:T2

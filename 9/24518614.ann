@@ -1,0 +1,28 @@
+T21	Characteristic 1876 1896	duration of diabetes
+T20	Characteristic 2411 2437	uncontrolled blood glucose
+T22	Anatomy 1068 1071	eye
+T25	Characteristic 1792 1819	Lower hemoglobin A1c levels
+T29	Anatomy 33 36	eye
+T28	Disease 24 32	diabetic
+T1	Classification_system 85 117	Annual Diabetic Eye Exams Survey
+T2	Anatomy 177 180	eye
+T3	Classification_system 220 252	Annual Diabetic Eye Exams Survey
+T4	Classification_system 254 260	CADEES
+T5	Disease 329 349	diabetic retinopathy
+T6	Anatomy 2467 2470	eye
+T7	Anatomy 1668 1671	eye
+T8	Disease 440 448	diabetes
+T9	Anatomy 731 734	eye
+T10	Classification_system 467 473	CADEES
+T12	Classification_system 1977 1983	CADEES
+T11	Classification_system 1136 1142	CADEES
+T14	Anatomy 1226 1229	eye
+T13	Anatomy 1510 1513	eye
+T16	Anatomy 1617 1620	eye
+T15	Classification_system 2117 2123	CADEES
+T18	Disease 1727 1747	diabetic eye disease
+T17	Anatomy 361 364	eye
+R2	Alias Arg1:T4 Arg2:T3
+R3	Diagnosed_with Arg1:T5 Arg2:T4
+R1	Diagnosed_with Arg1:T5 Arg2:T3
+T30	Characteristic 428 434	adults

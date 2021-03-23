@@ -1,0 +1,54 @@
+T63	Characteristic 452 467	normal subjects
+T21	Anatomy 1538 1559	inferotemporal sector
+T20	Characteristic 1573 1596	stereometric parameters
+T23	Disease 475 483	glaucoma
+T22	Disease 1774 1788	early-glaucoma
+T66	Symptom 525 555	repeatable visual field defect
+T25	Characteristic 634 657	stereometric parameters
+T24	Diagnostic_tool 597 601	HRT3
+T27	Disease 763 771	glaucoma
+T26	Diagnostic_tool 2072 2121	Heidelberg Retinal Tomograph 3 sectorial analysis
+T29	Characteristic 691 694	MRA
+T28	Disease 1958 1966	glaucoma
+T30	Characteristic 659 689	Moorfields regression analysis
+T32	Characteristic 701 727	glaucoma probability score
+T31	Anatomy 2313 2331	inferonasal sector
+T34	Anatomy 2402 2423	inferotemporal sector
+T35	Characteristic 969 1020	cup-to-disc area ratio of the inferotemporal sector
+T40	Characteristic 782 797	optic disc size
+T49	Characteristic 1715 1730	optic disc size
+T1	Characteristic 729 732	GPS
+T2	Diagnostic_tool 2452 2477	classification algorithms
+T3	Characteristic 1059 1062	MRA
+T4	Characteristic 1202 1205	MRA
+T5	Characteristic 1067 1070	GPS
+T6	Anatomy 1125 1146	inferotemporal sector
+T7	Characteristic 1226 1229	GPS
+T8	Diagnostic_tool 1324 1362	global optic nerve head (ONH) analysis
+T9	Diagnostic_tool 1261 1283	sectorial MRA analysis
+T50	Characteristic 1742 1757	MRA sensitivity
+T52	Characteristic 1873 1896	GPS diagnostic accuracy
+T51	Anatomy 1924 1935	ONH sectors
+T10	Disease 84 92	glaucoma
+T54	Characteristic 2253 2264	Small discs
+T53	Characteristic 1944 1953	disc size
+T12	Diagnostic_tool 182 212	Heidelberg Retinal Tomograph 3
+T56	Characteristic 2341 2353	larger discs
+T11	Diagnostic_tool 31 61	Heidelberg Retinal Tomograph 3
+T14	Disease 256 268	glaucomatous
+T13	Diagnostic_tool 214 218	HRT3
+T57	Characteristic 2433 2447	HRT parameters
+T16	Characteristic 319 328	disc size
+T15	Anatomy 269 273	eyes
+T18	Anatomy 1413 1431	inferonasal sector
+T17	Disease 333 341	glaucoma
+T19	Anatomy 438 442	eyes
+R2	Diagnosed_with Arg1:T14 Arg2:T12
+R3	Diagnosed_with Arg1:T14 Arg2:T13
+R4	Alias Arg1:T29 Arg2:T30
+R5	Alias Arg1:T1 Arg2:T32
+R6	Diagnosed_with Arg1:T10 Arg2:T11
+R8	Has_symptom Arg1:T23 Arg2:T66
+R9	Alias Arg1:T13 Arg2:T12
+R1	Alias Arg1:T12 Arg2:T13
+T36	Characteristic 940 963	stereometric parameters

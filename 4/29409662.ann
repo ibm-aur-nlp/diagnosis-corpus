@@ -1,0 +1,22 @@
+T4	Diagnostic_tool 947 951	iOCT
+T5	Diagnostic_tool 1004 1008	iOCT
+T6	Diagnostic_tool 1173 1177	iOCT
+T7	Diagnostic_tool 1241 1250	OCT image
+T8	Diagnostic_tool 1209 1213	iOCT
+T9	Diagnostic_tool 1462 1480	Intraoperative OCT
+T10	Diagnostic_tool 1284 1288	iOCT
+T21	Anatomy 1359 1363	eyes
+T20	Diagnostic_tool 458 523	Intraoperative Spectral-Domain Microscope Combined/Integrated OCT
+T12	Anatomy 1547 1551	eyes
+T11	Diagnostic_tool 1696 1700	iOCT
+T14	Diagnostic_tool 1836 1840	iOCT
+T13	Diagnostic_tool 1959 1963	iOCT
+T16	Diagnostic_tool 2199 2203	iOCT
+T15	Diagnostic_tool 65 105	Microscope-Integrated Intraoperative OCT
+T18	Diagnostic_tool 241 245	iOCT
+T17	Diagnostic_tool 199 239	microscope-integrated intraoperative OCT
+T1	Diagnostic_tool 377 381	iOCT
+T2	Diagnostic_tool 825 829	iOCT
+T3	Diagnostic_tool 860 886	microscope-integrated iOCT
+R2	Is_a Arg1:T17 Arg2:T18
+R1	Alias Arg1:T3 Arg2:T17

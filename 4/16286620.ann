@@ -1,0 +1,42 @@
+T1	Classification_system 68 73	AREDS
+T2	Disease 34 66	age-related macular degeneration
+T3	Disease 183 224	advanced age-related macular degeneration
+T4	Disease 226 229	AMD
+R1	Is_a Arg1:T3 Arg2:T4	
+T5	Anatomy 299 303	eyes
+T6	Diagnostic_tool 325 343	fundus photographs
+T7	Classification_system 351 380	Age-Related Eye Disease Study
+R2	Alias Arg1:T1 Arg2:T7	
+T8	Disease 406 418	advanced AMD
+T9	Symptom 512 533	retinal abnormalities
+T10	Symptom 535 541	drusen
+T11	Symptom 546 567	pigment abnormalities
+R4	Is_a Arg1:T10 Arg2:T9	
+R5	Is_a Arg1:T11 Arg2:T9	
+T12	Symptom 569 581	Large drusen
+T13	Symptom 590 605	pigment changes
+T14	Disease 649 661	advanced AMD
+R6	Has_symptom Arg1:T14 Arg2:T13	
+R7	Has_symptom Arg1:T14 Arg2:T12	
+T15	Anatomy 731 734	eye
+T16	Symptom 769 849	1 or more large (> or = 125 microm, width of a large vein at disc margin) drusen
+T17	Symptom 892 911	pigment abnormality
+T18	Disease 1036 1048	advanced AMD
+T19	Anatomy 1065 1068	eye
+T20	Disease 1396 1408	advanced AMD
+T21	Diagnostic_tool 1477 1500	photographic procedures
+T22	Classification_system 1518 1547	Age-Related Eye Disease Study
+T23	Symptom 1218 1230	large drusen
+T24	Symptom 1244 1263	intermediate drusen
+T25	Anatomy 1272 1276	eyes
+T26	Anatomy 485 488	eye
+R3	Alias Arg1:T3 Arg2:T8	
+T27	Anatomy 949 953	eyes
+R8	Diagnosed_with Arg1:T20 Arg2:T21	
+R9	Diagnosed_with Arg1:T8 Arg2:T6	
+R10	Has_symptom Arg1:T8 Arg2:T9	
+R11	Has_symptom Arg1:T8 Arg2:T10	
+R12	Has_symptom Arg1:T8 Arg2:T11	
+R13	Diagnosed_with Arg1:T9 Arg2:T6	
+R14	Diagnosed_with Arg1:T10 Arg2:T6	
+R15	Diagnosed_with Arg1:T11 Arg2:T6	

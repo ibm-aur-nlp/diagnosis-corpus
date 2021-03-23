@@ -1,0 +1,96 @@
+T21	Disease 371 374	DME
+T20	Disease 472 508	clinically significant macular edema
+T23	Diagnostic_tool 518 524	SD-OCT
+T22	Diagnostic_tool 529 552	fluorescein angiography
+T66	Characteristic 1278 1296	lower reflectivity
+T25	Diagnostic_tool 554 556	FA
+T24	Diagnostic_tool 590 613	Fluorescein angiography
+T68	Symptom 1515 1534	fluorescein pooling
+T26	Characteristic 1008 1058	reflectivity characteristics of the cystoid spaces
+T29	Symptom 907 926	fluorescein pooling
+T28	Diagnostic_tool 940 949	FA images
+T71	Characteristic 1649 1685	higher or heterogeneous reflectivity
+T30	Symptom 1244 1263	fluorescein pooling
+T32	Diagnostic_tool 1062 1075	SD-OCT images
+T31	Symptom 1177 1196	fluorescein pooling
+T75	Characteristic 1821 1847	heterogeneous reflectivity
+T34	Symptom 1625 1644	fluorescein pooling
+T33	Anatomy 1114 1118	eyes
+T36	Characteristic 1957 1987	reflectivity levels in the SRD
+T35	Diagnostic_tool 1138 1148	OCT images
+T79	Diagnostic_tool 45 74	optical coherence tomographic
+T38	Symptom 1540 1582	hyperreflective foci in the cystoid spaces
+T37	Diagnostic_tool 1300 1310	OCT images
+T39	Diagnostic_tool 1449 1459	OCT images
+T80	Characteristic 75 105	reflectivity of cystoid spaces
+T41	Diagnostic_tool 1851 1861	OCT images
+T40	Diagnostic_tool 1689 1699	OCT images
+T84	Characteristic 2077 2103	heterogeneous reflectivity
+T43	Symptom 2166 2185	fluorescein pooling
+T42	Symptom 1772 1806	cystoid spaces with microaneurysms
+T45	Symptom 2328 2357	concomitant edematous changes
+T44	Anatomy 2062 2065	eye
+T47	Symptom 21 40	fluorescein pooling
+T46	Diagnostic_tool 2107 2117	OCT images
+T49	Symptom 323 343	fluorescein findings
+T1	Diagnostic_tool 718 732	Spectralis OCT
+T2	Symptom 816 819	SRD
+T3	Symptom 1092 1106	cystoid spaces
+T4	Symptom 1209 1223	cystoid spaces
+T5	Symptom 1427 1441	cystoid spaces
+T6	Symptom 1897 1911	microaneurysms
+T7	Symptom 2035 2049	cystoid spaces
+T8	Symptom 2213 2227	cystoid spaces
+T9	Diagnostic_tool 2190 2193	OCT
+T50	Characteristic 777 811	reflectivity of the cystoid spaces
+T52	Symptom 980 999	fluorescein pooling
+T10	Characteristic 170 204	reflectivity of the cystoid spaces
+T53	Diagnostic_tool 701 711	OCT images
+T12	Symptom 209 234	serous retinal detachment
+T11	Disease 109 131	diabetic macular edema
+T55	Diagnostic_tool 827 837	OCT images
+T14	Diagnostic_tool 244 288	spectral-domain optical coherence tomography
+T13	Symptom 236 239	SRD
+T16	Disease 2239 2242	DME
+T15	Symptom 2232 2235	SRD
+T18	Diagnostic_tool 620 650	Heidelberg Retina Angiograph 2
+T17	Diagnostic_tool 290 296	SD-OCT
+T19	Disease 347 369	diabetic macular edema
+R21	Diagnosed_with Arg1:T8 Arg2:T9
+R20	Diagnosed_with Arg1:T4 Arg2:T37
+R23	Diagnosed_with Arg1:T34 Arg2:T40
+R22	Diagnosed_with Arg1:T38 Arg2:T40
+R25	Diagnosed_with Arg1:T6 Arg2:T41
+R24	Diagnosed_with Arg1:T15 Arg2:T9
+R27	Has_symptom Arg1:T16 Arg2:T15
+R26	Diagnosed_with Arg1:T42 Arg2:T41
+R29	Has_symptom Arg1:T16 Arg2:T8
+R28	Has_symptom Arg1:T16 Arg2:T45
+R1	Alias Arg1:T17 Arg2:T14
+R2	Has_symptom Arg1:T11 Arg2:T47
+R3	Has_symptom Arg1:T19 Arg2:T49
+R4	Alias Arg1:T21 Arg2:T19
+R5	Diagnosed_with Arg1:T13 Arg2:T14
+R6	Has_symptom Arg1:T21 Arg2:T49
+R7	Diagnosed_with Arg1:T12 Arg2:T17
+R8	Diagnosed_with Arg1:T12 Arg2:T14
+R9	Alias Arg1:T25 Arg2:T22
+R30	Diagnosed_with Arg1:T3 Arg2:T35
+R31	Alias Arg1:T13 Arg2:T12
+R39	Diagnosed_with Arg1:T16 Arg2:T9
+R41	Has_symptom Arg1:T11 Arg2:T80
+R42	Has_risk_factor Arg1:T11 Arg2:T79
+R45	Diagnosed_with Arg1:T20 Arg2:T23
+R46	Diagnosed_with Arg1:T19 Arg2:T14
+R48	Diagnosed_with Arg1:T20 Arg2:T22
+R52	Diagnosed_with Arg1:T2 Arg2:T55
+R10	Diagnosed_with Arg1:T13 Arg2:T17
+R12	Diagnosed_with Arg1:T31 Arg2:T35
+R11	Diagnosed_with Arg1:T52 Arg2:T32
+R16	Diagnosed_with Arg1:T2 Arg2:T28
+R15	Diagnosed_with Arg1:T2 Arg2:T29
+R18	Diagnosed_with Arg1:T7 Arg2:T46
+R17	Diagnosed_with Arg1:T5 Arg2:T39
+R19	Diagnosed_with Arg1:T43 Arg2:T9
+R13	Diagnosed_with Arg1:T30 Arg2:T37	
+T27	Anatomy 2289 2310	blood-retinal barrier

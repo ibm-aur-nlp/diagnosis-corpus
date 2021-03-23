@@ -1,0 +1,54 @@
+T21	Disease 100 127	primary open-angle glaucoma
+T20	Characteristic 775 801	pattern standard deviation
+T23	Disease 244 248	POAG
+T22	Disease 215 242	primary open-angle glaucoma
+T25	Characteristic 953 956	IOP
+T24	Characteristic 803 806	PSD
+T27	Characteristic 974 977	CCT
+T26	Characteristic 1061 1064	IOP
+T29	Characteristic 1339 1342	IOP
+T28	Disease 448 452	POAG
+T30	Characteristic 375 378	CCT
+T32	Characteristic 1478 1481	IOP
+T31	Characteristic 1078 1081	CCT
+T34	Characteristic 535 538	CCT
+T33	Characteristic 1356 1359	CCT
+T36	Characteristic 518 521	IOP
+T35	Characteristic 1554 1557	IOP
+T38	Characteristic 592 595	IOP
+T37	Characteristic 1486 1489	CCT
+T39	Characteristic 1580 1583	CCT
+T41	Symptom 1851 1870	ocular hypertensive
+T40	Characteristic 721 724	age
+T45	Characteristic 1167 1170	CCT
+T47	Characteristic 35 60	central corneal thickness
+T46	Characteristic 10 30	intraocular pressure
+T49	Characteristic 317 337	intraocular pressure
+T1	Characteristic 1684 1687	CCT
+T2	Characteristic 1657 1660	CCT
+T3	Characteristic 731 734	CCT
+T4	Characteristic 1770 1773	CCT
+T5	Characteristic 726 729	IOP
+T6	Characteristic 1753 1756	IOP
+T7	Characteristic 764 768	VCDR
+T8	Characteristic 736 762	vertical cup-to-disc ratio
+T9	Disease 1843 1847	POAG
+T50	Characteristic 339 342	IOP
+T51	Characteristic 348 373	central corneal thickness
+T10	Characteristic 911 914	age
+T12	Disease 871 875	POAG
+T11	Characteristic 1929 1932	CCT
+T14	Characteristic 921 924	CCT
+T13	Characteristic 1921 1924	IOP
+T16	Characteristic 916 919	IOP
+T15	Characteristic 2008 2011	CCT
+T18	Characteristic 936 939	PSD
+T17	Characteristic 2000 2003	IOP
+T19	Characteristic 926 930	VCDR
+R2	Alias Arg1:T23 Arg2:T22
+R3	Alias Arg1:T7 Arg2:T8
+R4	Alias Arg1:T24 Arg2:T20
+R5	Alias Arg1:T50 Arg2:T49
+R6	Alias Arg1:T30 Arg2:T51
+R8	Has_risk_factor Arg1:T21 Arg2:T47
+T42	Symptom 267 286	ocular hypertension

@@ -1,0 +1,73 @@
+T21	Symptom 877 880	CGA
+T20	Symptom 1354 1356	GA
+T23	Symptom 953 956	CGA
+T22	Anatomy 985 989	eyes
+T25	Symptom 995 997	GA
+T24	Symptom 2113 2115	GA
+T27	Diagnostic_tool 2035 2054	deep learning model
+T28	Diagnostic_tool 128 141	deep learning
+T30	Diagnostic_tool 391 397	models
+T32	Diagnostic_tool 848 853	model
+T31	Diagnostic_tool 283 301	eep learning model
+T33	Diagnostic_tool 697 716	deep learning model
+T35	Diagnostic_tool 924 929	model
+T38	Diagnostic_tool 1436 1454	GA detection model
+T37	Anatomy 1155 1162	retinal
+T39	Diagnostic_tool 1904 1930	centrality detection model
+T41	Diagnostic_tool 1778 1797	CGA detection model
+T40	Disease 550 573	Age-Related Eye Disease
+T43	Diagnostic_tool 1259 1279	deep learning models
+T42	Anatomy 805 809	eyes
+T44	Diagnostic_tool 2 15	Deep Learning
+T49	Diagnostic_tool 2179 2192	Deep learning
+T1	Symptom 423 426	CGA
+T2	Anatomy 1318 1322	eyes
+T3	Symptom 772 774	GA
+T4	Diagnostic_tool 469 493	color fundus photographs
+T5	Diagnostic_tool 76 100	Color Fundus Photographs
+T6	Symptom 52 70	Geographic Atrophy
+T7	Symptom 162 180	geographic atrophy
+T8	Symptom 182 184	GA
+T9	Diagnostic_tool 191 215	color fundus photographs
+T50	Diagnostic_tool 348 372	color fundus photographs
+T10	Symptom 342 344	GA
+T12	Symptom 274 277	CGA
+T11	Symptom 262 272	central GA
+T14	Disease 825 837	advanced AMD
+T13	Diagnostic_tool 736 760	color fundus photographs
+T16	Disease 818 821	AMD
+T15	Symptom 1295 1298	CGA
+T18	Symptom 2249 2252	CGA
+T17	Symptom 1281 1283	GA
+T19	Anatomy 1357 1361	eyes
+R21	Diagnosed_with Arg1:T7 Arg2:T9
+R20	Diagnosed_with Arg1:T8 Arg2:T9
+R23	Is_a Arg1:T12 Arg2:T8
+R22	Is_a Arg1:T11 Arg2:T8
+R25	Is_a Arg1:T12 Arg2:T7
+R24	Is_a Arg1:T11 Arg2:T7
+R27	Diagnosed_with Arg1:T10 Arg2:T50
+R28	Diagnosed_with Arg1:T18 Arg2:T49
+R1	Alias Arg1:T12 Arg2:T11
+R2	Is_a Arg1:T16 Arg2:T40
+R3	Is_a Arg1:T14 Arg2:T16
+R5	Diagnosed_with Arg1:T7 Arg2:T28
+R6	Diagnosed_with Arg1:T8 Arg2:T28
+R7	Diagnosed_with Arg1:T10 Arg2:T31
+R8	Alias Arg1:T30 Arg2:T31
+R9	Diagnosed_with Arg1:T1 Arg2:T30
+R10	Alias Arg1:T32 Arg2:T33
+R32	Diagnosed_with Arg1:T15 Arg2:T43
+R31	Diagnosed_with Arg1:T3 Arg2:T13
+R12	Diagnosed_with Arg1:T23 Arg2:T35
+R34	Diagnosed_with Arg1:T20 Arg2:T43
+R11	Diagnosed_with Arg1:T3 Arg2:T33
+R33	Diagnosed_with Arg1:T17 Arg2:T43
+R14	Is_a Arg1:T41 Arg2:T33
+R13	Diagnosed_with Arg1:T21 Arg2:T32
+R35	Diagnosed_with Arg1:T6 Arg2:T5
+R16	Diagnosed_with Arg1:T24 Arg2:T27
+R15	Is_a Arg1:T38 Arg2:T33
+R18	Alias Arg1:T8 Arg2:T7
+R17	Is_a Arg1:T39 Arg2:T33
+R19	Diagnosed_with Arg1:T6 Arg2:T44

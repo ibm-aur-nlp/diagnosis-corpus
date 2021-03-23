@@ -1,0 +1,77 @@
+T21	Diagnostic_tool 206 212	SD OCT
+T20	Diagnostic_tool 160 204	spectral-domain optical coherence tomography
+T23	Diagnostic_tool 218 228	echography
+T22	Diagnostic_tool 992 1036	Spectral-domain optical coherence tomography
+T25	Disease 1072 1076	CMGS
+T24	Disease 1081 1086	NCMGS
+T27	Symptom 1131 1181	anatomic abnormalities of the optic nerve or orbit
+T26	Diagnostic_tool 448 474	best-correct visual acuity
+T29	Diagnostic_tool 1304 1327	echographic examination
+T28	Disease 288 291	MGS
+T30	Diagnostic_tool 500 510	echography
+T32	Diagnostic_tool 476 494	fundus photography
+T31	Diagnostic_tool 1259 1269	echography
+T34	Diagnostic_tool 547 588	high-frequency B-scan echography (20 MHz)
+T33	Diagnostic_tool 1183 1227	Spectral-domain optical coherence tomography
+T36	Diagnostic_tool 536 542	SD OCT
+T35	Symptom 1481 1568	abnormal communication between the subretinal and subarachnoid or vitreous compartments
+T38	Diagnostic_tool 1088 1111	Echographic examination
+T37	Anatomy 1280 1294	posterior pole
+T39	Disease 663 666	MGS
+T43	Diagnostic_tool 639 650	echographic
+T45	Anatomy 764 768	eyes
+T44	Diagnostic_tool 407 433	ophthalmologic examination
+T47	Anatomy 277 281	eyes
+T46	Symptom 912 990	abnormal communication between the subarachnoid space and the subretinal space
+T48	Characteristic 1371 1427	anatomic integrity of the optic nerve in the orbital wal
+T1	Symptom 1430 1448	Retinal detachment
+T2	Symptom 1594 1647	myopialike retinal detachment without a retinal break
+T3	Symptom 722 758	retinal detachment in the conus area
+T4	Diagnostic_tool 668 712	Spectral-domain optical coherence tomography
+T5	Disease 1452 1455	MGS
+T6	Disease 797 802	NCMGS
+T7	Disease 777 795	noncontractile MGS
+T8	Disease 832 836	CMGS
+T9	Symptom 1664 1712	tissue stretching around the peripapillary conus
+T10	Disease 815 830	contractile MGS
+T12	Symptom 863 876	retinal break
+T11	Anatomy 900 904	eyes
+T14	Diagnostic_tool 590 634	Spectral-domain optical coherence tomography
+T13	Disease 14 36	morning glory syndrome
+T16	Diagnostic_tool 84 94	echography
+T15	Diagnostic_tool 42 79	spectral optical coherence tomography
+T18	Disease 126 148	morning glory syndrome
+T17	Anatomy 109 113	eyes
+T19	Disease 150 153	MGS
+R21	Diagnosed_with Arg1:T19 Arg2:T20
+R20	Alias Arg1:T19 Arg2:T18
+R23	Diagnosed_with Arg1:T19 Arg2:T23
+R22	Diagnosed_with Arg1:T18 Arg2:T23
+R25	Alias Arg1:T6 Arg2:T7
+R24	Diagnosed_with Arg1:T19 Arg2:T21
+R27	No_Diagnosed_with Arg1:T27 Arg2:T38
+R26	Alias Arg1:T19 Arg2:T13
+R29	Is_a Arg1:T32 Arg2:T44
+R28	Alias Arg1:T21 Arg2:T15
+R1	Diagnosed_with Arg1:T39 Arg2:T43
+R2	Alias Arg1:T8 Arg2:T10
+R3	Has_symptom Arg1:T5 Arg2:T35
+R4	Diagnosed_with Arg1:T39 Arg2:T14
+R5	Causes Arg1:T9 Arg2:T2
+R6	Has_symptom Arg1:T5 Arg2:T1
+R7	Has_symptom Arg1:T7 Arg2:T3
+R8	Has_symptom Arg1:T6 Arg2:T3
+R9	Has_symptom Arg1:T10 Arg2:T3
+R30	Is_a Arg1:T26 Arg2:T44
+R10	Has_symptom Arg1:T8 Arg2:T3
+R32	Is_a Arg1:T30 Arg2:T44
+R31	Is_a Arg1:T35 Arg2:T1
+R12	Diagnosed_with Arg1:T13 Arg2:T16
+R11	Diagnosed_with Arg1:T13 Arg2:T15
+R14	Diagnosed_with Arg1:T18 Arg2:T21
+R13	Diagnosed_with Arg1:T18 Arg2:T20
+R16	Diagnosed_with Arg1:T6 Arg2:T4
+R15	Diagnosed_with Arg1:T7 Arg2:T4
+R18	Diagnosed_with Arg1:T10 Arg2:T4
+R17	Diagnosed_with Arg1:T8 Arg2:T4
+R19	Alias Arg1:T21 Arg2:T20

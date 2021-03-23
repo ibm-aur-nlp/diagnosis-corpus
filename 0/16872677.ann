@@ -1,0 +1,54 @@
+T60	Anatomy 1625 1639	posterior pole
+T22	Disease 70 89	Stargardt's disease
+T25	Disease 415 434	Stargardt's disease
+T69	Symptom 2105 2112	lose VA
+T24	Disease 312 331	Stargardt's disease
+T68	Characteristic 780 804	appearance of the macula
+T27	Disease 1735 1760	stage 2/stage 2-3 disease
+T26	Disease 471 490	Stargardt's disease
+T29	Disease 1837 1874	stage 2/stage 2-3 Stargardt's disease
+T28	Disease 558 577	Stargardt's disease
+T30	Disease 649 668	Stargardt's disease
+T32	Disease 755 774	Stargardt's disease
+T34	Characteristic 727 744	Best-corrected VA
+T33	Disease 2025 2044	Stargardt's disease
+T36	Disease 949 976	stage 1 Stargardt's disease
+T39	Disease 1094 1134	stage 2 or stage 2-3 Stargardt's disease
+T41	Symptom 1474 1513	20/400 or better VA in at least one eye
+T42	Symptom 1242 1261	20/200 or better VA
+T45	Symptom 1003 1022	20/200 or better VA
+T44	Symptom 1965 1992	VA levels worse than 20/400
+T46	Symptom 1892 1914	VA of 20/200 or better
+T49	Disease 1436 1453	stage 2/stage 2-3
+T1	Anatomy 1278 1281	eye
+T2	Disease 1406 1413	stage 1
+T3	Disease 1205 1212	stage 1
+T4	Symptom 1596 1609	fundus flecks
+T5	Symptom 14 32	visual acuity loss
+T6	Symptom 199 212	fundus flecks
+T7	Characteristic 436 449	Visual acuity
+T8	Characteristic 582 606	appearance of the macula
+T9	Symptom 1770 1791	diffuse fundus flecks
+T51	Symptom 1679 1701	VA at 20/200 or better
+T10	Disease 1943 1960	stage 2/stage 2-3
+T54	Symptom 257 294	visual acuity (VA) loss beyond 20/200
+T12	Symptom 2049 2070	diffuse fundus flecks
+T11	Symptom 712 725	fundus flecks
+T55	Symptom 1170 1189	20/200 VA or better
+T14	Symptom 2149 2165	localized flecks
+T13	Anatomy 1039 1042	eye
+T18	Disease 1315 1352	stage 2/stage 2-3 Stargardt's disease
+T19	Disease 1557 1584	stage 1 Stargardt's disease
+R21	Has_symptom Arg1:T3 Arg2:T42
+R23	Has_symptom Arg1:T49 Arg2:T41
+R22	Has_symptom Arg1:T2 Arg2:T41
+R26	Has_symptom Arg1:T10 Arg2:T44
+R3	Alias Arg1:T27 Arg2:T29
+R4	Has_symptom Arg1:T22 Arg2:T5
+R5	Has_symptom Arg1:T24 Arg2:T6
+R9	Has_symptom Arg1:T19 Arg2:T4
+R10	Has_symptom Arg1:T27 Arg2:T9
+R14	Has_symptom Arg1:T30 Arg2:T11
+R1	Alias Arg1:T2 Arg2:T19	
+R2	Has_symptom Arg1:T19 Arg2:T51	
+R6	Has_symptom Arg1:T29 Arg2:T46	

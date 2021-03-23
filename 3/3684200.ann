@@ -1,0 +1,45 @@
+T21	Characteristic 497 514	blue or grey eyes
+T20	Disease 464 473	Cataracts
+T28	Characteristic 291 321	younger-onset diabetic persons
+T1	Characteristic 652 672	intraocular pressure
+T2	Characteristic 620 639	older-onset persons
+T3	Characteristic 706 716	brown eyes
+T4	Characteristic 674 677	IOP
+T5	Disease 857 877	diabetic retinopathy
+T6	Characteristic 809 818	Eye color
+T7	Characteristic 19 29	iris color
+T8	Diagnostic_tool 239 286	red reflex photograph with standard photographs
+T9	Disease 35 46	eye disease
+T10	Disease 50 58	diabetes
+T32	Characteristic 892 921	younger- or older-onset group
+T12	Disease 109 120	eye disease
+T11	Characteristic 61 77	Iris (eye) color
+T33	Characteristic 982 999	older-onset group
+T14	Characteristic 187 196	Eye color
+T13	Disease 152 172	diabetic retinopathy
+T35	Characteristic 576 595	younger-onset group
+T16	Disease 966 974	glaucoma
+T15	Anatomy 229 233	iris
+T18	Characteristic 382 399	blue or grey eyes
+T17	Disease 930 962	age-related macular degeneration
+T19	Disease 333 346	macular edema
+R2	Has_risk_factor Arg1:T13 Arg2:T11
+R3	Has_risk_factor Arg1:T12 Arg2:T11
+R4	No_Has_risk_factor Arg1:T5 Arg2:T6
+R5	No_Has_risk_factor Arg1:T17 Arg2:T6
+R6	No_Has_risk_factor Arg1:T16 Arg2:T6
+R7	Alias Arg1:T4 Arg2:T1
+R8	Has_risk_factor Arg1:T19 Arg2:T18
+R9	Has_risk_factor Arg1:T19 Arg2:T28
+R10	Has_risk_factor Arg1:T1 Arg2:T2
+R12	Has_risk_factor Arg1:T4 Arg2:T3
+R11	Has_risk_factor Arg1:T20 Arg2:T21
+R14	Has_risk_factor Arg1:T1 Arg2:T3
+R13	Has_risk_factor Arg1:T4 Arg2:T2
+R16	Has_risk_factor Arg1:T10 Arg2:T7
+R15	Causes Arg1:T10 Arg2:T9
+R18	No_Has_risk_factor Arg1:T5 Arg2:T32
+R19	Is_a Arg1:T13 Arg2:T12
+R1	Has_risk_factor Arg1:T9 Arg2:T7
+T22	Dimension 757 766	17.1 mmHg
+T23	Dimension 718 727	17.8 mmHg

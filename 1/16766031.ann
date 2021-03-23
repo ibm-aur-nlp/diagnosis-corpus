@@ -1,0 +1,42 @@
+T21	Symptom 830 851	lamellar macular hole
+T20	Symptom 853 875	regressed macular hole
+T23	Symptom 879 896	macular microhole
+T22	Symptom 898 928	choroidal neovascular membrane
+T25	Symptom 930 933	CNV
+T24	Disease 940 972	age-related macular degeneration
+T27	Anatomy 612 619	retinal
+T26	Disease 996 1026	ocular histoplasmosis syndrome
+T29	Anatomy 1256 1263	retinal
+T28	Anatomy 252 259	retinal
+T1	Diagnostic_tool 1042 1049	B-scans
+T2	Symptom 978 981	CNV
+T3	Diagnostic_tool 1356 1366	OCT images
+T4	Diagnostic_tool 1054 1061	C-scans
+T5	Diagnostic_tool 1453 1459	C-scan
+T6	Diagnostic_tool 1442 1448	B-scan
+T7	Diagnostic_tool 24 80	rapid serial fourier-domain optical coherence tomography
+T8	Diagnostic_tool 85 100	macular imaging
+T9	Diagnostic_tool 145 160	retinal imaging
+T30	Anatomy 1167 1174	retinal
+T10	Diagnostic_tool 177 216	high-speed optical coherence tomography
+T12	Diagnostic_tool 1180 1222	Rapid serial Fourier-domain OCT B-scanning
+T11	Diagnostic_tool 218 221	OCT
+T14	Disease 407 426	macular pathologies
+T13	Diagnostic_tool 456 501	Fourier-domain high-speed high-resolution OCT
+T16	Anatomy 1529 1536	retinal
+T15	Disease 317 334	macular pathology
+T18	Symptom 816 828	macular hole
+T17	Diagnostic_tool 702 726	Rapid serial OCT B-scans
+T19	Diagnostic_tool 537 577	sweeping serial OCT B-scan of the macula
+R2	Has_symptom Arg1:T24 Arg2:T25
+R3	Has_symptom Arg1:T24 Arg2:T22
+R4	Has_symptom Arg1:T24 Arg2:T23
+R5	Has_symptom Arg1:T24 Arg2:T20
+R6	Has_symptom Arg1:T24 Arg2:T21
+R7	Has_symptom Arg1:T24 Arg2:T18
+R8	Is_a Arg1:T10 Arg2:T11
+R10	Is_a Arg1:T7 Arg2:T11
+R12	Alias Arg1:T22 Arg2:T25
+R11	Alias Arg1:T7 Arg2:T13
+R13	Diagnosed_with Arg1:T15 Arg2:T10
+R1	Has_symptom Arg1:T26 Arg2:T2

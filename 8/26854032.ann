@@ -1,0 +1,32 @@
+T21	Characteristic 161 181	intraocular pressure
+T22	Characteristic 183 186	IOP
+T25	Characteristic 530 542	visual field
+T28	Characteristic 24 51	24-Hour IOP-Related Profile
+T1	Diagnostic_tool 1173 1176	CLS
+T2	Disease 312 324	glaucomatous
+T3	Diagnostic_tool 1390 1393	CLS
+T4	Anatomy 1525 1529	eyes
+T5	Anatomy 1476 1480	eyes
+T6	Disease 1548 1556	glaucoma
+T7	Diagnostic_tool 59 78	Contact Lens Sensor
+T8	Disease 90 98	Glaucoma
+T9	Diagnostic_tool 224 243	contact lens sensor
+T10	Diagnostic_tool 245 248	CLS
+T32	Diagnostic_tool 423 441	visual field tests
+T31	Disease 381 393	glaucomatous
+T12	Diagnostic_tool 477 480	CLS
+T11	Anatomy 325 329	eyes
+T33	Characteristic 495 519	IOP-related measurements
+T14	Diagnostic_tool 596 599	CLS
+T36	Characteristic 268 300	rate of visual field progression
+T13	Diagnostic_tool 614 617	CLS
+T35	Characteristic 1311 1350	Intraocular pressure-related parameters
+T16	Disease 1463 1475	glaucomatous
+T15	Diagnostic_tool 835 838	CLS
+T37	Characteristic 1419 1451	rate of visual field progression
+T18	Diagnostic_tool 1237 1249	Goldmann IOP
+T17	Diagnostic_tool 1017 1020	CLS
+T19	Symptom 0 19	Visual Field Change
+R2	Alias Arg1:T10 Arg2:T9
+R9	Alias Arg1:T10 Arg2:T7
+R1	Alias Arg1:T22 Arg2:T21

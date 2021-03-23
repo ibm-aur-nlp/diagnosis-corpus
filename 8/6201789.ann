@@ -1,0 +1,22 @@
+T4	Anatomy 291 295	eyes
+T5	Characteristic 659 662	age
+T6	Symptom 27 51	bilateral macular drusen
+T7	Symptom 79 103	bilateral macular drusen
+T20	Symptom 583 597	severe drusen.
+T12	Characteristic 559 573	Older patients
+T14	Characteristic 598 620	Photostress test delay
+T13	Characteristic 644 657	visual acuity
+T16	Anatomy 107 111	eyes
+T15	Characteristic 667 685	severity of drusen
+T18	Symptom 424 447	focal hyperpigmentation
+T17	Symptom 372 378	drusen
+T1	Disease 143 164	exudative maculopathy
+T19	Symptom 490 507	drusen confluence
+T2	Symptom 229 247	Severe visual loss
+T3	Disease 255 276	exudative maculopathy
+R4	Not_Associated_with Arg1:T14 Arg2:T13
+R5	Not_Associated_with Arg1:T14 Arg2:T5
+R6	Not_Associated_with Arg1:T14 Arg2:T15
+R7	Causes Arg1:T3 Arg2:T2
+R8	Has_symptom Arg1:T1 Arg2:T7
+R1	Has_risk_factor Arg1:T20 Arg2:T12	

@@ -1,0 +1,68 @@
+T62	Disease 1421 1429	glaucoma
+T21	Characteristic 2199 2214	visual function
+T20	Disease 2096 2104	glaucoma
+T23	Diagnostic_tool 87 115	optical coherence tomography
+T22	Disease 74 82	glaucoma
+T25	Diagnostic_tool 234 237	OCT
+T24	Diagnostic_tool 204 232	optical coherence tomography
+T27	Characteristic 2405 2432	Peripapillary NFL thickness
+T26	Characteristic 2245 2272	Peripapillary NFL thickness
+T29	Characteristic 2376 2391	visual function
+T28	Disease 2531 2539	glaucoma
+T30	Characteristic 14 52	macular and peripapillary measurements
+T32	Disease 283 291	glaucoma
+T31	Characteristic 136 177	macular nerve fiber layer (NFL) thickness
+T34	Anatomy 492 496	eyes
+T33	Characteristic 355 382	peripapillary NFL thickness
+T36	Characteristic 728 787	macular NFL, total macular, and peripapillary NFL thickness
+T35	Anatomy 449 453	eyes
+T38	Disease 896 913	glaucoma suspects
+T37	Diagnostic_tool 657 668	Stratus OCT
+T39	Disease 1271 1287	glaucoma-suspect
+T40	Disease 1492 1509	glaucoma suspects
+T43	Disease 1921 1938	glaucoma suspects
+T42	Characteristic 1713 1734	mean macular thicknes
+T45	Disease 2353 2361	glaucoma
+T44	Characteristic 2220 2243	total macular thickness
+T47	Characteristic 2439 2491	total measurement of both macular and peripheral NFL
+T46	Characteristic 2301 2340	total macular and macular NFL thickness
+T49	Disease 296 313	glaucoma suspects
+T48	Symptom 181 200	glaucomatous damage
+T1	Disease 531 539	glaucoma
+T2	Anatomy 518 522	eyes
+T3	Characteristic 560 581	Macular NFL thickness
+T4	Anatomy 540 544	eyes
+T5	Characteristic 612 639	peripapillary NFL thickness
+T6	Characteristic 583 606	total macular thickness
+T7	Disease 918 926	glaucoma
+T8	Characteristic 1028 1049	visual field function
+T9	Characteristic 1230 1251	macular NFL thickness
+T50	Characteristic 327 350	total macular thickness
+T51	Disease 501 517	glaucoma-suspect
+T10	Characteristic 1537 1558	macular NFL thickness
+T12	Characteristic 1563 1586	total macular thickness
+T11	Disease 1513 1521	glaucoma
+T14	Characteristic 1815 1851	inferior peripapillary NFL thickness
+T13	Characteristic 1692 1707	visual function
+T16	Disease 1895 1903	glaucoma
+T15	Characteristic 1624 1650	mean macular NFL thickness
+T59	Characteristic 1097 1116	macular NFL profile
+T18	Characteristic 1996 2011	visual function
+T17	Characteristic 2045 2066	Macular NFL thickness
+T19	Disease 2148 2156	glaucoma
+R2	Alias Arg1:T37 Arg2:T25
+R3	Has_risk_factor Arg1:T16 Arg2:T14
+R4	Has_risk_factor Arg1:T20 Arg2:T17
+R5	Has_risk_factor Arg1:T45 Arg2:T26
+R6	Alias Arg1:T27 Arg2:T47
+R7	Has_risk_factor Arg1:T28 Arg2:T27
+R8	Has_risk_factor Arg1:T39 Arg2:T9
+R9	Alias Arg1:T25 Arg2:T24
+R13	Has_risk_factor Arg1:T62 Arg2:T9
+R15	Associated_with Arg1:T15 Arg2:T13
+R18	Associated_with Arg1:T26 Arg2:T29
+R1	Alias Arg1:T51 Arg2:T49	
+R12	Has_risk_factor Arg1:T43 Arg2:T14	
+R10	Diagnosed_with Arg1:T48 Arg2:T24	
+R14	Diagnosed_with Arg1:T48 Arg2:T25	
+T41	Anatomy 1165 1200	superonasal and inferonasal sectors

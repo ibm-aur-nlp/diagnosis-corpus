@@ -1,0 +1,62 @@
+T1	Disease 40 72	age-related macular degeneration
+T2	Disease 215 218	AMD
+T3	Disease 166 213	early and late age-related macular degeneration
+R1	Is_a Arg1:T3 Arg2:T2	
+T4	Diagnostic_tool 522 553	stereoscopic fundus photographs
+T5	Classification_system 564 612	Wisconsin Age-Related Maculopathy Grading System
+T6	Symptom 684 708	pigmentary abnormalities
+T7	Symptom 710 728	geographic atrophy
+T8	Symptom 662 668	drusen
+T9	Disease 734 747	exudative AMD
+T10	Disease 845 854	early AMD
+T11	Symptom 879 901	soft indistinct drusen
+T12	Symptom 921 945	pigmentary abnormalities
+T13	Symptom 972 978	drusen
+T14	Disease 1015 1028	exudative AMD
+T15	Symptom 1032 1050	geographic atrophy
+R2	Has_symptom Arg1:T10 Arg2:T11	
+R3	Has_symptom Arg1:T10 Arg2:T12	
+R4	Has_symptom Arg1:T10 Arg2:T13	
+T16	Disease 993 1001	late AMD
+R5	Is_a Arg1:T14 Arg2:T16	
+R6	Has_symptom Arg1:T16 Arg2:T15	
+T17	Symptom 1089 1100	AMD lesions
+T18	Characteristic 1106 1109	age
+T20	Characteristic 1265 1286	43 to 54 years of age
+T21	Symptom 1288 1301	larger drusen
+T22	Dimension 1303 1322	125 mum in diameter
+R7	Has_dimension Arg1:T21 Arg2:T22	
+T23	Symptom 1341 1363	soft indistinct drusen
+T24	Symptom 1381 1413	retinal pigmentary abnormalities
+T25	Disease 1431 1461	exudative macular degeneration
+T26	Symptom 1482 1505	pure geographic atrophy
+T29	Symptom 1724 1746	soft indistinct drusen
+T30	Symptom 1767 1791	pigmentary abnormalities
+T31	Anatomy 1809 1813	Eyes
+T32	Symptom 1819 1841	soft indistinct drusen
+T33	Symptom 1845 1869	pigmentary abnormalities
+T34	Disease 1910 1918	late AMD
+T35	Anatomy 1937 1941	eyes
+R8	Has_symptom Arg1:T34 Arg2:T33	
+R9	Has_symptom Arg1:T34 Arg2:T32	
+T36	Disease 2075 2078	AMD
+T37	Symptom 2100 2117	small hard drusen
+T38	Disease 2121 2129	late AMD
+T39	Characteristic 2133 2146	older persons
+T40	Disease 2202 2210	late AMD
+T42	Characteristic 2322 2346	United States population
+T43	Characteristic 302 323	43 to 86 years of age
+R10	Alias Arg1:T1 Arg2:T2	
+R11	Is_a Arg1:T9 Arg2:T2	
+R12	Has_risk_factor Arg1:T17 Arg2:T18	
+T19	Characteristic 1132 1154	> or = 75 years of age
+T41	Characteristic 2221 2243	> or = 75 years of age
+R13	Alias Arg1:T15 Arg2:T26	
+T44	Characteristic 1536 1539	age
+T28	Symptom 1646 1667	hard drusen (> or =8)
+T27	Symptom 1588 1611	small hard drusen (1-2)
+R14	Has_symptom Arg1:T36 Arg2:T37	
+R15	Is_a Arg1:T38 Arg2:T36	
+R16	Has_risk_factor Arg1:T38 Arg2:T39	
+R17	Has_risk_factor Arg1:T40 Arg2:T41	
+T45	Characteristic 2352 2355	age

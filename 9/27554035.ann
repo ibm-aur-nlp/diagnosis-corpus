@@ -1,0 +1,81 @@
+T60	Characteristic 21 32	Oral Health
+T21	Disease 327 331	POAG
+T20	Disease 1323 1327	POAG
+T23	Disease 439 443	POAG
+T22	Disease 1252 1271	periodontal disease
+T25	Characteristic 547 550	men
+T24	Symptom 1365 1375	tooth loss
+T27	Disease 1476 1480	POAG
+T26	Symptom 1558 1570	losing teeth
+T29	Disease 675 679	POAG
+T28	Characteristic 854 875	root canal treatments
+T30	Characteristic 646 660	aged 40+ years
+T31	Disease 1607 1626	periodontal disease
+T33	Characteristic 802 812	teeth lost
+T35	Symptom 1045 1067	visual field (VF) loss
+T39	Disease 134 144	Tooth loss
+T44	Anatomy 694 697	eye
+T47	Symptom 1389 1425	losing teeth within the past 2 years
+T46	Symptom 1725 1742	recent tooth loss
+T49	Disease 1784 1797	POAG subtypes
+T1	Disease 1677 1681	POAG
+T2	Symptom 998 1018	intraocular pressure
+T3	Disease 917 921	POAG
+T4	Symptom 1953 1978	early paracentral VF loss
+T5	Dimension 1025 1040	≥ or  < 22 mmHg
+T6	Disease 2081 2085	POAG
+T7	Symptom 1020 1023	IOP
+T8	Disease 45 72	Primary Open-Angle Glaucoma
+T9	Characteristic 76 79	Men
+T52	Symptom 2087 2104	recent tooth loss
+T51	Characteristic 2025 2048	number of natural teeth
+T10	Disease 148 167	periodontal disease
+T54	Characteristic 777 800	number of natural teeth
+T12	Disease 448 461	POAG subtypes
+T56	Symptom 814 848	periodontal disease with bone loss
+T11	Symptom 187 219	systemic endothelial dysfunction
+T55	Characteristic 1227 1250	Number of natural teeth
+T14	Disease 279 283	POAG
+T58	Disease 1883 1896	POAG subtypes
+T13	Disease 250 277	primary open-angle glaucoma
+T16	Characteristic 311 322	oral health
+T15	Disease 2146 2150	POAG
+T59	Characteristic 1277 1297	root canal treatment
+T18	Symptom 1090 1105	peripheral loss
+T17	Symptom 1114 1136	early paracentral loss
+T19	Characteristic 407 426	oral health history
+R21	Has_risk_factor Arg1:T8 Arg2:T9
+R23	Has_risk_factor Arg1:T21 Arg2:T16
+R22	Has_risk_factor Arg1:T23 Arg2:T19
+R25	Has_risk_factor Arg1:T12 Arg2:T19
+R24	Has_dimension Arg1:T2 Arg2:T5
+R26	Has_dimension Arg1:T7 Arg2:T5
+R29	Alias Arg1:T14 Arg2:T8
+R28	No_Causes Arg1:T22 Arg2:T20
+R2	No_Causes Arg1:T20 Arg2:T22
+R3	Alias Arg1:T14 Arg2:T13
+R4	Alias Arg1:T10 Arg2:T39
+R5	Has_symptom Arg1:T10 Arg2:T11
+R6	Alias Arg1:T7 Arg2:T2
+R7	Has_symptom Arg1:T3 Arg2:T35
+R8	Is_a Arg1:T18 Arg2:T35
+R9	Has_symptom Arg1:T3 Arg2:T2
+R30	No_Has_risk_factor Arg1:T20 Arg2:T59
+R10	Has_symptom Arg1:T3 Arg2:T7
+R34	No_Has_risk_factor Arg1:T20 Arg2:T55
+R11	Is_a Arg1:T17 Arg2:T35
+R33	Has_symptom Arg1:T27 Arg2:T47
+R14	Has_symptom Arg1:T3 Arg2:T17
+R36	Has_symptom Arg1:T1 Arg2:T26
+R13	Has_symptom Arg1:T3 Arg2:T18
+R35	Has_symptom Arg1:T15 Arg2:T52
+R16	Has_symptom Arg1:T14 Arg2:T11
+R15	Has_symptom Arg1:T39 Arg2:T11
+R37	Causes Arg1:T31 Arg2:T1
+R18	Has_symptom Arg1:T13 Arg2:T11
+R19	Is_a Arg1:T12 Arg2:T23
+T32	Symptom 1902 1905	IOP
+T34	Dimension 1907 1916	< 22 mmHg
+R1	Has_dimension Arg1:T32 Arg2:T34	
+R12	Has_symptom Arg1:T58 Arg2:T32	
+R17	No_Has_risk_factor Arg1:T6 Arg2:T51	

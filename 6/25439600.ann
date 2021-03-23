@@ -1,0 +1,74 @@
+T21	Characteristic 1958 1983	neurodevelopmental health
+T20	Characteristic 629 644	preterm infants
+T23	Classification_system 884 946	Bayley Scales of Infant and Toddler Development, Third Edition
+T22	Disease 1132 1135	CME
+T25	Disease 445 448	ROP
+T24	Classification_system 1443 1457	motor subscale
+T27	Disease 417 443	retinopathy of prematurity
+T26	Characteristic 1825 1890	poorer language and motor skills at 18 to 24 months corrected age
+T29	Characteristic 1507 1522	gestational age
+T28	Diagnostic_tool 543 549	SD OCT
+T30	Characteristic 1773 1788	preterm infants
+T32	Characteristic 1139 1146	infants
+T31	Disease 1553 1556	CME
+T34	Characteristic 1174 1182	children
+T33	Characteristic 1527 1539	birth weight
+T36	Disease 673 676	ROP
+T35	Disease 704 707	CME
+T38	Characteristic 709 733	central foveal thickness
+T37	Characteristic 1573 1609	foveal-to-parafoveal thickness ratio
+T39	Characteristic 817 846	18 to 24 months corrected age
+T41	Diagnostic_tool 1034 1048	SD OCT imaging
+T40	Characteristic 1106 1114	children
+T43	Symptom 0 34	Poorer neurodevelopmental outcomes
+T45	Disease 1191 1194	CME
+T46	Characteristic 1648 1722	poorer cognitive (R2=0.16, P=0.03) and motor (R2=0.15, P=0.03) development
+T1	Disease 1724 1745	Cystoid macular edema
+T2	Disease 1622 1625	CME
+T3	Characteristic 741 770	inner nuclear layer thickness
+T4	Characteristic 735 738	CFT
+T5	Diagnostic_tool 1758 1764	SD OCT
+T6	Characteristic 776 812	foveal-to-parafoveal thickness ratio
+T7	Disease 1802 1805	ROP
+T8	Classification_system 962 1009	Bayley cognitive, language, and motor subscales
+T9	Diagnostic_tool 1922 1928	SD-OCT
+T52	Diagnostic_tool 497 541	spectral-domain optical coherence tomography
+T51	Characteristic 211 231	very preterm infants
+T10	Classification_system 1362 1379	language subscale
+T53	Characteristic 1988 2008	very preterm infants
+T12	Classification_system 1283 1301	cognitive subscale
+T11	Anatomy 1910 1916	retina
+T14	Disease 51 72	cystoid macular edema
+T13	Classification_system 1077 1090	Bayley Scales
+T16	Disease 194 197	CME
+T15	Disease 171 192	cystoid macular edema
+T18	Characteristic 262 291	18 to 24 months corrected age
+T17	Characteristic 87 102	preterm infants
+T19	Characteristic 307 388	Infants born at or less than 1500 g or at or less than 30 weeks postmenstrual age
+R21	Has_risk_factor Arg1:T45 Arg2:T34
+R20	Alias Arg1:T4 Arg2:T38
+R23	Has_risk_factor Arg1:T31 Arg2:T37
+R22	Has_risk_factor Arg1:T22 Arg2:T40
+R25	Has_risk_factor Arg1:T15 Arg2:T51
+R24	Alias Arg1:T25 Arg2:T27
+R26	Alias Arg1:T28 Arg2:T52
+R29	Diagnosed_with Arg1:T36 Arg2:T52
+R1	Alias Arg1:T16 Arg2:T15
+R3	Has_risk_factor Arg1:T16 Arg2:T18
+R5	Has_risk_factor Arg1:T15 Arg2:T18
+R6	Has_risk_factor Arg1:T14 Arg2:T17
+R7	Has_symptom Arg1:T14 Arg2:T43
+R8	Has_risk_factor Arg1:T27 Arg2:T19
+R9	Has_risk_factor Arg1:T25 Arg2:T19
+R30	Diagnosed_with Arg1:T35 Arg2:T52
+R10	Diagnosed_with Arg1:T1 Arg2:T5
+R12	Diagnosed_with Arg1:T36 Arg2:T28
+R11	Has_risk_factor Arg1:T2 Arg2:T46
+R13	Has_risk_factor Arg1:T1 Arg2:T26
+R16	Has_risk_factor Arg1:T36 Arg2:T20
+R15	Has_risk_factor Arg1:T1 Arg2:T30
+R18	Has_risk_factor Arg1:T7 Arg2:T26
+R19	Alias Arg1:T13 Arg2:T23
+R2	Has_risk_factor Arg1:T16 Arg2:T51	
+T42	Characteristic 1020 1028	children
+T47	Characteristic 852 860	children

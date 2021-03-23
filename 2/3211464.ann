@@ -1,0 +1,19 @@
+T4	Diagnostic_tool 370 396	magnetic resonance imaging
+T5	Diagnostic_tool 398 401	MRI
+T6	Diagnostic_tool 474 477	MRI
+T7	Diagnostic_tool 43 69	magnetic resonance imaging
+T8	Disease 139 148	proptosis
+T12	Diagnostic_tool 258 277	computed tomography
+T14	Symptom 1 33	hronic hematic cyst of the orbit
+T13	Diagnostic_tool 279 281	CT
+T15	Symptom 85 119	Chronic hematic cysts of the orbit
+T1	Symptom 293 318	malignant orbital process
+T2	Symptom 320 333	Hematic cysts
+T3	Symptom 185 226	expansion or erosion of the orbital bones
+R3	Alias Arg1:T4 Arg2:T5
+R4	Diagnosed_with Arg1:T2 Arg2:T4
+R5	Diagnosed_with Arg1:T2 Arg2:T5
+R7	Alias Arg1:T13 Arg2:T12
+R9	Causes Arg1:T15 Arg2:T8
+R1	Diagnosed_with Arg1:T1 Arg2:T13	
+R2	Diagnosed_with Arg1:T1 Arg2:T12	

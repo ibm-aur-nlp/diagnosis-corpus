@@ -1,0 +1,62 @@
+T21	Disease 2378 2382	T2DM
+T20	Disease 342 366	type 1 diabetes mellitus
+T23	Disease 368 372	T1DM
+T22	Disease 1372 1374	DR
+T25	Characteristic 1442 1473	Retinal venular branching angle
+T24	Disease 1523 1525	DR
+T27	Disease 1645 1648	PDR
+T26	Disease 422 426	T2DM
+T29	Characteristic 1557 1593	retinal venular curvature tortuosity
+T28	Disease 396 420	type 2 diabetes mellitus
+T30	Disease 664 677	macular edema
+T32	Diagnostic_tool 894 912	fundus photographs
+T31	Disease 639 659	Diabetic retinopathy
+T34	Diagnostic_tool 706 747	30° stereoscopic color fundus photographs
+T33	Characteristic 1851 1856	RVGCs
+T36	Disease 996 998	DR
+T35	Disease 1797 1801	CSME
+T38	Disease 1873 1875	DR
+T37	Disease 977 979	DR
+T39	Disease 1017 1051	proliferative diabetic retinopathy
+T40	Diagnostic_tool 2223 2251	digitized fundus photographs
+T45	Disease 97 117	Diabetic Retinopathy
+T47	Characteristic 749 789	Retinal vessel geometric characteristics
+T46	Characteristic 2078 2141	Retinal vessel geometric characteristics of the retinal venules
+T48	Disease 1251 1259	diabetes
+T1	Characteristic 1943 1948	RVGCs
+T2	Disease 1062 1098	clinically significant macular edema
+T3	Disease 2059 2061	DR
+T4	Disease 1053 1056	PDR
+T5	Anatomy 1115 1119	eyes
+T6	Disease 2178 2180	DR
+T7	Disease 1100 1104	CSME
+T8	Disease 1170 1173	PDR
+T9	Characteristic 2203 2208	RVGCs
+T52	Disease 1130 1132	DR
+T10	Disease 2369 2373	T1DM
+T54	Characteristic 1280 1316	retinal arteriolar simple tortuosity
+T12	Disease 2323 2325	DR
+T11	Disease 1186 1190	CSME
+T14	Characteristic 2022 2045	retinal vessel diameter
+T13	Characteristic 20 60	Retinal Vessel Geometric Characteristics
+T16	Characteristic 152 192	retinal vessel geometric characteristics
+T15	Characteristic 1684 1715	retinal venular branching angle
+T18	Disease 237 257	diabetic retinopathy
+T17	Characteristic 194 199	RVGCs
+T19	Disease 259 261	DR
+R2	Alias Arg1:T23 Arg2:T20
+R5	Has_risk_factor Arg1:T24 Arg2:T25
+R6	Has_risk_factor Arg1:T27 Arg2:T29
+R7	Has_risk_factor Arg1:T35 Arg2:T15
+R8	Has_risk_factor Arg1:T6 Arg2:T46
+R9	Has_risk_factor Arg1:T3 Arg2:T14
+R10	Alias Arg1:T26 Arg2:T28
+R20	Alias Arg1:T17 Arg2:T13
+R12	Alias Arg1:T7 Arg2:T2
+R11	Alias Arg1:T19 Arg2:T18
+R14	Associated_with Arg1:T17 Arg2:T16
+R13	Alias Arg1:T4 Arg2:T39
+R15	Diagnosed_with Arg1:T31 Arg2:T34
+R17	Has_risk_factor Arg1:T22 Arg2:T54
+R19	Alias Arg1:T17 Arg2:T16
+R1	Diagnosed_with Arg1:T30 Arg2:T34

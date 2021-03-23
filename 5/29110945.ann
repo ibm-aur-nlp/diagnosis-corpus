@@ -1,0 +1,29 @@
+T4	Symptom 202 238	irreversible loss of visual function
+T5	Symptom 361 450	loss of photoreceptors, retinal pigment epithelium (RPE), and underlying choriocapillaris
+T6	Disease 240 258	Geographic atrophy
+T7	Symptom 289 344	sharply demarcated atrophic lesions of the outer retina
+T8	Disease 899 902	AMD
+T9	Symptom 1113 1122	GA lesion
+T10	Anatomy 1015 1018	eye
+T21	Symptom 957 978	GA lesion enlargement
+T12	Anatomy 537 550	foveal center
+T11	Disease 1159 1161	GA
+T14	Disease 639 641	GA
+T13	Anatomy 496 513	perifoveal macula
+T16	Disease 19 37	Geographic Atrophy
+T15	Anatomy 607 612	fovea
+T18	Disease 51 83	Age-Related Macular Degeneration
+T17	Disease 881 883	GA
+T1	Disease 106 108	GA
+T19	Disease 86 104	Geographic atrophy
+T2	Disease 133 165	age-related macular degeneration
+T3	Disease 167 170	AMD
+R2	Causes Arg1:T1 Arg2:T4
+R10	Has_symptom Arg1:T17 Arg2:T21
+R3	Has_symptom Arg1:T6 Arg2:T7
+R4	Causes Arg1:T5 Arg2:T7
+R5	Has_symptom Arg1:T6 Arg2:T5
+R7	Is_a Arg1:T16 Arg2:T18
+R8	Alias Arg1:T3 Arg2:T2
+R9	Causes Arg1:T19 Arg2:T4
+R1	Alias Arg1:T1 Arg2:T19

@@ -1,0 +1,27 @@
+T21	Anatomy 559 565	retina
+T20	Disease 57 79	diabetic macular edema
+T23	Characteristic 722 731	Wisconsin
+T25	Characteristic 1312 1336	three stages of low risk
+T24	Anatomy 1651 1683	distance from the central macula
+T1	Disease 687 707	Diabetic Retinopathy
+T2	Disease 755 775	Diabetic Retinopathy
+T3	Disease 190 210	diabetic retinopathy
+T4	Disease 215 237	diabetic macular edema
+T5	Disease 371 379	diabetes
+T6	Disease 1962 1982	diabetic retinopathy
+T7	Disease 1808 1830	diabetic macular edema
+T8	Disease 1012 1025	macular edema
+T9	Disease 2098 2106	diabetes
+T10	Disease 987 1007	diabetic retinopathy
+T12	Disease 1356 1391	severe nonproliferative retinopathy
+T11	Disease 1987 2000	macular edema
+T14	Disease 1441 1463	Diabetic macular edema
+T13	Disease 1282 1302	diabetic retinopathy
+T16	Disease 1593 1606	macular edema
+T15	Disease 1414 1439	proliferative retinopathy
+T18	Disease 32 52	diabetic retinopathy
+T17	Disease 1783 1803	diabetic retinopathy
+T19	Disease 426 446	diabetic retinopathy
+R2	Located_in Arg1:T16 Arg2:T24
+R3	Is_a Arg1:T12 Arg2:T13
+R1	Is_a Arg1:T15 Arg2:T13

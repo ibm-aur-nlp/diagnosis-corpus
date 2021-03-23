@@ -1,0 +1,78 @@
+T61	Diagnostic_tool 789 817	optical coherence tomography
+T60	Anatomy 699 703	eyes
+T63	Anatomy 405 409	eyes
+T62	Anatomy 559 563	eyes
+T21	Characteristic 1321 1325	CSMT
+T65	Anatomy 516 520	eyes
+T20	Disease 1438 1447	diabetics
+T64	Anatomy 615 619	eyes
+T23	Disease 1456 1467	retinopathy
+T67	Anatomy 439 445	retina
+T22	Disease 1473 1482	diabetics
+T25	Disease 1488 1533	mild to moderate nonproliferative retinopathy
+T24	Disease 1639 1650	retinopathy
+T27	Disease 1796 1848	severe nonproliferative or proliferative retinopathy
+T26	Symptom 1680 1698	macular thickening
+T29	Diagnostic_tool 1886 1889	OCT
+T28	Diagnostic_tool 1711 1714	OCT
+T30	Disease 1876 1881	edema
+T32	Diagnostic_tool 1927 1930	OCT
+T31	Characteristic 1404 1410	gender
+T34	Disease 2066 2088	diabetic macular edema
+T33	Symptom 1899 1917	macular thickening
+T36	Characteristic 20 37	macular thickness
+T35	Diagnostic_tool 2051 2054	OCT
+T38	Anatomy 92 96	eyes
+T37	Disease 59 79	diabetic retinopathy
+T39	Disease 125 147	diabetic macular edema
+T41	Diagnostic_tool 211 214	OCT
+T40	Diagnostic_tool 181 209	optical coherence tomography
+T43	Disease 246 257	retinopathy
+T42	Characteristic 225 242	macular thickness
+T45	Disease 2106 2117	retinopathy
+T44	Disease 284 292	diabetes
+T47	Disease 2157 2174	subclinical edema
+T46	Diagnostic_tool 2338 2341	OCT
+T49	Disease 322 335	macular edema
+T48	Disease 2355 2363	diabetes
+T1	Disease 524 533	diabetics
+T2	Disease 623 632	diabetics
+T3	Disease 567 576	diabetics
+T4	Characteristic 865 869	CSMT
+T5	Characteristic 872 905	inner and outer zone measurements
+T6	Characteristic 832 863	Central subfield mean thickness
+T7	Disease 707 716	diabetics
+T8	Characteristic 933 966	Central subfield mean thicknesses
+T9	Characteristic 911 931	total macular volume
+T50	Anatomy 2345 2349	eyes
+T52	Disease 2386 2423	mild to moderate diabetic retinopathy
+T51	Disease 502 510	diabetes
+T10	Anatomy 1786 1790	eyes
+T54	Disease 582 610	mild to moderate retinopathy
+T53	Disease 2371 2382	retinopathy
+T12	Anatomy 1075 1079	eyes
+T56	Disease 542 553	retinopathy
+T11	Disease 1083 1092	diabetics
+T55	Anatomy 477 481	eyes
+T14	Disease 1101 1112	retinopathy
+T58	Disease 638 690	severe nonproliferative or proliferative retinopathy
+T13	Anatomy 1114 1118	eyes
+T57	Disease 2464 2477	macular edema
+T16	Disease 1124 1169	mild to moderate nonproliferative retinopathy
+T15	Anatomy 1171 1175	eyes
+T59	Disease 722 757	regressed proliferative retinopathy
+T18	Disease 1249 1284	regressed proliferative retinopathy
+T17	Disease 1181 1233	severe nonproliferative to proliferative retinopathy
+T19	Anatomy 1239 1243	eyes
+R2	Diagnosed_with Arg1:T34 Arg2:T35
+R10	Diagnosed_with Arg1:T52 Arg2:T46
+R3	Alias Arg1:T41 Arg2:T40
+R4	Is_a Arg1:T39 Arg2:T49
+R12	Has_symptom Arg1:T27 Arg2:T33
+R5	Is_a Arg1:T37 Arg2:T43
+R11	Diagnosed_with Arg1:T57 Arg2:T46
+R6	Alias Arg1:T4 Arg2:T6
+R7	Diagnosed_with Arg1:T33 Arg2:T29
+R8	Diagnosed_with Arg1:T26 Arg2:T28
+R9	Diagnosed_with Arg1:T53 Arg2:T46
+R1	Causes Arg1:T45 Arg2:T47

@@ -1,0 +1,55 @@
+T41	Symptom 1715 1746	overlying hyper-reflective foci
+T21	Diagnostic_tool 477 482	SDOCT
+T20	Disease 383 402	non-neovascular AMD
+T23	Disease 453 456	AMD
+T45	Symptom 1622 1644	soft-indistinct drusen
+T22	Symptom 1937 1943	drusen
+T25	Symptom 616 622	Drusen
+T47	Symptom 132 153	drusen ultrastructure
+T24	Symptom 1874 1880	drusen
+T46	Symptom 0 21	Drusen ultrastructure
+T27	Diagnostic_tool 533 552	Foveal linear scans
+T26	Symptom 2024 2045	Drusen ultrastructure
+T48	Symptom 2398 2420	ultrastructural drusen
+T29	Symptom 915 920	druse
+T28	Symptom 2004 2010	drusen
+T1	Diagnostic_tool 2326 2331	SDOCT
+T2	Diagnostic_tool 2119 2131	Photographic
+T3	Diagnostic_tool 1122 1135	SDOCT B-scans
+T4	Anatomy 1098 1102	eyes
+T5	Symptom 2362 2368	drusen
+T6	Symptom 1273 1279	drusen
+T7	Symptom 1233 1239	drusen
+T8	Anatomy 2454 2458	eyes
+T9	Anatomy 1444 1448	eyes
+T30	Diagnostic_tool 2065 2070	SDOCT
+T10	Anatomy 1422 1426	eyes
+T31	Diagnostic_tool 1080 1085	SDOCT
+T12	Disease 83 115	age-related macular degeneration
+T11	Diagnostic_tool 35 79	spectral domain optical coherence tomography
+T33	Symptom 1369 1400	overlying hyper-reflective foci
+T14	Disease 191 194	AMD
+T36	Symptom 1460 1481	nonhomogeneous drusen
+T13	Disease 157 189	age-related macular degeneration
+T16	Diagnostic_tool 248 253	SDOCT
+T15	Diagnostic_tool 202 246	spectral domain optical coherence tomography
+T18	Anatomy 1572 1576	eyes
+T17	Symptom 302 308	drusen
+T39	Symptom 1523 1561	Hyper-reflective foci overlying drusen
+T19	Symptom 418 424	drusen
+R3	Diagnosed_with Arg1:T26 Arg2:T30
+R4	Diagnosed_with Arg1:T19 Arg2:T21
+R5	Has_symptom Arg1:T23 Arg2:T19
+R6	Alias Arg1:T16 Arg2:T15
+R8	Diagnosed_with Arg1:T12 Arg2:T11
+R10	Has_symptom Arg1:T12 Arg2:T46
+R12	Alias Arg1:T14 Arg2:T13
+R11	Diagnosed_with Arg1:T5 Arg2:T1
+R14	Diagnosed_with Arg1:T48 Arg2:T1
+R13	Alias Arg1:T16 Arg2:T11
+R16	Has_symptom Arg1:T14 Arg2:T47
+R15	Has_symptom Arg1:T13 Arg2:T47
+R18	Diagnosed_with Arg1:T46 Arg2:T11
+R17	Alias Arg1:T14 Arg2:T12
+R1	Diagnosed_with Arg1:T23 Arg2:T21
+T37	Symptom 735 766	overlying hyper-reflective foci

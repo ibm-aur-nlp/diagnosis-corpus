@@ -1,0 +1,14 @@
+T10	Symptom 193 204	visual loss
+T20	Anatomy 108 111	eye
+T12	Anatomy 263 266	eye
+T11	Anatomy 219 222	eye
+T14	Anatomy 365 368	eye
+T13	Symptom 340 351	visual loss
+T16	Symptom 544 555	visual loss
+T15	Symptom 418 424	drusen
+T18	Anatomy 570 573	eye
+T17	Symptom 429 499	retinal pigment epithelial and subretinal pigment epithelial pathology
+T1	Disease 19 53	senile disciform macular dystrophy
+T19	Symptom 82 100	severe visual loss
+T2	Disease 117 144	disciform macular dystrophy
+R2	Causes Arg1:T2 Arg2:T19

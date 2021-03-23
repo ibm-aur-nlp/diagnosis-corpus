@@ -1,0 +1,26 @@
+T4	Disease 1091 1109	chlamydial disease
+T5	Diagnostic_tool 378 438	IgG single antigen tests for the detection of serum antibody
+T6	Diagnostic_tool 454 488	IgA and IgG immunoperoxidase tests
+T7	Diagnostic_tool 490 511	IgA-IPAs and IgG-IPAs
+T8	Diagnostic_tool 549 578	McCoy cell culture techniques
+T9	Diagnostic_tool 440 447	IgG-IFT
+T10	Diagnostic_tool 699 706	IgG-IFT
+T12	Diagnostic_tool 968 972	FMAb
+T11	Diagnostic_tool 621 625	FMAb
+T14	Diagnostic_tool 977 984	IgA-IPA
+T13	Diagnostic_tool 779 786	IgA-IPA
+T16	Disease 145 176	chlamydial keratoconjunctivitis
+T15	Disease 35 72	adult chlamydial keratoconjunctivitis
+T18	Diagnostic_tool 1000 1029	McCoy cell culture techniques
+T17	Characteristic 235 238	age
+T1	Characteristic 244 247	sex
+T2	Diagnostic_tool 325 376	fluorescent monoclonal antibody (FMAb) direct tests
+T3	Diagnostic_tool 864 871	IgG-IPA
+R2	Diagnosed_with Arg1:T4 Arg2:T12
+R3	Diagnosed_with Arg1:T4 Arg2:T14
+R4	Alias Arg1:T7 Arg2:T6
+R5	Is_a Arg1:T16 Arg2:T4
+R6	Alias Arg1:T6 Arg2:T7
+R7	Diagnosed_with Arg1:T4 Arg2:T18
+R8	Is_a Arg1:T15 Arg2:T16
+R1	Alias Arg1:T9 Arg2:T5

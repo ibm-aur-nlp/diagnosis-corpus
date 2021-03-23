@@ -1,0 +1,32 @@
+T4	Disease 221 232	retinopathy
+T5	Diagnostic_tool 257 271	ophthalmoscopy
+T6	Diagnostic_tool 294 325	stereoscopic fundus photographs
+T7	Anatomy 347 351	eyes
+T8	Characteristic 1058 1071	visual acuity
+T9	Characteristic 1053 1056	age
+T10	Diagnostic_tool 571 585	ophthalmoscopy
+T21	Diagnostic_tool 19 33	ophthalmoscopy
+T20	Diagnostic_tool 873 891	fundus photography
+T12	Diagnostic_tool 369 383	Ophthalmoscopy
+T23	Diagnostic_tool 38 56	fundus photography
+T11	Diagnostic_tool 1141 1155	ophthalmoscopy
+T22	Disease 934 945	retinopathy
+T14	Disease 631 647	nonproliferative
+T13	Characteristic 1077 1097	duration of diabetes
+T24	Disease 84 104	diabetic retinopathy
+T16	Diagnostic_tool 1192 1210	fundus photography
+T15	Disease 612 623	retinopathy
+T18	Disease 649 662	proliferative
+T17	Diagnostic_tool 825 839	Ophthalmoscopy
+T1	Disease 107 127	Diabetic retinopathy
+T19	Anatomy 903 907	eyes
+T2	Disease 177 185	diabetic
+T3	Characteristic 197 215	southern Wisconsin
+R2	Is_a Arg1:T14 Arg2:T15
+R3	Is_a Arg1:T18 Arg2:T15
+R4	Diagnosed_with Arg1:T4 Arg2:T5
+R5	Diagnosed_with Arg1:T4 Arg2:T6
+R6	Diagnosed_with Arg1:T24 Arg2:T23
+R7	Has_risk_factor Arg1:T1 Arg2:T3
+R8	Has_risk_factor Arg1:T2 Arg2:T3
+R1	Diagnosed_with Arg1:T24 Arg2:T21

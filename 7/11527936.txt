@@ -1,0 +1,12 @@
+
+
+
+Incidence and progression rates of age-related maculopathy: the Rotterdam Study
+
+Purpose: To describe the incidence rate of age-related macular degeneration (AMD) and the progression rates of early stages of age-related maculopathy (ARM), and to study the hierarchy of fundus features that determine progression.
+
+Methods: A group of 4953 subjects aged 55 years and older living in Rotterdam, The Netherlands, was studied at baseline and at 2-year follow-up to determine the incidence of neovascular and atrophic AMD. A subgroup of 1244 subjects was studied for progression of early stages of ARM. Fundus transparencies were graded for features of ARM using the International Classification System. ARM was stratified in four exclusive stages, according to type of drusen and presence of pigmentary irregularities.
+
+Results: The overall 2-year cumulative incidence of AMD was 0.2%, increasing to 1.8% in subjects of 85 years and older. Of those in the early stages, one fourth showed progression to a more severe stage. The most important predictors for progression were more than 10% of macular area covered by drusen (odds ratio [OR] 5.7, 95% confidence interval [CI] 2.9-11.3), presence of depigmentation (OR 4.0, 95% CI 2.5-6.4), and hyperpigmentation (OR 3.4, 95% CI 2.1-5.4).
+
+Conclusions: The incidence of AMD appears to be lower in The Netherlands than in the United States. Progression of early ARM stages occurs in a distinct pattern at a stable rate, with a large area of drusen and presence of pigmentary changes as the most important predictors.

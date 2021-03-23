@@ -1,0 +1,6 @@
+
+
+
+An international classification and grading system for age-related maculopathy and age-related macular degeneration. The International ARM Epidemiological Study Group
+
+A common detection and classification system is needed for epidemiologic studies of age-related maculopathy (ARM). Such a grading scheme for ARM is described in this paper. ARM is defined as a degenerative disorder in persons > or = 50 years of age characterized on grading of color fundus transparencies by the presence of the following abnormalities in the macular area: soft drusen > or = 63 microns, hyperpigmentation and/or hypopigmentation of the retinal pigment epithelium (RPE), RPE and associated neurosensory detachment, (peri)retinal hemorrhages, geographic atrophy of the RPE, or (peri)retinal fibrous scarring in the absence of other retinal (vascular) disorders. Visual acuity is not used to define the presence of ARM. Early ARM is defined as the presence of drusen and RPE pigmentary abnormalities described above; late ARM is similar to age-related macular degeneration (AMD) and includes dry AMD (geographic atrophy of the RPE in the absence of neovascular AMD) or neovascular AMD (RPE detachment, hemorrhages, and/or scars as described above). Methods to take and grade fundus transparencies are described.

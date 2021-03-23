@@ -1,0 +1,28 @@
+T4	Characteristic 278 292	juvenile onset
+T5	Disease 245 270	proliferative retinopathy
+T6	Diagnostic_tool 347 384	Periodic ophthalmoscopic examinations
+T7	Disease 431 442	retinopathy
+T8	Disease 1117 1137	Diabetic Retinopathy
+T9	Anatomy 1087 1090	Eye
+T10	Symptom 806 831	decreased dark adaptation
+T21	Symptom 1223 1244	vasoformative factors
+T12	Disease 1036 1056	diabetic retinopathy
+T23	Symptom 949 998	traction retinal detachments involving the macula
+T11	Disease 619 639	diabetic retinopathy
+T14	Symptom 910 941	nonclearing vitreous hemorrhage
+T13	Anatomy 900 904	eyes
+T24	Disease 1175 1195	Diabetic Retinopathy
+T16	Symptom 641 677	Ischemia of the midperipheral retina
+T15	Disease 0 20	Diabetic retinopathy
+T18	Disease 118 138	Diabetic Retinopathy
+T17	Disease 56 76	diabetic retinopathy
+T1	Disease 163 183	Diabetic retinopathy
+T2	Disease 305 318	macular edema
+T3	Characteristic 326 337	older onset
+R2	Causes Arg1:T1 Arg2:T5
+R3	Causes Arg1:T1 Arg2:T2
+R4	Has_symptom Arg1:T12 Arg2:T21
+R5	Diagnosed_with Arg1:T7 Arg2:T6
+R6	Has_risk_factor Arg1:T5 Arg2:T4
+R9	Is_a Arg1:T1 Arg2:T7
+R1	Has_risk_factor Arg1:T2 Arg2:T3

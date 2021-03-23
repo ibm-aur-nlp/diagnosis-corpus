@@ -1,0 +1,35 @@
+T42	Diagnostic_tool 561 604	acid-Schiff staining of impression cytology
+T23	Anatomy 964 976	Goblet cells
+T22	Diagnostic_tool 876 895	impression cytology
+T44	Anatomy 857 869	goblet cells
+T25	Anatomy 995 1021	peripheral corneal surface
+T27	Symptom 238 265	limbal stem cell deficiency
+T26	Anatomy 1109 1121	goblet cells
+T1	Anatomy 1029 1033	eyes
+T2	Anatomy 1067 1071	eyes
+T3	Disease 0 33	Long-standing bullous keratopathy
+T4	Symptom 53 83	peripheral conjunctivalization
+T5	Symptom 88 105	limbal deficiency
+T6	Symptom 131 168	peripheral corneal neovascularization
+T7	Disease 172 191	bullous keratopathy
+T8	Disease 193 195	BK
+T9	Symptom 207 226	conjunctivalization
+T30	Anatomy 1414 1431	peripheral cornea
+T10	Disease 309 311	BK
+T32	Disease 1479 1481	BK
+T12	Disease 438 440	BK
+T11	Disease 359 361	BK
+T14	Symptom 515 534	conjunctivalization
+T13	Symptom 370 399	peripheral neovascularization
+T16	Symptom 446 464	neovascularization
+T15	Symptom 1636 1654	neovascularization
+T18	Symptom 622 652	peripheral vascularized cornea
+T17	Symptom 1523 1550	limbal stem cell deficiency
+R10	Diagnosed_with Arg1:T14 Arg2:T42
+R5	Alias Arg1:T8 Arg2:T7
+R6	Has_symptom Arg1:T3 Arg2:T4
+R7	Has_symptom Arg1:T3 Arg2:T5
+R1	Causes Arg1:T9 Arg2:T27
+T19	Disease 909 911	BK
+T20	Symptom 1496 1498	NV
+R2	Is_a Arg1:T3 Arg2:T7	

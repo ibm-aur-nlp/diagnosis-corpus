@@ -1,0 +1,55 @@
+T21	Diagnostic_tool 565 623	high-resolution stereoscopic digital imaging of the macula
+T20	Disease 1280 1286	CSME 3
+T42	Disease 969 975	CSME 1
+T23	Disease 1295 1308	macular edema
+T22	Symptom 1317 1331	microaneurysms
+T44	Disease 408 416	diabetic
+T25	Diagnostic_tool 629 656	stereoscopic digital images
+T24	Symptom 1376 1388	hard exudate
+T27	Disease 1428 1434	CSME 2
+T26	Symptom 1340 1363	intraretinal hemorrhage
+T29	Disease 916 952	clinically significant macular edema
+T28	Disease 808 828	diabetic retinopathy
+T1	Diagnostic_tool 1678 1682	CLBM
+T2	Disease 1623 1627	CSME
+T3	Disease 985 991	CSME 3
+T4	Disease 1704 1708	CSME
+T5	Symptom 1024 1047	intraretinal hemorrhage
+T6	Symptom 1008 1022	microaneurysms
+T7	Anatomy 1085 1089	eyes
+T8	Symptom 1053 1065	hard exudate
+T9	Disease 1265 1271	CSME 2
+T30	Disease 1517 1523	CSME 2
+T10	Disease 1250 1256	CSME 1
+T32	Disease 954 958	CSME
+T31	Disease 1492 1505	macular edema
+T12	Diagnostic_tool 63 89	contact lens biomicroscopy
+T34	Disease 977 983	CSME 2
+T11	Diagnostic_tool 0 55	High-resolution stereoscopic digital fundus photography
+T33	Diagnostic_tool 1526 1574	High-resolution stereoscopic digital photography
+T14	Diagnostic_tool 191 239	high-resolution stereoscopic digital photography
+T36	Disease 1229 1233	CSME
+T13	Disease 111 147	clinically significant macular edema
+T35	Disease 993 1006	macular edema
+T16	Diagnostic_tool 271 275	CLBM
+T38	Disease 1446 1450	CSME
+T15	Diagnostic_tool 243 269	contact lens biomicroscopy
+T18	Diagnostic_tool 480 484	CLBM
+T17	Disease 298 334	clinically significant macular edema
+T19	Disease 876 896	Diabetic Retinopathy
+R2	Diagnosed_with Arg1:T17 Arg2:T14
+R3	Diagnosed_with Arg1:T17 Arg2:T15
+R4	Diagnosed_with Arg1:T17 Arg2:T16
+R5	Diagnosed_with Arg1:T28 Arg2:T25
+R7	Diagnosed_with Arg1:T2 Arg2:T33
+R8	Diagnosed_with Arg1:T2 Arg2:T1
+R9	Diagnosed_with Arg1:T4 Arg2:T33
+R10	Alias Arg1:T16 Arg2:T15
+R12	Alias Arg1:T32 Arg2:T29
+R11	Diagnosed_with Arg1:T4 Arg2:T1
+R14	Alias Arg1:T32 Arg2:T13
+R13	Diagnosed_with Arg1:T13 Arg2:T11
+R16	Is_a Arg1:T34 Arg2:T32
+R15	Is_a Arg1:T42 Arg2:T32
+R17	Is_a Arg1:T3 Arg2:T32
+R1	Diagnosed_with Arg1:T13 Arg2:T12

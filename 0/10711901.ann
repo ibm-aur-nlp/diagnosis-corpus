@@ -1,0 +1,71 @@
+T41	Diagnostic_tool 911 914	OCT
+T40	Diagnostic_tool 535 538	FFA
+T21	Diagnostic_tool 164 192	optical coherence tomography
+T43	Anatomy 621 625	eyes
+T20	Disease 143 150	uveitis
+T42	Diagnostic_tool 654 657	OCT
+T23	Diagnostic_tool 204 234	fundus fluorescein angiography
+T45	Diagnostic_tool 662 665	FFA
+T22	Diagnostic_tool 194 197	OCT
+T44	Anatomy 968 972	eyes
+T25	Disease 262 283	cystoid macular edema
+T24	Diagnostic_tool 236 239	FFA
+T27	Disease 285 288	CME
+T26	Diagnostic_tool 805 808	FFA
+T29	Diagnostic_tool 817 820	OCT
+T28	Anatomy 834 838	eyes
+T1	Diagnostic_tool 1005 1008	OCT
+T2	Symptom 978 994	subretinal fluid
+T3	Disease 686 689	CME
+T4	Disease 1064 1067	CME
+T5	Anatomy 677 681	eyes
+T6	Diagnostic_tool 1031 1034	OCT
+T7	Disease 709 712	CME
+T8	Anatomy 385 389	eyes
+T9	Anatomy 697 701	eyes
+T30	Disease 410 417	uveitis
+T10	Diagnostic_tool 1074 1077	FFA
+T32	Disease 307 314	uveitis
+T31	Diagnostic_tool 868 871	FFA
+T12	Anatomy 720 724	eyes
+T34	Diagnostic_tool 510 522	OCT scanning
+T11	Symptom 725 741	subretinal fluid
+T33	Disease 843 846	CME
+T14	Diagnostic_tool 758 761	OCT
+T36	Disease 496 499	CME
+T13	Diagnostic_tool 770 773	FFA
+T35	Diagnostic_tool 902 905	FFA
+T16	Anatomy 789 793	eyes
+T38	Disease 588 601	macular edema
+T15	Disease 798 801	CME
+T37	Diagnostic_tool 883 886	OCT
+T18	Diagnostic_tool 52 82	fundus fluorescein angiography
+T17	Diagnostic_tool 19 47	optical coherence tomography
+T39	Disease 941 944	CME
+T19	Disease 104 125	cystoid macular edema
+R21	Diagnosed_with Arg1:T33 Arg2:T31
+R20	Diagnosed_with Arg1:T27 Arg2:T24
+R23	Diagnosed_with Arg1:T4 Arg2:T6
+R22	Diagnosed_with Arg1:T15 Arg2:T26
+R25	Is_a Arg1:T36 Arg2:T38
+R24	Diagnosed_with Arg1:T25 Arg2:T21
+R26	No_Diagnosed_with Arg1:T11 Arg2:T13
+R1	Is_a Arg1:T25 Arg2:T22
+R2	Alias Arg1:T24 Arg2:T23
+R3	Alias Arg1:T22 Arg2:T21
+R4	Diagnosed_with Arg1:T19 Arg2:T17
+R5	Diagnosed_with Arg1:T19 Arg2:T18
+R6	Alias Arg1:T27 Arg2:T25
+R7	Diagnosed_with Arg1:T36 Arg2:T34
+R8	Diagnosed_with Arg1:T36 Arg2:T40
+R9	Diagnosed_with Arg1:T25 Arg2:T23
+R10	Diagnosed_with Arg1:T39 Arg2:T41
+R12	Diagnosed_with Arg1:T27 Arg2:T21
+R11	Diagnosed_with Arg1:T4 Arg2:T10
+R14	Diagnosed_with Arg1:T25 Arg2:T24
+R13	Diagnosed_with Arg1:T3 Arg2:T42
+R16	Diagnosed_with Arg1:T27 Arg2:T23
+R15	Diagnosed_with Arg1:T39 Arg2:T35
+R18	Diagnosed_with Arg1:T3 Arg2:T45
+R17	Diagnosed_with Arg1:T27 Arg2:T22
+R19	Diagnosed_with Arg1:T11 Arg2:T14

@@ -1,0 +1,47 @@
+T21	Disease 686 689	DME
+T20	Disease 480 483	DME
+T23	Anatomy 803 809	foveal
+T22	Symptom 539 557	macular thickening
+T25	Disease 977 980	DME
+T24	Diagnostic_tool 717 720	OCT
+T27	Diagnostic_tool 1050 1053	OCT
+T26	Anatomy 842 852	parafoveal
+T29	Diagnostic_tool 1135 1138	OCT
+T28	Diagnostic_tool 985 988	OCT
+T1	Diagnostic_tool 1211 1245	stereoscopic slit-lamp examination
+T2	Disease 1196 1199	DME
+T3	Diagnostic_tool 1284 1287	OCT
+T4	Anatomy 1253 1259	fundus
+T5	Disease 1344 1347	DME
+T6	Disease 1305 1308	DME
+T7	Diagnostic_tool 1448 1451	OCT
+T8	Anatomy 499 505	retina
+T9	Symptom 1476 1493	visual disability
+T10	Disease 1499 1502	DME
+T12	Diagnostic_tool 81 109	optical coherence tomography
+T11	Disease 40 62	diabetic macular edema
+T14	Disease 164 167	DME
+T13	Disease 140 162	diabetic macular edema
+T16	Diagnostic_tool 288 316	optical coherence tomography
+T15	Diagnostic_tool 172 221	stereoscopic slit-lamp biomicroscopic examination
+T18	Diagnostic_tool 400 424	slit-lamp biomicroscopic
+T17	Diagnostic_tool 318 321	OCT
+T19	Diagnostic_tool 448 451	OCT
+R2	Diagnosed_with Arg1:T21 Arg2:T24
+R3	Diagnosed_with Arg1:T6 Arg2:T3
+R4	Diagnosed_with Arg1:T6 Arg2:T1
+R5	Diagnosed_with Arg1:T2 Arg2:T1
+R6	Diagnosed_with Arg1:T2 Arg2:T3
+R7	Diagnosed_with Arg1:T11 Arg2:T12
+R8	Diagnosed_with Arg1:T14 Arg2:T15
+R9	Diagnosed_with Arg1:T14 Arg2:T16
+R10	Diagnosed_with Arg1:T13 Arg2:T15
+R12	Diagnosed_with Arg1:T13 Arg2:T17
+R11	Diagnosed_with Arg1:T14 Arg2:T17
+R14	Diagnosed_with Arg1:T10 Arg2:T7
+R13	Diagnosed_with Arg1:T13 Arg2:T16
+R16	Causes Arg1:T10 Arg2:T9
+R15	Diagnosed_with Arg1:T25 Arg2:T28
+R18	Diagnosed_with Arg1:T5 Arg2:T7
+R17	Alias Arg1:T14 Arg2:T13
+R1	Alias Arg1:T17 Arg2:T16

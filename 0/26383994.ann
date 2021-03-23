@@ -1,0 +1,75 @@
+T41	Characteristic 66 74	Portugal
+T40	Characteristic 433 445	Tagus Valley
+T21	Disease 2134 2149	type 2 diabetes
+T43	Disease 359 379	Diabetic Retinopathy
+T20	Characteristic 2176 2196	Duration of diabetes
+T23	Characteristic 2220 2237	insulin treatment
+T22	Disease 1090 1101	severe NPDR
+T25	Characteristic 2198 2214	age at diagnosis
+T24	Disease 1053 1081	moderate nonproliferative DR
+T46	Classification_system 926 975	International Clinical Diabetic Retinopathy Scale
+T27	Disease 1377 1388	retinopathy
+T26	Disease 1106 1122	proliferative DR
+T29	Disease 42 62	Diabetic Retinopathy
+T28	Disease 1083 1087	NPDR
+T1	Disease 1588 1599	retinopathy
+T2	Disease 1565 1567	DR
+T3	Disease 1810 1813	RDR
+T4	Disease 1763 1772	mild NPDR
+T5	Disease 1879 1882	RDR
+T6	Disease 1872 1874	DR
+T7	Disease 1887 1889	DR
+T8	Characteristic 1978 2002	use of insulin treatment
+T9	Characteristic 1956 1972	age at diagnosis
+T30	Disease 1146 1157	maculopathy
+T10	Disease 2307 2309	DR
+T32	Characteristic 2061 2071	Portuguese
+T31	Disease 1124 1127	PDR
+T12	Disease 228 230	DR
+T34	Disease 1161 1170	mild NPDR
+T11	Disease 206 226	diabetic retinopathy
+T33	Disease 1176 1187	maculopathy
+T14	Disease 277 279	DM
+T36	Characteristic 138 144	Lisbon
+T13	Disease 251 275	type 2 diabetes mellitus
+T35	Disease 1537 1539	DR
+T16	Anatomy 848 851	eye
+T15	Diagnostic_tool 796 843	45° nonstereoscopic retinal digital photographs
+T37	Disease 1946 1954	diabetes
+T18	Disease 2082 2084	DR
+T17	Disease 977 1007	Referable diabetic retinopathy
+T39	Characteristic 422 428	Lisbon
+T19	Disease 1009 1012	RDR
+R21	Is_a Arg1:T17 Arg2:T43
+R20	Is_a Arg1:T19 Arg2:T43
+R22	Has_risk_factor Arg1:T6 Arg2:T9
+R25	Has_risk_factor Arg1:T6 Arg2:T8
+R27	Has_risk_factor Arg1:T5 Arg2:T9
+R26	Has_risk_factor Arg1:T5 Arg2:T8
+R28	Has_risk_factor Arg1:T7 Arg2:T9
+R2	Alias Arg1:T19 Arg2:T17
+R3	Alias Arg1:T31 Arg2:T26
+R4	Is_a Arg1:T24 Arg2:T17
+R5	Causes Arg1:T4 Arg2:T3
+R6	Has_risk_factor Arg1:T10 Arg2:T23
+R7	Has_risk_factor Arg1:T10 Arg2:T25
+R8	Has_risk_factor Arg1:T10 Arg2:T20
+R9	Is_a Arg1:T24 Arg2:T28
+R30	Is_a Arg1:T13 Arg2:T14
+R10	Is_a Arg1:T34 Arg2:T28
+R32	Is_a Arg1:T24 Arg2:T19
+R12	Is_a Arg1:T22 Arg2:T17
+R34	Is_a Arg1:T28 Arg2:T19
+R11	Is_a Arg1:T22 Arg2:T28
+R33	Has_risk_factor Arg1:T7 Arg2:T8
+R14	Is_a Arg1:T31 Arg2:T17
+R36	Is_a Arg1:T26 Arg2:T19
+R13	Is_a Arg1:T28 Arg2:T17
+R35	Is_a Arg1:T22 Arg2:T19
+R16	Is_a Arg1:T17 Arg2:T12
+R38	Is_a Arg1:T34 Arg2:T19
+R15	Is_a Arg1:T26 Arg2:T17
+R37	Is_a Arg1:T31 Arg2:T19
+R18	Is_a Arg1:T35 Arg2:T27
+R17	Is_a Arg1:T34 Arg2:T17
+R19	Alias Arg1:T12 Arg2:T11

@@ -1,0 +1,58 @@
+T21	Disease 1979 1982	DME
+T20	Characteristic 2009 2022	visual acuity
+T23	Characteristic 2232 2245	visual acuity
+T22	Disease 2061 2074	retinal edema
+T25	Characteristic 2373 2386	visual acuity
+T24	Characteristic 2111 2128	retinal thickness
+T27	Diagnostic_tool 21 49	optical coherence tomography
+T26	Diagnostic_tool 2330 2333	OCT
+T29	Characteristic 89 102	visual acuity
+T28	Characteristic 59 84	central retinal thickness
+T30	Disease 106 128	diabetic macular edema
+T32	Diagnostic_tool 172 175	OCT
+T31	Diagnostic_tool 142 170	optical coherence tomography
+T34	Characteristic 208 221	visual acuity
+T33	Characteristic 186 203	retinal thickness
+T36	Anatomy 388 392	eyes
+T35	Anatomy 225 229	eyes
+T38	Disease 399 402	DME
+T37	Disease 235 257	diabetic macular edema
+T39	Disease 259 262	DME
+T41	Characteristic 464 481	Retinal thickness
+T40	Diagnostic_tool 500 503	OCT
+T43	Characteristic 644 666	center point thickness
+T42	Characteristic 508 521	visual acuity
+T45	Characteristic 671 684	visual acuity
+T44	Diagnostic_tool 606 634	Optical coherence tomography
+T1	Characteristic 740 766	OCT center point thickness
+T2	Characteristic 719 732	visual acuity
+T3	Characteristic 999 1012	visual acuity
+T4	Characteristic 1252 1278	OCT center point thickness
+T5	Characteristic 1172 1185	visual acuity
+T6	Characteristic 1285 1299	hemoglobin A1C
+T7	Characteristic 1280 1283	age
+T8	Characteristic 1372 1385	visual acuity
+T9	Characteristic 1305 1336	severity of fluorescein leakage
+T50	Disease 574 594	Diabetic Retinopathy
+T52	Symptom 1400 1427	OCT center point thickening
+T51	Characteristic 1043 1065	center point thickness
+T10	Anatomy 1542 1546	eyes
+T53	Diagnostic_tool 2091 2094	OCT
+T12	Characteristic 1582 1595	visual acuity
+T11	Symptom 1611 1634	center point thickening
+T14	Characteristic 1693 1706	visual acuity
+T13	Symptom 1726 1749	center point thickening
+T16	Characteristic 1818 1853	OCT-measured center point thickness
+T15	Anatomy 286 293	macular
+T18	Characteristic 1933 1946	visual acuity
+T17	Characteristic 1858 1871	visual acuity
+T19	Characteristic 1910 1928	retinal thickening
+R2	Diagnosed_with Arg1:T37 Arg2:T31
+R3	Diagnosed_with Arg1:T37 Arg2:T32
+R4	Diagnosed_with Arg1:T39 Arg2:T31
+R5	Diagnosed_with Arg1:T39 Arg2:T32
+R6	Alias Arg1:T32 Arg2:T31
+R7	Diagnosed_with Arg1:T30 Arg2:T27
+R8	Has_risk_factor Arg1:T30 Arg2:T28
+R9	Has_risk_factor Arg1:T30 Arg2:T29
+R1	Alias Arg1:T39 Arg2:T37

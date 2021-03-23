@@ -1,0 +1,36 @@
+T41	Characteristic 1142 1145	IOP
+T40	Characteristic 1297 1300	IOP
+T42	Characteristic 1567 1571	IOPs
+T27	Characteristic 1933 1951	male versus female
+T26	Characteristic 1722 1726	IOPs
+T29	Characteristic 2011 2015	IOPs
+T28	Characteristic 1913 1931	black versus white
+T1	Disease 2163 2166	OAG
+T2	Disease 507 515	Glaucoma
+T3	Disease 2311 2314	OAG
+T4	Disease 27 35	Glaucoma
+T5	Characteristic 71 98	Intraocular Pressure Levels
+T6	Diagnostic_tool 105 133	Filtered Forecasting Methods
+T7	Disease 192 211	open-angle glaucoma
+T8	Disease 213 216	OAG
+T9	Disease 761 764	OAG
+T30	Characteristic 2199 2202	IOP
+T10	Disease 836 839	OAG
+T32	Characteristic 262 282	intraocular pressure
+T31	Characteristic 2288 2292	IOPs
+T11	Disease 1779 1782	OAG
+T33	Characteristic 284 287	IOP
+T38	Characteristic 993 996	IOP
+T15	Characteristic 347 351	IOPs
+T37	Disease 547 564	Advanced Glaucoma
+T18	Disease 451 475	moderate or advanced OAG
+T39	Characteristic 875 878	IOP
+R7	Is_a Arg1:T18 Arg2:T8
+R8	Has_risk_factor Arg1:T4 Arg2:T5
+R9	Alias Arg1:T33 Arg2:T32
+R10	Is_a Arg1:T7 Arg2:T4
+R14	No_Has_risk_factor Arg1:T11 Arg2:T28
+R13	Is_a Arg1:T37 Arg2:T2
+R16	Diagnosed_with Arg1:T4 Arg2:T6
+R15	No_Has_risk_factor Arg1:T11 Arg2:T27
+R1	Alias Arg1:T8 Arg2:T7

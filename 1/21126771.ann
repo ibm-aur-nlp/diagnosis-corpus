@@ -1,0 +1,59 @@
+T21	Disease 177 193	optic neuropathy
+T20	Disease 149 157	Glaucoma
+T23	Disease 229 233	ADOA
+T22	Disease 195 227	autosomal-dominant optic atrophy
+T25	Disease 1364 1368	LHON
+T24	Disease 239 274	Leber's hereditary optic neuropathy
+T27	Disease 1453 1461	glaucoma
+T26	Disease 276 280	LHON
+T29	Disease 1803 1815	glaucomatous
+T28	Disease 1421 1433	glaucomatous
+T30	Disease 305 334	hereditary optic neuropathies
+T32	Disease 434 438	LHON
+T31	Disease 1512 1524	glaucomatous
+T34	Disease 425 429	ADOA
+T33	Disease 1852 1856	LHON
+T36	Disease 523 531	glaucoma
+T35	Disease 1844 1848	ADOA
+T38	Disease 480 488	glaucoma
+T37	Disease 1923 1935	glaucomatous
+T39	Anatomy 609 619	optic disc
+T41	Diagnostic_tool 721 772	high-resolution stereoscopic optic disc photographs
+T40	Disease 2006 2010	ADOA
+T43	Characteristic 2079 2116	topographic changes at the optic disc
+T42	Disease 793 797	LHON
+T45	Anatomy 1150 1166	optic nerve head
+T47	Symptom 1871 1877	pallor
+T46	Characteristic 373 418	topographical changes at the optic nerve head
+T49	Characteristic 819 834	normal controls
+T48	Anatomy 672 683	optic nerve
+T1	Disease 2038 2056	Optic neuropathies
+T2	Disease 2015 2019	LHON
+T3	Disease 2191 2195	ADOA
+T4	Disease 777 781	ADOA
+T5	Characteristic 2285 2291	acuity
+T6	Disease 802 810	glaucoma
+T7	Disease 2200 2204	LHON
+T8	Characteristic 2307 2329	history of visual loss
+T9	Disease 1060 1068	glaucoma
+T50	Disease 2210 2218	glaucoma
+T10	Characteristic 2293 2305	color vision
+T12	Disease 1256 1264	glaucoma
+T11	Disease 1266 1270	ADOA
+T14	Disease 1355 1359	ADOA
+T13	Characteristic 2335 2349	family history
+T16	Anatomy 0 10	Optic disc
+T15	Disease 1276 1280	LHON
+T18	Anatomy 49 59	optic disc
+T17	Disease 25 43	optic neuropathies
+T19	Characteristic 81 103	Optic nerve morphology
+R2	Diagnosed_with Arg1:T6 Arg2:T41
+R10	Is_a Arg1:T20 Arg2:T21
+R3	Alias Arg1:T26 Arg2:T24
+R4	Is_a Arg1:T22 Arg2:T30
+R5	Is_a Arg1:T23 Arg2:T30
+R6	Is_a Arg1:T24 Arg2:T30
+R7	Is_a Arg1:T26 Arg2:T30
+R8	Diagnosed_with Arg1:T4 Arg2:T41
+R9	Diagnosed_with Arg1:T42 Arg2:T41
+R1	Alias Arg1:T23 Arg2:T22

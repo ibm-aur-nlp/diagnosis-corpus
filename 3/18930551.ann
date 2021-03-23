@@ -1,0 +1,67 @@
+T61	Symptom 1204 1277	increased thickness of the neurosensory retina at the foveal center point
+T60	Symptom 1047 1076	increased total volume of SRT
+T63	Symptom 1423 1452	pigment epithelial detachment
+T62	Symptom 1146 1169	Decreased visual acuity
+T21	Characteristic 2362 2375	visual acuity
+T65	Diagnostic_tool 1607 1630	fluorescein angiography
+T20	Disease 447 462	neovascular AMD
+T64	Anatomy 1505 1524	neurosensory retina
+T23	Anatomy 2452 2467	retinal anatomy
+T67	Diagnostic_tool 2040 2043	OCT
+T22	Characteristic 2472 2485	visual acuity
+T66	Anatomy 1533 1536	SRT
+T25	Characteristic 843 865	morphologic parameters
+T69	Symptom 2140 2163	decreased visual acuity
+T24	Diagnostic_tool 603 620	StratusOCT images
+T68	Symptom 2002 2036	increased SRT thickness and volume
+T26	Characteristic 978 1024	OCT-derived measurements of retinal morphology
+T70	Symptom 2068 2119	increased neurosensory retinal thickness and volume
+T78	Diagnostic_tool 705 710	OCTOR
+T79	Anatomy 879 898	neurosensory retina
+T80	Symptom 900 916	subretinal fluid
+T43	Characteristic 21 68	optical coherence tomography retinal parameters
+T45	Diagnostic_tool 477 487	StratusOCT
+T44	Characteristic 177 254	optical coherence tomography (OCT)-derived measurements of retinal morphology
+T46	Characteristic 522 558	Best-corrected Snellen visual acuity
+T1	Characteristic 1365 1378	visual acuity
+T2	Characteristic 1387 1419	total volume of subretinal fluid
+T3	Characteristic 1478 1491	visual acuity
+T4	Characteristic 1676 1689	visual acuity
+T5	Characteristic 1766 1776	SRT volume
+T6	Characteristic 1758 1761	age
+T7	Characteristic 1924 1927	age
+T8	Characteristic 1842 1855	visual acuity
+T9	Characteristic 1968 1984	total SRT volume
+T10	Characteristic 1929 1962	total neurosensory retinal volume
+T54	Anatomy 918 935	subretinal tissue
+T53	Anatomy 937 940	SRT
+T12	Diagnostic_tool 2284 2294	StratusOCT
+T11	Disease 2167 2182	neovascular AMD
+T14	Characteristic 73 86	visual acuity
+T13	Disease 2235 2250	neovascular AMD
+T57	Characteristic 1029 1042	visual acuity
+T16	Characteristic 259 272	visual acuity
+T15	Disease 90 134	neovascular age-related macular degeneration
+T59	Symptom 1097 1120	decreased visual acuity
+T18	Disease 336 339	AMD
+T17	Disease 290 334	neovascular age-related macular degeneration
+T19	Anatomy 420 424	eyes
+R20	Has_symptom Arg1:T11 Arg2:T69
+R23	Has_risk_factor Arg1:T17 Arg2:T16
+R22	Causes Arg1:T70 Arg2:T69
+R25	Diagnosed_with Arg1:T68 Arg2:T67
+R24	Causes Arg1:T68 Arg2:T69
+R26	Diagnosed_with Arg1:T70 Arg2:T67
+R1	Diagnosed_with Arg1:T20 Arg2:T45
+R6	Not_Associated_with Arg1:T1 Arg2:T2
+R10	Associated_with Arg1:T4 Arg2:T5
+R12	Associated_with Arg1:T10 Arg2:T8
+R11	Associated_with Arg1:T4 Arg2:T6
+R13	Associated_with Arg1:T7 Arg2:T8
+R15	Associated_with Arg1:T9 Arg2:T8
+R17	Is_a Arg1:T17 Arg2:T18
+R21	Has_risk_factor Arg1:T17 Arg2:T44	
+R27	Has_risk_factor Arg1:T15 Arg2:T43	
+R28	Has_risk_factor Arg1:T15 Arg2:T14	
+R2	Alias Arg1:T53 Arg2:T54	
+T27	Symptom 947 976	pigment epithelial detachment

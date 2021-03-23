@@ -1,0 +1,18 @@
+T4	Diagnostic_tool 547 565	visual field tests
+T5	Characteristic 661 679	SAP mean deviation
+T6	Disease 1729 1737	glaucoma
+T7	Symptom 891 908	visual field loss
+T8	Anatomy 438 442	eyes
+T9	Anatomy 1340 1344	eyes
+T10	Anatomy 1501 1505	eyes
+T12	Disease 95 103	Glaucoma
+T11	Anatomy 1738 1742	eyes
+T14	Characteristic 777 789	visual field
+T13	Symptom 217 234	visual field loss
+T15	Characteristic 31 55	Visual Field Progression
+T1	Diagnostic_tool 241 269	standard automated perimetry
+T2	Diagnostic_tool 271 274	SAP
+T3	Disease 464 472	glaucoma
+R2	Diagnosed_with Arg1:T13 Arg2:T2
+R3	Alias Arg1:T2 Arg2:T1
+R1	Diagnosed_with Arg1:T13 Arg2:T1

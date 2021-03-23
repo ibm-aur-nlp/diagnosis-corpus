@@ -1,0 +1,48 @@
+T21	Diagnostic_tool 714 745	blue-yellow perimetric programs
+T20	Anatomy 1495 1499	eyes
+T23	Anatomy 676 679	eye
+T22	Diagnostic_tool 1547 1560	SITA Fast SAP
+T25	Diagnostic_tool 788 809	SAP SITA Fast program
+T24	Anatomy 1537 1541	eyes
+T27	Symptom 811 841	Glaucomatous visual field loss
+T26	Anatomy 1587 1591	eyes
+T29	Diagnostic_tool 1672 1681	SITA SWAP
+T28	Diagnostic_tool 1634 1653	full-threshold SWAP
+T32	Diagnostic_tool 1872 1891	SAP using SITA Fast
+T31	Diagnostic_tool 1247 1256	SITA SWAP
+T34	Diagnostic_tool 168 256	Fast Swedish interactive threshold algorithm (SITA) short-wavelength automated perimetry
+T36	Diagnostic_tool 300 362	standard automated perimetry (SAP) using the SITA Fast program
+T35	Diagnostic_tool 275 294	full-threshold SWAP
+T37	Disease 612 631	ocular hypertension
+T39	Diagnostic_tool 751 779	SITA and full-threshold SWAP
+T1	Diagnostic_tool 1696 1705	SITA Fast
+T2	Diagnostic_tool 1223 1242	full-threshold SWAP
+T3	Symptom 1749 1779	glaucomatous visual field loss
+T4	Diagnostic_tool 1711 1720	SITA SWAP
+T5	Diagnostic_tool 1271 1290	full-threshold SWAP
+T6	Diagnostic_tool 1950 1954	SWAP
+T7	Diagnostic_tool 1793 1812	full-threshold SWAP
+T8	Diagnostic_tool 1317 1326	SITA SWAP
+T9	Diagnostic_tool 1295 1298	SAP
+T10	Diagnostic_tool 1331 1334	SAP
+T12	Disease 79 93	early glaucoma
+T11	Anatomy 1350 1354	eyes
+T14	Symptom 373 409	early glaucomatous visual field loss
+T13	Diagnostic_tool 26 75	fast blue-yellow and standard automated perimetry
+T57	Characteristic 536 556	healthy participants
+T16	Characteristic 448 481	perimetric diagnostic sensitivity
+T15	Diagnostic_tool 258 262	SWAP
+T18	Disease 647 670	early manifest glaucoma
+T17	Diagnostic_tool 1449 1468	full-threshold SWAP
+T19	Diagnostic_tool 1501 1510	SITA SWAP
+R2	Is_a Arg1:T15 Arg2:T34
+R3	Diagnosed_with Arg1:T14 Arg2:T15
+R4	Diagnosed_with Arg1:T3 Arg2:T7
+R5	Diagnosed_with Arg1:T14 Arg2:T35
+R6	Diagnosed_with Arg1:T14 Arg2:T36
+R7	Is_a Arg1:T39 Arg2:T21
+R8	Is_a Arg1:T25 Arg2:T21
+R9	Diagnosed_with Arg1:T3 Arg2:T4
+R10	Diagnosed_with Arg1:T12 Arg2:T13
+R1	Diagnosed_with Arg1:T14 Arg2:T34
+R11	Is_a Arg1:T35 Arg2:T15	

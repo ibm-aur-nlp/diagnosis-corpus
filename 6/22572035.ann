@@ -1,0 +1,52 @@
+T21	Characteristic 1376 1398	cup-to-disc area ratio
+T20	Anatomy 492 495	eye
+T23	Diagnostic_tool 1503 1506	OCT
+T22	Diagnostic_tool 543 561	optic disc imaging
+T25	Diagnostic_tool 591 594	HRT
+T24	Diagnostic_tool 1408 1411	HRT
+T27	Characteristic 1563 1585	cup-to-disc area ratio
+T26	Diagnostic_tool 569 582	Cirrus HD-OCT
+T29	Characteristic 1550 1558	rim area
+T28	Diagnostic_tool 1511 1514	HRT
+T30	Characteristic 645 671	vertical cup-to-disc ratio
+T32	Characteristic 633 643	cup volume
+T31	Diagnostic_tool 1760 1763	HRT
+T34	Diagnostic_tool 742 745	OCT
+T33	Diagnostic_tool 1752 1755	OCT
+T36	Anatomy 1515 1525	optic disc
+T35	Characteristic 676 698	cup-to-disc area ratio
+T38	Characteristic 1333 1343	cup volume
+T37	Characteristic 1296 1320	optic disc and rim areas
+T41	Characteristic 1097 1100	ICC
+T40	Characteristic 1867 1879	OCT rim area
+T43	Characteristic 1240 1244	ICCs
+T42	Characteristic 1060 1095	intraclass correlation coefficients
+T47	Characteristic 1618 1626	rim area
+T48	Characteristic 1809 1813	ICCs
+T1	Diagnostic_tool 1986 1989	HRT
+T2	Diagnostic_tool 1005 1023	optic disc imaging
+T3	Diagnostic_tool 2130 2149	spectral-domain OCT
+T4	Disease 973 981	glaucoma
+T5	Anatomy 2105 2115	Optic disc
+T6	Anatomy 1146 1156	optic disc
+T7	Diagnostic_tool 2154 2192	confocal scanning laser ophthalmoscopy
+T8	Diagnostic_tool 24 68	spectral-domain optical coherence tomography
+T9	Anatomy 1248 1258	optic disc
+T51	Characteristic 2075 2079	ICCs
+T10	Diagnostic_tool 1275 1278	OCT
+T12	Diagnostic_tool 0 18	Optic disc imaging
+T11	Characteristic 1345 1371	vertical cup-to-disc ratio
+T14	Anatomy 167 177	optic disc
+T13	Diagnostic_tool 107 135	Heidelberg retinal tomograph
+T16	Diagnostic_tool 259 265	HD-OCT
+T15	Diagnostic_tool 209 257	Cirrus high-density optical coherence tomography
+T18	Diagnostic_tool 304 307	HRT
+T17	Diagnostic_tool 275 302	Heidelberg retina tomograph
+T19	Disease 454 462	glaucoma
+R2	Alias Arg1:T18 Arg2:T17
+R3	Diagnosed_with Arg1:T4 Arg2:T2
+R4	Is_a Arg1:T26 Arg2:T10
+R5	Is_a Arg1:T16 Arg2:T10
+R6	Alias Arg1:T41 Arg2:T42
+R1	Alias Arg1:T16 Arg2:T15
+T39	Characteristic 596 631	Areas of the optic disc and the cup

@@ -1,0 +1,57 @@
+T41	Characteristic 28 37	adulthood
+T40	Characteristic 783 819	follow-up of 5.8 years (range, 0-17)
+T21	Symptom 1589 1605	subretinal fluid
+T43	Characteristic 125 134	adulthood
+T20	Characteristic 521 547	retinal vascular occlusion
+T23	Characteristic 2015 2024	adulthood
+T45	Characteristic 665 677	demographics
+T22	Characteristic 552 567	Coats' response
+T25	Symptom 1919 1942	iris neovascularization
+T24	Diagnostic_tool 1614 1641	ocular coherence tomography
+T27	Disease 1895 1909	Coats' disease
+T26	Diagnostic_tool 627 651	fluorescein angiographic
+T29	Symptom 1946 1972	total exudative detachment
+T28	Disease 1974 1988	Coats' disease
+T1	Characteristic 2086 2102	younger patients
+T2	Symptom 1041 1119	areas of capillary nonperfusion with adjacent webs of filigreelike capillaries
+T3	Characteristic 475 493	radiation exposure
+T4	Anatomy 1226 1269	retinal vasculature anterior to the equator
+T5	Symptom 1773 1790	decline in vision
+T6	Symptom 1452 1494	Limited exudative detachment of the retina
+T7	Symptom 1341 1361	localized hemorrhage
+T8	Symptom 1807 1822	improved vision
+T9	Characteristic 1843 1856	stable vision
+T30	Characteristic 953 957	male
+T10	Symptom 1421 1450	larger aneurysmal dilatations
+T32	Disease 872 886	Coats' disease
+T31	Characteristic 2176 2182	adults
+T12	Characteristic 1713 1726	visual acuity
+T34	Symptom 1005 1020	lipid exudation
+T11	Anatomy 1509 1513	eyes
+T33	Symptom 2030 2060	retinal vascular abnormalities
+T14	Disease 97 111	Coats' disease
+T36	Symptom 2267 2310	hemorrhage near larger vascular dilatations
+T13	Disease 0 14	Coats' disease
+T35	Symptom 980 1003	vascular telangiectasis
+T16	Characteristic 299 317	after age 35 years
+T38	Characteristic 728 771	age at diagnosis of 50 years (range, 36-79)
+T15	Disease 274 288	Coats' disease
+T37	Anatomy 249 253	eyes
+T18	Characteristic 405 430	after the age of 35 years
+T17	Disease 380 394	Coats' disease
+T39	Symptom 1022 1035	macular edema
+T19	Characteristic 495 519	intraocular inflammation
+R2	Has_symptom Arg1:T28 Arg2:T33
+R3	Has_symptom Arg1:T32 Arg2:T34
+R4	Has_symptom Arg1:T32 Arg2:T39
+R5	Has_symptom Arg1:T32 Arg2:T2
+R6	Has_symptom Arg1:T27 Arg2:T25
+R7	Has_symptom Arg1:T27 Arg2:T29
+R8	Diagnosed_with Arg1:T21 Arg2:T24
+R9	Has_risk_factor Arg1:T32 Arg2:T30
+R10	Has_risk_factor Arg1:T28 Arg2:T23
+R12	Has_risk_factor Arg1:T15 Arg2:T16
+R11	Has_risk_factor Arg1:T13 Arg2:T41
+R14	Has_risk_factor Arg1:T17 Arg2:T18
+R13	Has_risk_factor Arg1:T14 Arg2:T43
+R1	Has_symptom Arg1:T32 Arg2:T35

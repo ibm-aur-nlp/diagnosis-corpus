@@ -1,0 +1,73 @@
+T21	Symptom 963 967	GVFD
+T20	Symptom 322 326	GFVD
+T23	Anatomy 1237 1241	eyes
+T22	Diagnostic_tool 332 351	spectral domain OCT
+T25	Diagnostic_tool 662 700	confocal scanning laser ophthalmoscopy
+T24	Diagnostic_tool 702 706	CSLO
+T27	Symptom 522 526	GVFD
+T26	Diagnostic_tool 834 836	VF
+T29	Diagnostic_tool 1401 1421	Deep learning models
+T28	Symptom 1247 1251	GVFD
+T32	Symptom 1699 1714	functional loss
+T31	Anatomy 1653 1657	eyes
+T33	Diagnostic_tool 1866 1876	VF testing
+T36	Symptom 1275 1284	mild GVFD
+T35	Characteristic 1331 1363	mean RNFL thickness measurements
+T38	Diagnostic_tool 887 907	Deep learning models
+T39	Diagnostic_tool 540 560	Deep learning models
+T41	Diagnostic_tool 1599 1619	Deep learning models
+T40	Diagnostic_tool 1147 1167	deep learning models
+T43	Diagnostic_tool 1533 1553	deep learning models
+T42	Diagnostic_tool 1177 1196	RNFL en face images
+T45	Characteristic 1444 1471	RNFL thickness measurements
+T47	Diagnostic_tool 111 151	Retinal Nerve Fiber Layer Thickness Maps
+T48	Anatomy 533 537	eyes
+T1	Diagnostic_tool 1503 1505	VF
+T2	Diagnostic_tool 1563 1582	RNFL en face images
+T3	Symptom 737 741	GVFD
+T4	Anatomy 727 731	eyes
+T5	Symptom 1663 1667	GFVD
+T6	Symptom 1773 1777	GFVD
+T7	Diagnostic_tool 767 769	VF
+T8	Diagnostic_tool 1720 1733	SD OCT images
+T9	Diagnostic_tool 874 880	SD OCT
+T50	Diagnostic_tool 581 636	SD OCT retinal nerve fiber layer (RNFL) thickness maps,
+T52	Diagnostic_tool 637 656	RNFL en face images
+T10	Diagnostic_tool 1783 1797	SD OCT imaging
+T12	Diagnostic_tool 0 24	Deep Learning Approaches
+T11	Characteristic 932 946	RNFL thickness
+T14	Diagnostic_tool 459 465	SD OCT
+T13	Symptom 33 65	Glaucomatous Visual Field Damage
+T16	Diagnostic_tool 441 453	visual field
+T15	Diagnostic_tool 455 457	VF
+T18	Symptom 251 283	glaucomatous visual field damage
+T17	Anatomy 229 233	eyes
+T19	Symptom 285 289	GVFD
+R3	Alias Arg1:T15 Arg2:T16
+R5	Alias Arg1:T24 Arg2:T25
+R6	Diagnosed_with Arg1:T32 Arg2:T8
+R7	Diagnosed_with Arg1:T5 Arg2:T2
+R8	Diagnosed_with Arg1:T6 Arg2:T10
+R9	Diagnosed_with Arg1:T6 Arg2:T33
+R21	Has_risk_factor Arg1:T21 Arg2:T11
+R20	Diagnosed_with Arg1:T21 Arg2:T38
+R23	Diagnosed_with Arg1:T28 Arg2:T42
+R22	Diagnosed_with Arg1:T28 Arg2:T40
+R14	Diagnosed_with Arg1:T13 Arg2:T12
+R24	Diagnosed_with Arg1:T5 Arg2:T41
+R16	Diagnosed_with Arg1:T3 Arg2:T24
+R15	Diagnosed_with Arg1:T3 Arg2:T39
+R18	Diagnosed_with Arg1:T3 Arg2:T50
+R17	Diagnosed_with Arg1:T3 Arg2:T25
+R19	Diagnosed_with Arg1:T3 Arg2:T52
+R1	Alias Arg1:T19 Arg2:T18
+R13	Diagnosed_with Arg1:T13 Arg2:T47	
+T53	Diagnostic_tool 353 359	SD OCT
+R12	Alias Arg1:T53 Arg2:T22	
+T55	Anatomy 361 377	optic nerve head
+R25	Diagnosed_with Arg1:T20 Arg2:T22	
+R26	Diagnosed_with Arg1:T20 Arg2:T53	
+T34	Diagnostic_tool 71 106	OCT Optic Nerve Head En Face Images
+R4	Diagnosed_with Arg1:T13 Arg2:T34	
+R2	Diagnosed_with Arg1:T36 Arg2:T42	
+R10	Diagnosed_with Arg1:T36 Arg2:T40	

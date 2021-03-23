@@ -1,0 +1,86 @@
+T60	Symptom 2104 2107	CNV
+T21	Diagnostic_tool 2079 2085	TD-OCT
+T20	Characteristic 1810 1832	center point thickness
+T23	Disease 95 127	age-related macular degeneration
+T22	Diagnostic_tool 2057 2063	SD-OCT
+T25	Symptom 236 239	CNV
+T24	Symptom 206 234	choroidal neovascularization
+T27	Disease 311 314	AMD
+T26	Disease 267 309	exudative age-related macular degeneration
+T29	Diagnostic_tool 394 400	TD-OCT
+T28	Diagnostic_tool 352 392	time-domain optical coherence tomography
+T30	Diagnostic_tool 418 462	spectral-domain optical coherence tomography
+T32	Disease 2134 2141	wet AMD
+T31	Symptom 917 933	subretinal fluid
+T34	Symptom 935 953	intraretinal cysts
+T33	Diagnostic_tool 464 470	SD-OCT
+T36	Symptom 975 1021	sub-retinal pigment epithelium (sub-RPE) fluid
+T35	Disease 554 567	exudative AMD
+T38	Symptom 955 973	intraretinal fluid
+T37	Anatomy 529 533	eyes
+T39	Diagnostic_tool 692 698	SD-OCT
+T41	Characteristic 2171 2188	Retinal thickness
+T40	Diagnostic_tool 655 661	TD-OCT
+T43	Diagnostic_tool 2210 2216	SD-OCT
+T42	Diagnostic_tool 2221 2227	TD-OCT
+T45	Diagnostic_tool 758 768	OCT images
+T44	Diagnostic_tool 1616 1622	SD-OCT
+T49	Diagnostic_tool 14 77	spectral-domain versus time-domain optical coherence tomography
+T48	Symptom 1728 1758	sub-RPE and intraretinal fluid
+T1	Diagnostic_tool 1845 1851	SD-OCT
+T2	Diagnostic_tool 1686 1692	SD-OCT
+T3	Diagnostic_tool 1905 1911	SD-OCT
+T4	Diagnostic_tool 1864 1870	TD-OCT
+T5	Characteristic 1966 1988	center point thickness
+T6	Diagnostic_tool 1956 1962	TD-OCT
+T7	Characteristic 2004 2029	center subfield thickness
+T8	Characteristic 1077 1094	retinal thickness
+T9	Diagnostic_tool 1215 1221	SD-OCT
+T51	Symptom 877 880	CNV
+T10	Symptom 1339 1352	sub-RPE fluid
+T53	Symptom 1142 1145	CNV
+T12	Symptom 1516 1532	subretinal fluid
+T11	Diagnostic_tool 1243 1249	TD-OCT
+T14	Symptom 1537 1555	intraretinal cysts
+T13	Symptom 1441 1459	intraretinal fluid
+T16	Diagnostic_tool 1472 1478	SD-OCT
+T15	Diagnostic_tool 1397 1403	SD-OCT
+T18	Diagnostic_tool 1280 1286	SD-OCT
+T17	Symptom 1658 1674	subretinal fluid
+T19	Diagnostic_tool 1367 1373	TD-OCT
+R41	Diagnosed_with Arg1:T10 Arg2:T18
+R40	Diagnosed_with Arg1:T12 Arg2:T16
+R21	Alias Arg1:T10 Arg2:T36
+R20	Diagnosed_with Arg1:T24 Arg2:T30
+R42	Diagnosed_with Arg1:T14 Arg2:T16
+R23	Diagnosed_with Arg1:T60 Arg2:T21
+R22	Alias Arg1:T25 Arg2:T24
+R24	Diagnosed_with Arg1:T60 Arg2:T22
+R26	Has_symptom Arg1:T32 Arg2:T60
+R29	Alias Arg1:T27 Arg2:T23
+R1	Is_a Arg1:T26 Arg2:T27
+R2	Alias Arg1:T29 Arg2:T28
+R3	Alias Arg1:T33 Arg2:T30
+R4	Alias Arg1:T35 Arg2:T26
+R5	Diagnosed_with Arg1:T23 Arg2:T49
+R6	Has_symptom Arg1:T26 Arg2:T24
+R7	Has_symptom Arg1:T26 Arg2:T25
+R8	Has_symptom Arg1:T27 Arg2:T24
+R9	Has_symptom Arg1:T27 Arg2:T25
+R10	Diagnosed_with Arg1:T48 Arg2:T2
+R12	Diagnosed_with Arg1:T13 Arg2:T15
+R11	Diagnosed_with Arg1:T25 Arg2:T29
+R14	Diagnosed_with Arg1:T17 Arg2:T44
+R13	Diagnosed_with Arg1:T25 Arg2:T28
+R16	Diagnosed_with Arg1:T25 Arg2:T33
+R38	Diagnosed_with Arg1:T53 Arg2:T11
+R15	Diagnosed_with Arg1:T25 Arg2:T30
+R18	Diagnosed_with Arg1:T24 Arg2:T28
+R17	Diagnosed_with Arg1:T24 Arg2:T29
+R39	Diagnosed_with Arg1:T53 Arg2:T9
+R19	Diagnosed_with Arg1:T24 Arg2:T33
+R25	Causes Arg1:T51 Arg2:T31	
+R27	Causes Arg1:T51 Arg2:T34	
+R28	Causes Arg1:T51 Arg2:T38	
+R30	Causes Arg1:T51 Arg2:T36	
+R31	Diagnosed_with Arg1:T51 Arg2:T45	

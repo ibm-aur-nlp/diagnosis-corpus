@@ -1,0 +1,24 @@
+T4	Disease 453 456	MGD
+T5	Disease 634 650	ocular disorders
+T6	Disease 613 616	MGD
+T7	Disease 828 852	ocular surface disorders
+T8	Disease 793 796	MGD
+T9	Disease 1068 1071	MGD
+T10	Disease 886 889	MGD
+T21	Anatomy 1225 1231	ocular
+T12	Disease 55 82	meibomian gland dysfunction
+T11	Disease 1154 1157	MGD
+T22	Anatomy 897 911	ocular surface
+T14	Disease 288 307	evaporative dry eye
+T13	Disease 85 108	Ocular surface disorder
+T16	Disease 601 608	dry eye
+T15	Disease 342 367	aqueous-deficient dry eye
+T17	Disease 114 121	dry eye
+T1	Anatomy 172 175	eye
+T2	Disease 232 259	meibomian gland dysfunction
+T3	Disease 261 264	MGD
+R2	Causes Arg1:T2 Arg2:T14
+R3	Causes Arg1:T3 Arg2:T14
+R4	Is_a Arg1:T8 Arg2:T7
+R5	Is_a Arg1:T17 Arg2:T13
+R1	Alias Arg1:T3 Arg2:T2

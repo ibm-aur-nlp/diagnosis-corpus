@@ -1,0 +1,39 @@
+T62	Characteristic 1098 1125	immunohistochemical markers
+T67	Anatomy 1331 1358	Glial and/or neuronal cells
+T22	Symptom 1968 1971	ERM
+T66	Characteristic 697 782	Monoclonal antibodies to glial fibrillary acidic protein and to neurofilament protein
+T25	Anatomy 1865 1918	cells on the vitreous and the retinal surfaces of ILM
+T24	Anatomy 986 989	ILM
+T27	Anatomy 2053 2056	ILM
+T26	Anatomy 459 462	ILM
+T29	Anatomy 483 486	ILM
+T28	Anatomy 1129 1195	neuronal or glial cells on the vitreous or retinal surfaces of ILM
+T70	Anatomy 1380 1395	retinal surface
+T71	Characteristic 1432 1438	MH ILM
+T30	Anatomy 595 598	ILM
+T31	Anatomy 1318 1321	ILM
+T34	Anatomy 803 826	glial or neuronal cells
+T37	Anatomy 1601 1625	neuronal and glial cells
+T39	Anatomy 847 886	vitreous or retinal surfaces of the ILM
+T46	Characteristic 941 968	full-thickness macular hole
+T1	Anatomy 76 102	internal limiting membrane
+T2	Anatomy 1714 1729	retinal surface
+T3	Diagnostic_tool 562 578	light microscopy
+T5	Anatomy 1403 1406	ILM
+T6	Anatomy 1478 1481	ILM
+T7	Symptom 1495 1498	ERM
+T8	Anatomy 1673 1676	ILM
+T10	Symptom 1800 1803	ERM
+T12	Anatomy 926 929	ILM
+T55	Characteristic 970 972	MH
+T14	Symptom 197 216	epiretinal membrane
+T13	Symptom 24 43	epiretinal membrane
+T57	Symptom 1036 1039	ERM
+T16	Anatomy 256 282	internal limiting membrane
+T15	Symptom 218 221	ERM
+T59	Characteristic 1995 2010	sub-ILM changes
+T17	Anatomy 357 360	ILM
+T19	Anatomy 284 287	ILM
+R2	Alias Arg1:T19 Arg2:T16
+R5	Is_a Arg1:T55 Arg2:T46
+R3	Alias Arg1:T15 Arg2:T14	

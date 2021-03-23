@@ -1,0 +1,39 @@
+T1	Disease 38 61	age-related maculopathy
+T5	Disease 236 239	ARM
+T6	Disease 491 519	neovascular and atrophic AMD
+T2	Disease 127 159	age-related macular degeneration
+T3	Disease 161 164	AMD
+R1	Alias Arg1:T3 Arg2:T2	
+T8	Anatomy 272 278	fundus
+T9	Characteristic 351 374	aged 55 years and older
+T10	Characteristic 375 394	living in Rotterdam
+T11	Characteristic 396 411	The Netherlands
+T7	Disease 580 599	early stages of ARM
+T4	Disease 195 234	early stages of age-related maculopathy
+T13	Disease 651 654	ARM
+T14	Diagnostic_tool 601 622	Fundus transparencies
+R2	Diagnosed_with Arg1:T13 Arg2:T14	
+T15	Disease 702 705	ARM
+T16	Symptom 791 816	pigmentary irregularities
+T18	Disease 871 874	AMD
+T19	Characteristic 919 938	85 years and older.
+T22	Symptom 1196 1210	depigmentation
+T23	Symptom 1241 1258	hyperpigmentation
+T24	Disease 1316 1319	AMD
+T25	Characteristic 1371 1384	United States
+T26	Characteristic 1343 1358	The Netherlands
+T27	Disease 1401 1417	early ARM stages
+T28	Symptom 1509 1527	pigmentary changes
+T29	Symptom 1472 1492	large area of drusen
+R3	Has_symptom Arg1:T27 Arg2:T29	
+R4	Has_symptom Arg1:T27 Arg2:T28	
+T17	Symptom 768 774	drusen
+R5	Has_symptom Arg1:T15 Arg2:T16	
+R6	Has_symptom Arg1:T15 Arg2:T17	
+T12	Symptom 1074 1121	more than 10% of macular area covered by drusen
+T20	Classification_system 665 700	International Classification System
+R7	Diagnosed_with Arg1:T13 Arg2:T20	
+R8	Is_a Arg1:T4 Arg2:T5	
+R9	Is_a Arg1:T7 Arg2:T5	
+R10	Is_a Arg1:T6 Arg2:T3	
+R11	Has_risk_factor Arg1:T18 Arg2:T19	

@@ -1,0 +1,75 @@
+T60	Diagnostic_tool 0 28	Optical coherence tomography
+T21	Disease 1951 1959	glaucoma
+T20	Diagnostic_tool 1845 1848	OCT
+T23	Characteristic 2019 2036	macular thickness
+T22	Diagnostic_tool 1896 1899	OCT
+T25	Characteristic 44 83	macular and nerve fiber layer thickness
+T24	Characteristic 1970 1983	NFL thickness
+T27	Anatomy 117 121	eyes
+T26	Disease 98 110	glaucomatous
+T29	Disease 207 215	glaucoma
+T28	Characteristic 156 173	macular thickness
+T30	Anatomy 269 273	eyes
+T32	Anatomy 322 326	eyes
+T31	Anatomy 290 294	eyes
+T34	Diagnostic_tool 2125 2128	OCT
+T33	Disease 333 341	glaucoma
+T36	Characteristic 493 538	macular and nerve fiber layer (NFL) thickness
+T35	Diagnostic_tool 447 475	optical coherence tomography
+T38	Disease 949 975	early or advanced glaucoma
+T37	Diagnostic_tool 477 480	OCT
+T39	Disease 597 605	glaucoma
+T41	Anatomy 1540 1544	eyes
+T40	Diagnostic_tool 859 862	OCT
+T43	Anatomy 1608 1612	eyes
+T42	Disease 1518 1539	advanced glaucomatous
+T45	Anatomy 356 360	eyes
+T47	Characteristic 1226 1243	macular parameter
+T49	Characteristic 1855 1880	macular and NFL thickness
+T48	Characteristic 2136 2161	Macular and NFL thickness
+T1	Disease 1156 1177	advanced glaucomatous
+T2	Characteristic 761 786	Macular and NFL thickness
+T3	Anatomy 1178 1182	eyes
+T4	Diagnostic_tool 656 659	OCT
+T5	Diagnostic_tool 802 805	OCT
+T6	Disease 368 382	early glaucoma
+T7	Anatomy 738 742	eyes
+T8	Disease 411 428	advanced glaucoma
+T9	Disease 1302 1316	early glaucoma
+T50	Characteristic 991 1041	Inner ring, outer ring, and mean macular thickness
+T52	Characteristic 811 825	NFL parameters
+T10	Characteristic 1480 1498	mean NFL thickness
+T12	Characteristic 1674 1696	mean macular thickness
+T56	Diagnostic_tool 1075 1078	OCT
+T11	Diagnostic_tool 1357 1360	OCT
+T14	Anatomy 1733 1737	eyes
+T13	Diagnostic_tool 1592 1595	OCT
+T57	Characteristic 1202 1212	outer ring
+T16	Diagnostic_tool 1806 1809	OCT
+T15	Disease 1711 1732	advanced glaucomatous
+T18	Disease 2239 2247	glaucoma
+T17	Anatomy 400 404	eyes
+T19	Diagnostic_tool 2185 2188	OCT
+R21	Located_in Arg1:T26 Arg2:T27
+R23	Has_risk_factor Arg1:T15 Arg2:T12
+R22	Diagnosed_with Arg1:T18 Arg2:T19
+R25	Has_risk_factor Arg1:T21 Arg2:T23
+R24	Has_risk_factor Arg1:T42 Arg2:T10
+R26	Has_risk_factor Arg1:T21 Arg2:T24
+R1	Alias Arg1:T37 Arg2:T35
+R2	Has_risk_factor Arg1:T26 Arg2:T25
+R4	Diagnosed_with Arg1:T42 Arg2:T13
+R5	Has_risk_factor Arg1:T29 Arg2:T28
+R6	Diagnosed_with Arg1:T15 Arg2:T20
+R7	Diagnosed_with Arg1:T15 Arg2:T16
+R8	Diagnosed_with Arg1:T21 Arg2:T22
+R9	Diagnosed_with Arg1:T26 Arg2:T60
+R10	Is_a Arg1:T6 Arg2:T33
+R11	Causes Arg1:T8 Arg2:T33
+R13	Has_risk_factor Arg1:T38 Arg2:T52
+R18	Has_risk_factor Arg1:T9 Arg2:T57
+R17	Diagnosed_with Arg1:T9 Arg2:T11
+R12	Has_risk_factor Arg1:T1 Arg2:T50	
+R14	Is_a Arg1:T57 Arg2:T47	
+R15	Has_risk_factor Arg1:T21 Arg2:T49	
+R3	Has_risk_factor Arg1:T18 Arg2:T48	

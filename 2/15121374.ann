@@ -1,0 +1,40 @@
+T21	Symptom 1114 1127	macular edema
+T20	Symptom 879 889	Loss of VA
+T23	Symptom 1081 1095	compromised VA
+T22	Symptom 936 955	VA less than 20/200
+T25	Symptom 1232 1267	visual outcome after 5 and 10 years
+T24	Symptom 1132 1147	macular atrophy
+T27	Characteristic 1216 1218	VA
+T26	Disease 1222 1227	onset
+T29	Symptom 215 226	visual loss
+T28	Anatomy 429 432	Eye
+T1	Diagnostic_tool 1400 1411	angiography
+T2	Characteristic 1309 1364	Mean VA at the 5-year follow-up was significantly lower
+T3	Disease 1583 1586	BCR
+T4	Symptom 1368 1383	macular leakage
+T5	Characteristic 809 822	visual acuity
+T6	Disease 1757 1774	blinding disorder
+T7	Characteristic 824 826	VA
+T8	Disease 1604 1611	uveitis
+T9	Symptom 1450 1460	loss of VA
+T10	Disease 0 26	Birdshot chorioretinopathy
+T12	Disease 173 176	BCR
+T11	Disease 145 171	birdshot chorioretinopathy
+T14	Disease 324 327	BCR
+T13	Characteristic 307 323	HLA-A29-positive
+T16	Characteristic 589 605	HLA-A29-positive
+T15	Disease 606 609	BCR
+T18	Disease 704 707	BCR
+T17	Diagnostic_tool 528 568	photographic and/or angiographic records
+T19	Anatomy 926 930	eyes
+R2	Causes Arg1:T4 Arg2:T2
+R10	Diagnosed_with Arg1:T4 Arg2:T1
+R3	Has_risk_factor Arg1:T15 Arg2:T16
+R4	Diagnosed_with Arg1:T15 Arg2:T17
+R5	Has_risk_factor Arg1:T26 Arg2:T27
+R11	Alias Arg1:T12 Arg2:T11
+R6	Alias Arg1:T7 Arg2:T5
+R7	Alias Arg1:T26 Arg2:T18
+R8	Causes Arg1:T21 Arg2:T23
+R9	Causes Arg1:T24 Arg2:T23
+R1	Has_risk_factor Arg1:T14 Arg2:T13

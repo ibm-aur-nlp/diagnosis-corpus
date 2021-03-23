@@ -1,0 +1,58 @@
+T21	Disease 345 359	early glaucoma
+T20	Anatomy 335 339	eyes
+T23	Diagnostic_tool 444 460	Macular GCA maps
+T22	Disease 2157 2171	early glaucoma
+T24	Symptom 1345 1356	RNFL defect
+T27	Disease 988 1000	glaucomatous
+T26	Symptom 1435 1465	isolated peripheral nasal step
+T29	Anatomy 1001 1005	eyes
+T28	Diagnostic_tool 481 494	Cirrus HD-OCT
+T30	Anatomy 1210 1214	eyes
+T32	Diagnostic_tool 1897 1919	Cirrus HD-OCT GCA maps
+T31	Disease 1197 1209	glaucomatous
+T34	Anatomy 1637 1641	eyes
+T33	Diagnostic_tool 625 652	red-free fundus photographs
+T35	Disease 2020 2032	glaucomatous
+T43	Symptom 2047 2103	angular distance between fovea and RNFL defect was great
+T42	Symptom 1160 1177	abnormal findings
+T45	Symptom 1395 1427	less severe visual field defects
+T44	Symptom 1302 1336	angular distance between the fovea
+T46	Symptom 1360 1393	narrower width of the RNFL defect
+T49	Symptom 1784 1805	abnormal GCA findings
+T48	Symptom 1521 1556	angular distance of the RNFL defect
+T1	Anatomy 1817 1821	eyes
+T2	Diagnostic_tool 227 230	GCA
+T3	Anatomy 2033 2037	eyes
+T4	Diagnostic_tool 1088 1091	GCA
+T5	Characteristic 1861 1884	myopic refractive error
+T6	Diagnostic_tool 702 709	GCA map
+T7	Diagnostic_tool 1711 1714	GCA
+T8	Disease 1952 1966	early glaucoma
+T9	Diagnostic_tool 1185 1193	GCA maps
+T50	Symptom 672 694	structural abnormality
+T52	Symptom 1056 1080	structural abnormalities
+T51	Symptom 937 949	abnormal GCA
+T10	Diagnostic_tool 2178 2186	GCA maps
+T12	Symptom 1251 1290	RNFL defects in the superior hemisphere
+T11	Diagnostic_tool 1977 1985	GCA maps
+T14	Disease 54 62	glaucoma
+T13	Diagnostic_tool 0 30	Macular ganglion cell analysis
+T16	Diagnostic_tool 148 161	Cirrus HD-OCT
+T15	Diagnostic_tool 95 146	Cirrus high-definition optical coherence tomography
+T18	Symptom 541 597	circumpapillary retinal nerve fiber layer (RNFL) defects
+T17	Diagnostic_tool 195 225	macular ganglion cell analysis
+T19	Disease 280 294	early glaucoma
+R2	Diagnosed_with Arg1:T19 Arg2:T2
+R3	Diagnosed_with Arg1:T14 Arg2:T13
+R4	Alias Arg1:T2 Arg2:T17
+R5	Diagnosed_with Arg1:T19 Arg2:T15
+R6	Diagnosed_with Arg1:T22 Arg2:T10
+R7	Alias Arg1:T16 Arg2:T15
+R8	Is_a Arg1:T19 Arg2:T14
+R9	Diagnosed_with Arg1:T19 Arg2:T16
+R10	Diagnosed_with Arg1:T19 Arg2:T17
+R12	Has_risk_factor Arg1:T49 Arg2:T5
+R11	Diagnosed_with Arg1:T18 Arg2:T33
+R13	Diagnosed_with Arg1:T43 Arg2:T11
+R1	Diagnosed_with Arg1:T8 Arg2:T32
+T53	Characteristic 396 442	age- and refractive error-matched healthy eyes

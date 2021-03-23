@@ -1,0 +1,68 @@
+T61	Disease 2279 2287	Glaucoma
+T60	Characteristic 2137 2168	Topical glaucoma therapy burden
+T62	Characteristic 2347 2378	topical glaucoma therapy burden
+T21	Characteristic 397 419	Tear film breakup time
+T65	Symptom 288 298	normal VFs
+T20	Disease 1655 1663	glaucoma
+T23	Characteristic 1697 1732	Ocular discomfort-related subscores
+T67	Disease 879 887	glaucoma
+T22	Characteristic 428 450	corneal staining score
+T25	Characteristic 2001 2024	vision-related subscore
+T24	Characteristic 421 425	TBUT
+T27	Characteristic 1923 1939	total OSDI score
+T26	Characteristic 640 663	vision-related subscore
+T29	Characteristic 728 755	discomfort-related subscore
+T28	Characteristic 622 638	Total OSDI score
+T30	Disease 916 933	glaucoma suspects
+T36	Disease 265 282	glaucoma suspects
+T37	Disease 380 388	Glaucoma
+T39	Disease 1038 1055	glaucoma suspects
+T42	Disease 1540 1557	glaucoma suspects
+T49	Characteristic 535 563	Ocular Surface Disease Index
+T48	Characteristic 565 569	OSDI
+T1	Characteristic 1123 1127	TBUT
+T2	Characteristic 2220 2258	vision- or discomfort-related subscore
+T3	Characteristic 1131 1149	Schirmer's results
+T4	Characteristic 1426 1430	TBUT
+T5	Disease 2319 2341	ocular surface disease
+T6	Disease 2471 2493	ocular surface disease
+T7	Characteristic 2435 2439	OSDI
+T8	Characteristic 2399 2424	corneal staining severity
+T9	Characteristic 1434 1452	Schirmer's results
+T50	Characteristic 1289 1317	total corneal staining grade
+T51	Disease 1474 1482	Glaucoma
+T10	Symptom 2553 2560	VF loss
+T54	Characteristic 1214 1245	topical glaucoma therapy burden
+T53	Characteristic 1517 1534	total OSDI scores
+T12	Disease 1012 1020	glaucoma
+T56	Characteristic 1623 1647	vision-related subscores
+T11	Disease 2497 2505	glaucoma
+T14	Disease 54 62	glaucoma
+T58	Characteristic 2083 2110	discomfort-related subscore
+T13	Characteristic 974 996	corneal staining grade
+T57	Characteristic 1850 1878	better-eye VF mean deviation
+T16	Disease 118 140	ocular surface disease
+T15	Disease 14 36	ocular surface disease
+T59	Characteristic 2200 2216	total OSDI score
+T18	Symptom 225 257	bilateral visual field (VF) loss
+T17	Disease 158 166	glaucoma
+T19	Characteristic 463 486	Schirmer's test results
+R2	Has_risk_factor Arg1:T12 Arg2:T13
+R4	Alias Arg1:T48 Arg2:T49
+R5	Has_risk_factor Arg1:T51 Arg2:T53
+R7	Associated_with Arg1:T54 Arg2:T50
+R8	Not_Associated_with Arg1:T54 Arg2:T4
+R9	Not_Associated_with Arg1:T54 Arg2:T9
+R10	Has_risk_factor Arg1:T20 Arg2:T56
+R12	Associated_with Arg1:T57 Arg2:T27
+R11	Associated_with Arg1:T57 Arg2:T25
+R14	Not_Associated_with Arg1:T57 Arg2:T58
+R13	Not_Associated_with Arg1:T60 Arg2:T59
+R16	Not_Associated_with Arg1:T60 Arg2:T2
+R15	Associated_with Arg1:T62 Arg2:T8
+R18	No_Has_risk_factor Arg1:T6 Arg2:T7
+R17	Has_symptom Arg1:T11 Arg2:T10
+R1	Alias Arg1:T24 Arg2:T21
+T31	Disease 202 210	glaucoma
+R19	Has_symptom Arg1:T31 Arg2:T18	
+R6	Has_symptom Arg1:T36 Arg2:T65	

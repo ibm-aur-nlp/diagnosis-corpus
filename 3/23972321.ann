@@ -1,0 +1,53 @@
+T20	Diagnostic_tool 335 394	oligo-single nucleotide polymorphism chromosomal microarray
+T23	Characteristic 1261 1271	CLDN5 gene
+T22	Diagnostic_tool 597 607	Microarray
+T25	Disease 96 113	dup22q11 syndrome
+T24	Anatomy 68 74	ocular
+T27	Anatomy 1387 1393	ocular
+T26	Characteristic 260 270	dup22q11.2
+T1	Disease 1539 1547	glaucoma
+T2	Characteristic 1112 1117	MAPK1
+T3	Characteristic 1025 1031	SNAP29
+T4	Characteristic 1306 1311	CLDN5
+T5	Characteristic 25 49	22q11.2 microduplication
+T6	Characteristic 212 216	male
+T7	Anatomy 0 6	Ocular
+T8	Disease 871 913	congenital cranial dysinnervation disorder
+T9	Disease 915 919	CCDD
+T30	Symptom 1079 1106	retinal vascular tortuosity
+T10	Disease 766 789	Marcus Gunn jaw winking
+T31	Symptom 1506 1533	retinal vascular tortuosity
+T12	Symptom 830 852	abnormal eye movements
+T11	Disease 791 818	Duane's retraction syndrome
+T14	Disease 1240 1244	CCDD
+T36	Symptom 922 949	retinal vascular tortuosity
+T13	Disease 955 981	primary infantile glaucoma
+T35	Characteristic 744 754	dup22q11.2
+T16	Disease 1356 1364	glaucoma
+T15	Characteristic 1408 1428	duplication of 22q11
+T17	Disease 1500 1504	CCDD
+R21	Has_symptom Arg1:T13 Arg2:T12
+R20	Has_risk_factor Arg1:T17 Arg2:T15
+R23	Has_risk_factor Arg1:T1 Arg2:T15
+R22	Has_symptom Arg1:T8 Arg2:T12
+R25	Has_risk_factor Arg1:T31 Arg2:T15
+R27	Causes Arg1:T8 Arg2:T10
+R26	Causes Arg1:T8 Arg2:T11
+R29	Causes Arg1:T10 Arg2:T36
+R28	Causes Arg1:T11 Arg2:T13
+R1	Alias Arg1:T9 Arg2:T8
+R5	Is_a Arg1:T22 Arg2:T20
+R8	Has_risk_factor Arg1:T30 Arg2:T3
+R9	Has_risk_factor Arg1:T14 Arg2:T2
+R30	Causes Arg1:T10 Arg2:T13
+R10	Alias Arg1:T4 Arg2:T23
+R31	Causes Arg1:T11 Arg2:T36
+R12	Has_risk_factor Arg1:T16 Arg2:T4
+R33	Has_risk_factor Arg1:T10 Arg2:T35
+R16	Has_risk_factor Arg1:T8 Arg2:T35
+R15	Has_risk_factor Arg1:T11 Arg2:T35
+R18	Has_risk_factor Arg1:T36 Arg2:T35
+R17	Has_risk_factor Arg1:T9 Arg2:T35
+R19	Has_risk_factor Arg1:T13 Arg2:T35
+R13	Alias Arg1:T26 Arg2:T5	
+R2	Causes Arg1:T36 Arg2:T12	

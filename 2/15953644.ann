@@ -1,0 +1,42 @@
+T21	Diagnostic_tool 1111 1142	small-field central fusion test
+T20	Diagnostic_tool 1916 1934	lights on-off test
+T23	Diagnostic_tool 1370 1388	lights on-off test
+T22	Anatomy 1267 1271	eyes
+T25	Diagnostic_tool 2017 2067	partial monocular occlusion with Scotch Satin tape
+T24	Diagnostic_tool 1181 1221	partial occlusion with Scotch Satin tape
+T27	Anatomy 1892 1902	eye muscle
+T26	Symptom 1768 1809	dragging of the fovea in one or both eyes
+T29	Symptom 1051 1068	macular wrinkling
+T28	Symptom 983 997	metamorphopsia
+T1	Symptom 1517 1534	peripheral fusion
+T2	Disease 1495 1511	central diplopia
+T3	Diagnostic_tool 1608 1650	monocular occlusion with Scotch Satin tape
+T4	Disease 1656 1687	dragged-fovea diplopia syndrome
+T5	Symptom 1736 1753	peripheral fusion
+T6	Disease 1700 1716	central diplopia
+T7	Characteristic 1440 1454	central fusion
+T8	Disease 4 35	dragged-fovea diplopia syndrome
+T9	Disease 138 169	dragged-fovea diplopia syndrome
+T30	Diagnostic_tool 1001 1012	Amsler grid
+T10	Disease 311 319	diplopia
+T12	Disease 520 551	dragged-fovea diplopia syndrome
+T11	Anatomy 410 414	eyes
+T14	Disease 723 734	maculopathy
+T13	Diagnostic_tool 1144 1162	lights on-off test
+T35	Anatomy 1813 1820	retinal
+T16	Disease 767 780	dragged fovea
+T15	Disease 736 762	internal limiting membrane
+T18	Symptom 1834 1850	central diplopia
+T17	Disease 855 873	binocular diplopia
+T19	Disease 934 953	acquired strabismus
+R2	Has_symptom Arg1:T4 Arg2:T26
+R3	Diagnosed_with Arg1:T28 Arg2:T30
+R4	Alias Arg1:T3 Arg2:T24
+R6	Diagnosed_with Arg1:T2 Arg2:T23
+R7	Diagnosed_with Arg1:T1 Arg2:T23
+R8	Causes Arg1:T4 Arg2:T6
+R9	Has_symptom Arg1:T4 Arg2:T5
+R10	Is_a Arg1:T9 Arg2:T10
+R14	Causes Arg1:T6 Arg2:T4
+R13	Is_a Arg1:T13 Arg2:T21
+R1	Alias Arg1:T13 Arg2:T21

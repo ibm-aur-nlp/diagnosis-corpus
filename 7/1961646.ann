@@ -1,0 +1,18 @@
+T4	Disease 877 911	proliferative diabetic retinopathy
+T5	Disease 961 997	clinically significant macular edema
+T6	Disease 1096 1104	diabetes
+T7	Disease 1374 1382	diabetes
+T8	Disease 1157 1165	diabetes
+T9	Disease 1595 1603	Diabetes
+T10	Disease 23 34	retinopathy
+T12	Disease 185 205	Diabetic retinopathy
+T11	Disease 52 76	type I diabetes mellitus
+T13	Characteristic 255 279	Americans of working age
+T1	Symptom 230 248	acquired blindness
+T2	Disease 464 488	Type I diabetes mellitus
+T3	Anatomy 728 731	eye
+R2	Is_a Arg1:T10 Arg2:T12
+R3	Is_a Arg1:T4 Arg2:T12
+R4	Is_a Arg1:T2 Arg2:T6
+R5	Causes Arg1:T12 Arg2:T1
+R1	Has_risk_factor Arg1:T1 Arg2:T13

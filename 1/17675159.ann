@@ -1,0 +1,34 @@
+T21	Symptom 1810 1855	doubling of the visual angle of presenting VA
+T20	Anatomy 1923 1927	eyes
+T23	Symptom 792 815	visual acuity (VA) loss
+T22	Characteristic 2271 2286	visual function
+T25	Characteristic 1082 1084	VA
+T27	Characteristic 1209 1211	VA
+T26	Characteristic 1115 1159	logarithm of the minimum angle of resolution
+T29	Characteristic 1161 1167	logMAR
+T28	Characteristic 1222 1228	logMAR
+T1	Anatomy 207 211	eyes
+T2	Symptom 192 203	visual loss
+T3	Disease 364 379	neovascular AMD
+T4	Disease 581 596	neovascular AMD
+T5	Disease 2290 2305	neovascular AMD
+T6	Anatomy 1664 1667	eye
+T7	Disease 1624 1639	Neovascular AMD
+T8	Disease 1943 1958	neovascular AMD
+T9	Disease 1773 1788	neovascular AMD
+T10	Disease 37 81	neovascular age-related macular degeneration
+T31	Symptom 1396 1414	severe vision loss
+T12	Disease 227 271	neovascular age-related macular degeneration
+T11	Disease 2045 2060	neovascular AMD
+T13	Disease 273 276	AMD
+T16	Characteristic 851 873	fellow eye involvement
+T17	Symptom 1528 1569	VA worse than logMAR 1.0 (20/200 Snellen)
+R2	Has_symptom Arg1:T13 Arg2:T2
+R3	Alias Arg1:T3 Arg2:T12
+R4	Is_a Arg1:T12 Arg2:T13
+R5	Is_a Arg1:T3 Arg2:T13
+R6	Alias Arg1:T29 Arg2:T26
+R7	Has_risk_factor Arg1:T5 Arg2:T22
+R8	Causes Arg1:T8 Arg2:T21
+R1	Has_symptom Arg1:T12 Arg2:T2
+T14	Characteristic 1190 1197	Snellen

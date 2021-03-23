@@ -1,0 +1,3 @@
+Noninvasive carotid evaluation using pulsed Doppler imaging for patients with ophthalmic disorders.
+
+Pulsed Doppler imaging provides an accurate, noninvasive technique for evaluation of the carotid bifurcation. We have found it useful in evaluating patients with amaurosis fugax and ocular emboli. It can also be used to evaluate blood flow within ocular and orbital tumors. The continuous wave Doppler is useful for detection of abnormal orbital blood flow in patients with dural-cavernous fistulae.

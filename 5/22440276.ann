@@ -1,0 +1,85 @@
+T21	Anatomy 1545 1548	HFL
+T20	Anatomy 1494 1513	outer nuclear layer
+T23	Anatomy 1723 1726	ONL
+T22	Anatomy 1524 1543	Henle's fiber layer
+T25	Diagnostic_tool 2090 2103	SD-OCT images
+T24	Anatomy 1586 1589	ONL
+T27	Anatomy 2211 2214	RPE
+T26	Anatomy 1731 1734	RPE
+T29	Symptom 36 54	geographic atrophy
+T28	Anatomy 2111 2123	outer layers
+T30	Disease 68 100	age-related macular degeneration
+T32	Diagnostic_tool 225 231	SD-OCT
+T31	Diagnostic_tool 179 223	spectral-domain optical coherence tomography
+T34	Symptom 440 458	geographic atrophy
+T33	Characteristic 409 434	50 years of age and older
+T36	Disease 477 509	age-related macular degeneration
+T35	Symptom 460 462	GA
+T38	Symptom 2291 2293	GA
+T37	Disease 511 514	AMD
+T39	Disease 2307 2310	AMD
+T41	Symptom 1744 1763	hyporeflective band
+T40	Diagnostic_tool 639 661	35° fundus photography
+T43	Diagnostic_tool 673 696	fundus autofluorescence
+T42	Symptom 1801 1838	hyporeflective wedge-shaped structure
+T45	Diagnostic_tool 708 714	SD-OCT
+T44	Diagnostic_tool 663 671	infrared
+T47	Anatomy 1659 1662	RPE
+T46	Diagnostic_tool 698 701	FAF
+T49	Anatomy 737 743	fundus
+T48	Symptom 1616 1657	atrophy of the retinal pigment epithelium
+T1	Diagnostic_tool 857 900	19 horizontal B-scans centered on the fovea
+T2	Diagnostic_tool 782 785	OCT
+T3	Diagnostic_tool 906 939	high-resolution horizontal B-scan
+T4	Diagnostic_tool 830 855	macular cube for coverage
+T5	Anatomy 1127 1143	Bruch's membrane
+T6	Anatomy 956 962	foveal
+T7	Anatomy 1196 1217	outer plexiform layer
+T8	Symptom 1058 1060	GA
+T9	Anatomy 1219 1222	OPL
+T50	Diagnostic_tool 1437 1465	eccentric SD-OCT acquisition
+T52	Anatomy 1292 1298	retina
+T51	Diagnostic_tool 749 752	FAF
+T10	Anatomy 1325 1329	eyes
+T54	Symptom 1667 1694	narrow hyperreflective band
+T53	Symptom 325 332	atrophy
+T12	Anatomy 1426 1429	OPL
+T56	Symptom 1071 1108	hyporeflective wedge-shaped structure
+T11	Anatomy 2183 2202	photoreceptor cells
+T55	Symptom 1005 1037	hyporeflective wedge-shaped band
+T14	Disease 1924 1927	AMD
+T58	Symptom 0 32	Hyporeflective wedge-shaped band
+T13	Symptom 1908 1910	GA
+T57	Symptom 1380 1399	hyporeflective band
+T16	Anatomy 1887 1890	OPL
+T15	Anatomy 1978 1981	HFL
+T59	Symptom 253 290	hyporeflective wedge-shaped structure
+T18	Symptom 2005 2020	axonal swelling
+T17	Symptom 2024 2041	interaxonal edema
+T19	Anatomy 1515 1518	ONL
+R21	Diagnosed_with Arg1:T59 Arg2:T31
+R20	Diagnosed_with Arg1:T59 Arg2:T32
+R25	Has_symptom Arg1:T14 Arg2:T42
+R24	Causes Arg1:T18 Arg2:T42
+R27	Diagnosed_with Arg1:T38 Arg2:T25
+R26	Causes Arg1:T17 Arg2:T42
+R28	Has_symptom Arg1:T30 Arg2:T29
+R1	Alias Arg1:T35 Arg2:T34
+R2	Alias Arg1:T37 Arg2:T36
+R3	Alias Arg1:T46 Arg2:T43
+R4	Alias Arg1:T9 Arg2:T7
+R5	Alias Arg1:T1 Arg2:T4
+R6	Alias Arg1:T19 Arg2:T20
+R7	Alias Arg1:T21 Arg2:T22
+R8	Has_symptom Arg1:T39 Arg2:T38
+R9	Has_symptom Arg1:T36 Arg2:T34
+R10	Has_symptom Arg1:T37 Arg2:T34
+R12	Has_risk_factor Arg1:T36 Arg2:T33
+R11	Has_symptom Arg1:T36 Arg2:T35
+R14	Has_symptom Arg1:T14 Arg2:T13
+R13	Has_symptom Arg1:T37 Arg2:T35
+R16	Located_in Arg1:T14 Arg2:T15
+R15	Has_risk_factor Arg1:T37 Arg2:T33
+R18	Alias Arg1:T32 Arg2:T31
+R17	Located_in Arg1:T14 Arg2:T16
+R19	Has_symptom Arg1:T30 Arg2:T58

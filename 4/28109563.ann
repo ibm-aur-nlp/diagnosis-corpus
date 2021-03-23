@@ -1,0 +1,52 @@
+T21	Disease 1474 1493	non-neovascular AMD
+T20	Symptom 1520 1558	active or regressed neovascularization
+T23	Anatomy 648 654	retina
+T22	Symptom 1560 1562	NV
+T24	Disease 411 414	AMD
+T27	Disease 334 409	late-stage non-neovascular and neovascular age-related macular degeneration
+T26	Disease 946 981	non-neovascular and neovascular AMD
+T29	Disease 41 82	Advanced Age-Related Macular Degeneration
+T1	Symptom 123 130	Atrophy
+T2	Symptom 1185 1192	atrophy
+T3	Diagnostic_tool 1280 1314	confocal near-infrared reflectance
+T4	Diagnostic_tool 1316 1319	NIR
+T5	Diagnostic_tool 1326 1383	high-resolution optical coherence tomography volume scans
+T6	Symptom 1702 1704	NV
+T7	Diagnostic_tool 1636 1659	Fluorescein angiography
+T8	Symptom 2203 2210	atrophy
+T9	Diagnostic_tool 1208 1232	color fundus photography
+T30	Symptom 220 227	Atrophy
+T10	Diagnostic_tool 1234 1237	CFP
+T31	Symptom 319 326	atrophy
+T12	Diagnostic_tool 1274 1277	FAF
+T11	Diagnostic_tool 1240 1272	confocal fundus autofluorescence
+T14	Diagnostic_tool 1736 1765	Indocyanine-green angiography
+T13	Diagnostic_tool 1578 1581	CFP
+T16	Disease 1859 1874	neovascular AMD
+T38	Diagnostic_tool 1032 1060	retinal imaging technologies
+T15	Diagnostic_tool 1767 1772	ICG-A
+T37	Disease 1098 1110	advanced AMD
+T18	Diagnostic_tool 1661 1663	FA
+T17	Diagnostic_tool 2061 2066	ICG-A
+T19	Diagnostic_tool 1998 2000	FA
+R29	Causes Arg1:T24 Arg2:T31
+R28	Diagnosed_with Arg1:T37 Arg2:T38
+R1	Is_a Arg1:T27 Arg2:T24
+R2	Alias Arg1:T10 Arg2:T9
+R3	Is_a Arg1:T11 Arg2:T12
+R4	Alias Arg1:T4 Arg2:T3
+R5	Diagnosed_with Arg1:T2 Arg2:T9
+R6	Diagnosed_with Arg1:T2 Arg2:T10
+R7	Diagnosed_with Arg1:T2 Arg2:T11
+R8	Diagnosed_with Arg1:T2 Arg2:T12
+R9	Diagnosed_with Arg1:T2 Arg2:T3
+R10	Diagnosed_with Arg1:T2 Arg2:T5
+R12	No_Has_symptom Arg1:T21 Arg2:T20
+R11	Diagnosed_with Arg1:T2 Arg2:T4
+R14	Alias Arg1:T18 Arg2:T7
+R13	Is_a Arg1:T20 Arg2:T22
+R16	Diagnosed_with Arg1:T6 Arg2:T7
+R15	Diagnosed_with Arg1:T21 Arg2:T13
+R18	Alias Arg1:T15 Arg2:T14
+R17	Diagnosed_with Arg1:T6 Arg2:T18
+T25	Anatomy 1916 1927	vasculature

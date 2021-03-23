@@ -1,0 +1,45 @@
+T41	Characteristic 94 142	retinal nerve fiber layer thickness measurements
+T40	Characteristic 1750 1787	inferior central and arcuate VF zones
+T21	Characteristic 1001 1009	VF zones
+T43	Characteristic 710 780	deviation from normal (thinner than 97.5% of normal) RNFL measurements
+T20	Disease 585 593	glaucoma
+T42	Symptom 2045 2068	glaucomatous VF defects
+T45	Characteristic 932 957	OCT-measured RNFL sectors
+T1	Characteristic 1214 1226	SWAP VF zone
+T2	Characteristic 1059 1090	OCT nerve fiber layer thickness
+T3	Characteristic 1937 1954	superior VF zones
+T4	Characteristic 1911 1932	superior RNFL sectors
+T5	Diagnostic_tool 2006 2009	OCT
+T6	Characteristic 1956 1991	Retinal nerve fiber layer thickness
+T7	Diagnostic_tool 2083 2087	SWAP
+T8	Diagnostic_tool 0 36	Short-wavelength automated perimetry
+T9	Diagnostic_tool 65 93	optical coherence tomography
+T10	Disease 146 158	glaucomatous
+T32	Characteristic 851 900	SWAP average pattern deviation within 21 VF zones
+T31	Diagnostic_tool 633 655	SWAP visual field (VF)
+T12	Characteristic 204 246	retinal nerve fiber layer (RNFL) thickness
+T34	Characteristic 1360 1373	SWAP VF zones
+T11	Anatomy 159 163	eyes
+T14	Diagnostic_tool 292 295	OCT
+T36	Characteristic 1538 1568	inferior temporal RNFL sectors
+T13	Diagnostic_tool 262 290	optical coherence tomography
+T35	Diagnostic_tool 1253 1281	Optical coherence tomography
+T16	Diagnostic_tool 359 395	short-wavelength automated perimetry
+T38	Characteristic 1671 1714	superior and superior temporal RNFL sectors
+T15	Characteristic 301 343	short wavelength-sensitive visual function
+T37	Anatomy 1390 1434	superior hemifield central and arcuate areas
+T18	Diagnostic_tool 397 401	SWAP
+T17	Disease 554 562	Glaucoma
+T39	Characteristic 1602 1633	superior nasal/arcuate VF zones
+T19	Diagnostic_tool 608 619	OCT imaging
+R10	Diagnosed_with Arg1:T10 Arg2:T8
+R5	Alias Arg1:T14 Arg2:T13
+R11	Diagnosed_with Arg1:T20 Arg2:T19
+R6	Diagnosed_with Arg1:T42 Arg2:T7
+R7	Diagnosed_with Arg1:T42 Arg2:T5
+R9	Diagnosed_with Arg1:T10 Arg2:T9
+R1	Alias Arg1:T18 Arg2:T16
+R12	Diagnosed_with Arg1:T20 Arg2:T31	
+R3	Associated_with Arg1:T36 Arg2:T39	
+R4	Associated_with Arg1:T40 Arg2:T38	
+R2	Has_risk_factor Arg1:T42 Arg2:T6	

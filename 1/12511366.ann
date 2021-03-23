@@ -1,0 +1,63 @@
+T25	Characteristic 914 957	short-term fluctuation (SF) probability WNL
+T24	Characteristic 1791 1810	statistical indices
+T27	Characteristic 825 912	pattern standard deviation (PSD) probability less than 5% or within normal limits (WNL)
+T26	Characteristic 1654 1673	Statistical indices
+T29	Diagnostic_tool 1420 1423	GHT
+T28	Characteristic 1815 1834	reliability indices
+T30	Characteristic 1428 1431	ONL
+T32	Characteristic 1465 1501	generalized reduction of sensitivity
+T31	Characteristic 118 146	statistical analysis indices
+T34	Characteristic 1532 1535	GRS
+T33	Characteristic 1503 1506	GRS
+T36	Characteristic 1246 1280	pattern deviation probability plot
+T35	Diagnostic_tool 195 198	VFs
+T38	Characteristic 1291 1294	SF,
+T37	Characteristic 368 411	collapse of VF statistical analysis indices
+T39	Characteristic 1286 1289	PSD
+T41	Symptom 565 622	central or temporal island remaining in the VF gray scale
+T40	Characteristic 624 655	Collapse of statistical indices
+T43	Characteristic 777 813	corrected pattern standard deviation
+T42	Characteristic 959 1020	glaucoma hemifield test (GHT) not outside normal limits (ONL)
+T45	Characteristic 1560 1583	Low patient reliability
+T44	Characteristic 693 775	pattern deviation probability plot without a single VF location showing P  <  0.5%
+T47	Characteristic 1299 1303	CPSD
+T46	Characteristic 1025 1125	presence of a low patient reliability comment triggered by 40% or more false-negative (FN) responses
+T49	Characteristic 1612 1635	FN score of 40% or more
+T48	Characteristic 1171 1174	VFs
+T1	Disease 223 244	far-advanced glaucoma
+T2	Disease 333 351	end-stage glaucoma
+T3	Symptom 65 82	visual field loss
+T4	Disease 440 458	End-stage glaucoma
+T5	Symptom 474 515	vertical cup-to-disc ratio of 0.9 or more
+T6	Anatomy 1648 1652	eyes
+T7	Symptom 517 548	mean deviation less than -24 dB
+T8	Anatomy 1396 1400	eyes
+T9	Anatomy 308 312	eyes
+T50	Characteristic 815 819	CPSD
+T10	Anatomy 1443 1447	eyes
+T12	Diagnostic_tool 163 193	static automated visual fields
+T11	Anatomy 1517 1521	eyes
+T14	Anatomy 1554 1558	eyes
+T13	Anatomy 1228 1232	eyes
+T16	Disease 39 64	far-advanced glaucomatous
+T15	Diagnostic_tool 1712 1732	automated static VFs
+T18	Symptom 1769 1776	VF loss
+T17	Disease 1746 1768	end-stage glaucomatous
+R2	Has_symptom Arg1:T4 Arg2:T7
+R3	Has_symptom Arg1:T17 Arg2:T18
+R4	Diagnosed_with Arg1:T1 Arg2:T12
+R8	Has_symptom Arg1:T16 Arg2:T3
+R9	Has_symptom Arg1:T4 Arg2:T41
+R10	Is_a Arg1:T35 Arg2:T12
+R21	Associated_with Arg1:T45 Arg2:T49
+R20	Associated_with Arg1:T40 Arg2:T42
+R12	Alias Arg1:T33 Arg2:T32
+R11	Associated_with Arg1:T40 Arg2:T44
+R14	Alias Arg1:T50 Arg2:T43
+R13	Diagnosed_with Arg1:T1 Arg2:T35
+R16	Associated_with Arg1:T40 Arg2:T43
+R15	Associated_with Arg1:T40 Arg2:T50
+R18	Associated_with Arg1:T40 Arg2:T27
+R17	Associated_with Arg1:T40 Arg2:T25
+R19	Associated_with Arg1:T40 Arg2:T46
+R1	Has_symptom Arg1:T4 Arg2:T5

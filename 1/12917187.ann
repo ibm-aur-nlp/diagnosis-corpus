@@ -1,0 +1,74 @@
+T61	Symptom 2475 2479	pain
+T60	Characteristic 681 692	no eye pain
+T62	Characteristic 791 910	length and segment (orbital, canalicular, intracranial, or combination of segments) of abnormal optic nerve enhancement
+T21	Disease 417 437	acute optic neuritis
+T20	Diagnostic_tool 446 500	high resolution gadolinium-enhanced fat-suppressed MRI
+T64	Characteristic 970 1014	diffuse, central, arcuate, nasal or temporal
+T23	Symptom 615 677	pain with eye movement ipsilateral to the affected optic nerve
+T22	Symptom 536 547	visual loss
+T25	Diagnostic_tool 741 744	MRI
+T24	Anatomy 769 772	eye
+T27	Characteristic 2702 2756	location or length of abnormal optic nerve enhancement
+T26	Symptom 2578 2637	temporal field loss in eyes with intracranial nerve lesions
+T34	Characteristic 1086 1121	segments of optic nerve enhancement
+T33	Symptom 1029 1033	pain
+T36	Symptom 1295 1308	eye/V(1) pain
+T35	Characteristic 1161 1188	nerves that did not enhance
+T38	Characteristic 1360 1367	no pain
+T37	Symptom 1258 1278	abnormal enhancement
+T39	Symptom 1317 1339	pain with eye movement
+T83	Characteristic 395 400	women
+T41	Symptom 1479 1501	pain with eye movement
+T40	Symptom 1447 1460	eye/V(1) pain
+T84	Characteristic 408 411	men
+T43	Characteristic 1677 1684	No pain
+T42	Symptom 1627 1640	eye/V(1) pain
+T45	Symptom 1856 1869	eye/V(1) pain
+T44	Symptom 1653 1675	pain with eye movement
+T47	Characteristic 1954 1983	enhancement longer than 10 mm
+T46	Characteristic 1807 1828	length of enhancement
+T49	Characteristic 2050 2073	enhancement  < or=10 mm
+T48	Symptom 1895 1917	pain with eye movement
+T1	Symptom 2653 2670	visual field loss
+T2	Symptom 927 947	visual field defects
+T3	Symptom 1050 1060	field loss
+T4	Anatomy 1138 1141	eye
+T5	Symptom 1369 1407	Enhancement of the orbital optic nerve
+T6	Symptom 1527 1588	enhancement of the canalicular, intracranial or both segments
+T7	Symptom 1756 1801	enhancement of the other optic nerve segments
+T8	Symptom 1705 1739	enhancement of the orbital segment
+T9	Diagnostic_tool 40 66	magnetic resonance imaging
+T50	Symptom 1988 1992	pain
+T52	Symptom 211 215	pain
+T51	Symptom 31 35	pain
+T10	Disease 0 14	Optic neuritis
+T54	Characteristic 2160 2183	location of enhancement
+T53	Symptom 2120 2130	field loss
+T12	Diagnostic_tool 124 127	MRI
+T56	Symptom 2333 2368	eye or other V(1) distribution pain
+T11	Diagnostic_tool 96 122	magnetic resonance imaging
+T55	Symptom 2389 2411	pain with eye movement
+T14	Symptom 230 247	visual field loss
+T58	Characteristic 2520 2552	orbital segment was not involved
+T13	Symptom 149 188	abnormal enhancement of the optic nerve
+T57	Symptom 565 609	eye or other fifth cranial nerve (V(1)) pain
+T16	Symptom 2231 2251	intracranial lesions
+T15	Disease 264 284	acute optic neuritis
+T59	Characteristic 2297 2331	orbital segment of the optic nerve
+T18	Diagnostic_tool 325 328	MRI
+T17	Symptom 2192 2211	temporal field loss
+T19	Disease 2269 2283	optic neuritis
+R2	Diagnosed_with Arg1:T13 Arg2:T12
+R3	Diagnosed_with Arg1:T13 Arg2:T11
+R4	Has_symptom Arg1:T15 Arg2:T52
+R5	Is_a Arg1:T20 Arg2:T18
+R10	Has_risk_factor Arg1:T45 Arg2:T46
+R12	Has_risk_factor Arg1:T50 Arg2:T47
+R14	Has_risk_factor Arg1:T56 Arg2:T59
+R13	Has_risk_factor Arg1:T48 Arg2:T46
+R16	Has_risk_factor Arg1:T26 Arg2:T27
+R15	No_Has_risk_factor Arg1:T53 Arg2:T54
+R17	Has_risk_factor Arg1:T55 Arg2:T59
+R19	Alias Arg1:T12 Arg2:T11
+R1	Has_symptom Arg1:T15 Arg2:T14	
+R6	Has_risk_factor Arg1:T19 Arg2:T59	

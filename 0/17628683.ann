@@ -1,0 +1,50 @@
+T21	Diagnostic_tool 1483 1485	FA
+T20	Diagnostic_tool 1729 1732	OCT
+T23	Characteristic 1776 1798	center point thickness
+T22	Diagnostic_tool 2133 2136	OCT
+T24	Characteristic 2143 2187	mean change in foveal center point thickness
+T27	Symptom 2077 2111	disciform scar/subretinal fibrosis
+T26	Symptom 2067 2071	SSRD
+T28	Symptom 322 358	classic choroidal neovascularization
+T32	Symptom 2024 2065	leakage from choroidal neovascularization
+T31	Symptom 1547 1588	leakage from choroidal neovascularization
+T34	Symptom 1400 1433	serous sensory retinal detachment
+T33	Symptom 1951 1986	choroidal neovascularization lesion
+T35	Symptom 1435 1439	SSRD
+T37	Characteristic 1314 1395	mean change from baseline in the areas of the choroidal neovascularization lesion
+T42	Diagnostic_tool 2425 2438	visual acuity
+T1	Disease 2327 2350	classic neovascular AMD
+T2	Diagnostic_tool 2191 2194	OCT
+T3	Diagnostic_tool 2440 2442	FA
+T4	Diagnostic_tool 2448 2451	OCT
+T5	Diagnostic_tool 0 12	Angiographic
+T6	Characteristic 1189 1244	total area of leakage from choroidal neovascularization
+T7	Characteristic 1142 1184	total area of choroidal neovascularization
+T8	Diagnostic_tool 17 46	optical coherence tomographic
+T9	Disease 93 137	neovascular age-related macular degeneration
+T10	Disease 372 404	age-related macular degeneration
+T12	Disease 520 535	Neovascular AMD
+T11	Disease 406 409	AMD
+T14	Diagnostic_tool 855 878	fluorescein angiography
+T13	Diagnostic_tool 819 850	Stereoscopic fundus photography
+T16	Diagnostic_tool 935 963	Optical coherence tomography
+T15	Diagnostic_tool 880 882	FA
+T18	Diagnostic_tool 965 968	OCT
+T17	Diagnostic_tool 1291 1293	FA
+T19	Characteristic 1988 2022	total choroidal neovascularization
+R2	Is_a Arg1:T12 Arg2:T11
+R3	Alias Arg1:T15 Arg2:T14
+R4	Alias Arg1:T18 Arg2:T16
+R5	Alias Arg1:T35 Arg2:T34
+R6	Is_a Arg1:T1 Arg2:T12
+R7	Diagnosed_with Arg1:T9 Arg2:T8
+R8	Diagnosed_with Arg1:T9 Arg2:T5
+R9	Alias Arg1:T16 Arg2:T8
+R12	Diagnosed_with Arg1:T35 Arg2:T17
+R11	Is_a Arg1:T14 Arg2:T5
+R13	Diagnosed_with Arg1:T34 Arg2:T17
+R16	Alias Arg1:T11 Arg2:T10
+R15	Diagnosed_with Arg1:T31 Arg2:T21
+R1	Has_symptom Arg1:T10 Arg2:T28
+T29	Symptom 1644 1684	subretinal fibrous tissue/disciform scar
+R10	Diagnosed_with Arg1:T29 Arg2:T21	

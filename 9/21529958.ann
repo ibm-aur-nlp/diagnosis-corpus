@@ -1,0 +1,51 @@
+T61	Characteristic 1286 1298	visual field
+T60	Anatomy 865 881	neuroretinal rim
+T21	Anatomy 2209 2225	neuroretinal rim
+T20	Disease 304 312	glaucoma
+T23	Anatomy 2203 2207	RNFL
+T22	Diagnostic_tool 730 756	Humphrey Field Analyzer II
+T25	Anatomy 2347 2351	RNFL
+T24	Characteristic 899 902	age
+T27	Anatomy 2353 2369	neuroretinal rim
+T26	Characteristic 829 847	visual field index
+T29	Anatomy 1200 1204	RNFL
+T28	Characteristic 849 852	VFI
+T30	Diagnostic_tool 1272 1275	HRT
+T36	Anatomy 92 108	neuroretinal rim
+T45	Characteristic 2231 2243	visual field
+T44	Anatomy 219 244	retinal nerve fiber layer
+T47	Characteristic 1470 1484	RNFL thickness
+T46	Characteristic 2151 2163	visual field
+T49	Characteristic 1520 1541	neuroretinal rim area
+T48	Characteristic 2375 2378	VFI
+T1	Anatomy 253 269	neuroretinal rim
+T2	Anatomy 246 250	RNFL
+T3	Anatomy 1206 1222	neuroretinal rim
+T4	Characteristic 275 287	visual field
+T5	Characteristic 1228 1231	VFI
+T6	Disease 362 370	glaucoma
+T7	Diagnostic_tool 1262 1265	OCT
+T8	Characteristic 1693 1696	VFI
+T9	Characteristic 1574 1577	VFI
+T50	Characteristic 1733 1754	neuroretinal rim area
+T51	Characteristic 1706 1720	RNFL thickness
+T10	Symptom 14 51	retinal nerve fiber layer progression
+T54	Anatomy 351 355	eyes
+T12	Symptom 113 137	visual field progression
+T56	Characteristic 584 605	neuroretinal rim area
+T11	Disease 55 63	glaucoma
+T55	Characteristic 484 498	RNFL thickness
+T14	Anatomy 1586 1589	eye
+T58	Characteristic 708 720	visual field
+T13	Anatomy 1416 1420	eyes
+T57	Diagnostic_tool 645 648	HRT
+T16	Diagnostic_tool 545 548	OCT
+T15	Diagnostic_tool 508 543	Stratus optical coherence tomograph
+T59	Anatomy 855 859	RNFL
+T18	Diagnostic_tool 615 643	Heidelberg Retinal Tomograph
+T17	Anatomy 2123 2127	RNFL
+T19	Anatomy 2129 2145	neuroretinal rim
+R2	Alias Arg1:T2 Arg2:T44
+R3	Alias Arg1:T28 Arg2:T26
+R4	Alias Arg1:T16 Arg2:T15
+R5	Alias Arg1:T18 Arg2:T57

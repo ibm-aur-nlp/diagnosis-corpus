@@ -1,0 +1,66 @@
+T21	Anatomy 1495 1499	eyes
+T20	Disease 1505 1508	PCV
+T23	Characteristic 1527 1545	choroidal thinning
+T22	Anatomy 1558 1562	eyes
+T25	Disease 1568 1571	AMD
+T24	Disease 1646 1649	PCV
+T27	Disease 23 56	polypoidal choroidal vasculopathy
+T26	Disease 61 103	exudative age-related macular degeneration
+T29	Characteristic 117 136	choroidal thickness
+T28	Characteristic 0 19	Choroidal thickness
+T30	Anatomy 145 149	eyes
+T32	Disease 190 193	PCV
+T31	Disease 155 188	polypoidal choroidal vasculopathy
+T34	Disease 209 241	age-related macular degeneration
+T33	Anatomy 199 203	eyes
+T36	Disease 243 246	AMD
+T35	Disease 1664 1677	exudative AMD
+T38	Anatomy 301 305	eyes
+T37	Disease 311 314	PCV
+T39	Disease 347 350	PCV
+T41	Disease 365 378	exudative AMD
+T40	Anatomy 337 341	eyes
+T43	Disease 393 402	early AMD
+T42	Anatomy 355 359	eyes
+T45	Anatomy 411 415	eyes
+T44	Anatomy 383 387	eyes
+T47	Characteristic 617 691	vertical distance from the Bruch's membrane to the innermost scleral layer
+T46	Characteristic 419 430	age-matched
+T49	Characteristic 1073 1084	age-matched
+T48	Characteristic 862 919	Mean (± standard deviation) subfoveal choroidal thickness
+T1	Characteristic 448 467	Choroidal thickness
+T2	Characteristic 540 569	Subfoveal choroidal thickness
+T3	Diagnostic_tool 487 538	enhanced-depth imaging optical coherence tomography
+T4	Anatomy 578 581	eye
+T5	Anatomy 821 825	eyes
+T6	Characteristic 693 754	Nasal, superior, temporal, and inferior choroidal thicknesses
+T7	Characteristic 827 846	Choroidal thickness
+T8	Anatomy 779 792	foveal center
+T9	Anatomy 923 927	eyes
+T50	Characteristic 1296 1307	age-matched
+T51	Characteristic 431 446	normal subjects
+T10	Disease 933 936	PCV
+T12	Anatomy 968 972	eyes
+T56	Characteristic 1308 1323	normal subjects
+T11	Anatomy 1065 1069	eyes
+T55	Characteristic 1085 1100	normal subjects
+T14	Anatomy 1235 1239	eyes
+T13	Characteristic 1158 1187	Subfoveal choroidal thickness
+T16	Disease 1245 1254	early AMD
+T15	Disease 1201 1214	exudative AMD
+T18	Characteristic 1466 1487	thickening of choroid
+T17	Anatomy 1191 1195	eyes
+T19	Characteristic 1365 1384	Choroidal thickness
+R2	Has_risk_factor Arg1:T25 Arg2:T23
+R3	Is_a Arg1:T26 Arg2:T34
+R4	Is_a Arg1:T41 Arg2:T36
+R5	Is_a Arg1:T43 Arg2:T36
+R6	Has_risk_factor Arg1:T20 Arg2:T18
+R8	Has_risk_factor Arg1:T10 Arg2:T48
+R9	Has_risk_factor Arg1:T15 Arg2:T13
+R10	Has_risk_factor Arg1:T16 Arg2:T13
+R12	Is_a Arg1:T41 Arg2:T34
+R11	Alias Arg1:T32 Arg2:T31
+R14	Has_risk_factor Arg1:T31 Arg2:T29
+R15	Has_risk_factor Arg1:T27 Arg2:T28
+R1	Alias Arg1:T36 Arg2:T34

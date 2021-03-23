@@ -1,0 +1,26 @@
+T21	Diagnostic_tool 190 226	Stratus optical coherence tomography
+T20	Disease 78 110	Age-related Macular Degeneration
+T1	Diagnostic_tool 228 231	OCT
+T2	Diagnostic_tool 437 440	OCT
+T3	Diagnostic_tool 726 729	OCT
+T4	Diagnostic_tool 855 858	OCT
+T5	Characteristic 873 915	total thickness at the foveal center point
+T6	Diagnostic_tool 2077 2080	OCT
+T7	Disease 2108 2152	neovascular age-related macular degeneration
+T8	Diagnostic_tool 0 28	Optical coherence tomography
+T9	Diagnostic_tool 1987 1990	OCT
+T10	Disease 307 339	Age-Related Macular Degeneration
+T12	Symptom 946 962	subretinal fluid
+T11	Symptom 920 938	intraretinal fluid
+T14	Symptom 974 1015	subretinal pigment epithelium (RPE) fluid
+T13	Symptom 940 943	IRF
+T16	Symptom 1484 1487	SRF
+T15	Symptom 964 967	SRF
+T18	Characteristic 1676 1718	total thickness at the foveal center point
+T17	Symptom 1398 1401	IRF
+T19	Symptom 1552 1565	sub-RPE fluid
+R2	Diagnosed_with Arg1:T20 Arg2:T8
+R3	Alias Arg1:T13 Arg2:T11
+R9	Diagnosed_with Arg1:T7 Arg2:T6
+R1	Alias Arg1:T15 Arg2:T12
+R4	Is_a Arg1:T21 Arg2:T1	

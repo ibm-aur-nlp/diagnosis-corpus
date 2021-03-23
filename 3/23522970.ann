@@ -1,0 +1,70 @@
+T21	Disease 440 462	angle-closure glaucoma
+T20	Diagnostic_tool 1196 1206	gonioscopy
+T23	Diagnostic_tool 394 416	indentation gonioscopy
+T22	Symptom 1326 1329	PAS
+T25	Disease 476 506	primary angle-closure glaucoma
+T24	Symptom 1243 1246	PAS
+T27	Symptom 1356 1359	PAS
+T26	Symptom 1815 1818	PAS
+T29	Disease 595 619	Axenfeld-Rieger syndrome
+T28	Symptom 1558 1561	PAS
+T30	Symptom 945 948	PAS
+T32	Diagnostic_tool 1883 1893	gonioscopy
+T34	Diagnostic_tool 734 743	Casia OCT
+T39	Disease 121 129	glaucoma
+T41	Anatomy 467 471	eyes
+T40	Anatomy 367 371	eyes
+T42	Symptom 1591 1594	PAS
+T45	Symptom 1764 1767	PAS
+T44	Anatomy 513 517	eyes
+T47	Diagnostic_tool 1898 1901	OCT
+T49	Disease 558 582	chronic anterior uveitis
+T48	Anatomy 0 22	Anterior chamber angle
+T1	Symptom 1860 1863	PAS
+T2	Diagnostic_tool 716 732	swept-source OCT
+T3	Diagnostic_tool 679 701	indentation gonioscopy
+T4	Symptom 2038 2041	PAS
+T5	Diagnostic_tool 1944 1960	Swept-source OCT
+T6	Disease 2153 2175	angle-closure glaucoma
+T7	Symptom 1453 1456	PAS
+T8	Symptom 2098 2101	PAS
+T9	Anatomy 983 986	eye
+T50	Disease 522 544	angle-closure glaucoma
+T51	Diagnostic_tool 36 77	swept-source optical coherence tomography
+T10	Symptom 1128 1131	PAS
+T54	Anatomy 1017 1029	scleral spur
+T53	Anatomy 1038 1058	anterior irido-angle
+T12	Diagnostic_tool 158 199	swept-source optical coherence tomography
+T11	Symptom 89 117	peripheral anterior synechia
+T55	Anatomy 635 658	anterior chamber angles
+T14	Symptom 243 271	peripheral anterior synechia
+T13	Diagnostic_tool 201 204	OCT
+T16	Disease 307 329	angle-closure glaucoma
+T15	Symptom 273 276	PAS
+T18	Symptom 377 380	PAS
+T17	Symptom 1178 1181	PAS
+T19	Diagnostic_tool 1211 1214	OCT
+R21	Has_symptom Arg1:T16 Arg2:T14
+R20	Diagnosed_with Arg1:T15 Arg2:T13
+R23	Has_symptom Arg1:T21 Arg2:T18
+R22	Has_symptom Arg1:T16 Arg2:T15
+R25	Is_a Arg1:T25 Arg2:T21
+R24	Diagnosed_with Arg1:T18 Arg2:T23
+R1	Is_a Arg1:T34 Arg2:T2
+R4	Diagnosed_with Arg1:T1 Arg2:T32
+R5	Has_symptom Arg1:T6 Arg2:T4
+R6	Has_symptom Arg1:T6 Arg2:T8
+R7	Diagnosed_with Arg1:T8 Arg2:T5
+R8	Diagnosed_with Arg1:T4 Arg2:T5
+R9	Diagnosed_with Arg1:T17 Arg2:T20
+R10	Diagnosed_with Arg1:T17 Arg2:T19
+R12	Diagnosed_with Arg1:T24 Arg2:T19
+R11	Diagnosed_with Arg1:T24 Arg2:T20
+R13	Has_symptom Arg1:T39 Arg2:T11
+R16	Alias Arg1:T15 Arg2:T14
+R18	Diagnosed_with Arg1:T14 Arg2:T13
+R17	Diagnosed_with Arg1:T14 Arg2:T12
+R19	Diagnosed_with Arg1:T15 Arg2:T12
+R14	Diagnosed_with Arg1:T11 Arg2:T51	
+R15	Is_a Arg1:T12 Arg2:T13	
+R2	Diagnosed_with Arg1:T1 Arg2:T47	

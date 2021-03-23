@@ -1,0 +1,80 @@
+T21	Characteristic 2030 2033	ARA
+T20	Characteristic 1946 1949	ARA
+T23	Diagnostic_tool 508 553	anterior segment optical coherence tomography
+T22	Characteristic 212 226	Chinese adults
+T66	Characteristic 70 88	Chinese population
+T25	Characteristic 2176 2179	ARA
+T24	Characteristic 2165 2171	AOD500
+T68	Anatomy 385 388	eye
+T27	Characteristic 2235 2268	demographic and biometric factors
+T26	Characteristic 617 634	angle recess area
+T29	Characteristic 642 666	iris thickness at 750 μm
+T28	Characteristic 676 690	iris curvature
+T70	Characteristic 817 829	axial length
+T30	Characteristic 708 725	corneal thickness
+T32	Characteristic 757 767	lens vault
+T31	Characteristic 692 706	pupil diameter
+T34	Characteristic 778 792	lens thickness
+T33	Characteristic 727 749	anterior chamber width
+T36	Characteristic 608 614	AOD500
+T35	Characteristic 839 861	anterior chamber depth
+T38	Characteristic 1232 1243	Mean AOD500
+T37	Characteristic 1061 1069	mean age
+T39	Characteristic 1770 1792	steeper iris curvature
+T41	Characteristic 1806 1817	greater ARA
+T43	Characteristic 1823 1837	greater AOD500
+T42	Characteristic 1794 1804	smaller LV
+T45	Characteristic 36 64	anterior chamber angle width
+T44	Characteristic 2049 2064	Younger persons
+T47	Characteristic 156 184	anterior chamber angle width
+T49	Characteristic 302 330	residing in Guangzhou, China
+T48	Characteristic 272 293	Persons aged 35 years
+T1	Characteristic 941 947	AOD500
+T2	Diagnostic_tool 871 909	partial coherence laser interferometry
+T3	Characteristic 863 866	ACD
+T4	Characteristic 952 955	ARA
+T5	Characteristic 794 796	LT
+T6	Characteristic 831 833	AL
+T7	Characteristic 751 754	ACW
+T8	Characteristic 769 771	LV
+T9	Characteristic 636 639	ARA
+T50	Diagnostic_tool 467 478	keratometry
+T52	Characteristic 2084 2115	least crowded anterior chambers
+T51	Characteristic 574 606	angle-opening distance at 500 μm
+T10	Characteristic 668 673	IT750
+T53	Characteristic 2204 2225	change in angle width
+T12	Characteristic 1143 1149	female
+T56	Characteristic 1201 1207	AOD500
+T11	Anatomy 969 972	eye
+T55	Characteristic 1227 1229	AL
+T14	Characteristic 1392 1395	ARA
+T58	Characteristic 1758 1768	deeper ACD
+T13	Characteristic 1556 1572	younger subjects
+T16	Characteristic 1597 1603	AOD500
+T15	Characteristic 1742 1748	AOD500
+T18	Characteristic 1935 1941	AOD500
+T17	Characteristic 1753 1756	ARA
+T19	Characteristic 2019 2025	AOD500
+R2	Alias Arg1:T5 Arg2:T34
+R3	Alias Arg1:T8 Arg2:T32
+R4	Alias Arg1:T7 Arg2:T33
+R5	Alias Arg1:T10 Arg2:T29
+R6	Alias Arg1:T9 Arg2:T26
+R7	Alias Arg1:T36 Arg2:T51
+R9	Associated_with Arg1:T15 Arg2:T39
+R10	Not_Associated_with Arg1:T27 Arg2:T53
+R21	Alias Arg1:T6 Arg2:T70
+R20	Alias Arg1:T3 Arg2:T35
+R12	Associated_with Arg1:T15 Arg2:T41
+R11	Associated_with Arg1:T25 Arg2:T44
+R14	Associated_with Arg1:T17 Arg2:T39
+R13	Associated_with Arg1:T15 Arg2:T42
+R16	Associated_with Arg1:T17 Arg2:T43
+R18	Associated_with Arg1:T24 Arg2:T52
+R17	Associated_with Arg1:T24 Arg2:T44
+R19	Associated_with Arg1:T25 Arg2:T52
+R1	Associated_with Arg1:T58 Arg2:T17	
+R8	Associated_with Arg1:T58 Arg2:T15	
+R15	Associated_with Arg1:T42 Arg2:T17	
+R22	Associated_with Arg1:T41 Arg2:T17	
+R23	Associated_with Arg1:T43 Arg2:T15	

@@ -1,0 +1,51 @@
+T21	Diagnostic_tool 1341 1344	SAP
+T20	Symptom 1388 1395	VF loss
+T23	Diagnostic_tool 353 356	SAP
+T22	Symptom 377 416	retinal nerve fiber layer (RNFL) damage
+T25	Diagnostic_tool 1540 1543	FDT
+T24	Diagnostic_tool 1408 1411	FDT
+T27	Diagnostic_tool 726 740	FDT 24-2 tests
+T26	Symptom 1481 1500	glaucomatous damage
+T29	Diagnostic_tool 432 460	optical coherence tomography
+T28	Diagnostic_tool 462 465	OCT
+T1	Characteristic 820 855	Retinal nerve fiber layer thickness
+T2	Diagnostic_tool 758 774	Stratus OCT test
+T3	Diagnostic_tool 905 908	OCT
+T4	Diagnostic_tool 870 873	OCT
+T5	Characteristic 918 932	RNFL thickness
+T6	Diagnostic_tool 1073 1076	FDT
+T7	Diagnostic_tool 1177 1180	OCT
+T8	Diagnostic_tool 1161 1164	FDT
+T9	Symptom 0 32	Retinal nerve fiber layer damage
+T30	Diagnostic_tool 680 721	SAP-Swedish Interactive Testing Algorithm
+T10	Diagnostic_tool 48 76	optical coherence tomography
+T32	Characteristic 1419 1443	decreased RNFL thickness
+T31	Disease 624 632	Glaucoma
+T12	Symptom 92 111	visual field defect
+T11	Anatomy 80 84	eyes
+T14	Diagnostic_tool 175 203	standard automated perimetry
+T36	Disease 1564 1578	early glaucoma
+T13	Diagnostic_tool 124 163	frequency doubling technology perimetry
+T16	Diagnostic_tool 266 305	frequency doubling technology perimetry
+T15	Symptom 231 253	visual field (VF) loss
+T37	Diagnostic_tool 1144 1147	SAP
+T18	Characteristic 1190 1204	RNFL thickness
+T17	Diagnostic_tool 307 310	FDT
+T39	Diagnostic_tool 1065 1068	SAP
+T19	Diagnostic_tool 323 351	standard automated perimetry
+R2	Diagnosed_with Arg1:T22 Arg2:T29
+R3	Diagnosed_with Arg1:T12 Arg2:T10
+R4	Diagnosed_with Arg1:T12 Arg2:T13
+R5	Diagnosed_with Arg1:T22 Arg2:T28
+R6	Diagnosed_with Arg1:T15 Arg2:T16
+R7	Diagnosed_with Arg1:T15 Arg2:T17
+R8	Diagnosed_with Arg1:T15 Arg2:T19
+R9	Diagnosed_with Arg1:T15 Arg2:T23
+R10	Diagnosed_with Arg1:T36 Arg2:T25
+R12	Alias Arg1:T17 Arg2:T16
+R11	Alias Arg1:T28 Arg2:T29
+R14	Alias Arg1:T23 Arg2:T19
+R13	Diagnosed_with Arg1:T20 Arg2:T24
+R16	Has_risk_factor Arg1:T26 Arg2:T32
+R15	Diagnosed_with Arg1:T9 Arg2:T10
+R1	Diagnosed_with Arg1:T9 Arg2:T13

@@ -1,0 +1,51 @@
+T21	Characteristic 1204 1241	petaloid pattern of hyperfluorescence
+T20	Characteristic 1087 1147	structural alteration in retinal morphologic features in OCT
+T23	Characteristic 1633 1670	Diffuse patterns of hyperfluorescence
+T22	Characteristic 1279 1367	large cystic spaces in the outer nuclear layer (ONL) and the outer plexiform layer (OPL)
+T25	Characteristic 1694 1734	characteristic retinal changes in HD OCT
+T27	Characteristic 2050 2083	characteristic changes in HD OCT,
+T29	Characteristic 2138 2188	nonuniform changes in retinal morphologic features
+T28	Characteristic 1946 2022	petaloid pattern and a honeycomb pattern of hyperfluorescence observed in FA
+T32	Characteristic 823 840	retinal landmarks
+T31	Characteristic 951 981	type of vascular leakage in FA
+T34	Characteristic 1057 1082	Angiographic leakage type
+T33	Symptom 1819 1840	central fluid pooling
+T45	Symptom 1384 1400	subretinal fluid
+T46	Characteristic 1517 1605	swelling and cystic spaces in ONL, OPL, the inner nuclear, and the inner plexiform layer
+T49	Diagnostic_tool 763 783	HD OCT en face image
+T1	Diagnostic_tool 1186 1188	FA
+T2	Diagnostic_tool 1193 1196	OCT
+T3	Characteristic 1454 1496	honeycomblike pattern of hyperfluorescence
+T4	Diagnostic_tool 1896 1902	HD OCT
+T5	Disease 92 114	diabetic macular edema
+T6	Diagnostic_tool 28 39	angiography
+T7	Diagnostic_tool 44 88	high-resolution optical coherence tomography
+T8	Diagnostic_tool 150 185	fluorescein angiography (FA) images
+T9	Characteristic 190 218	retinal morphologic features
+T50	Symptom 1850 1866	subretinal fluid
+T10	Diagnostic_tool 222 282	high-definition optical coherence tomography (HD OCT) images
+T12	Anatomy 381 385	eyes
+T11	Disease 286 308	diabetic macular edema
+T14	Disease 392 414	diabetic macular edema
+T13	Diagnostic_tool 1914 1916	FA
+T16	Diagnostic_tool 449 451	FA
+T15	Diagnostic_tool 488 494	HD OCT
+T18	Diagnostic_tool 790 809	late-phase FA image
+T17	Characteristic 2094 2117	diffuse leakage pattern
+T19	Characteristic 1001 1028	retinal morphologic changes
+R2	Not_Associated_with Arg1:T23 Arg2:T25
+R3	Diagnosed_with Arg1:T33 Arg2:T4
+R4	No_Diagnosed_with Arg1:T33 Arg2:T13
+R5	Associated_with Arg1:T28 Arg2:T27
+R6	Associated_with Arg1:T17 Arg2:T29
+R7	Associated_with Arg1:T21 Arg2:T22
+R8	Alias Arg1:T15 Arg2:T10
+R20	Diagnosed_with Arg1:T5 Arg2:T6
+R12	Diagnosed_with Arg1:T50 Arg2:T4
+R22	Alias Arg1:T16 Arg2:T8
+R14	Diagnosed_with Arg1:T11 Arg2:T10
+R13	No_Diagnosed_with Arg1:T50 Arg2:T13
+R15	Has_risk_factor Arg1:T11 Arg2:T9
+R17	Diagnosed_with Arg1:T5 Arg2:T7
+R16	Associated_with Arg1:T31 Arg2:T19	
+R1	Associated_with Arg1:T3 Arg2:T46	

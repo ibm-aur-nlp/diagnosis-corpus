@@ -1,0 +1,67 @@
+T60	Characteristic 1682 1717	OCT-measured center point thickness
+T21	Diagnostic_tool 260 263	OCT
+T20	Diagnostic_tool 230 258	optical coherence tomography
+T23	Symptom 311 324	macular edema
+T22	Anatomy 301 305	eyes
+T66	Disease 1123 1143	Diabetic Retinopathy
+T25	Diagnostic_tool 793 796	OCT
+T24	Characteristic 2179 2205	visual acuity letter score
+T26	Anatomy 878 882	eyes
+T28	Characteristic 1062 1075	visual acuity
+T34	Disease 1545 1549	BRVO
+T33	Disease 1478 1482	CRVO
+T36	Disease 1784 1788	BRVO
+T35	Characteristic 2393 2406	visual acuity
+T38	Disease 2016 2020	CRVO
+T37	Disease 1746 1750	CRVO
+T39	Disease 2096 2100	BRVO
+T41	Disease 341 363	retinal vein occlusion
+T40	Characteristic 269 297	best-corrected visual acuity
+T43	Disease 2331 2353	retinal vein occlusion
+T42	Disease 494 516	REtinal Vein Occlusion
+T45	Disease 648 652	CRVO
+T44	Symptom 2314 2327	macular edema
+T47	Disease 728 732	BRVO
+T46	Disease 616 646	central retinal vein occlusion
+T49	Disease 904 908	CRVO
+T48	Disease 697 726	branch retinal vein occlusion
+T1	Diagnostic_tool 980 983	OCT
+T2	Characteristic 941 963	center point thickness
+T3	Characteristic 1173 1195	Center point thickness
+T4	Characteristic 1200 1249	best-corrected E-ETDRS visual acuity letter score
+T5	Characteristic 1329 1351	center point thickness
+T6	Characteristic 2139 2174	OCT-measured center point thickness
+T7	Characteristic 1356 1405	best-corrected E-ETDRS visual acuity letter score
+T8	Characteristic 1622 1648	visual acuity letter score
+T9	Characteristic 2217 2252	OCT-measured center point thickness
+T50	Disease 922 926	BRVO
+T10	Characteristic 1978 1981	age
+T54	Diagnostic_tool 985 998	Stratus OCT 3
+T12	Characteristic 1986 2011	duration of macular edema
+T56	Diagnostic_tool 1011 1015	OCT2
+T11	Characteristic 1943 1969	visual acuity letter score
+T14	Characteristic 2038 2060	center point thickness
+T13	Characteristic 422 448	visual acuity letter score
+T57	Diagnostic_tool 1316 1319	OCT
+T16	Characteristic 52 77	central retinal thickness
+T15	Symptom 2077 2091	cystoid spaces
+T18	Disease 113 135	retinal vein occlusion
+T17	Characteristic 82 95	visual acuity
+T19	Characteristic 187 217	center point retinal thickness
+R2	Is_a Arg1:T8 Arg2:T7
+R3	Has_symptom Arg1:T39 Arg2:T15
+R4	Alias Arg1:T21 Arg2:T20
+R5	Alias Arg1:T2 Arg2:T19
+R6	Alias Arg1:T47 Arg2:T48
+R7	Alias Arg1:T45 Arg2:T46
+R8	Is_a Arg1:T48 Arg2:T42
+R9	Has_symptom Arg1:T43 Arg2:T44
+R10	Is_a Arg1:T46 Arg2:T42
+R20	Is_a Arg1:T54 Arg2:T1
+R12	Has_risk_factor Arg1:T18 Arg2:T17
+R14	Has_risk_factor Arg1:T18 Arg2:T16
+R13	Alias Arg1:T19 Arg2:T16
+R16	Is_a Arg1:T56 Arg2:T1
+R15	Alias Arg1:T40 Arg2:T17
+R1	Is_a Arg1:T4 Arg2:T28
+R17	Has_symptom Arg1:T41 Arg2:T23	

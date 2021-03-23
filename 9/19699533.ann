@@ -1,0 +1,102 @@
+T60	Anatomy 775 794	center of the fovea
+T63	Characteristic 517 530	normal fellow
+T21	Anatomy 1964 1968	eyes
+T20	Symptom 1915 1932	foveal GCL damage
+T23	Disease 37 66	ischemic diabetic maculopathy
+T67	Diagnostic_tool 1191 1193	FA
+T22	Symptom 0 33	Foveal ganglion cell layer damage
+T25	Disease 176 205	ischemic diabetic maculopathy
+T24	Diagnostic_tool 83 112	optical coherence tomographic
+T68	Symptom 1340 1357	foveal GCL damage
+T27	Symptom 2048 2065	foveal GCL damage
+T26	Diagnostic_tool 2069 2072	OCT
+T29	Disease 2133 2153	diabetic retinopathy
+T28	Diagnostic_tool 330 353	fluorescein angiography
+T70	Diagnostic_tool 1372 1375	OCT
+T72	Symptom 1408 1425	Foveal GCL damage
+T71	Diagnostic_tool 1429 1432	OCT
+T30	Symptom 2096 2119	macular ischemic damage
+T32	Diagnostic_tool 2178 2180	FA
+T76	Characteristic 1481 1502	area of GCL thickness
+T31	Anatomy 411 415	eyes
+T34	Anatomy 2123 2127	eyes
+T33	Diagnostic_tool 355 357	FA
+T36	Symptom 2222 2237	vascular damage
+T35	Diagnostic_tool 472 474	FA
+T79	Symptom 1646 1656	FAZ damage
+T38	Diagnostic_tool 2205 2208	OCT
+T37	Disease 436 456	diabetic retinopathy
+T39	Anatomy 531 535	eyes
+T41	Disease 568 613	unilateral acute central serous choroidopathy
+T40	Diagnostic_tool 2239 2242	OCT
+T84	Diagnostic_tool 479 489	OCT images
+T43	Symptom 909 988	evident difference in foveal thickness and contour compared with a normal fovea
+T87	Diagnostic_tool 633 712	High-speed Fourier-domain OCT was used with a speckle noise-reduction technique
+T42	Symptom 995 1021	asymmetry within the fovea
+T44	Diagnostic_tool 1104 1109	HRA 2
+T47	Characteristic 1438 1464	size of the foveola on OCT
+T46	Characteristic 1380 1406	FA capillary dropout sites
+T49	Characteristic 1518 1544	ETDRS grading of FAZ on FA
+T1	Diagnostic_tool 2320 2322	FA
+T2	Diagnostic_tool 899 902	OCT
+T3	Symptom 841 880	Foveal ganglion cell layer (GCL) damage
+T4	Classification_system 1237 1305	Early Treatment Diabetic Retinopathy Study (ETDRS) FA grading system
+T5	Diagnostic_tool 1023 1046	Fluorescein angiography
+T6	Diagnostic_tool 1064 1102	confocal scanning laser ophthalmoscope
+T7	Symptom 1161 1171	FAZ damage
+T8	Characteristic 1550 1563	visual acuity
+T9	Disease 1589 1609	diabetic retinopathy
+T51	Characteristic 1974 2000	size of the foveola on OCT
+T10	Anatomy 1579 1583	eyes
+T54	Diagnostic_tool 255 258	OCT
+T53	Diagnostic_tool 209 253	high-resolution optical coherence tomography
+T12	Symptom 1680 1698	FAZ capillary loss
+T56	Anatomy 322 325	FAZ
+T11	Diagnostic_tool 1624 1626	FA
+T55	Symptom 291 320	damaged foveal avascular zone
+T14	Anatomy 1709 1713	eyes
+T13	Symptom 1715 1732	damage to the FAZ
+T57	Characteristic 2013 2034	size of the FAZ on FA
+T16	Diagnostic_tool 1741 1743	FA
+T15	Diagnostic_tool 1770 1773	OCT
+T18	Symptom 1861 1871	FAZ damage
+T17	Diagnostic_tool 1880 1882	FA
+T19	Diagnostic_tool 1936 1939	OCT
+R21	Diagnosed_with Arg1:T7 Arg2:T6
+R20	Diagnosed_with Arg1:T7 Arg2:T5
+R22	Diagnosed_with Arg1:T12 Arg2:T11
+R25	Diagnosed_with Arg1:T13 Arg2:T16
+R24	Diagnosed_with Arg1:T13 Arg2:T15
+R27	Diagnosed_with Arg1:T37 Arg2:T35
+R26	Diagnosed_with Arg1:T18 Arg2:T17
+R29	Diagnosed_with Arg1:T68 Arg2:T70
+R1	Associated_with Arg1:T51 Arg2:T57
+R2	Diagnosed_with Arg1:T20 Arg2:T19
+R3	Has_symptom Arg1:T29 Arg2:T30
+R4	Diagnosed_with Arg1:T27 Arg2:T26
+R5	Diagnosed_with Arg1:T36 Arg2:T32
+R6	Has_symptom Arg1:T29 Arg2:T27
+R7	Diagnosed_with Arg1:T36 Arg2:T38
+R8	Has_symptom Arg1:T23 Arg2:T22
+R9	Is_a Arg1:T53 Arg2:T54
+R30	Diagnosed_with Arg1:T37 Arg2:T84
+R10	Diagnosed_with Arg1:T3 Arg2:T2
+R31	Diagnosed_with Arg1:T36 Arg2:T40
+R12	Diagnosed_with Arg1:T42 Arg2:T2
+R34	Is_a Arg1:T25 Arg2:T37
+R11	Diagnosed_with Arg1:T43 Arg2:T2
+R33	Diagnosed_with Arg1:T36 Arg2:T1
+R14	Is_a Arg1:T43 Arg2:T3
+R36	Diagnosed_with Arg1:T7 Arg2:T67
+R13	Is_a Arg1:T42 Arg2:T3
+R35	Diagnosed_with Arg1:T79 Arg2:T11
+R16	Is_a Arg1:T6 Arg2:T5
+R15	Alias Arg1:T33 Arg2:T28
+R37	Diagnosed_with Arg1:T72 Arg2:T71
+R18	Diagnosed_with Arg1:T7 Arg2:T44
+R17	Alias Arg1:T44 Arg2:T6
+R19	Diagnosed_with Arg1:T7 Arg2:T4
+R28	Diagnosed_with Arg1:T25 Arg2:T53	
+R39	Diagnosed_with Arg1:T25 Arg2:T54	
+R38	Diagnosed_with Arg1:T55 Arg2:T28	
+R40	Diagnosed_with Arg1:T55 Arg2:T33	

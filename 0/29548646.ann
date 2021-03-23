@@ -1,0 +1,28 @@
+T4	Disease 813 815	DR
+T5	Disease 840 856	mild or worse DR
+T6	Disease 1884 1886	DR
+T7	Disease 1355 1375	moderate or worse DR
+T8	Disease 858 878	moderate or worse DR
+T9	Symptom 1107 1110	MAs
+T10	Symptom 1092 1105	microaneurysm
+T21	Anatomy 1234 1241	retinal
+T20	Anatomy 2106 2113	retinal
+T12	Symptom 1154 1165	hemorrhages
+T11	Disease 1923 1925	DR
+T22	Anatomy 471 478	retinal
+T14	Disease 1558 1574	mild or worse DR
+T13	Diagnostic_tool 1738 1762	higher-resolution images
+T16	Disease 1827 1847	moderate or worse DR
+T15	Disease 104 124	Diabetic Retinopathy
+T18	Disease 188 190	DR
+T17	Disease 166 186	diabetic retinopathy
+T1	Disease 300 302	DR
+T19	Anatomy 525 532	retinal
+T2	Diagnostic_tool 336 357	Retinal fundus images
+T3	Disease 363 365	DR
+R2	Is_a Arg1:T5 Arg2:T4
+R3	Is_a Arg1:T8 Arg2:T4
+R4	Alias Arg1:T9 Arg2:T10
+R5	Alias Arg1:T18 Arg2:T17
+R6	Alias Arg1:T18 Arg2:T15
+R1	Diagnosed_with Arg1:T3 Arg2:T2

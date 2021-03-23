@@ -1,0 +1,84 @@
+T61	Symptom 911 937	structural corneal changes
+T63	Diagnostic_tool 851 854	OCT
+T21	Symptom 1274 1377	hyperreflective anomalies occurring at the Bowman's layer level with epithelial thickening at the conus
+T65	Characteristic 2097 2134	biomechanical corneal characteristics
+T20	Symptom 1614 1621	hydrops
+T23	Disease 819 830	keratoconus
+T22	Diagnostic_tool 673 676	OCT
+T25	Disease 997 1008	keratoconus
+T24	Symptom 957 983	structural corneal changes
+T26	Characteristic 2012 2025	visual acuity
+T30	Characteristic 2077 2095	corneal topography
+T32	Symptom 2140 2163	microstructural changes
+T31	Diagnostic_tool 2176 2195	confocal microscopy
+T35	Anatomy 353 357	eyes
+T37	Symptom 1575 1591	pan-stromal scar
+T43	Anatomy 70 77	corneal
+T42	Anatomy 1914 1921	corneal
+T44	Disease 1158 1165	Stage 1
+T47	Disease 1126 1137	keratoconus
+T46	Symptom 1640 1748	Descemet's membrane rupture and dilaceration of collagen lamellae with large fluid-filled intrastromal cysts
+T49	Symptom 2299 2317	structural changes
+T48	Disease 1253 1260	Stage 2
+T1	Disease 1989 2000	keratoconus
+T2	Diagnostic_tool 1070 1088	Fourier-domain OCT
+T3	Diagnostic_tool 1056 1059	OCT
+T4	Symptom 2027 2075	corneal epithelium and stromal thickness changes
+T5	Symptom 1769 1844	pan-stromal scarring with a remaining aspect of Descemet's membrane rupture
+T6	Diagnostic_tool 2222 2225	OCT
+T7	Disease 311 322	keratoconic
+T8	Disease 2331 2342	keratoconus
+T9	Disease 55 66	keratoconus
+T50	Disease 1593 1600	Stage 5
+T52	Diagnostic_tool 0 43	Fourier-domain optical coherence tomography
+T51	Disease 1379 1386	Stage 3
+T10	Symptom 115 142	corneal morphologic changes
+T54	Diagnostic_tool 207 235	optical coherence tomography
+T53	Disease 154 165	keratoconic
+T12	Anatomy 323 327	eyes
+T56	Disease 1554 1561	Stage 4
+T11	Diagnostic_tool 237 240	OCT
+T55	Diagnostic_tool 385 403	Fourier-domain OCT
+T14	Diagnostic_tool 2235 2263	Optical coherence tomography
+T58	Disease 1623 1638	5a, acute onset
+T13	Anatomy 511 527	keratoconus cone
+T57	Disease 1750 1767	5b, healing stage
+T16	Anatomy 2343 2347	eyes
+T15	Disease 2524 2535	keratoconus
+T59	Disease 556 567	keratoconus
+T18	Disease 2587 2598	keratoconus
+T17	Symptom 1179 1251	thinning of apparently normal epithelial and stromal layers at the conus
+T19	Symptom 1400 1552	posterior displacement of the hyperreflective structures occurring at the Bowman's layer level with increased epithelial thickening and stromal thinning
+R21	Alias Arg1:T11 Arg2:T54
+R23	Is_a Arg1:T58 Arg2:T50
+R22	Diagnosed_with Arg1:T25 Arg2:T3
+R24	Is_a Arg1:T57 Arg2:T50
+R29	Has_symptom Arg1:T53 Arg2:T10
+R28	Has_symptom Arg1:T1 Arg2:T65
+R2	Diagnosed_with Arg1:T24 Arg2:T3
+R4	Has_symptom Arg1:T25 Arg2:T24
+R5	Has_risk_factor Arg1:T1 Arg2:T26
+R7	Has_risk_factor Arg1:T1 Arg2:T30
+R9	Has_symptom Arg1:T1 Arg2:T32
+R30	Diagnosed_with Arg1:T8 Arg2:T14
+R10	Diagnosed_with Arg1:T32 Arg2:T31
+R32	Is_a Arg1:T44 Arg2:T47
+R31	Is_a Arg1:T48 Arg2:T47
+R12	Is_a Arg1:T57 Arg2:T47
+R34	Is_a Arg1:T51 Arg2:T47
+R11	Has_symptom Arg1:T1 Arg2:T4
+R33	Is_a Arg1:T56 Arg2:T47
+R13	Is_a Arg1:T58 Arg2:T47
+R35	Is_a Arg1:T50 Arg2:T47
+R16	Has_symptom Arg1:T8 Arg2:T49
+R15	Is_a Arg1:T54 Arg2:T52
+R18	Diagnosed_with Arg1:T47 Arg2:T2
+R17	Diagnosed_with Arg1:T61 Arg2:T63
+R19	Diagnosed_with Arg1:T49 Arg2:T14
+R1	Has_symptom Arg1:T44 Arg2:T17	
+R3	Has_symptom Arg1:T48 Arg2:T21	
+R6	Has_symptom Arg1:T51 Arg2:T19	
+R14	Has_symptom Arg1:T56 Arg2:T37	
+R20	Has_symptom Arg1:T50 Arg2:T20	
+R36	Has_symptom Arg1:T58 Arg2:T46	
+R37	Has_symptom Arg1:T57 Arg2:T5	

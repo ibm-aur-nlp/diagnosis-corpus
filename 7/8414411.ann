@@ -1,0 +1,54 @@
+T21	Characteristic 336 352	Oklahoma Indians
+T20	Disease 358 396	noninsulin-dependent diabetes mellitus
+T23	Anatomy 413 417	eyes
+T22	Diagnostic_tool 649 694	fundus photography with a nonmydriatic camera
+T25	Disease 521 529	diabetes
+T24	Diagnostic_tool 630 644	ophthalmoscopy
+T27	Anatomy 271 277	pupils
+T26	Characteristic 456 495	mean age of participants was 60.3 years
+T29	Diagnostic_tool 1128 1173	fundus photography with a nonmydriatic camera
+T28	Disease 717 751	proliferative diabetic retinopathy
+T1	Diagnostic_tool 889 903	ophthalmoscopy
+T2	Disease 822 847	proliferative retinopathy
+T3	Disease 1060 1088	nonproliferative retinopathy
+T4	Diagnostic_tool 929 947	fundus photography
+T5	Diagnostic_tool 1218 1232	ophthalmoscopy
+T6	Disease 1345 1353	diabetes
+T7	Disease 1254 1265	retinopathy
+T8	Disease 17 37	diabetic retinopathy
+T9	Diagnostic_tool 39 53	Ophthalmoscopy
+T30	Symptom 1101 1122	fibrous proliferation
+T10	Diagnostic_tool 61 79	fundus photography
+T32	Diagnostic_tool 193 238	fundus photographs with a nonmydriatic camera
+T31	Disease 1190 1199	mydriasis
+T12	Diagnostic_tool 117 131	ophthalmoscopy
+T11	Diagnostic_tool 93 111	fundus photography
+T14	Diagnostic_tool 174 188	Ophthalmoscopy
+T13	Disease 152 172	diabetic retinopathy
+T16	Disease 1449 1460	retinopathy
+T15	Symptom 1572 1602	acute changes in visual acuity
+T37	Diagnostic_tool 1537 1548	photographs
+T18	Disease 1488 1511	nondiabetic retinopathy
+T17	Disease 305 316	retinopathy
+T19	Disease 1475 1486	retinopathy
+R20	Diagnosed_with Arg1:T7 Arg2:T5
+R23	Is_a Arg1:T18 Arg2:T19
+R25	Diagnosed_with Arg1:T19 Arg2:T37
+R24	Is_a Arg1:T3 Arg2:T17
+R26	Diagnosed_with Arg1:T18 Arg2:T37
+R1	Diagnosed_with Arg1:T13 Arg2:T12
+R2	Diagnosed_with Arg1:T13 Arg2:T11
+R3	Diagnosed_with Arg1:T17 Arg2:T32
+R4	Diagnosed_with Arg1:T17 Arg2:T14
+R5	Is_a Arg1:T8 Arg2:T17
+R7	Diagnosed_with Arg1:T2 Arg2:T1
+R8	Diagnosed_with Arg1:T2 Arg2:T4
+R9	Diagnosed_with Arg1:T8 Arg2:T9
+R10	Has_risk_factor Arg1:T17 Arg2:T21
+R12	Diagnosed_with Arg1:T31 Arg2:T5
+R11	Diagnosed_with Arg1:T8 Arg2:T10
+R14	Causes Arg1:T7 Arg2:T31
+R13	Diagnosed_with Arg1:T31 Arg2:T29
+R15	Causes Arg1:T20 Arg2:T17
+R18	Is_a Arg1:T28 Arg2:T17
+R19	Is_a Arg1:T2 Arg2:T17

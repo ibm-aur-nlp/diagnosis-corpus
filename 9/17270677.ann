@@ -1,0 +1,40 @@
+T21	Disease 924 932	cataract
+T20	Characteristic 2220 2240	socioeconomic status
+T23	Symptom 2246 2260	hyperlipidemia
+T22	Disease 2364 2377	subfoveal AMD
+T25	Characteristic 967 970	age
+T24	Characteristic 972 978	gender
+T27	Disease 998 1019	systemic hypertension
+T26	Disease 2400 2408	cataract
+T29	Disease 1031 1043	hyperlipemia
+T28	Disease 980 996	chronic diseases
+T1	Disease 1157 1165	cataract
+T2	Characteristic 1115 1135	socioeconomic status
+T3	Disease 1314 1322	cataract
+T4	Disease 1282 1290	cataract
+T5	Disease 1475 1483	cataract
+T6	Disease 1381 1389	cataract
+T7	Disease 1981 1989	cataract
+T8	Disease 1836 1844	cataract
+T9	Characteristic 2204 2218	place of birth
+T30	Disease 1021 1029	diabetes
+T10	Disease 2186 2194	cataract
+T32	Disease 1049 1071	ischemic heart disease
+T31	Characteristic 1074 1092	place of residence
+T12	Disease 216 248	age-related macular degeneration
+T34	Characteristic 2150 2162	advanced age
+T11	Disease 78 110	age-related macular degeneration
+T33	Characteristic 1094 1110	country of birth
+T14	Disease 0 8	Cataract
+T13	Disease 250 253	AMD
+T16	Characteristic 411 426	>  50 years old
+T15	Disease 152 160	cataract
+T18	Disease 549 552	AMD
+T17	Characteristic 403 409	Israel
+T19	Disease 651 659	cataract
+R2	Is_a Arg1:T30 Arg2:T28
+R3	Is_a Arg1:T29 Arg2:T28
+R4	Is_a Arg1:T32 Arg2:T28
+R5	Is_a Arg1:T22 Arg2:T18
+R6	Alias Arg1:T13 Arg2:T12
+R1	Is_a Arg1:T27 Arg2:T28

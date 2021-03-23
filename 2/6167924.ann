@@ -1,0 +1,29 @@
+T23	Characteristic 680 700	older onset patients
+T22	Anatomy 340 343	Eye
+T25	Characteristic 821 843	younger onset patients
+T27	Characteristic 922 952	patient less than 50 years old
+T26	Characteristic 878 898	adult-onset patients
+T1	Disease 223 232	diabetics
+T2	Diagnostic_tool 301 319	fundus photographs
+T3	Disease 380 388	diabetes
+T4	Characteristic 437 454	age of 40 or over
+T5	Disease 501 526	proliferative retinopathy
+T6	Disease 981 1026	proliferative or preproliferative retinopathy
+T7	Disease 715 740	proliferative retinopathy
+T8	Symptom 798 815	visual disability
+T9	Disease 775 783	diabetes
+T10	Disease 845 858	Macular edema
+T12	Disease 52 72	adult-onset diabetes
+T11	Disease 0 20	Diabetic retinopathy
+T13	Disease 108 128	adult-onset diabetic
+T16	Characteristic 396 413	age of 20 or over
+T15	Disease 146 176	vision threatening retinopathy
+T18	Disease 578 603	proliferative retinopathy
+R2	Has_risk_factor Arg1:T3 Arg2:T4
+R4	Causes Arg1:T9 Arg2:T7
+R5	Has_symptom Arg1:T7 Arg2:T8
+R8	Causes Arg1:T13 Arg2:T15
+R9	Has_risk_factor Arg1:T6 Arg2:T27
+R10	Has_risk_factor Arg1:T10 Arg2:T26
+R1	Has_risk_factor Arg1:T3 Arg2:T16
+R3	Has_risk_factor Arg1:T7 Arg2:T23	

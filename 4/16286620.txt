@@ -1,0 +1,11 @@
+
+
+A simplified severity scale for age-related macular degeneration: AREDS Report No. 18
+
+Objective: To develop a simplified clinical scale defining risk categories for development of advanced age-related macular degeneration (AMD).
+
+Methods: Following development of a detailed scale for individual eyes based on gradings of fundus photographs in the Age-Related Eye Disease Study, rates of progression to advanced AMD were assessed in cross-tabulations of presence or absence in each eye of 2 easily identified retinal abnormalities, drusen and pigment abnormalities. Large drusen and any pigment changes were particularly predictive of developing advanced AMD.
+
+Results: The scoring system developed for patients assigns to each eye 1 risk factor for the presence of 1 or more large (> or = 125 microm, width of a large vein at disc margin) drusen and 1 risk factor for the presence of any pigment abnormality. Risk factors are summed across both eyes, yielding a 5-step scale (0-4) on which the approximate 5-year risk of developing advanced AMD in at least one eye increases in this easily remembered sequence: 0 factors, 0.5%; 1 factor, 3%; 2 factors, 12%; 3 factors, 25%; and 4 factors, 50%. For persons with no large drusen, presence of intermediate drusen in both eyes is counted as 1 risk factor.
+
+Conclusion: This simplified scale provides convenient risk categories for development of advanced AMD that can be determined by clinical examination or by less demanding photographic procedures than used in the Age-Related Eye Disease Study.

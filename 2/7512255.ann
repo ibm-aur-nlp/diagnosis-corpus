@@ -1,0 +1,27 @@
+T20	Diagnostic_tool 521 541	rose bengal staining
+T23	Diagnostic_tool 41 61	rose bengal staining
+T24	Symptom 95 170	abnormality of lid apposition in which the upper lid overlies the lower lid
+T27	Symptom 776 805	persistent epithelial defects
+T26	Disease 660 675	lid imbrication
+T29	Symptom 996 1024	persistent epithelial defect
+T28	Disease 985 992	dry eye
+T1	Disease 327 351	lid imbrication syndrome
+T2	Anatomy 835 873	superior lid margin tarsal conjunctiva
+T3	Diagnostic_tool 807 827	Rose bengal staining
+T4	Disease 463 487	lid imbrication syndrome
+T5	Diagnostic_tool 607 627	rose bengal staining
+T6	Disease 740 756	dry eye syndrome
+T7	Disease 0 24	Lid imbrication syndrome
+T8	Disease 922 946	lid imbrication syndrome
+T9	Disease 64 88	Lid imbrication syndrome
+T12	Symptom 199 209	irritation
+T14	Symptom 224 246	foreign body sensation
+T13	Symptom 211 218	tearing
+T16	Anatomy 1109 1118	upper lid
+T15	Characteristic 374 385	age-matched
+T17	Diagnostic_tool 425 444	topical rose bengal
+T19	Anatomy 549 591	tarsal conjunctiva of the upper lid margin
+R2	Diagnosed_with Arg1:T8 Arg2:T3
+R3	Diagnosed_with Arg1:T4 Arg2:T20
+R5	Diagnosed_with Arg1:T26 Arg2:T5
+R7	Has_symptom Arg1:T9 Arg2:T24

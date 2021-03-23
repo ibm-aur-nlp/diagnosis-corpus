@@ -1,0 +1,51 @@
+T21	Disease 355 365	strabismus
+T20	Diagnostic_tool 2093 2117	Preoperative orbital MRI
+T23	Symptom 591 638	Horizontal and vertical preoperative deviations
+T45	Symptom 1436 1481	suspected inferior rectus muscle disinsertion
+T22	Anatomy 1340 1345	globe
+T44	Disease 2188 2205	severe strabismus
+T25	Disease 521 543	large-angle strabismus
+T47	Symptom 2027 2043	disinserted EOMs
+T24	Anatomy 1382 1395	medial rectus
+T46	Disease 1486 1508	restrictive strabismus
+T27	Anatomy 776 782	orbits
+T26	Anatomy 1363 1378	superior rectus
+T29	Anatomy 1403 1417	lateral rectus
+T28	Diagnostic_tool 732 767	Multipositional high-resolution MRI
+T1	Symptom 1624 1642	anterior migration
+T2	Diagnostic_tool 1584 1610	Magnetic resonance imaging
+T3	Anatomy 1691 1702	rectus EOMs
+T4	Diagnostic_tool 1069 1095	Magnetic resonance imaging
+T5	Symptom 1718 1734	Disinserted EOMs
+T6	Anatomy 1302 1313	rectus EOMs
+T7	Diagnostic_tool 1915 1950	Multipositional high-resolution MRI
+T8	Symptom 1897 1913	EOM disinsertion
+T9	Diagnostic_tool 1274 1281	Imaging
+T30	Diagnostic_tool 857 892	Coronal, sagittal, and axial images
+T10	Anatomy 1266 1272	sclera
+T32	Anatomy 1013 1017	EOMs
+T31	Diagnostic_tool 803 816	surface coils
+T12	Disease 0 17	Severe strabismus
+T34	Disease 1565 1582	myopic staphyloma
+T11	Disease 119 129	Strabismus
+T33	Anatomy 992 1011	extraocular muscles
+T14	Characteristic 1117 1143	EOM size and contractility
+T13	Diagnostic_tool 74 116	high-resolution magnetic resonance imaging
+T35	Disease 1034 1044	strabismus
+T16	Symptom 167 185	retinal detachment
+T15	Anatomy 1243 1247	EOMs
+T18	Diagnostic_tool 282 308	magnetic resonance imaging
+T17	Symptom 213 221	scarring
+T19	Diagnostic_tool 310 313	MRI
+R4	Diagnosed_with Arg1:T12 Arg2:T13
+R5	Causes Arg1:T17 Arg2:T11
+R6	Alias Arg1:T32 Arg2:T33
+R8	Diagnosed_with Arg1:T21 Arg2:T18
+R9	Is_a Arg1:T25 Arg2:T11
+R10	Causes Arg1:T34 Arg2:T46
+R12	Is_a Arg1:T46 Arg2:T11
+R11	Is_a Arg1:T12 Arg2:T11
+R14	Diagnosed_with Arg1:T44 Arg2:T20
+R13	Has_symptom Arg1:T46 Arg2:T45
+R15	Alias Arg1:T19 Arg2:T18
+R1	Diagnosed_with Arg1:T21 Arg2:T19

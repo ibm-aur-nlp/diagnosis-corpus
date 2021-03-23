@@ -1,0 +1,69 @@
+T1	Disease 581 596	neovascular AMD
+T2	Disease 174 206	age-related macular degeneration
+T3	Disease 208 211	AMD
+R1	Alias Arg1:T3 Arg2:T2	
+T4	Disease 56 88	age-related macular degeneration
+T5	Disease 772 784	Advanced AMD
+T6	Disease 1103 1115	advanced AMD
+T7	Disease 1306 1318	advanced AMD
+T8	Disease 1858 1870	advanced AMD
+T9	Symptom 687 742	subretinal or sub-retinal pigment epithelial hemorrhage
+T11	Symptom 512 530	geographic atrophy
+T12	Symptom 598 635	retinal pigment epithelial detachment
+T13	Diagnostic_tool 262 299	stereoscopic color fundus photographs
+T14	Symptom 451 475	pigmentary abnormalities
+T15	Symptom 408 414	drusen
+T16	Symptom 549 562	abnormalities
+T17	Symptom 637 685	serous or hemorrhagic sensory retinal detachment
+T18	Symptom 744 769	subretinal fibrous tissue
+T22	Symptom 1020 1026	drusen
+T23	Symptom 1047 1071	pigmentary abnormalities
+R3	Has_symptom Arg1:T6 Arg2:T23	
+R4	Has_symptom Arg1:T6 Arg2:T22	
+T24	Symptom 1202 1208	drusen
+T25	Symptom 1234 1256	pigmentary abnormality
+T26	Anatomy 1678 1682	eyes
+T10	Symptom 477 494	increased pigment
+T27	Symptom 496 510	depigmentation
+R5	Has_symptom Arg1:T1 Arg2:T12	
+R6	Has_symptom Arg1:T1 Arg2:T17	
+R7	Has_symptom Arg1:T1 Arg2:T9	
+R8	Has_symptom Arg1:T1 Arg2:T18	
+T28	Classification_system 90 95	AREDS
+T29	Classification_system 7 36	Age-Related Eye Disease Study
+R9	Alias Arg1:T28 Arg2:T29	
+R10	Diagnosed_with Arg1:T4 Arg2:T29	
+T30	Diagnostic_tool 135 154	fundus photographic
+R11	Diagnosed_with Arg1:T2 Arg2:T30	
+R12	Diagnosed_with Arg1:T3 Arg2:T30	
+T31	Classification_system 231 260	Age-Related Eye Disease Study
+T32	Diagnostic_tool 380 391	Photographs
+R13	Is_a Arg1:T10 Arg2:T14	
+R14	Is_a Arg1:T27 Arg2:T14	
+R15	Is_a Arg1:T11 Arg2:T14	
+R16	Has_symptom Arg1:T1 Arg2:T16	
+R17	Is_a Arg1:T12 Arg2:T16	
+R18	Is_a Arg1:T17 Arg2:T16	
+R19	Is_a Arg1:T9 Arg2:T16	
+R20	Is_a Arg1:T18 Arg2:T16	
+T19	Symptom 812 851	1 or more neovascular AMD abnormalities
+T20	Symptom 853 877	photocoagulation for AMD
+T21	Symptom 882 935	geographic atrophy involving the center of the macula
+R2	Has_symptom Arg1:T5 Arg2:T19	
+R21	Has_symptom Arg1:T5 Arg2:T20	
+R22	Has_symptom Arg1:T5 Arg2:T21	
+T33	Anatomy 968 978	right eyes
+R23	Located_in Arg1:T6 Arg2:T33	
+T34	Anatomy 1409 1413	eyes
+R24	Diagnosed_with Arg1:T15 Arg2:T32	
+R25	Diagnosed_with Arg1:T14 Arg2:T32	
+R26	Diagnosed_with Arg1:T10 Arg2:T32	
+R27	Diagnosed_with Arg1:T27 Arg2:T32	
+R28	Diagnosed_with Arg1:T11 Arg2:T32	
+R29	Diagnosed_with Arg1:T16 Arg2:T32	
+R30	Diagnosed_with Arg1:T12 Arg2:T32	
+R31	Diagnosed_with Arg1:T17 Arg2:T32	
+R32	Diagnosed_with Arg1:T9 Arg2:T32	
+R33	Diagnosed_with Arg1:T18 Arg2:T32	
+R34	Is_a Arg1:T1 Arg2:T3	
+R35	Is_a Arg1:T5 Arg2:T3	

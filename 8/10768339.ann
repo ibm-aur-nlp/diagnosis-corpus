@@ -1,0 +1,89 @@
+T21	Anatomy 1664 1668	eyes
+T65	Anatomy 394 400	retina
+T20	Diagnostic_tool 1344 1355	Amsler grid
+T23	Diagnostic_tool 1759 1777	entoptic perimetry
+T22	Diagnostic_tool 1635 1653	entoptic perimetry
+T25	Diagnostic_tool 1975 1993	Entoptic perimetry
+T24	Anatomy 1698 1702	eyes
+T27	Symptom 2155 2171	central scotomas
+T26	Diagnostic_tool 1893 1904	Amsler grid
+T29	Diagnostic_tool 0 18	Entoptic perimetry
+T28	Diagnostic_tool 2108 2119	Amsler grid
+T30	Symptom 33 58	central diabetic scotomas
+T32	Diagnostic_tool 116 134	entoptic perimetry
+T31	Diagnostic_tool 170 181	Amsler grid
+T34	Diagnostic_tool 434 445	Amsler grid
+T33	Diagnostic_tool 142 165	conventional television
+T36	Disease 272 285	macular edema
+T35	Disease 236 267	functional diabetic maculopathy
+T38	Diagnostic_tool 2330 2341	Amsler grid
+T37	Disease 2215 2219	CSME
+T39	Diagnostic_tool 2221 2239	entoptic perimetry
+T41	Diagnostic_tool 2398 2421	conventional television
+T40	Anatomy 323 326	eye
+T43	Anatomy 414 417	eye
+T42	Diagnostic_tool 2362 2380	entoptic perimetry
+T45	Disease 370 378	diabetes
+T44	Disease 63 76	macular edema
+T47	Diagnostic_tool 447 465	entoptic perimetry
+T46	Disease 2553 2573	diabetic maculopathy
+T49	Diagnostic_tool 471 515	Humphrey 10-2 threshold visual field testing
+T48	Disease 2175 2183	diabetic
+T1	Anatomy 588 592	Eyes
+T2	Symptom 744 778	central visual field abnormalities
+T3	Anatomy 1093 1097	eyes
+T4	Anatomy 1530 1534	eyes
+T5	Diagnostic_tool 788 799	Amsler grid
+T6	Diagnostic_tool 1570 1581	Amsler grid
+T7	Anatomy 1556 1560	eyes
+T8	Disease 900 904	CSME
+T9	Disease 862 898	clinically significant macular edema
+T50	Diagnostic_tool 801 819	entoptic perimetry
+T52	Symptom 655 669	visual decline
+T51	Diagnostic_tool 517 525	HVF 10-2
+T10	Symptom 964 989	central diabetic scotomas
+T54	Diagnostic_tool 1006 1014	HVF 10-2
+T53	Diagnostic_tool 821 829	HVF 10-2
+T12	Anatomy 1591 1595	eyes
+T56	Anatomy 1202 1206	eyes
+T11	Anatomy 1617 1621	eyes
+T55	Anatomy 1067 1071	eyes
+T14	Diagnostic_tool 1107 1118	Amsler grid
+T58	Symptom 2050 2064	visual decline
+T13	Anatomy 1129 1133	eyes
+T57	Symptom 186 214	patient-reported visual loss
+T16	Anatomy 1155 1159	eyes
+T15	Diagnostic_tool 1173 1191	entoptic perimetry
+T18	Diagnostic_tool 1242 1260	Entoptic perimetry
+T17	Anatomy 1228 1232	eyes
+T19	Disease 1488 1492	CSME
+R21	Diagnosed_with Arg1:T2 Arg2:T50
+R20	Alias Arg1:T51 Arg2:T49
+R23	Diagnosed_with Arg1:T2 Arg2:T53
+R22	Diagnosed_with Arg1:T2 Arg2:T5
+R24	Diagnosed_with Arg1:T46 Arg2:T42
+R27	Is_a Arg1:T33 Arg2:T32
+R26	Has_symptom Arg1:T48 Arg2:T27
+R29	Is_a Arg1:T31 Arg2:T32
+R28	Is_a Arg1:T41 Arg2:T42
+R1	Diagnosed_with Arg1:T46 Arg2:T41
+R2	Diagnosed_with Arg1:T36 Arg2:T33
+R3	Diagnosed_with Arg1:T36 Arg2:T32
+R4	Diagnosed_with Arg1:T36 Arg2:T31
+R5	Diagnosed_with Arg1:T10 Arg2:T14
+R6	Diagnosed_with Arg1:T10 Arg2:T15
+R7	Diagnosed_with Arg1:T10 Arg2:T54
+R8	Diagnosed_with Arg1:T19 Arg2:T6
+R9	Diagnosed_with Arg1:T30 Arg2:T29
+R10	Diagnosed_with Arg1:T27 Arg2:T28
+R12	Diagnosed_with Arg1:T35 Arg2:T31
+R11	Diagnosed_with Arg1:T19 Arg2:T22
+R14	Diagnosed_with Arg1:T44 Arg2:T29
+R13	Diagnosed_with Arg1:T37 Arg2:T39
+R16	Diagnosed_with Arg1:T35 Arg2:T32
+R15	Diagnosed_with Arg1:T27 Arg2:T25
+R18	Diagnosed_with Arg1:T37 Arg2:T38
+R17	Diagnosed_with Arg1:T35 Arg2:T33
+R19	Alias Arg1:T8 Arg2:T9
+R25	Has_symptom Arg1:T35 Arg2:T57	
+R30	Has_symptom Arg1:T36 Arg2:T57	

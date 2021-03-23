@@ -1,0 +1,52 @@
+T21	Disease 570 572	DR
+T20	Diagnostic_tool 1140 1148	EyeCheck
+T23	Characteristic 1166 1169	AUC
+T22	Dimension 1173 1178	0.821
+T25	Characteristic 1331 1334	AUC
+T24	Disease 730 732	DR
+T27	Disease 1095 1097	DR
+T26	Diagnostic_tool 578 597	fundus photographic
+T29	Disease 1008 1010	DR
+T28	Diagnostic_tool 1450 1458	EyeCheck
+T1	Disease 2024 2032	diabetes
+T2	Disease 1994 1996	DR
+T3	Diagnostic_tool 221 234	Challenge2009
+T4	Diagnostic_tool 139 215	algorithm that won the 2009 Retinopathy Online Challenge Competition in 2009
+T5	Anatomy 643 650	retinal
+T6	Diagnostic_tool 278 286	EyeCheck
+T7	Characteristic 954 957	AUC
+T8	Characteristic 898 952	area under the receiver operating characteristic curve
+T9	Dimension 1127 1132	0.839
+T30	Disease 1308 1310	DR
+T10	Characteristic 1120 1123	AUC
+T32	Disease 1917 1925	diabetes
+T31	Disease 2132 2134	DR
+T12	Disease 92 112	diabetic retinopathy
+T11	Disease 29 49	diabetic retinopathy
+T14	Diagnostic_tool 1530 1571	Diabetic retinopathy detection algorithms
+T36	Diagnostic_tool 1495 1518	Challenge2009 algorithm
+T13	Disease 114 116	DR
+T16	Diagnostic_tool 384 403	Fundus photographic
+T15	Disease 317 319	DR
+T37	Diagnostic_tool 1187 1210	Challenge2009 algorithm
+T18	Anatomy 450 453	eye
+T17	Diagnostic_tool 426 439	fundus images
+T19	Disease 518 526	diabetes
+R2	Diagnosed_with Arg1:T12 Arg2:T6
+R3	Alias Arg1:T4 Arg2:T3
+R4	Alias Arg1:T8 Arg2:T7
+R5	Diagnosed_with Arg1:T12 Arg2:T4
+R6	Diagnosed_with Arg1:T24 Arg2:T26
+R7	Diagnosed_with Arg1:T13 Arg2:T4
+R9	Diagnosed_with Arg1:T15 Arg2:T6
+R10	Diagnosed_with Arg1:T27 Arg2:T20
+R12	Diagnosed_with Arg1:T12 Arg2:T3
+R11	Diagnosed_with Arg1:T13 Arg2:T3
+R14	Diagnosed_with Arg1:T13 Arg2:T6
+R13	Alias Arg1:T7 Arg2:T8
+R16	Diagnosed_with Arg1:T15 Arg2:T3
+R15	Alias Arg1:T3 Arg2:T4
+R18	Diagnosed_with Arg1:T27 Arg2:T37
+R17	Diagnosed_with Arg1:T15 Arg2:T4
+R19	Is_a Arg1:T17 Arg2:T16
+R1	Alias Arg1:T13 Arg2:T12

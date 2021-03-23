@@ -1,0 +1,24 @@
+T21	Disease 0 26	Systemic uveitis syndromes
+T23	Disease 458 499	pauciarticular juvenile chronic arthritis
+T22	Characteristic 243 271	prior to the age of 16 years
+T24	Disease 696 715	secondary cataracts
+T1	Disease 201 208	uveitis
+T2	Disease 322 345	sero-negative arthritis
+T3	Disease 363 374	sarcoidosis
+T4	Disease 835 853	secondary glaucoma
+T5	Disease 816 831	chronic uveitis
+T6	Disease 398 427	Vogt-Koyanagi-Harada syndrome
+T7	Disease 376 392	Behçet's disease
+T8	Characteristic 444 452	Children
+T9	Disease 433 442	arteritis
+T10	Characteristic 533 555	antinuclear antibodies
+T12	Characteristic 30 39	childhood
+T11	Disease 594 609	chronic uveitis
+T14	Disease 102 118	anterior uveitis
+T13	Characteristic 719 727	children
+R5	Has_risk_factor Arg1:T11 Arg2:T10
+R6	Has_risk_factor Arg1:T11 Arg2:T8
+R12	Has_risk_factor Arg1:T23 Arg2:T10
+R11	Has_risk_factor Arg1:T23 Arg2:T8
+R14	Causes Arg1:T5 Arg2:T4
+R13	Causes Arg1:T23 Arg2:T11

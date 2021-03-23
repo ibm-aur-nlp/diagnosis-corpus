@@ -1,0 +1,12 @@
+T4	Disease 525 527	DR
+T5	Disease 1331 1333	DR
+T6	Disease 1521 1523	DR
+T10	Characteristic 1426 1453	higher socioeconomic status
+T7	Disease 14 34	diabetic retinopathy
+T8	Disease 209 229	diabetic retinopathy
+T9	Disease 231 233	DR
+T1	Characteristic 263 272	Hong Kong
+T2	Disease 318 338	type 1 or 2 diabetes
+T3	Disease 370 390	Diabetic retinopathy
+R2	Alias Arg1:T9 Arg2:T7
+R1	Alias Arg1:T9 Arg2:T8

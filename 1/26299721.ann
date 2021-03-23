@@ -1,0 +1,66 @@
+T63	Symptom 157 229	impaired function of intrinsically photosensitive retinal ganglion cells
+T62	Anatomy 1133 1140	corneal
+T21	Disease 549 557	glaucoma
+T20	Disease 518 522	POAG
+T23	Diagnostic_tool 2166 2193	chromatic pupillometry test
+T22	Disease 2152 2156	POAG
+T25	Disease 2384 2392	glaucoma
+T24	Characteristic 966 1013	Pupillary responses to blue light and red light
+T27	Symptom 2107 2124	visual field loss
+T26	Disease 1545 1549	POAG
+T29	Symptom 2270 2302	damage to retinal ganglion cells
+T28	Diagnostic_tool 1260 1296	standard automated perimetry testing
+T30	Anatomy 231 237	ipRGCs
+T32	Symptom 369 380	visual loss
+T31	Symptom 2129 2147	optic disc cupping
+T34	Symptom 346 364	optic nerve damage
+T33	Characteristic 1493 1515	pupillary light reflex
+T36	Characteristic 495 509	ethnic Chinese
+T35	Anatomy 2225 2231	ipRGCs
+T38	Anatomy 1628 1634	ipRGCs
+T37	Characteristic 593 617	50 years of age or older
+T39	Characteristic 486 489	men
+T41	Characteristic 1845 1848	HVF
+T40	Characteristic 1898 1926	HRT linear cup-to-disc ratio
+T42	Characteristic 1298 1319	Humphrey Visual Field
+T44	Characteristic 1321 1324	HVF
+T47	Characteristic 2028 2077	pupillary responses to high-irradiance blue light
+T46	Diagnostic_tool 1363 1392	scanning laser ophthalmoscopy
+T49	Characteristic 1636 1685	Pupillary responses to high-irradiance blue light
+T1	Anatomy 839 844	cones
+T2	Characteristic 874 896	pupillary light reflex
+T3	Characteristic 577 591	ethnic Chinese
+T4	Characteristic 1826 1840	pupil diameter
+T5	Characteristic 569 572	men
+T6	Anatomy 833 837	rods
+T7	Diagnostic_tool 638 743	monocular exposure to narrowband blue light (469 nm) or red light (631 nm) using a modified Ganzfeld dome
+T8	Characteristic 898 912	Pupil diameter
+T9	Disease 1068 1072	POAG
+T52	Diagnostic_tool 1436 1439	HRT
+T10	Diagnostic_tool 935 957	infrared pupillography
+T54	Characteristic 1747 1769	responses to red light
+T53	Diagnostic_tool 1405 1434	Heidelberg Retinal Tomography
+T12	Anatomy 850 856	ipRGCs
+T56	Anatomy 1969 1985	optic nerve head
+T11	Disease 1207 1211	POAG
+T14	Characteristic 311 330	pupillary responses
+T58	Anatomy 2014 2018	eyes
+T13	Characteristic 1213 1232	pupillary responses
+T16	Disease 65 73	Glaucoma
+T15	Characteristic 0 49	Pupillary Responses to High-Irradiance Blue Light
+T59	Disease 2001 2013	glaucomatous
+T18	Disease 256 283	primary open-angle glaucoma
+T17	Diagnostic_tool 107 134	chromatic pupillometry test
+T19	Disease 285 289	POAG
+R2	Alias Arg1:T44 Arg2:T42
+R3	Diagnosed_with Arg1:T22 Arg2:T23
+R5	Has_risk_factor Arg1:T27 Arg2:T47
+R6	Has_risk_factor Arg1:T31 Arg2:T47
+R7	Diagnosed_with Arg1:T29 Arg2:T23
+R8	Has_symptom Arg1:T22 Arg2:T29
+R9	Has_risk_factor Arg1:T26 Arg2:T33
+R10	Has_risk_factor Arg1:T16 Arg2:T15
+R11	Alias Arg1:T53 Arg2:T52
+R14	Is_a Arg1:T15 Arg2:T14
+R13	Diagnosed_with Arg1:T63 Arg2:T17
+R1	Alias Arg1:T19 Arg2:T18

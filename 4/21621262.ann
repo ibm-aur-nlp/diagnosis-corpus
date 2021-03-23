@@ -1,0 +1,51 @@
+T21	Disease 280 283	DOA
+T20	Disease 354 357	DOA
+T23	Disease 1312 1315	DOA
+T22	Anatomy 1152 1166	nasal quadrant
+T25	Characteristic 1294 1308	small ONH size
+T24	Symptom 1051 1068	depleted of fiber
+T27	Anatomy 451 456	RNFLs
+T26	Disease 460 463	DOA
+T29	Characteristic 415 431	healthy subjects
+T28	Diagnostic_tool 489 492	OCT
+T1	Symptom 1447 1458	visual loss
+T2	Symptom 1370 1403	born with fewer optic nerve axons
+T3	Characteristic 552 555	age
+T4	Characteristic 368 407	heterozygous mutations in the OPA1 gene
+T5	Symptom 1478 1504	age-related loss of fibers
+T6	Characteristic 0 35	Retinal nerve fiber layer thickness
+T7	Disease 39 61	dominant optic atrophy
+T8	Characteristic 149 191	retinal nerve fiber layer (RNFL) thickness
+T9	Diagnostic_tool 78 106	optical coherence tomography
+T10	Characteristic 128 131	age
+T32	Symptom 1190 1207	neurodegeneration
+T12	Characteristic 589 624	Retinal nerve fiber layer thickness
+T11	Characteristic 560 587	optic nerve head (ONH) size
+T33	Symptom 798 844	progressive decline of RNFL thickness with age
+T14	Symptom 669 722	significant RNFL thickness reduction in all quadrants
+T13	Disease 626 648	Dominant optic atrophy
+T16	Anatomy 1018 1035	temporal quadrant
+T15	Diagnostic_tool 204 232	optical coherence tomography
+T37	Symptom 939 972	higher residual amounts of fibers
+T18	Symptom 1097 1112	loss of microns
+T17	Disease 256 278	dominant optic atrophy
+T19	Diagnostic_tool 234 237	OCT
+R2	Alias Arg1:T19 Arg2:T15
+R3	Has_risk_factor Arg1:T7 Arg2:T6
+R4	Diagnosed_with Arg1:T7 Arg2:T9
+R5	Has_risk_factor Arg1:T7 Arg2:T10
+R6	Alias Arg1:T21 Arg2:T17
+R7	Diagnosed_with Arg1:T21 Arg2:T15
+R8	Diagnosed_with Arg1:T21 Arg2:T19
+R9	Located_in Arg1:T26 Arg2:T27
+R12	Has_symptom Arg1:T23 Arg2:T2
+R11	Diagnosed_with Arg1:T26 Arg2:T28
+R14	Has_symptom Arg1:T23 Arg2:T5
+R13	Has_risk_factor Arg1:T23 Arg2:T25
+R16	Diagnosed_with Arg1:T17 Arg2:T15
+R15	Has_symptom Arg1:T23 Arg2:T1
+R17	Has_symptom Arg1:T13 Arg2:T14
+R1	Diagnosed_with Arg1:T17 Arg2:T19
+T38	Anatomy 763 792	temporal and inferior sectors
+T30	Characteristic 877 893	healthy subjects
+T34	Characteristic 523 539	healthy subjects

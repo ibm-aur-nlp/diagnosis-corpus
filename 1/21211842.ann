@@ -1,0 +1,40 @@
+T21	Symptom 1007 1055	dense and diffuse inflammatory cell infiltration
+T20	Symptom 1071 1180	neutrophilic infiltrates and nuclear dust (leukocytoclasis), located around small blood vessels in the dermis
+T23	Symptom 394 461	painful corneal thinning with impending perforation of the left eye
+T22	Disease 1443 1479	rare, chronic, and recurrent disease
+T25	Characteristic 349 354	woman
+T24	Characteristic 337 348	64-year-old
+T27	Symptom 685 733	skin lesions developed during hospital admission
+T26	Symptom 494 518	inflamed pseudopterygium
+T1	Diagnostic_tool 964 975	skin biopsy
+T2	Symptom 756 960	multiple, well-demarcated, discrete, red to violaceous, firm nodules and plaques on the knuckles and dorsum of the hands, and the extensor surface of the forearms, elbows, knees, right ankle, and buttocks
+T3	Disease 1237 1281	progressive keratolysis with pseudopterygium
+T4	Disease 1215 1218	EED
+T5	Symptom 1494 1532	dermatologic and ocular manifestations
+T6	Disease 61 87	erythema elevatum diutinum
+T7	Disease 191 217	erythema elevatum diutinum
+T8	Disease 219 222	EED
+T9	Disease 315 318	EED
+T10	Disease 1298 1301	EED
+T12	Symptom 1534 1565	Peripheral ulcerative keratitis
+T34	Symptom 1350 1378	cutaneous and ocular lesions
+T11	Disease 1411 1437	Erythema elevatum diutinum
+T14	Disease 1745 1793	ulcerative or nonulcerative peripheral keratitis
+T13	Disease 1654 1657	EED
+T16	Disease 130 174	progressive keratolysis with pseudopterygium
+T15	Disease 0 44	Progressive keratolysis with pseudopterygium
+T18	Symptom 572 609	descemetocele with a pinpoint leakage
+T17	Disease 370 389	recurrent pterygium
+T19	Symptom 520 566	paracentral and peripheral corneal ulcerations
+R2	Is_a Arg1:T11 Arg2:T22
+R3	Causes Arg1:T6 Arg2:T15
+R4	Causes Arg1:T7 Arg2:T16
+R5	Has_symptom Arg1:T4 Arg2:T20
+R6	Has_symptom Arg1:T11 Arg2:T5
+R7	Has_symptom Arg1:T4 Arg2:T21
+R8	Diagnosed_with Arg1:T21 Arg2:T1
+R9	Diagnosed_with Arg1:T20 Arg2:T1
+R10	Causes Arg1:T10 Arg2:T3
+R11	Alias Arg1:T8 Arg2:T7
+R14	Diagnosed_with Arg1:T4 Arg2:T1
+R13	Has_symptom Arg1:T13 Arg2:T12

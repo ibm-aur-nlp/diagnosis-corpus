@@ -1,0 +1,39 @@
+T20	Diagnostic_tool 601 624	Humphrey Field Analyzer
+T22	Symptom 1166 1196	glaucomatous vision impairment
+T27	Diagnostic_tool 1254 1257	HFA
+T26	Characteristic 364 395	visual acuity better than 20/30
+T28	Symptom 513 533	perimetrically blind
+T1	Symptom 864 871	VF loss
+T2	Symptom 1113 1120	VF loss
+T3	Symptom 2074 2085	vision loss
+T4	Symptom 2091 2110	black tunnel effect
+T5	Anatomy 1368 1372	eyes
+T6	Symptom 2232 2256	glaucomatous vision loss
+T7	Disease 2043 2051	glaucoma
+T8	Disease 9 17	glaucoma
+T9	Symptom 47 64	visual field loss
+T30	Diagnostic_tool 559 579	monocular VF testing
+T10	Symptom 100 111	vision loss
+T32	Symptom 245 281	black patches in their field of view
+T12	Symptom 219 238	black tunnel effect
+T11	Disease 115 123	glaucoma
+T33	Characteristic 335 357	age range, 52-82 years
+T14	Disease 2283 2291	glaucoma
+T13	Symptom 416 467	glaucomatous visual field (VF) defects in both eyes
+T35	Anatomy 583 592	both eyes
+T16	Symptom 1584 1597	black patches
+T15	Symptom 2117 2130	black patches
+T37	Symptom 1226 1244	VF defect severity
+T18	Symptom 1561 1580	black tunnel effect
+T17	Symptom 1494 1505	vision loss
+T19	Diagnostic_tool 626 629	HFA
+R2	Alias Arg1:T19 Arg2:T20
+R4	Has_symptom Arg1:T7 Arg2:T3
+R5	No_Has_symptom Arg1:T7 Arg2:T4
+R6	Has_symptom Arg1:T8 Arg2:T9
+R7	Has_symptom Arg1:T11 Arg2:T10
+R8	No_Has_symptom Arg1:T7 Arg2:T15
+R9	Has_symptom Arg1:T14 Arg2:T6
+R1	No_Has_symptom Arg1:T11 Arg2:T12
+R3	No_Has_symptom Arg1:T11 Arg2:T32	
+R10	Is_a Arg1:T20 Arg2:T30	
