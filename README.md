@@ -15,7 +15,8 @@ https://creativecommons.org/licenses/by-nc-nd/4.0
 
 Please cite our paper if you use this data set. This publication contains additional information about the generation of the data set.
 
-```@article {Jimeno Yepes2021.05.10.443343,
+```
+@article {Jimeno Yepes2021.05.10.443343,
 	author = {Jimeno Yepes, Antonio and Martinez Iraola, David and Barnard, Pieter and Joy, Tinu},
 	title = {A corpus for differential diagnosis: an eye diseases use case},
 	elocation-id = {2021.05.10.443343},
